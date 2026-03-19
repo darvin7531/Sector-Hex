@@ -373,8 +373,12 @@ namespace Content.Server.GameTicking
 
             _startingRound = true;
 
-            if (RoundId == 0)
-                IncrementRoundNumber();
+            if (RoundId == 0 && !TryAssignRoundNumber())
+            {
+                BeginIncrementRoundNumber();
+                _startingRound = false;
+                return;
+            }
 
             ReplayStartRound();
 
@@ -970,11 +974,13 @@ namespace Content.Server.GameTicking
             RunLevel = GameRunLevel.PreRoundLobby;
             RandomizeLobbyBackground();
             ResettingCleanup();
-            IncrementRoundNumber();
+            RoundId = 0;
+            BeginIncrementRoundNumber();
             SendRoundStartingDiscordMessage();
 
             if (!LobbyEnabled)
             {
+                _roundStartTime = _gameTiming.CurTime;
                 StartRound();
             }
             else

@@ -16,12 +16,12 @@
     startAnnouncement: bluespace-cargo-event-announcement
     weight: 5
     duration: 35
-    reoccurrenceDelay: 60 # Mono
+    reoccurrenceDelay: 120 # Mono
   - type: BluespaceCargoRule
     spawnerPrototype: RandomCargoSpawner
     requireSafeAtmosphere: true
-    minimumSpawns: 2
-    maximumSpawns: 5
+    minimumSpawns: 1
+    maximumSpawns: 1
 
 - type: entity
   id: BluespaceMcCargoCrate

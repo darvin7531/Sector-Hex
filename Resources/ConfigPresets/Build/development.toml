@@ -35,3 +35,8 @@ shipyard = true
 
 [admin]
 see_own_notes = true
+
+[tts]
+enabled = false
+default_voice = ""
+available_voices = ""

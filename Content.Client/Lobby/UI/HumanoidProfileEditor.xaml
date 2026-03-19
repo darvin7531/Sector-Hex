@@ -61,6 +61,11 @@
                                                    ToolTip="{Loc 'humanoid-profile-editor-guidebook-button-tooltip'}"/>
                                     <OptionButton Name="SpeciesButton" HorizontalAlignment="Right" />
                                 </BoxContainer>
+                                <BoxContainer Name="TtsVoiceContainer" HorizontalExpand="True">
+                                    <Label Text="{Loc 'humanoid-profile-editor-tts-voice-label'}" />
+                                    <Control HorizontalExpand="True"/>
+                                    <OptionButton Name="TtsVoiceButton" HorizontalAlignment="Right" />
+                                </BoxContainer>
                                 <!-- Age -->
                                 <BoxContainer HorizontalExpand="True">
                                     <Label Text="{Loc 'humanoid-profile-editor-age-label'}" />

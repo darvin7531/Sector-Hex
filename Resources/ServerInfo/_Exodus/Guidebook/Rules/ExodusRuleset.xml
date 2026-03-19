@@ -1,6 +1,6 @@
 <Document>
 
-# Правила Exodus
+# Правила HEX
 
 ## Предисловие
 
@@ -21,7 +21,7 @@
 [color=red][italic]Ожидается, что данные правила будут прочитаны полностью.[/italic][/color]
 
 ## Основные правила
-Вам необходимо следовать следующим правилам Exodus:
+Вам необходимо следовать следующим правилам HEX:
 - 0. [textlink="Не будь мудаком" link="ExodusRule0DontBeAsshole"]
 - 1. [textlink="Уклонение от наказаний" link="ExodusRule1PunishmentEvasion"]
 - 2. [textlink="Игнорирование/Злоупотребление AHelp (F1)" link="ExodusRule2Ahelp"]

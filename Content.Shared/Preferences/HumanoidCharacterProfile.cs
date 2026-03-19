@@ -143,6 +143,9 @@ namespace Content.Shared.Preferences
         [DataField]
         public string Company { get; private set; } = "None";
 
+        [DataField]
+        public string TtsVoiceId { get; private set; } = string.Empty;
+
         public HumanoidCharacterProfile(
             string name,
             string flavortext,
@@ -158,7 +161,8 @@ namespace Content.Shared.Preferences
             HashSet<ProtoId<AntagPrototype>> antagPreferences,
             HashSet<ProtoId<TraitPrototype>> traitPreferences,
             Dictionary<string, RoleLoadout> loadouts,
-            string company = "None")
+            string company = "None",
+            string ttsVoiceId = "")
         {
             Name = name;
             FlavorText = flavortext;
@@ -175,6 +179,7 @@ namespace Content.Shared.Preferences
             _traitPreferences = traitPreferences;
             _loadouts = loadouts;
             Company = company;
+            TtsVoiceId = ttsVoiceId;
         }
 
         /// <summary>Copy constructor but with overridable references (to prevent useless copies)</summary>
@@ -205,7 +210,8 @@ namespace Content.Shared.Preferences
                 new HashSet<ProtoId<AntagPrototype>>(other.AntagPreferences),
                 new HashSet<ProtoId<TraitPrototype>>(other.TraitPreferences),
                 new Dictionary<string, RoleLoadout>(other.Loadouts),
-                other.Company)
+                other.Company,
+                other.TtsVoiceId)
         {
         }
 
@@ -394,6 +400,11 @@ namespace Content.Shared.Preferences
             return new(this) { Company = company };
         }
 
+        public HumanoidCharacterProfile WithTtsVoiceId(string ttsVoiceId)
+        {
+            return new(this) { TtsVoiceId = ttsVoiceId };
+        }
+
         public HumanoidCharacterProfile WithAntagPreferences(IEnumerable<ProtoId<AntagPrototype>> antagPreferences)
         {
             return new(this)
@@ -510,6 +521,7 @@ namespace Content.Shared.Preferences
             if (SpawnPriority != other.SpawnPriority) return false;
             if (Species != other.Species) return false;
             if (Company != other.Company) return false;
+            if (TtsVoiceId != other.TtsVoiceId) return false;
             if (!_jobPriorities.SequenceEqual(other._jobPriorities)) return false;
             if (!_antagPreferences.SequenceEqual(other._antagPreferences)) return false;
             if (!_traitPreferences.SequenceEqual(other._traitPreferences)) return false;
@@ -800,6 +812,7 @@ namespace Content.Shared.Preferences
             hashCode.Add(BankBalance); // Frontier
             hashCode.Add((int)SpawnPriority);
             hashCode.Add((int)PreferenceUnavailable);
+            hashCode.Add(TtsVoiceId);
             return hashCode.ToHashCode();
         }
 

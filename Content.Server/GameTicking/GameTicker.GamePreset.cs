@@ -13,6 +13,8 @@ namespace Content.Server.GameTicking
     {
         public const float PresetFailedCooldownIncrease = 30f;
 
+        private Task<int>? _pendingRoundIdTask;
+
         /// <summary>
         /// The selected preset that will be used at the start of the next round.
         /// </summary>
@@ -187,22 +189,44 @@ namespace Content.Server.GameTicking
             }
         }
 
-        private void IncrementRoundNumber()
+        private void BeginIncrementRoundNumber()
         {
-            var playerIds = _playerGameStatuses.Keys.Select(player => player.UserId).ToArray();
-            var serverName = _cfg.GetCVar(CCVars.AdminLogsServerName);
+            if (_pendingRoundIdTask is { IsCompleted: false })
+                return;
 
-            // TODO FIXME AAAAAAAAAAAAAAAAAAAH THIS IS BROKEN
-            // Task.Run as a terrible dirty workaround to avoid synchronization context deadlock from .Result here.
-            // This whole setup logic should be made asynchronous so we can properly wait on the DB AAAAAAAAAAAAAH
-            var task = Task.Run(async () =>
+            var playerIds = _playerGameStatuses.Keys.Select(player => player.UserId).ToArray();
+            _pendingRoundIdTask = Task.Run(async () =>
             {
                 var server = await _dbEntryManager.ServerEntity;
                 return await _db.AddNewRound(server, playerIds);
             });
+        }
 
-            _taskManager.BlockWaitOnTask(task);
-            RoundId = task.GetAwaiter().GetResult();
+        private bool TryAssignRoundNumber()
+        {
+            if (_pendingRoundIdTask == null)
+                BeginIncrementRoundNumber();
+
+            if (_pendingRoundIdTask == null || !_pendingRoundIdTask.IsCompleted)
+                return false;
+
+            if (_pendingRoundIdTask.IsFaulted)
+            {
+                Log.Error($"Failed to allocate next round id: {_pendingRoundIdTask.Exception}");
+                _pendingRoundIdTask = null;
+                return false;
+            }
+
+            if (_pendingRoundIdTask.IsCanceled)
+            {
+                Log.Warning("Next round id allocation was canceled. Retrying.");
+                _pendingRoundIdTask = null;
+                return false;
+            }
+
+            RoundId = _pendingRoundIdTask.GetAwaiter().GetResult();
+            _pendingRoundIdTask = null;
+            return true;
         }
     }
 }

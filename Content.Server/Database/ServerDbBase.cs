@@ -27,6 +27,7 @@ namespace Content.Server.Database
 {
     public abstract class ServerDbBase
     {
+        private const string TtsVoiceMarkerPrefix = "__ttsvoice:";
         private readonly ISawmill _opsLog;
 
         public event Action<DatabaseNotification>? OnNotificationReceived;
@@ -205,12 +206,19 @@ namespace Content.Server.Database
 
             // ReSharper disable once ConditionalAccessQualifierIsNonNullableAccordingToAPIContract
             var markingsRaw = profile.Markings?.Deserialize<List<string>>();
+            string ttsVoiceId = string.Empty;
 
             List<Marking> markings = new();
             if (markingsRaw != null)
             {
                 foreach (var marking in markingsRaw)
                 {
+                    if (marking.StartsWith(TtsVoiceMarkerPrefix))
+                    {
+                        ttsVoiceId = marking[TtsVoiceMarkerPrefix.Length..];
+                        continue;
+                    }
+
                     var parsed = Marking.ParseFromDbString(marking);
 
                     if (parsed is null) continue;
@@ -273,7 +281,8 @@ namespace Content.Server.Database
                 antags.ToHashSet(),
                 traits.ToHashSet(),
                 loadouts,
-                company);
+                company,
+                ttsVoiceId);
         }
 
         private static Profile ConvertProfiles(HumanoidCharacterProfile humanoid, int slot, Profile? profile = null)
@@ -285,6 +294,9 @@ namespace Content.Server.Database
             {
                 markingStrings.Add(marking.ToString());
             }
+            if (!string.IsNullOrWhiteSpace(humanoid.TtsVoiceId))
+                markingStrings.Add($"{TtsVoiceMarkerPrefix}{humanoid.TtsVoiceId}");
+
             var markings = JsonSerializer.SerializeToDocument(markingStrings);
 
             profile.CharacterName = humanoid.Name;

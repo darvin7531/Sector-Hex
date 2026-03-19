@@ -80,4 +80,6 @@ humanoid-profile-editor-company-tab = Компания
 humanoid-profile-editor-company-label = Компания:
 humanoid-profile-editor-company-none = Нет
 # Traits
+humanoid-profile-editor-tts-voice-label = Р“РѕР»РѕСЃ:
+humanoid-profile-editor-tts-voice-default = РџРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 

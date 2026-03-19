@@ -1,4 +1,4 @@
-guide-entry-exodus-rules = Правила Exodus
+guide-entry-exodus-rules = Правила HEX
 guide-entry-exodus-rule-zero-dont-be-asshole = 0. Не будь мудаком
 guide-entry-exodus-rule-one-punishment-evasion = 1. Избегание наказания
 guide-entry-exodus-rule-two-ahelp = 2. Злоупотребление Ahelp
