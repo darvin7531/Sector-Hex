@@ -222,7 +222,7 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
         // Setup expedition
         var expedition = _entManager.AddComponent<SalvageExpeditionComponent>(mapUid);
         expedition.Station = Station;
-        expedition.EndTime = _timing.CurTime + mission.Duration;
+        expedition.EndTime = _timing.CurTime + TimeSpan.FromMinutes(45);
         expedition.MissionParams = _missionParams;
         expedition.Difficulty = _missionParams.Difficulty;
         expedition.Rewards = mission.Rewards;

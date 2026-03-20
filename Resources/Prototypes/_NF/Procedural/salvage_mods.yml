@@ -111,13 +111,15 @@
 - type: salvageTimeMod
   id: StandardTime
   desc: salvage-time-mod-standard-time
-  hidden: true
+  minDuration: 2700 # Frontier
+  maxDuration: 3600 # Frontier
+  hidden: false
 
 - type: salvageTimeMod
   id: RushTime
   desc: salvage-time-mod-rush
-  minDuration: 630 # Frontier
-  maxDuration: 840 # Frontier
+  minDuration: 2700 # Frontier
+  maxDuration: 3600 # Frontier
   cost: 1
 
 # Weather mods
