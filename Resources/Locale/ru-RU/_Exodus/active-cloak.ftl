@@ -1,4 +1,4 @@
-ent-ActionToggleActiveCloak = Переключить активный камуфляж
+ent-ActionToggleActiveCloak = Переключить активный камуфляж...
     .desc = Активировать или деактивировать ваше устройство активного камуфляжа.
 
 active-cloak-enabled = Камуфляж активирован.
