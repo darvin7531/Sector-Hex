@@ -7,7 +7,7 @@
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/ashelm.rsi
   - type: Clothing
-    sprite: _Hex/Clothing/Head/Hardsuits/ashelm.rsi
+    sprite: Clothing/Head/Hardsuits/ashelm.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.60
     lowPressureMultiplier: 1000
@@ -86,9 +86,9 @@
   description: A heavily armored helmet of a prototype UGE spacesuit, allowing the user to see in the dark thanks to a built-in night vision device. This one is a commander version.
   components:
   - type: Sprite
-    sprite: _Hex/Clothing/Head/Hardsuits/uge_commander_helm.rsi
+    sprite: Clothing/Head/Hardsuits/uge_commander_helm.rsi
   - type: Clothing
-    sprite: _Hex/Clothing/Head/Hardsuits/uge_commander_helm.rsi
+    sprite: Clothing/Head/Hardsuits/uge_commander_helm.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.60
     lowPressureMultiplier: 1000

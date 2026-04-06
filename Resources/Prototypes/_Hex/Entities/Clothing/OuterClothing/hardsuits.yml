@@ -5,9 +5,9 @@
   description: A prototype assault suit, created by an unknown craftsman for an equally unknown individual, is constructed from high-quality materials and features a hidden exoskeleton that, despite its impressive armor, allows it to attack enemies with the speed and force of a truck. This suit stands at least 3 meters tall and is designed exclusively for human wear.
   components:
   - type: Sprite
-    sprite: _Hex/Clothing/OuterClothing/Hardsuits/assaultHardsuit.rsi
+    sprite: Clothing/OuterClothing/Hardsuits/assaultHardsuit.rsi
   - type: Clothing
-    sprite: _Hex/Clothing/OuterClothing/Hardsuits/assaultHardsuit.rsi
+    sprite: Clothing/OuterClothing/Hardsuits/assaultHardsuit.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -50,9 +50,9 @@
   description: A prototype UGE assault suit, created by the United Government of Earth, is constructed from high-quality materials and features a hidden exoskeleton that, despite its impressive armor, allows it to attack enemies with the speed and force of a truck. This suit stands at least 3 meters tall and is designed exclusively for human wear. This one is a specialist version.
   components:
   - type: Sprite
-    sprite: _Hex/Clothing/OuterClothing/Hardsuits/uge_specialist.rsi
+    sprite: Clothing/OuterClothing/Hardsuits/uge_specialist.rsi
   - type: Clothing
-    sprite: _Hex/Clothing/OuterClothing/Hardsuits/uge_specialist.rsi
+    sprite: Clothing/OuterClothing/Hardsuits/uge_specialist.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -95,9 +95,9 @@
   description: A prototype UGE assault suit, created by the United Government of Earth, is constructed from high-quality materials and features a hidden exoskeleton that, despite its impressive armor, allows it to attack enemies with the speed and force of a truck. This suit stands at least 3 meters tall and is designed exclusively for human wear. This one is a medic version.
   components:
   - type: Sprite
-    sprite: _Hex/Clothing/OuterClothing/Hardsuits/uge_medic.rsi
+    sprite: Clothing/OuterClothing/Hardsuits/uge_medic.rsi
   - type: Clothing
-    sprite: _Hex/Clothing/OuterClothing/Hardsuits/uge_medic.rsi
+    sprite: Clothing/OuterClothing/Hardsuits/uge_medic.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -140,9 +140,9 @@
   description: A prototype UGE assault suit, created by the United Government of Earth, is constructed from high-quality materials and features a hidden exoskeleton that, despite its impressive armor, allows it to attack enemies with the speed and force of a truck. This suit stands at least 3 meters tall and is designed exclusively for human wear. This one is a commander version.
   components:
   - type: Sprite
-    sprite: _Hex/Clothing/OuterClothing/Hardsuits/uge_commander.rsi
+    sprite: Clothing/OuterClothing/Hardsuits/uge_commander.rsi
   - type: Clothing
-    sprite: _Hex/Clothing/OuterClothing/Hardsuits/uge_commander.rsi
+    sprite: Clothing/OuterClothing/Hardsuits/uge_commander.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000

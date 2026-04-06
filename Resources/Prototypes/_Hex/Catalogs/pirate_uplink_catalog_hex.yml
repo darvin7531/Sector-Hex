@@ -30,7 +30,37 @@
       tags:
       - PirateUplink
 
+- type: listing
+  id: UplinkPirateCorticalBorerEgg
+  name: Cortical Borer Egg
+  description: "Seriously, is growing this thing in our lab secretly from the Colossus Central sector going to profit us?"
+  productEntity: CorticalBorerEgg
+  cost:
+    Doubloon: 10
+  categories:
+  - UplinkPirateWeapons
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
 # MEDICINE CATEGORY
+
+- type: listing
+  id: UplinkPirateDragonMeat
+  name: Space Dragon Meat
+  description: A rare delicacy harvested from the elusive space dragons. Known for its unique healing properties.
+  productEntity: FoodMeatDragon
+  cost:
+    Doubloon: 1
+  categories:
+  - UplinkPirateMedical
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
 
 - type: listing
   id: UplinkPirateCombatMedipen
@@ -85,7 +115,7 @@
   description: A high-value loot crate from a rogue silicon unit, containing premium components and research materials. (WARNING - The Phaeton Dynsaty is not responsible for the fact you may not get the desired items out of the crate. Do not ask us where we get these everytime.)
   productEntity: ClothingBackpackRogueSiliconT4
   cost:
-    Doubloon: 50
+    Doubloon: 15
   categories:
   - UplinkPirateUtility
   conditions:
