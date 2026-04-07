@@ -95,6 +95,21 @@
 # UTILITY CATEGORY
 
 - type: listing
+  id: UplinkPirateBluespaceBackpack
+  name: Bluespace Backpack
+  description: A bluespace technology backpack that we managed to extract from the pre-fracture era containers and succesfully start selling it on our markets.
+  productEntity: ClothingBackpackHolding
+  cost:
+    Doubloon: 50
+  categories:
+  - UplinkPirateUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
   id: UplinkPirateAntiquePowerCell
   name: Antique Prototype Power Cell
   description: An old but surprisingly self-recharcing power cell with decent capacity. Has seen better days but is still a mystery to us.
