@@ -5,9 +5,9 @@
   description: A prototype assault suit, created by an unknown craftsman for an equally unknown individual, is constructed from high-quality materials and features a hidden exoskeleton that, despite its impressive armor, allows it to attack enemies with the speed and force of a truck. This suit stands at least 3 meters tall and is designed exclusively for human wear.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/assaultHardsuit.rsi
+    sprite: _Hex/Clothing/OuterClothing/Hardsuits/assaultHardsuit.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/assaultHardsuit.rsi
+    sprite: _Hex/Clothing/OuterClothing/Hardsuits/assaultHardsuit.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
