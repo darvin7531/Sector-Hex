@@ -5,7 +5,7 @@
   description: uplink-pirate-medical-bundle-desc
   productEntity: ClothingBackpackDuffelSyndicateMedicalBundleFilled
   cost:
-    Doubloon: 150
+    Doubloon: 100
   categories:
   - UplinkPirateMedical
   conditions:
@@ -82,7 +82,7 @@
   description: uplink-pirate-omnizine-jug-desc
   productEntity: JugOmnizine
   cost:
-    Doubloon: 65
+    Doubloon: 35
   categories:
   - UplinkPirateMedical
   conditions:
