@@ -32,6 +32,10 @@
     spawned:
     - id: FoodMeatChicken
       amount: 5
+  - type: ThermalVision
+    activateSound: null
+    deactivateSound: null
+  - type: FlashImmunity
   - type: Bloodstream
     bloodReagent: AmmoniaBlood
   - type: MeleeWeapon
@@ -41,16 +45,19 @@
     animation: WeaponArcClaw
     damage:
       types:
-        Slash: 5
+        Slash: 25
   - type: Body
     prototype: Hydrakin
     requiredLegs: 2
   - type: Temperature
-    coldDamageThreshold: 10 # Mono - Absurd cold resistance
-    heatDamageThreshold: 332 # no. just no. suffer.
+    coldDamageThreshold: 10000 # Mono - Absurd cold resistance
+    heatDamageThreshold: 10000 # Larping
     coldDamage:
       types:
-        Cold : 0.01 #per second, scales with temperature & other constants
+        Cold : 0 #per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 0 #per second, scales with temperature & other constants
   - type: TemperatureSpeed
     thresholds:
       90: 0.9
