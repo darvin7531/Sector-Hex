@@ -28,3 +28,27 @@ law-entertainer-3 = You must consult with the Performers before making any major
 # Cyborg Lawsets
 
 law-tsfmc-borg-3 = You must protect your own existence as long as such does not conflict with the First or Second Law.
+
+borg-type-pdvassault-desc = Боевой киборг, оснащенный оружием и оборудованием PDV. Усиленная броня и специализация для дополнительной огневой мощи.
+
+borg-type-pdvassault-name = PDV Боевой киборг
+
+borg-type-pdvengineer-desc = Киборг, специализирующийся на строительных и ремонтных работах.
+
+borg-type-pdvengineer-name = PDV Инженерный киборг
+
+borg-type-pdvmedical-desc = Киборг неотложной клинической помощи, предназначенный для активного лечения ран и быстрого реагирования.
+
+borg-type-pdvmedical-name = PDV Медицинский киборг
+
+borg-type-tsfassault-desc = Боевой киборг, оснащенный оружием и оборудованием TSFMC. Усиленная броня и специализация для дополнительной огневой мощи.
+
+borg-type-tsfassault-name = TSFMC Боевой киборг
+
+borg-type-tsfengineer-desc = Киборг, специализирующийся на строительных и ремонтных работах.
+
+borg-type-tsfengineer-name = TSFMC Инженерный киборг
+
+borg-type-tsfmedical-desc = Киборг неотложной клинической помощи, предназначенный для активного лечения ран и быстрого реагирования.
+
+borg-type-tsfmedical-name = TSFMC Медицинский киборг

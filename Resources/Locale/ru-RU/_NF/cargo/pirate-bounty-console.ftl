@@ -18,3 +18,9 @@ pirate-bounty-console-flavor-right = v0.0.1a
 pirate-bounty-manifest-name = Заказ Империи ({ $id })
 pirate-bounty-manifest-header = [font size=14][bold]Заказ Империи[/bold] ({ $id })[/font]
 pirate-bounty-manifest-list-start = Манифест:
+
+pirate-bounty-chest-description-start = На сундуке выгравированы следующие слова:
+
+pirate-bounty-chest-name = Сундук с наградой ПДВ ({$id})
+
+pirate-bounty-console-accept-button-chest = Призвать сундук

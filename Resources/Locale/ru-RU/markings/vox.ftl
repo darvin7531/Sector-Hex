@@ -31,3 +31,19 @@ marking-VoxTailSpikes-vox_tail_spikes = Вокс, Хвост (Шипастый)
 marking-VoxTailSpikes = Вокс, Хвост (Шипастый)
 marking-VoxTailDocked-vox_tail_docked = Вокс, Хвост (Рудиментарный)
 marking-VoxTailDocked = Вокс, Хвост (Рудиментарный)
+
+marking-TattooVoxHeartLeftArm = Татуировка вокса на левой руке (сердце)
+
+marking-TattooVoxHeartLeftArm-heart_l_arm = Татуировка вокса на левой руке (сердце)
+
+marking-TattooVoxHeartRightArm = Татуировка вокса на правой руке (сердце)
+
+marking-TattooVoxHeartRightArm-heart_r_arm = Татуировка вокса на правой руке (сердце)
+
+marking-TattooVoxHiveChest = Татуировка вокса на груди (улей)
+
+marking-TattooVoxHiveChest-hive_s = Татуировка вокса на груди (улей)
+
+marking-TattooVoxNightlingChest = Татуировка вокса на груди (ночной)
+
+marking-TattooVoxNightlingChest-nightling_s = Татуировка вокса на груди (ночной)

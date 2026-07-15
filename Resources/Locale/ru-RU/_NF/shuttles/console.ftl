@@ -29,3 +29,5 @@ shuttle-console-hide-target = Показ
 shuttle-console-hide-target-description = Переключает видимость целевой точки на радаре.
 shuttle-console-target-name = Цель
 shuttle-console-map-track = ⌖
+
+shuttle-console-network-connect-tooltip = Кнопки на консоли шаттла отправляют сигнал при нажатии, используйте мультитул на консоли и подключите её к устройству!

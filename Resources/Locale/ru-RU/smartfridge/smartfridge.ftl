@@ -7,3 +7,5 @@ smart-fridge-list-item = { $item } [{ $amount }]
 #Mono
 smart-fridge-request-generic = Возвраты не принимаются!
 smart-fridge-request-chemistry = Запрашивайте пополнения у химиков.
+
+smart-fridge-request-armory = Оборудование не гарантируется

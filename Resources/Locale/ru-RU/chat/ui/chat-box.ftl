@@ -41,3 +41,5 @@ hud-chatbox-highlights-placeholder =
     МедОтдел
 hud-chatbox-select-channel-CollectiveMind = Телепатия
 hud-chatbox-channel-CollectiveMind = Телепатия
+
+hud-chatbox-autofill-highlights = Автозаполнение

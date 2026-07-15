@@ -40,3 +40,7 @@ JobSeniorEngineer = Senior Engineer
 JobSeniorOfficer = Инструктор КВП ТСФ
 JobSeniorPhysician = Senior Physician
 JobSeniorResearcher = Senior Researcher
+
+job-name-nf-detective = Детектив
+
+job-name-pal = Представитель по связям с общественностью

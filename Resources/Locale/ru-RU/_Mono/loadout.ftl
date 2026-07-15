@@ -8,3 +8,5 @@ loadout-group-ussp-jumpsuit = USSP Jumpsuit
 loadout-group-ussp-head = USSP Headgear
 loadout-group-ussp-outerclothing = USSP Outerclothing
 loadout-group-ussp-backpack = USSP Backpack
+
+loadout-group-pistol-magazine = боеприпасы для личного оружия

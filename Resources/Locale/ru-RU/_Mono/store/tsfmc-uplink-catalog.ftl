@@ -66,3 +66,43 @@ uplink-security-hardsuit-m82c-name = M82c Hardsuit
 uplink-security-hardsuit-m82c-desc = A basic protective system for dangerous environments (such as space). Takes the role of an armor vest in the average TSF marine's gear.
 uplink-security-pulserifle-name = Pulse Rifle
 uplink-security-pulserifle-desc = A large, automatic pulse weapon. Larger cell, and high powered, perfect for chewing through groups of foes.
+
+uplink-security-smilodon-desc = ДЭУ-50-С «Смилодон» — это лёгкий пулемёт с направленной энергией, используемый ТСФ. Разрушительно.
+
+uplink-security-smilodon-name = ДЭУ-50-С «Смилодон»
+
+uplink-security-t0-voucher-desc = Одноразовый ваучер на любое малое судно.
+
+uplink-security-t0-voucher-name = Ваучер ТСФМК на корабль уровня 0
+
+uplink-security-t1-aldebaran-voucher-desc = Небольшая карта с данными для получения фрегата класса «Альдебаран» из резервов флагмана.
+
+uplink-security-t1-aldebaran-voucher-name = ТСФМК «Альдебаран» ЛПК [T1]
+
+uplink-security-t1-dagger-voucher-desc = Небольшая карта с данными для получения эсминца с рельсотроном класса «Даггер» из резервов флагмана.
+
+uplink-security-t1-dagger-voucher-name = ТСФМК «Даггер» ЛПК [T1]
+
+uplink-security-t1-mercury-voucher-desc = Небольшая карта с данными для получения корвета класса «Меркурий» из резервов флагмана.
+
+uplink-security-t1-mercury-voucher-name = ТСФМК «Меркурий» ЛПК [T1]
+
+uplink-security-t1-sentinel-voucher-desc = Небольшая карта с данными для получения эскорта класса «Сентинел» из резервов флагмана.
+
+uplink-security-t1-spica-voucher-desc = Небольшая карта с данными для получения эскорта класса «Спика» из резервов флагмана.
+
+uplink-security-t1-spica-voucher-name = ТСФМК «Спика» ЛПК [T1]
+
+uplink-security-t1-tarantula-voucher-desc = Небольшая карта с данными для получения эскорта класса «Тарантул» из резервов флагмана.
+
+uplink-security-t2-andromeda-voucher-desc = Небольшая карта с данными для получения крейсера класса «Андромеда» из резервов флагмана.
+
+uplink-security-t2-andromeda-voucher-name = ТСФМК «Андромеда» ЛПК [T2]
+
+uplink-security-t3-altair-voucher-desc = Небольшая карта с данными для получения фрегата класса «Альтаир» из резервов флагмана.
+
+uplink-security-t3-altair-voucher-name = ТСФМК «Альтаир» ЛПК [T3]
+
+uplink-security-t1-sentinel-voucher-name = TSFMC Страж LPC [T1]
+
+uplink-security-t1-tarantula-voucher-name = TSFMC Тарантул LPC [T1]

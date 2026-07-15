@@ -157,3 +157,11 @@ uplink-security-spaceblade-sec-name = Security SpaceBlade
 uplink-security-spaceblade-sec-desc = The latest in stun tech.
 uplink-security-contraband-forensics-module-name = Contraband Forenics Module
 uplink-security-contraband-forensics-module-desc = A program for scanning and reporting contraband dead drops and pods for bounties. Slots into a forensic scanner.
+
+uplink-security-forcefield-desc = Проектор силового поля на батарейках, создающий продвинутое силовое поле, которое блокирует движение и пули, пропуская лазеры.
+
+uplink-security-forcefield-name = Тактический проектор силового поля
+
+uplink-security-mechpulserifle-desc = Мех-установленная импульсная винтовка.
+
+uplink-security-mechpulserifle-name = CL-94 Импульсный излучатель

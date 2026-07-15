@@ -1,0 +1,2 @@
+ent-WeaponSubMachineGunMalandroRegistered = 
+    .suffix = Зарегистрирован

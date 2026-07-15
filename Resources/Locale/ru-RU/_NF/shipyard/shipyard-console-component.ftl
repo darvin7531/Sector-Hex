@@ -92,3 +92,9 @@ shipyard-console-engine-Welding = Сварочное топливо
 shipyard-console-engine-Plasma = Плазма
 shipyard-console-engine-Uranium = Уран
 shipyard-console-engine-Bananium = Бананиум
+
+shipyard-console-armament-default = Не указано
+
+shipyard-console-engine-NFR = NFR
+
+shipyard-console-no-unassign = Карта не может открепить право собственности.

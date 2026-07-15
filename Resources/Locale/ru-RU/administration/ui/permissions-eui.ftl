@@ -22,3 +22,5 @@ permissions-eui-edit-admin-window-save-button = Сохранить
 permissions-eui-edit-admin-window-remove-flag-button = Удалить
 cmd-permissions-desc = Открывает меню прав администрации.
 cmd-permissions-help = Использование: permissions
+
+permissions-eui-edit-admin-rank-window-short-name-edit-placeholder = Краткое название ранга

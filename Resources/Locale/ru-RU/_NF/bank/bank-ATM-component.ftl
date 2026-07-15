@@ -38,3 +38,7 @@ bank-atm-menu-cash-error = ОШИБКА: НЕИЗВЕСТНО
 
 bank-ATM-cashSlot = Слот наличных
 station-bank-ATM-cashSlot = Слот наличных
+
+bank-atm-menu-deposit-label-ut = Внести (Сбережения): 
+
+bank-atm-menu-savings-label = Сбережения: 

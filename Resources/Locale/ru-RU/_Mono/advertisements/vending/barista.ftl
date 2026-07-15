@@ -13,3 +13,15 @@ thankyou-barista-4 = Спасибо за то что выбрали Барист
 
 # died of cringe
 
+
+advertisement-uplink-ads-1 = СИСТЕМА РАБОТАЕТ ШТАТНО.
+
+advertisement-uplink-ads-2 = ОЖИДАНИЕ ЗАЯВКИ НА ПОСТАВКУ.
+
+advertisement-uplink-ads-3 = ОШИБКА: ПОЛЬЗОВАТЕЛЬ ОТСУТСТВУЕТ.
+
+advertisement-uplink-ads-4 = СОЕДИНЕНИЕ СО СНАБЖЕНИЕМ УСТАНОВЛЕНО.
+
+advertisement-uplink-ads-5 = ПОДДЕРЖАНИЕ ЦЕЛОСТНОСТИ ПОСТАВОК.
+
+advertisement-uplink-ads-6 = ОБОРУДОВАНИЕ НАЛИЧНО, ОЖИДАНИЕ ПРИКАЗА НА ВЫДАЧУ.

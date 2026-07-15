@@ -44,3 +44,5 @@ deathrattle-implant-critical-message = Жизненные показатели {
         [null] {""}
         *[default] { $grid }{" "}
     }{ $position }.
+
+deathrattle-implant-revive-message = {$user}{$specie} был(а) оживлен(а), теперь в критическом состоянии, на {$grid}{$position}.

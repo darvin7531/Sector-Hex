@@ -1,0 +1,9 @@
+- type: hexAkimboConfig
+  id: HexAkimboDefault
+  pistolParents:
+  - BaseWeaponPistol
+  subMachineGunParents:
+  - BaseWeaponSubMachineGun
+  deniedPrototypes:
+  - WeaponSubMachineSmart
+  maximumItemSize: Large

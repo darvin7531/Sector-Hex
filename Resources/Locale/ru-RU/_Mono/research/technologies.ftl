@@ -10,3 +10,9 @@ research-technology-ullmansuits-high-end = Высококлассные скаф
 research-technology-advanced-melee-combat-options = Продвинутый рукопашный бой
 research-technology-mechs-base = Базовое производство мехов
 research-technology-mechs-combat = Боевые мехи
+
+research-technology-basic-economy = Портативное перерабатывающее оборудование
+
+research-technology-drones-1 = Исследование дронов 1
+
+research-technology-uranium-processing-advanced = Усовершенствованная переработка урана

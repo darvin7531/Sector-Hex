@@ -30,3 +30,13 @@ research-technology-tsfmc-mr8 = Огнестрельное оружие MP-8C
 research-technology-tsfmc-xlr556 = Пехотный комплекс АВР-556 ИСВ
 research-technology-tsfmc-synthalloy = Экспериментальное материаловедение
 research-technology-tsfmc-advanced-module = Продвинутый модуль борга ТСФ
+
+research-technology-tsfmc-advanced-weapons = Усовершенствованные портативные технологии оружия
+
+research-technology-tsfmc-super-weapons = Производство новейшего оружия
+
+research-technology-tsfmc-tier-one-vouchers = Производство 1-го класса
+
+research-technology-tsfmc-tier-three-vouchers = Производство 3-го класса
+
+research-technology-tsfmc-tier-two-vouchers = Производство 2-го класса

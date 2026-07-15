@@ -22,3 +22,17 @@ guide-entry-monolith-rules = Monolith Rules
 # Creatures
 guide-entry-creatures = Создания сектора
 guide-entry-cortical-borer = Бореры
+
+guide-entry-s1mechs = Мехи Серии 1
+
+guide-entry-s2mechs = Мехи Серии 2
+
+guide-entry-shipyard-fenrir = Фенрир
+
+guide-entry-shipyard-motley-anne = Пёстрая Энн
+
+guide-entry-shipyard-nfr = Руководство по эксплуатации INSFC NFR
+
+guide-entry-mechs = Мехи
+
+guide-entry-s4mechs = Мехи серии 4

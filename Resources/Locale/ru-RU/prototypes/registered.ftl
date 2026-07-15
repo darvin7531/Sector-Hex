@@ -1,0 +1,2 @@
+ent-WeaponSubMachineGunMalandroPMC = 
+    .suffix = Зарегистрирован

@@ -37,3 +37,9 @@ lathe-category-guns-smartguns = Smartguns
 lathe-category-guns-ballistic = Ballistic Weapons
 lathe-category-guns-energy = Energy Weapons
 lathe-category-guns-explosive = Explosives
+
+lathe-category-attachments = Насадки для оружия
+
+lathe-category-guns-antitank = Противотанковое оружие
+
+lathe-category-nfr = Стержни NFR

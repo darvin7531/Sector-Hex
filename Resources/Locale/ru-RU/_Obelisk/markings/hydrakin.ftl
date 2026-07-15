@@ -58,3 +58,25 @@ marking-HydrakinTribalLeftArm = Tribal Left
 marking-HydrakinTribalRightArm = Tribal Right
 marking-HydrakinTribalLeftLeg = Tribal Left
 marking-HydrakinTribalRightLeg = Tribal Right
+
+marking-HydrakinEarsDefaultPainted = Обычные уши (окрашенные)
+
+marking-HydrakinEarsFinPainted = Уши-плавники (окрашенные)
+
+marking-HydrakinEarsFrilledPainted = Гофрированные уши (окрашенные)
+
+marking-HydrakinEarsOldPainted = Тонкие уши (окрашенные)
+
+marking-HydrakinEyesSeer = Глаза провидца
+
+marking-HydrakinHydraSeerEarsPainted = Уши провидца (окрашенные)
+
+marking-HydrakinHydraTailFeathersUnpainted = Провидец
+
+marking-HydrakinTailFeathersUnpainted = Оперенный
+
+marking-HydrakinTailFinsUnpainted = Плавники
+
+marking-HydrakinTailNub = Обрубок
+
+marking-HydrakinTailSpinyUnpainted = Шипастый

@@ -57,3 +57,7 @@ chat-language-Xeno-name = Ксеноморф
 chat-language-DroneTalk-name = Дрон
 # Added here by Mono
 chat-language-Blob-name = Блоб
+
+chat-language-Hydraspeak-name = Hy'drav'tha
+
+chat-language-ValyrianStandard-name = Валирианский

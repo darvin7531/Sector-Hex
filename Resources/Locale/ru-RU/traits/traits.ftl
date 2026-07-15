@@ -47,3 +47,7 @@ trait-impaired-mobility-name = Ограниченная подвижность
 trait-impaired-mobility-desc = Вам сложно передвигаться без помощи от существ или устройств.
 trait-wheelchair-bound-desc = Вы не можете передвигаться без своей инвалидной коляски. Коляска идёт в комплекте.
 trait-wheelchair-bound-name = Инвалид-колясочник
+
+trait-russian-desc = От тебя разит водкой.
+
+trait-russian-name = Русский акцент

@@ -1,0 +1,3 @@
+server-currency-loading = Загрузка сбережений на счету...
+
+server-currency-text = Сбережения на счету: ${$balance}

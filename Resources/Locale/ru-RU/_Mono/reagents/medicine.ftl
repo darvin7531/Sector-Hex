@@ -12,3 +12,15 @@ reagent-name-nat-letoferol = natural Letoferol
 reagent-desc-nat-letoferol = A version of letoferol produced by organic means. Its much more refined, and its effects are permanent, however it takes more to convert someone.
 reagent-name-protoletoferol = protoletoferol
 reagent-desc-protoletoferol = Letoferol neutralized via electrolysis. Used as a precursor for the chemicals to cure it. Its too dead to do anything to you now.
+
+reagent-desc-meroxzine = Биохимическое вещество, которое останавливает естественный рост когтей, включая когти рептилоидов.
+
+reagent-desc-peranol = Более стабильная версия лепоразина, снижающая температуру тела и лечащая термические ожоги. Оказывает усиленное действие на Гидрокинов.
+
+reagent-desc-phenoxzine = Биохимическое вещество, предназначенное для ускоренного роста когтей, включая когти рептилоидов.
+
+reagent-name-meroxzine = мерокзин
+
+reagent-name-peranol = перано́л
+
+reagent-name-phenoxzine = фенокзин

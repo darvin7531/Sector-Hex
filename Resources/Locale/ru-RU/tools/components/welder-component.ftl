@@ -14,3 +14,5 @@ welder-component-suicide-unlit-message = Вы ударили себя незаж
 welder-component-after-interact-refueled-message = Заправлено!
 welder-component-already-full = Сварочный аппарат уже заправлен.
 welder-component-on-examine-less-detailed-message = Fuel: [color={ $colorName }]{ $fuelLeft }/{ $fuelCapacity }[/color]
+
+welder-component-incompatible-fuel = { $owner } содержит неправильное или загрязнённое топливо!

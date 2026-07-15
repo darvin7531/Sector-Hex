@@ -1,0 +1,1 @@
+ent-EnvelopeManila = манильский конверт

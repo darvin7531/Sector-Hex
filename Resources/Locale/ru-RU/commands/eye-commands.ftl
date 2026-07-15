@@ -3,3 +3,5 @@ cmd-lockeyes-help = Использование: lockeyes <true/false>
 cmd-rotateeyes-desc = Поворачивает зрение всех игроков на указанный градус
 cmd-rotateeyes-help = rotateeyes <degrees (default 0)>
 cmd-rotateeyes-command-count = Установить { $count } поворот зрения
+
+parse-float-fail = Не удалось обработать {$arg} как число с плавающей запятой

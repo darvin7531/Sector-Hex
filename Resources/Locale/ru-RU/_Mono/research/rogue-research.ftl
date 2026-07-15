@@ -29,3 +29,19 @@ research-technology-rogue-syndicate-tacsuits = Продвинутая броне
 research-technology-rogue-syndicate-tacsuits-t3 = Применение синтесплава
 research-technology-rogue-rx01 = Модсьют RX-01
 research-technology-pdv-advanced-module = Продвинутый модуль борга ДФ
+
+research-technology-rogue-heavy-weapons = Тяжёлая баллистика
+
+research-technology-rogue-motley-anne-fighters = Дроны ПДВ 'Пёстрая Энн'
+
+research-technology-rogue-motley-anne-voucher = Закупка ПДВ 'Пёстрая Энн' LPC
+
+research-technology-rogue-prowler-voucher = Технологии скрытности
+
+research-technology-rogue-super-armor = Волокна из метаматериала
+
+research-technology-rogue-tier-one-vouchers = Производство ПДВ 1-го класса
+
+research-technology-rogue-tier-three-vouchers = Производство ПДВ 3-го класса
+
+research-technology-rogue-tier-two-vouchers = Производство ПДВ 2-го класса

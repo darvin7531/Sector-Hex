@@ -1,0 +1,2 @@
+ent-LockableButtonTSFMC = 
+    .suffix = TSFMC

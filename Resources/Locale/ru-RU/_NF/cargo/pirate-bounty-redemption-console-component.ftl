@@ -8,3 +8,5 @@ pirate-bounty-redemption-append =
     }
 pirate-bounty-redemption-success = Награды выданы: { $bounties }! { $amount } DC earned!
 pirate-bounty-redemption-deny = Не найдены предметы для выполнения заказов.
+
+pirate-bounty-redemption-disclaimer = Выдаёт материалы обратно командованию династии Фаэтон в обмен на награду. Убедитесь, что вы используете сундук, если он доступен.

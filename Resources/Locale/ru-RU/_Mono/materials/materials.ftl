@@ -10,3 +10,15 @@ stack-uraniumfissile = делящийся уран
 
 materials-uraniumdepleted = обеднённый уран
 stack-uraniumdepleted = обеднённый уран
+
+materials-copper = медь
+
+materials-lithium = литий
+
+materials-raw-copper = малахит
+
+materials-raw-lithium = литий
+
+stack-copper = медь
+
+stack-lithium = литий

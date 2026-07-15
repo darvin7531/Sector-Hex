@@ -384,3 +384,23 @@ ui-options-combat-music = Музыка в бою
 
 ## Graphics menu
 
+
+ui-options-ambient-occlusion = Показывать окружающее затенение
+
+ui-options-function-target-head = Цель: голова
+
+ui-options-function-target-left-arm = Цель: левая рука
+
+ui-options-function-target-left-leg = Цель: левая нога
+
+ui-options-function-target-right-arm = Цель: правая рука
+
+ui-options-function-target-right-leg = Цель: правая нога
+
+ui-options-function-target-torso = Цель: торс
+
+ui-options-function-toggle-focus = Переключить фокус
+
+ui-options-header-targeting = Прицеливание
+
+ui-options-radio-noise = Воспроизводить шум радио

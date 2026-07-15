@@ -10,3 +10,13 @@ reagent-effect-guidebook-health-scale =
         [1] Multiplies existing { $changes }
        *[other] Has a { $chance }% chance to multiply existing { $changes }
     }
+
+reagent-effect-guidebook-claws-growth = { $chance ->
+    [1] Выращивает
+    *[other] Выращивают
+    } когти со скоростью x{ $amount } при метаболизме.
+
+reagent-effect-guidebook-claws-growth-suppression = { $chance ->
+    [1] Подавляет
+    *[other] Подавляют
+    } рост когтей.

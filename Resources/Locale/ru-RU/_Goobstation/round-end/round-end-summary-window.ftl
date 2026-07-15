@@ -4,3 +4,5 @@ round-end-summary-window-player-name = сыграл { $player }.
 round-end-summary-window-last-words = [italic][color=gray]"{ $lastWords }"[/color][/italic]
 round-end-summary-window-death = Они погибли { $severity } { $type } смертью.
 round-end-summary-window-death-unknown = Их тела не были найдены.
+
+no-station-report-summited = Отчёт по станции не представлен, НТР, назначенный на вашу станцию, оштрафован на 2000 спесо.
