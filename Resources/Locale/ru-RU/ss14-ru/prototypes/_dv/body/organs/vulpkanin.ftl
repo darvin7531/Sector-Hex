@@ -1,2 +1,2 @@
-tool-quality-axing-name = Демонтаж пола
+tool-quality-axing-name = Рубка
 tool-quality-axing-tool-name = Пожарный топор

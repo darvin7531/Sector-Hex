@@ -1,59 +1,59 @@
-ent-AirlockHeavyGrandVizierLocked = 
+ent-AirlockHeavyGrandVizierLocked =
     .suffix = Великий Визирь, Заблокировано
 
-ent-AirlockHeavyPDV = 
+ent-AirlockHeavyPDV =
     .suffix = PDV
 
-ent-AirlockHeavyPDVCommandLocked = 
+ent-AirlockHeavyPDVCommandLocked =
     .suffix = Командование PDV, Заблокировано
 
-ent-AirlockHeavyPDVLocked = 
+ent-AirlockHeavyPDVLocked =
     .suffix = PDV, Заблокировано
 
-ent-AirlockHeavyTSFMC = 
+ent-AirlockHeavyTSFMC =
     .suffix = TSFMC
 
-ent-AirlockHeavyTSFMCArmoryLocked = 
+ent-AirlockHeavyTSFMCArmoryLocked =
     .suffix = Арсенал TSFMC, Заблокировано
 
-ent-AirlockHeavyTSFMCLocked = 
+ent-AirlockHeavyTSFMCLocked =
     .suffix = TSFMC, Заблокировано
 
-ent-AirlockHeavyTsfEngineeringLocked = 
+ent-AirlockHeavyTsfEngineeringLocked =
     .suffix = Инженерия TSF, Заблокировано
 
-ent-AirlockHeavyUSSP = 
+ent-AirlockHeavyUSSP =
     .suffix = USSP
 
-ent-AirlockHeavyUSSPCommandLocked = 
+ent-AirlockHeavyUSSPCommandLocked =
     .suffix = Командование USSP, Заблокировано
 
-ent-AirlockHeavyUSSPLocked = 
+ent-AirlockHeavyUSSPLocked =
     .suffix = USSP, Заблокировано
 
-ent-AirlockHeavyUSSPSecureLocked = 
+ent-AirlockHeavyUSSPSecureLocked =
     .suffix = USSP Защищённое, Заблокировано
 
-ent-AirlockHeavyCaptainLocked = 
+ent-AirlockHeavyCaptainLocked =
     .suffix = Капитан, Закрыто
 
-ent-AirlockHeavyCommand = 
+ent-AirlockHeavyCommand =
     .suffix = Командование
 
-ent-AirlockHeavyCommandFrontierBridgeLocked = 
+ent-AirlockHeavyCommandFrontierBridgeLocked =
     .suffix = Фронтир Мостик, Закрыто
 
-ent-AirlockHeavyCommandFrontierCommandLocked = 
+ent-AirlockHeavyCommandFrontierCommandLocked =
     .suffix = Фронтир Командование, Закрыто
 
-ent-AirlockHeavySecurity = 
+ent-AirlockHeavySecurity =
     .suffix = Фронтир
 
-ent-AirlockHeavySecurityFrontierBridgeLocked = 
+ent-AirlockHeavySecurityFrontierBridgeLocked =
     .suffix = Фронтир Мостик, Закрыто
 
-ent-AirlockHeavySecurityFrontierCommandLocked = 
+ent-AirlockHeavySecurityFrontierCommandLocked =
     .suffix = Фронтир Командование, Закрыто
 
-ent-AirlockHeavySecurityFrontierLocked = 
+ent-AirlockHeavySecurityFrontierLocked =
     .suffix = Фронтир, Закрыто

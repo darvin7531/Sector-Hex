@@ -1,2 +1,2 @@
-ent-HighSecTSFMCLocked = 
+ent-HighSecTSFMCLocked =
     .suffix = TSFMC, Заблокировано

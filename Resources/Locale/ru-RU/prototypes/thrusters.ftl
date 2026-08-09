@@ -1,8 +1,8 @@
-ent-GyroscopeDebugStrength = 
+ent-GyroscopeDebugStrength =
     .suffix = Отладочная мощность
 
-ent-ThrusterDebugStrength = 
+ent-ThrusterDebugStrength =
     .suffix = Отладочная мощность
 
-ent-ThrusterPartsT2 = 
+ent-ThrusterPartsT2 =
     .suffix = Детали T2

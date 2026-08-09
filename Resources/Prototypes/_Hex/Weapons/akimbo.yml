@@ -4,6 +4,12 @@
   - BaseWeaponPistol
   subMachineGunParents:
   - BaseWeaponSubMachineGun
+  energyPistolParents:
+  - BaseWeaponBatterySmall
+  - BaseWeaponPowerCellSmall
+  energySubMachineGunParents:
+  - WeaponDisablerSMG
   deniedPrototypes:
   - WeaponSubMachineSmart
   maximumItemSize: Large
+  secondarySpreadDegrees: 2.5

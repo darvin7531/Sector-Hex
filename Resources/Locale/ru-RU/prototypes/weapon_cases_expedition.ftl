@@ -1,5 +1,5 @@
-ent-WeaponCaseLongIrohExpedition = 
+ent-WeaponCaseLongIrohExpedition =
     .suffix = Подземелье, Иро
 
-ent-WeaponCaseShortBombCollar = 
+ent-WeaponCaseShortBombCollar =
     .suffix = Подземелье, Взрывной ошейник

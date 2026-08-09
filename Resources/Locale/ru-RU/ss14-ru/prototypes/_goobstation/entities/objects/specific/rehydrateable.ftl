@@ -32,5 +32,6 @@ ent-ChitinidCube = chitinid cube
     .desc = { ent-MonkeyCube.desc }
 ent-ProtogenCube = protogen cube
     .desc = { ent-MonkeyCube.desc }
+    .suffix = НЕ КАРТИРОВАТЬ
 ent-TajaranCube = tajaran cube
     .desc = { ent-MonkeyCube.desc }

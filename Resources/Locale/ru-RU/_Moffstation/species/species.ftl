@@ -1,1 +1,1 @@
-species-name-resomi = Ресоми
+

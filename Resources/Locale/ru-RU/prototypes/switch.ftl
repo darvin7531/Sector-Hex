@@ -1,2 +1,2 @@
-ent-LockableButtonTSFMC = 
+ent-LockableButtonTSFMC =
     .suffix = TSFMC

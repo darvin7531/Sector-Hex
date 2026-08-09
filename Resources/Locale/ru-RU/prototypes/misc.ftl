@@ -18,8 +18,8 @@ ent-ClothingNeckViperGroupMantle = Мантия группы Вайпер
 ent-ClothingShoesClothwrapBlack = Черные тряпичные обмотки
     .desc = Рулон обработанной ткани, используемый для обмотки ступней или лап, окрашенный в черный цвет.
 
-ent-WeaponCaseHeavyAmmo150AP = 
+ent-WeaponCaseHeavyAmmo150AP =
     .suffix = Тяжёлый, Корабельный, 150 мм ББ
 
-ent-WeaponCaseHeavyAmmo150EMP = 
+ent-WeaponCaseHeavyAmmo150EMP =
     .suffix = Тяжёлый, Корабельный, 150 мм ЭМИ

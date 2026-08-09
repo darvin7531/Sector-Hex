@@ -1,35 +1,35 @@
-ent-AsteroidRockCopper = 
+ent-AsteroidRockCopper =
     .desc = Жила руды, богатая медью.
     .suffix = Медь
 
-ent-IronRockCopper = 
+ent-IronRockCopper =
     .desc = Жила руды, богатая медью.
     .suffix = Медь
 
-ent-WallRockAndesiteCopper = 
+ent-WallRockAndesiteCopper =
     .desc = Жила руды, богатая медью.
     .suffix = Медь
 
-ent-WallRockBasaltCopper = 
+ent-WallRockBasaltCopper =
     .desc = Жила руды, богатая медью.
     .suffix = Медь
 
-ent-WallRockChromiteCopper = 
+ent-WallRockChromiteCopper =
     .desc = Жила руды, богатая медью.
     .suffix = Медь
 
-ent-WallRockCopper = 
+ent-WallRockCopper =
     .desc = Жила руды, богатая медью.
     .suffix = Медь
 
-ent-WallRockSandCopper = 
+ent-WallRockSandCopper =
     .desc = Жила руды, богатая медью.
     .suffix = Медь
 
-ent-WallRockScrapPileCopper = 
+ent-WallRockScrapPileCopper =
     .desc = Жила руды с медью.
     .suffix = Медь
 
-ent-WallRockSnowCopper = 
+ent-WallRockSnowCopper =
     .desc = Жила руды, богатая медью.
     .suffix = Медь

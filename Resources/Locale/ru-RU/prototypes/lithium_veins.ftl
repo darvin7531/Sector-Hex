@@ -1,35 +1,35 @@
-ent-AsteroidRockLithium = 
+ent-AsteroidRockLithium =
     .desc = Жила руды, богатая литием.
     .suffix = Литий
 
-ent-IronRockLithium = 
+ent-IronRockLithium =
     .desc = Жила руды, богатая литием.
     .suffix = Литий
 
-ent-WallRockAndesiteLithium = 
+ent-WallRockAndesiteLithium =
     .desc = Богатая литием жила руды.
     .suffix = Литий
 
-ent-WallRockBasaltLithium = 
+ent-WallRockBasaltLithium =
     .desc = Богатая литием жила руды.
     .suffix = Литий
 
-ent-WallRockChromiteLithium = 
+ent-WallRockChromiteLithium =
     .desc = Богатая литием жила руды.
     .suffix = Литий
 
-ent-WallRockLithium = 
+ent-WallRockLithium =
     .desc = Богатая литием жила руды.
     .suffix = Литий
 
-ent-WallRockSandLithium = 
+ent-WallRockSandLithium =
     .desc = Богатая литием жила руды.
     .suffix = Литий
 
-ent-WallRockScrapPileLithium = 
+ent-WallRockScrapPileLithium =
     .desc = Жила руды с литием.
     .suffix = Литий
 
-ent-WallRockSnowLithium = 
+ent-WallRockSnowLithium =
     .desc = Богатая литием жила руды.
     .suffix = Литий

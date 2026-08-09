@@ -8,8 +8,7 @@ chat-emote-name-warble = Warble
 chat-emote-name-wurble = Wurble
 chat-emote-name-mars = Mars
 chat-emote-name-bagawk = Bagawk
-chat-emote-name-yip = Yip
-# Message
+chat-emote-name-yip = Тявк
 chat-emote-msg-trill = trills!
 chat-emote-msg-warble = warbles!
 chat-emote-msg-wurble = wurbles!

@@ -1,2 +1,2 @@
-ent-BasePirateUplinkAsvaran = 
+ent-BasePirateUplinkAsvaran =
     .suffix = Asvaran 125

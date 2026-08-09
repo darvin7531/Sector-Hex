@@ -1,29 +1,29 @@
-ent-NuclearReactorCC = 
+ent-NuclearReactorCC =
     .suffix = Заперт смотрителем
 
-ent-NuclearReactorCCSmall = 
+ent-NuclearReactorCCSmall =
     .suffix = Заперт смотрителем
 
-ent-NuclearReactorPDV = 
+ent-NuclearReactorPDV =
     .suffix = Заперт PDV Denasvar
 
-ent-NuclearReactorPDVSmall = 
+ent-NuclearReactorPDVSmall =
     .suffix = Заперт PDV Denasvar
 
-ent-NuclearReactorTSF = 
+ent-NuclearReactorTSF =
     .suffix = Заперт TSF FTL
 
-ent-NuclearReactorTSFSmall = 
+ent-NuclearReactorTSFSmall =
     .suffix = Заперт TSF FTL
 
-ent-NuclearReactorUSSP = 
+ent-NuclearReactorUSSP =
     .suffix = Заперт USSP Serzhant
 
-ent-NuclearReactorUSSPSmall = 
+ent-NuclearReactorUSSPSmall =
     .suffix = Заперт USSP Serzhant
 
-ent-NuclearReactorUnaffiliated = 
+ent-NuclearReactorUnaffiliated =
     .suffix = Неприсоединённый, заперт капитаном корабля
 
-ent-NuclearReactorUnaffiliatedSmall = 
+ent-NuclearReactorUnaffiliatedSmall =
     .suffix = Неприсоединённый, заперт капитаном корабля

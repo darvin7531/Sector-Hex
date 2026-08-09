@@ -1,2 +1,2 @@
-ent-SmallLightDim = 
+ent-SmallLightDim =
     .suffix = Всегда запитан, тусклый

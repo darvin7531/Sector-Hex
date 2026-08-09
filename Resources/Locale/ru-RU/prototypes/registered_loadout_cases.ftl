@@ -1,2 +1,2 @@
-ent-WeaponCaseMalandroRegistered = 
+ent-WeaponCaseMalandroRegistered =
     .suffix = Снаряжение, Маландро

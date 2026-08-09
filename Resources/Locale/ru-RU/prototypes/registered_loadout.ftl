@@ -1,2 +1,2 @@
-ent-WeaponSubMachineGunMalandroRegistered = 
+ent-WeaponSubMachineGunMalandroRegistered =
     .suffix = Зарегистрирован

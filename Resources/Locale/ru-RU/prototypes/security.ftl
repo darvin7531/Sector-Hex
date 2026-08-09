@@ -1,2 +1,2 @@
-ent-BaseSecurityUplinkRadioCaptain = 
+ent-BaseSecurityUplinkRadioCaptain =
     .suffix = Капитан 100
