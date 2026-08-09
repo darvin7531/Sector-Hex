@@ -9,3 +9,4 @@ ent-BitcoinIdeascoin = Ideascoin™
 
 ent-SpawnLootDatafarmBitcoin = случайный биткоин
     .suffix = Спавнер биткоина Datafarm
+    .desc = { ent-MarkerBasePlaceFree.desc }

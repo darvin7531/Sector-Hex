@@ -1,5 +1,6 @@
 ent-TurbineCC =
     .suffix = Надзиратель, Заблокировано
+    .desc = { ent-BaseStructure.desc }
 
 ent-TurbineCCSmall =
     .desc = Большая турбина, используемая для выработки энергии из горячего газа. Заблокирована для Надзирателя CC.

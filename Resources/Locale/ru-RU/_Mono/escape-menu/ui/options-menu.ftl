@@ -1,19 +1,10 @@
 ## Controls menu
 
 ui-options-function-toggle-standing = Лежать/Встать на пол
-ui-options-header-targeting = Прицеливание
 ui-options-function-target-left-hand = Выбрать целью левую кисть
 ui-options-function-target-right-hand = Выбрать целью правую кисть
 ui-options-function-target-left-foot = Выбрать целью левую ступню
 ui-options-function-target-right-foot = Выбрать целью правую ступню
-ui-options-function-toggle-focus = Переключить фокус
-ui-options-function-target-right-arm = Цель: правая рука
-ui-options-function-target-left-arm = Цель: левая рука
-ui-options-function-target-torso = Цель: торс
-ui-options-function-target-head = Цель: голова
-ui-options-function-target-right-leg = Цель: правая нога
-ui-options-function-target-left-leg = Цель: левая нога
-ui-options-radio-noise = Воспроизводить шум радио
 ui-options-function-smart-equip-pocket1 = Умная экипировка в первый карман
 ui-options-function-smart-equip-pocket2 = Умная экипировка в второй карман
 ui-options-function-smart-equip-suit-storage = Умная экипировка на плечо

@@ -3,9 +3,12 @@ ent-GooglyEyes = игрушечные глазки
 
 ent-GooglyEyesAdmeme =
     .suffix = Адмем
+    .desc = { ent-GooglyEyes.desc }
 
 ent-GooglyEyesWatchful =
     .suffix = Бдительный
+    .desc = { ent-GooglyEyes.desc }
 
 ent-GooglyEyesWatchfulAdmeme =
     .suffix = Адмем, Бдительный
+    .desc = { ent-GooglyEyes.desc }

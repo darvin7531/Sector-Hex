@@ -1,0 +1,49 @@
+marking-VoxScarEyeRight-vox_scar_eye_right = Шрам на глазу (Правый)
+marking-VoxScarEyeRight = Шрам на глазу (Правый)
+marking-VoxScarEyeLeft-vox_scar_eye_left = Left Eye Scar
+marking-VoxScarEyeLeft = Шрам на глазу (Левый)
+marking-VoxScarTopSurgeryShort-vox_scar_top_surgery_short = Шрам (Торакотомия)
+marking-VoxScarTopSurgeryShort = Шрам (Торакотомия)
+marking-VoxScarTopSurgeryLong-vox_scar_top_surgery_long = Шрам (Ракушка)
+marking-VoxScarTopSurgeryLong = Шрам (Ракушка)
+marking-VoxScarChest-vox_scar_chest = Шрам на груди
+marking-VoxScarChest = Шрам на груди
+marking-VoxScarNeck-vox_scar_neck = Шрам на шее
+marking-VoxScarNeck = Шрам на шее
+marking-VoxScarChestBullets-vox_scar_chest_bullets = Шрам, пулевые отверстия
+marking-VoxScarChestBullets = Шрам на груди (Пули)
+marking-VoxScarStomachBullets-vox_scar_stomach_bullets = Шрам, пулевые отверстия
+marking-VoxScarStomachBullets = Шрам на животе (Пули)
+marking-VoxScarFace1-vox_scar_face_1 = Шрам на лице
+marking-VoxScarFace1 = Шрам на лице (Большой)
+marking-VoxScarFace2-vox_scar_face_2 = Шрам на лице
+marking-VoxScarFace2 = Шрам на лице (Маленький)
+marking-VoxScarEyeRightSmall-vox_scar_eye_right_small = Шрам на глазу (Правый, Маленький)
+marking-VoxScarEyeRightSmall = Шрам на глазу (Правый, Маленький)
+marking-VoxScarEyeLeftSmall-vox_scar_eye_left_small = Шрам на глазу (Левый, Маленький)
+marking-VoxScarEyeLeftSmall = Шрам на глазу (Левый, Маленький)
+marking-VoxTailShort-vox_tail_small = Вокс, Хвост (Короткий)
+marking-VoxTailShort = Вокс, Хвост (Короткий)
+marking-VoxTail-vox_tail = Вокс, Хвост (Средний)
+marking-VoxTailBig-vox_tail_big = Вокс, Хвост (Большой)
+marking-VoxTailBig = Вокс, Хвост (Большой)
+marking-VoxTailSpikes-vox_tail_spikes = Вокс, Хвост (Шипастый)
+marking-VoxTailSpikes = Вокс, Хвост (Шипастый)
+marking-VoxTailDocked-vox_tail_docked = Вокс, Хвост (Рудиментарный)
+marking-VoxTailDocked = Вокс, Хвост (Рудиментарный)
+
+marking-TattooVoxHeartLeftArm = Татуировка вокса на левой руке (сердце)
+
+marking-TattooVoxHeartLeftArm-heart_l_arm = Татуировка вокса на левой руке (сердце)
+
+marking-TattooVoxHeartRightArm = Татуировка вокса на правой руке (сердце)
+
+marking-TattooVoxHeartRightArm-heart_r_arm = Татуировка вокса на правой руке (сердце)
+
+marking-TattooVoxHiveChest = Татуировка вокса на груди (улей)
+
+marking-TattooVoxHiveChest-hive_s = Татуировка вокса на груди (улей)
+
+marking-TattooVoxNightlingChest = Татуировка вокса на груди (ночной)
+
+marking-TattooVoxNightlingChest-nightling_s = Татуировка вокса на груди (ночной)

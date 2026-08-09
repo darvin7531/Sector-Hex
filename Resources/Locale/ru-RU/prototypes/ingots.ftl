@@ -4,3 +4,4 @@ ent-IngotPlutonium = слиток плутония
 
 ent-IngotPlutonium1 = слиток плутония
     .suffix = Одиночный
+    .desc = { ent-IngotPlutonium.desc }

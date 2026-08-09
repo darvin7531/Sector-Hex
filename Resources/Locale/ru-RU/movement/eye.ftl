@@ -1,5 +1,4 @@
 parse-bool-fail = Невозможно спарсить { $arg } как bool
-parse-float-fail = Не удалось обработать {$arg} как число с плавающей запятой
 lockeyes-command-description = Prevents eyes from being rotated any further
 lockeyes-command-help = lockeyes <true/false>
 rotateeyes-command-description = Rotates every player's current eye to the specified rotation

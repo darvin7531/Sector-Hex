@@ -4,3 +4,4 @@ ent-JetpackADM = предфрактурный джетпак
 
 ent-JetpackADMFilled = предфрактурный джетпак
     .suffix = Заполненный
+    .desc = { ent-JetpackADM.desc }
