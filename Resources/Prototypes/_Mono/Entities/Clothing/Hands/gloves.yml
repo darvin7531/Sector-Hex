@@ -202,3 +202,7 @@
   - type: StaticPrice
     price: 15000
     vendPrice: 30000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Shock: 0.5

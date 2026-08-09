@@ -262,7 +262,6 @@
     - NFScience # Frontier
     - NFPouches # Frontier
     - VoidBoots # Mono
-    - CarpEquipment # Mono
     - UpgradeKits # Mono
     - UpgradeKits_Goob # Mono
     - SMSurgery # Shitmed Change
@@ -345,7 +344,6 @@
     - AiCoreBoard
     - S2MechBoards
     - EngineeringBoardsGoob #Goob Factorio port
-    - ReactorCircuitboards # FH edit
   - type: MaterialStorage
     whitelist:
       tags:
@@ -502,6 +500,7 @@
     - SMCybernetics
     # Mono - Mechs
     - WeaponMechCombatArsenal
+    - DynamicAmmoRecipePack
     - SmartGun # Goobstation
     # Mono start
     - MonoTSFWeaponsDynamicMelee
@@ -511,15 +510,9 @@
     - MonoRogueWeaponsDynamicRanged
     - MonoRogueMiscDynamic
     - MonoUSSPMiscDynamic
-    - MonoViperGroupDynamic
     - MonoUSSPWeaponsDynamicRanged
     - UniversalShellAmmo
     - ResearchedExplosives
-    - UniversalRailgunAmmo
-    - UniversalMissileAmmo
-    - UniversalOrdinance
-    - SmartGun #Smart SMG
-    - NFMercenaryTechfabDeprecated
     # Mono end
   - type: MaterialStorage
     whitelist:
@@ -810,6 +803,7 @@
     runningState: base_machine_processing
     staticPacks:
     - SheetifierStatic
+  - type: OreSiloClient
 
 - type: entity
   parent: BaseLathe
@@ -857,6 +851,7 @@
       - RawMaterial
       - Plastic
       - Ingot # Frontier
+  - type: OreSiloClient
 
 # Shitmed Change Start
 - type: entity
@@ -888,7 +883,6 @@
   - type: Lathe
     idleState: limbgrower_idleoff
     runningState: limbgrower_idleon
-    productValueModifier: 0.05
     staticPacks:
     - MedicalSynthLimbsStatic
   - type: EmagLatheRecipes
