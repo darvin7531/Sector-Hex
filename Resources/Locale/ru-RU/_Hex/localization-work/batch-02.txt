@@ -1,0 +1,414 @@
+# Translation input only. Translate every entry below.
+## SOURCE: Resources/Locale/en-US/_Mono/advertisements/vending/barista.ftl
+advertisement-mieyo-ads-2 = Have a pheno-Mieyo day!
+
+## SOURCE: Resources/Locale/en-US/_Mono/silicon.ftl
+borg-type-BorgChassisSelectableXenoborg-desc = A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This type is indecisive and has not specialized in how best to serve the Mothership
+
+## SOURCE: Resources/Locale/en-US/_Mono/silicon.ftl
+borg-type-xenoborgstealth-desc = A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one is a stealth type. Its armor shimmers in the light like no other material you've seen.
+
+## SOURCE: Resources/Locale/en-US/_CE/zLevel/zLevels.ftl
+ce-zflyer-notflying = You need to be flying for that!
+
+## SOURCE: Resources/Locale/en-US/headset/headset-component.ftl
+chat-radio-freeport = Freeport
+
+# not headset but whatever
+
+## SOURCE: Resources/Locale/en-US/_DV/chat/emotes.ftl
+chat-speech-verb-name-feroxi = Feroxi
+
+## SOURCE: Resources/Locale/en-US/pda/pda-component.ftl
+comp-pda-ui-station-war-level-pre = WAR LEVEL: [color=cornflowerblue]COLD[/color]
+
+## SOURCE: Resources/Locale/en-US/devices/device-network.ftl
+device-frequency-prototype-name-surveillance-camera-xenoborgs = Xenoborg camera
+
+
+# prefixes for randomly generated device addresses
+
+## SOURCE: Resources/Locale/en-US/_Mono/ghostroles/xenoborg.ftl
+ghost-role-information-Xenoborg-description = A strange cyborg made to replicate and take over the sector by turning any sentient being into xenoborgs.
+
+## SOURCE: Resources/Locale/en-US/gravity/gravity-generator-component.ftl
+gravity-generator-examine-load = The generator is running at [color={ $color }]{ $percent }%[/color] of it's capacity.
+
+## SOURCE: Resources/Locale/en-US/_Mono/guidebook/stars.ftl
+guide-entry-stars = Star System
+
+## SOURCE: Resources/Locale/en-US/_Mono/chat/highlights.ftl
+highlights-mail-carrier = "Mail man", "Mail carrier", "Mail"
+
+## SOURCE: Resources/Locale/en-US/_Mono/chat/highlights.ftl
+highlights-station-traffic-controller = "STC", "Traffic", "CC", "Colossus"
+
+## SOURCE: Resources/Locale/en-US/_Mono/holopad/holopad.ftl
+holopad-vg = Camelot - Viper Group
+
+## SOURCE: Resources/Locale/en-US/_Mono/job/job-description.ftl
+job-description-mmc-security = Protect MMC assets and employees in the area from any threats.
+
+## SOURCE: Resources/Locale/en-US/_Mono/job/job-names.ftl
+job-name-mmc-security = MMC Corporate Security
+
+## SOURCE: Resources/Locale/en-US/_Mono/job/job-supervisors.ftl
+job-supervisors-vg-commander = Sidewinder-01
+
+## SOURCE: Resources/Locale/en-US/lathe/ui/lathe-menu.ftl
+lathe-menu-entity-amount-missing = {$amount} of {$material} ([color=red]{$missingAmount} missing[/color])
+
+## SOURCE: Resources/Locale/en-US/_Goobstation/cybernetics/cybernetics.ftl
+mantis-blade-disabled-emp = The mantis blade is disabled by a EMP and is not responding.
+
+## SOURCE: Resources/Locale/en-US/_DV/markings/feroxi.ftl
+marking-FeroxiEarsTips = Tipped Ears
+
+## SOURCE: Resources/Locale/en-US/_DV/markings/feroxi.ftl
+marking-FeroxiLegStripesTiger = Full Stripes
+
+## SOURCE: Resources/Locale/en-US/_DV/markings/feroxi.ftl
+marking-FeroxiSnoutCountershadingStripe-feroxi-snout = Base Snout
+
+## SOURCE: Resources/Locale/en-US/_DV/markings/feroxi.ftl
+marking-FeroxiSnoutNurseCountershading-feroxi-snout-countershading = Countershading
+
+## SOURCE: Resources/Locale/en-US/_DV/markings/feroxi.ftl
+marking-FeroxiStripeTwoToneTail-feroxi-tail-under = Under Tail
+
+## SOURCE: Resources/Locale/en-US/_DV/markings/feroxi.ftl
+marking-FeroxiStripedTail-feroxi-tail = Base Tail
+
+## SOURCE: Resources/Locale/en-US/_DV/markings/feroxi.ftl
+marking-FeroxiTail-feroxi-tail = Base Tail
+
+## SOURCE: Resources/Locale/en-US/_DV/markings/feroxi.ftl
+marking-FeroxiTailBlitz-feroxi-tail-bottom-tip = Lower Tail Fin Tip
+
+## SOURCE: Resources/Locale/en-US/_DV/markings/feroxi.ftl
+marking-FeroxiTailBlitzNoDorsal-feroxi-tail-top-tip = Upper Tail Fin Tip
+
+## SOURCE: Resources/Locale/en-US/_DV/markings/feroxi.ftl
+marking-FeroxiTipTailAndDorsal = Tail with Tips and Dorsal
+
+## SOURCE: Resources/Locale/en-US/_DV/markings/feroxi.ftl
+marking-FeroxiTipTwoToneTail-feroxi-tail = Base Tail
+
+## SOURCE: Resources/Locale/en-US/_DV/markings/feroxi.ftl
+marking-FeroxiTipTwoToneTailAndDorsal-feroxi-tail-bottom-tip = Lower Tail Fin Tip
+
+## SOURCE: Resources/Locale/en-US/_DV/markings/feroxi.ftl
+marking-FeroxiTorsoStripesBlitz-feroxi-torso-stripes-blitz = Stripes
+
+## SOURCE: Resources/Locale/en-US/_DV/markings/feroxi.ftl
+marking-FeroxiTwoToneTailAndDorsal-feroxi-tail = Base Tail
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/accessories/resomi-hair.ftl
+marking-HairResomiCube = Resomi Cube
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/accessories/resomi-hair.ftl
+marking-HairResomiSweptup = Resomi Sweptup
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiBodyCoat = Body Coat
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiEars = Resomi Ears
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiHeadCoat-head_coat = Coat
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiHeadJewelleryFourRight-resomi_earring_4_1 = Right Earring Four
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiHeadJewelleryThreeRight-resomi_earring_3_1 = Right Earring Three
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiHeadWar-head_war = War
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiLFootFade = Left Foot Fade
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiLLegFeathersComplex-l_foot_feathers_secondary = Foot Feathers Secondary
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiRArmCoat-r_leg_coat = Right Arm Coat
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiRLegCoat = Right Leg Coat
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiRLegStripes-r_leg_stripes = Right Leg Stripes
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiTailBandLarge-tail_band_large = Tail Band (Large)
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiTailBird-tail_bird = Resomi Bird Tail
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiTailDamagedFeathered-tail_damaged = Resomi Tail (Damaged)
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiTailFeathersComplex-tail_feathers_right_lower = Resomi Lower Right Tail Feather
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiTailFeathersShort = Resomi Tail Feathers (Short)
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiTailProstheticWood-tail_prosthetic_wood = Wood Prosthetic Color
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiTailStubbyFeathered-tail_feathers_stubby = Resomi Tail Feathers
+
+## SOURCE: Resources/Locale/en-US/_Moffstation/markings/resomi.ftl
+marking-ResomiUpperEarsShort-upper_ear_short = Resomi Short Ears
+
+## SOURCE: Resources/Locale/en-US/_Goobstation/markings/tajaran.ftl
+marking-TajaranEarsDroopy-droopy_inner = Inner ear
+
+## SOURCE: Resources/Locale/en-US/_Goobstation/markings/tajaran.ftl
+marking-TajaranEarsRetroNear-ears_near = Ears
+
+## SOURCE: Resources/Locale/en-US/_Goobstation/markings/tajaran.ftl
+marking-TajaranEarsStubby-stubby_inner = Inner ear
+
+## SOURCE: Resources/Locale/en-US/_Goobstation/markings/tajaran.ftl
+marking-TajaranEarsTorn-torn_outer = Outer ear
+
+## SOURCE: Resources/Locale/en-US/_Goobstation/markings/tajaran.ftl
+marking-TajaranHeadPatches = Patches
+
+## SOURCE: Resources/Locale/en-US/_Goobstation/markings/tajaran.ftl
+marking-TajaranLeopardTail = Leopard tail
+
+## SOURCE: Resources/Locale/en-US/_Goobstation/markings/tajaran.ftl
+marking-TajaranOverlayPoints = Points
+
+## SOURCE: Resources/Locale/en-US/_Goobstation/markings/tajaran.ftl
+marking-TajaranTailRetro-tail = Tail
+
+## SOURCE: Resources/Locale/en-US/_Goobstation/markings/tajaran.ftl
+marking-TajaranTorsoFullBelly = Chest Fur (Full)
+
+## SOURCE: Resources/Locale/en-US/_Mono/materials/materials.ftl
+materials-components-plates = armor components
+
+## SOURCE: Resources/Locale/en-US/_Mono/rank/ranks.ftl
+md-doc = Director Of Care
+
+## SOURCE: Resources/Locale/en-US/_Mono/rank/ranks.ftl
+mmc-liason = Corporate Liason
+
+### CC/MD ranks
+
+## SOURCE: Resources/Locale/en-US/_Mono/tips.ftl
+mono-tips-dataset-1 = If you're on fire, you can click the alert on the right of your screen to stop, drop, and roll.
+
+## SOURCE: Resources/Locale/en-US/_Mono/tips.ftl
+mono-tips-dataset-17 = Chemicals don't react while inside the ChemMaster's buffer.
+
+## SOURCE: Resources/Locale/en-US/_Mono/tips.ftl
+mono-tips-dataset-24 = You can examine your headset to see which radio channels you have available and how to speak in them.
+
+## SOURCE: Resources/Locale/en-US/_Mono/tips.ftl
+mono-tips-dataset-31 = You can repair cracked windows by using a lit welding tool on them while not in combat mode.
+
+## SOURCE: Resources/Locale/en-US/_Mono/tips.ftl
+mono-tips-dataset-39 = You'll quickly lose your interest in the game if you play to win and kill. If you find yourself doing this, take a step back and talk to people--it's a much better experience!
+
+## SOURCE: Resources/Locale/en-US/_Mono/tips.ftl
+mono-tips-dataset-46 = You can move an item out of the way by dragging it, and then holding CTRL + right click and moving your mouse into the direction you want it to go.
+
+## SOURCE: Resources/Locale/en-US/_Mono/tips.ftl
+mono-tips-dataset-53 = There is a chemical metabolism limit that limits the amount of reagents of a certain type you can digest at once. Certain species have higher metabolism limits, such as slimes.
+
+## SOURCE: Resources/Locale/en-US/_Mono/tips.ftl
+mono-tips-dataset-8 = Mopping up puddles and draining them into other containers conserves the reagents found in the puddle.
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-first-female-dataset-14 = Pluvia
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-first-female-dataset-21 = Coralia
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-first-female-dataset-29 = Awha
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-first-female-dataset-36 = Kaiar
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-first-female-dataset-6 = Hama
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-first-male-dataset-13 = Ishmael
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-first-male-dataset-20 = Onda
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-first-male-dataset-28 = Zale
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-first-male-dataset-35 = Baiday
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-first-male-dataset-5 = Daryan
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-last-dataset-12 = Baldur
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-last-dataset-2 = Alawi
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-last-dataset-27 = Estevez
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-last-dataset-34 = Garonne
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-last-dataset-41 = Hashim
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-last-dataset-49 = Laghi
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-last-dataset-56 = Moreau
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-last-dataset-63 = Norodom
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-last-dataset-70 = Sabah
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-last-dataset-78 = Theodore
+
+## SOURCE: Resources/Locale/en-US/_DV/datasets/names/feroxi.ftl
+names-feroxi-last-dataset-85 = Wells
+
+## SOURCE: Resources/Locale/en-US/_Obelisk/datasets/names/hydrakin.ftl
+names-hydrakin-dataset-13 = Hara
+
+## SOURCE: Resources/Locale/en-US/_Obelisk/datasets/names/hydrakin.ftl
+names-hydrakin-dataset-20 = Hiko-Uva
+
+## SOURCE: Resources/Locale/en-US/_Obelisk/datasets/names/hydrakin.ftl
+names-hydrakin-dataset-28 = Viema
+
+## SOURCE: Resources/Locale/en-US/_Obelisk/datasets/names/hydrakin.ftl
+names-hydrakin-dataset-7 = Mikri
+
+## SOURCE: Resources/Locale/en-US/_Mono/overwatch/overwatch.ftl
+overwatch-admin-announcement-placeholder = Type text...
+
+## SOURCE: Resources/Locale/en-US/_Mono/overwatch/overwatch.ftl
+overwatch-admin-squads-title = SQUADS
+
+## SOURCE: Resources/Locale/en-US/_Mono/overwatch/overwatch.ftl
+overwatch-member-no-camera-button = NO CAMERA
+
+## SOURCE: Resources/Locale/en-US/_Mono/overwatch/overwatch.ftl
+overwatch-member-view-camera-button = VIEW CAM
+
+## SOURCE: Resources/Locale/en-US/_Mono/overwatch/overwatch.ftl
+overwatch-squad-unassigned = UNASSIGNED
+
+## SOURCE: Resources/Locale/en-US/_Mono/overwatch/overwatch.ftl
+overwatch-title-default = Overwatch
+
+## SOURCE: Resources/Locale/en-US/_Mono/overwatch/overwatch.ftl
+overwatch-window-title = Overwatch Console
+
+## SOURCE: Resources/Locale/en-US/_Mono/personal-shield.ftl
+personal-shield-examine-down = The shield is [color=darkgray]down[/color].
+
+## SOURCE: Resources/Locale/en-US/rcd/components/rcd-component.ftl
+rcd-component-atmosphericutility = Atmospheric Utility
+
+## SOURCE: Resources/Locale/en-US/_Mono/research/mieyo.ftl
+research-discipline-mieyo = Mieyo Manufacturing Concern
+
+# T1 MMC
+
+## SOURCE: Resources/Locale/en-US/_Mono/research/mieyo.ftl
+research-technology-mieyo-press = MMC Hydraulics
+
+## SOURCE: Resources/Locale/en-US/_Mono/research/viper-group.ftl
+research-technology-viper-group-shipyard-adv = Viper Group LPC procurement
+
+# T3 VG
+
+## SOURCE: Resources/Locale/en-US/_Mono/set-selector/selectable-sets.ftl
+selectable-set-pdvtarkhan-breacher-kit-name = Flagbearer kit
+
+## SOURCE: Resources/Locale/en-US/_Mono/set-selector/selectable-sets.ftl
+selectable-set-tsfmarsoc-hailstorm-kit-name = Hailstorm kit
+
+## SOURCE: Resources/Locale/en-US/_Mono/shipyard/shipyard.ftl
+shipyard-preview-data-label = Ship data:
+
+## SOURCE: Resources/Locale/en-US/shuttles/console.ftl
+shuttle-console-iff-detailed = Detailed IFF
+
+## SOURCE: Resources/Locale/en-US/shuttles/console.ftl
+shuttle-console-travel-state-hovering = Hovering
+
+## SOURCE: Resources/Locale/en-US/_Mono/navmap-beacons/station-beacons.ftl
+station-beacon-viper-brig = Viper Group Brig
+
+## SOURCE: Resources/Locale/en-US/_Mono/navmap-beacons/station-beacons.ftl
+station-beacon-viper-servers = Viper Group Servers
+
+## SOURCE: Resources/Locale/en-US/_Mono/rank/ranks.ftl
+tsf-e4 = Cpl.
+
+## SOURCE: Resources/Locale/en-US/_Mono/rank/ranks.ftl
+tsf-o3 = Cpt.
+
+## SOURCE: Resources/Locale/en-US/_Mono/rank/ranks.ftl
+tsfn-e3-cn = HJ3-ZW
+
+## SOURCE: Resources/Locale/en-US/_Mono/rank/ranks.ftl
+tsfn-e7-cn = HJ7-SX
+
+## SOURCE: Resources/Locale/en-US/_Mono/store/pdv-uplink-catalog.ftl
+uplink-pdv-t0-voucher-desc = A single-use voucher for any small ship.
+
+## SOURCE: Resources/Locale/en-US/_Mono/store/pdv-uplink-catalog.ftl
+uplink-pdv-t1-hourglass-voucher-desc = A small card that contains the data for the procurement of an Hourglass-class escort from the flagship's reserves.
+
+## SOURCE: Resources/Locale/en-US/_Mono/store/pdv-uplink-catalog.ftl
+uplink-pdv-t1-scorpion-voucher-desc = A small card that contains the data for the procurement of a Scorpion-class escort from the flagship's reserves.
+
+## SOURCE: Resources/Locale/en-US/_Mono/store/pdv-uplink-catalog.ftl
+uplink-pdv-t2-motleyanne-voucher-desc = A small card that contains the data for the procurement of a Motley Anne-class carrier from the flagship's reserves.
+
+## SOURCE: Resources/Locale/en-US/_Mono/store/pdv-uplink-catalog.ftl
+uplink-pdv-t4-saturn-voucher-desc = A small card that authorizes the procurement of the Saturn.
+
+## SOURCE: Resources/Locale/en-US/_Mono/store/pdv-uplink-catalog.ftl
+uplink-pirate-explosivegrenade-desc = A grenade that causes a large explosion, damaging infrastructure and personnel nearby.
+
+# MARK: $Gambling$
+
+## SOURCE: Resources/Locale/en-US/_Mono/store/pdv-uplink-catalog.ftl
+uplink-pirate-shrapnelgrenade-desc = A grenade that releases a large burst of lethal shrapnel.
+
+## SOURCE: Resources/Locale/en-US/_Mono/store/tsfmc-uplink-catalog.ftl
+uplink-security-t3-polaris-voucher-desc = A small card that contains the data for the procurement of an Type-56D Polaris-class frigate from the flagship's reserves.
+
+## SOURCE: Resources/Locale/en-US/_Mono/rank/ranks.ftl
+ussp-or3 = MlSrz.
+
+### Serzhant Ranks
+
+## SOURCE: Resources/Locale/en-US/alert-levels/alert-levels.ftl
+war-level-announcement-pre = ATTENTION! TSF and PDV high command have called a ceasefire on base strikes!
+
+## SOURCE: Resources/Locale/en-US/_Mono/advertisements/vending/barista.ftl
+wayward-comments-ads-6 = help...help...
