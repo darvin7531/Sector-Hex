@@ -45,3 +45,6 @@ ledger-entry-type-StationWithdrawalWorkOrder = Work Orders
 ledger-entry-type-StationWithdrawalSupplies = Supply Expenses
 ledger-entry-type-StationWithdrawalBounty = Bounties
 ledger-entry-type-StationWithdrawalOther = Misc. Expenses
+
+ledger-tab-Mieyo = MMC
+# Резервный вариант: если отображается это, что-то пошло не так.

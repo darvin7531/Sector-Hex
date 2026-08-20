@@ -19,3 +19,5 @@ research-technology-ussp-ships-advanced = Корабли СССП III уровн
 research-technology-ussp-ships-ledokol = Ваучер на шаттл СССП "Ledokol"
 research-technology-ussp-suits-advanced = Продвинутое снаряжение СССП
 research-technology-ussp-ammo-advanced = Продвинутые боеприпасы СССП
+
+research-discipline-ussp = СССР

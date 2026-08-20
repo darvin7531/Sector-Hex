@@ -19,3 +19,5 @@ stamp-component-stamped-name-ussp-stratcomm = СТРАТКОМ ЮССП
 stamp-component-stamped-name-ussp-taccomm = ТАККОМ ЮССП
 
 stamp-component-stamped-name-winter-solstice = Командование локальных операций ТСФ
+
+stamp-component-stamped-name-mmc-liason = Представитель корпорации «Миеё»

@@ -4,3 +4,5 @@ company-access-denied = В доступе отказано: необходимы
 company-pdv-access-denied = Доступ запрещён: требуются биометрические данные PDV
 
 company-tsf-access-denied = Доступ запрещён: требуются биометрические данные TSF
+
+company-neutral-access-denied = Доступ запрещён: неверные биометрические данные компании

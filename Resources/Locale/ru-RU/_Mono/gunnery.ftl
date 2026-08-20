@@ -18,3 +18,5 @@ gunnery-shield-normal = Щит поднят
 gunnery-shield-under-load = Под нагрузкой
 gunnery-shield-overload = Получение повреждений
 gunnery-shield-recovery-label = Осталось { $time } сек.
+
+gunnery-server-examine-pacifist-grid = [color=crimson]Сетка, к которой он пристыкован, не может использовать корабельное вооружение![/color]

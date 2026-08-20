@@ -11,3 +11,5 @@ ghost-role-information-marsoc-rules =
     You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
     You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
     You are absolutely [color=red]NOT[/color] allowed to remember the name, appearance, etc. of your previous character.
+
+ghost-role-information-marsoc-specialist-name = Специалист по вооружению MARSOC

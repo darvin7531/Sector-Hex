@@ -25,3 +25,27 @@ advertisement-uplink-ads-4 = СОЕДИНЕНИЕ СО СНАБЖЕНИЕМ УС
 advertisement-uplink-ads-5 = ПОДДЕРЖАНИЕ ЦЕЛОСТНОСТИ ПОСТАВОК.
 
 advertisement-uplink-ads-6 = ОБОРУДОВАНИЕ НАЛИЧНО, ОЖИДАНИЕ ПРИКАЗА НА ВЫДАЧУ.
+
+advertisement-mieyo-ads-1 = Пусть ваш день будет миеётным!
+
+wayward-comments-ads-5 = где... ты?
+
+advertisement-mieyo-ads-2 = Фено-Mieyoчного дня!
+
+wayward-comments-ads-6 = помогите... помогите...
+
+wayward-comments-ads-7 = сыграем...?
+
+wayward-comments-ads-1 = Я...
+
+wayward-comments-ads-8 = найди...это...!
+
+wayward-comments-ads-10 = нужно...
+
+wayward-comments-ads-9 = пожалуйста...
+
+wayward-comments-ads-2 = Кто..?
+
+wayward-comments-ads-3 = Вот...!
+
+wayward-comments-ads-4 = время... для...

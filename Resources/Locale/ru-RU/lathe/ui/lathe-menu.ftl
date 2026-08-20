@@ -41,3 +41,7 @@ lathe-menu-item-single = { $index }. { $name }
 lathe-menu-item-batch = { $index }. { $name } ({ $printed }/{ $total })
 lathe-menu-skip = Skip If Insufficient
 lathe-menu-loop = Loop
+
+lathe-menu-entity-amount-missing = {$amount} ед. {$material} ([color=red]не хватает {$missingAmount}[/color])
+
+lathe-menu-reagent-amount-missing = {$amount} ед. {$material} ([color=red]не хватает {$missingAmount} ед.[/color])

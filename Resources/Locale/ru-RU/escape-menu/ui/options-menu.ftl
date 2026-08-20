@@ -404,3 +404,5 @@ ui-options-function-toggle-focus = Переключить фокус
 ui-options-header-targeting = Прицеливание
 
 ui-options-radio-noise = Воспроизводить шум радио
+
+ui-options-disable-nv-noise = Отключить эффект шума на оверлее ночного видения

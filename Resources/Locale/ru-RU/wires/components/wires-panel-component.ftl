@@ -40,3 +40,5 @@ wire-letter-name-phi = Фи
 wire-letter-name-chi = Хи
 wire-letter-name-psi = Пси
 wire-letter-name-omega = Омега
+
+wires-panel-verb-view-panel = Осмотреть панель обслуживания

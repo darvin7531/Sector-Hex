@@ -44,3 +44,7 @@ JobSeniorResearcher = Senior Researcher
 job-name-nf-detective = Детектив
 
 job-name-pal = Представитель по связям с общественностью
+
+job-name-pdv-tarkhan = Тархан ПДВ
+
+job-name-tsf-marsoc = Оперативник MARSOC КМП КТСФ

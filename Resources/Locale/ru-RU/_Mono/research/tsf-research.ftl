@@ -40,3 +40,7 @@ research-technology-tsfmc-tier-one-vouchers = Производство 1-го к
 research-technology-tsfmc-tier-three-vouchers = Производство 3-го класса
 
 research-technology-tsfmc-tier-two-vouchers = Производство 2-го класса
+
+research-technology-tsfmc-shunt = Кибернетика чёрного объекта ТСФМП
+
+research-technology-tsfmc-sandevistan = Обратная разработка Сандевистана ТСФМК

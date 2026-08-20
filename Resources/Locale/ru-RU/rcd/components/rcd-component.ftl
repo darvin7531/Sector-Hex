@@ -148,3 +148,11 @@ rcd-component-PlatingHalfTiltNWEUpper = Плита полунаклон NWE ве
 rcd-component-PlatingHalfTiltNWSUpper = Плита полунаклон NWS верхняя
 
 rcd-component-PlatingHalfTiltSEWUpper = Плита полунаклон SEW верхняя
+
+rcd-component-atmosphericutility = Атмосферная утилита
+
+rcd-component-piping = Трубопроводы
+
+rcd-component-pumps = Насосы и клапаны
+
+rcd-component-vents = Вентиляция

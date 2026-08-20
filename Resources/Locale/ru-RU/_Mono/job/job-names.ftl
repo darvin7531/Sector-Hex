@@ -18,3 +18,19 @@ JobTsfBorg = Борг КВП ТСФ
 # MARK: PDV
 job-name-pdv-borg = Борг ДФ
 JobPdvBorg = Борг ДФ
+
+job-name-mmc-liason = Корпоративный связной КМК
+
+job-supervisors-mmc-liason = корпоративный связной
+
+job-name-mmc-security = Корпоративная служба безопасности MMC
+
+job-name-vg-commander = Командир ГГ
+
+job-name-vg-infanteer = Пехотинец VG
+
+job-name-vg-lieutenant = Лейтенант VG
+
+job-name-mmc-employee = Сотрудник MMC
+
+job-supervisors-mmc-highcomm = совет директоров Mieyo

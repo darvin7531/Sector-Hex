@@ -10,3 +10,13 @@ voucher-current-cooldown-seconds = Этот ваучер на перезаряд
 voucher-current-redemptions = У этого ваучера осталось [color=yellow]{$count}[/color] активаций.
 
 voucher-infinite-redemptions = У этого ваучера [color=yellow]бесконечное[/color] количество активаций.
+
+shipyard-preview-data-label = Данные корабля:
+
+shipyard-preview-exit = Выйти из предпросмотра
+
+shipyard-preview-tile-count = Количество тайлов: {$count}
+
+shipyard-preview-ui-title = Предпросмотрщик 100
+
+shipyard-console-preview = Предпросмотр

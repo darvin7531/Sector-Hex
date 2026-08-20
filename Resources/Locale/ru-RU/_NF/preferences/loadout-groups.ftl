@@ -23,3 +23,5 @@ loadout-group-contractor-implanter = implanters
 loadout-group-contractor-bureaucracy = bureaucracy
 
 loadout-group-contractor-armorplates = бронепластины
+
+loadout-group-mieyo-products = Продукция MMC

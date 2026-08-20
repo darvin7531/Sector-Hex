@@ -98,3 +98,5 @@ shipyard-console-armament-default = Не указано
 shipyard-console-engine-NFR = NFR
 
 shipyard-console-no-unassign = Карта не может открепить право собственности.
+
+shipyard-console-timelock = Сейчас вы не можете развернуть это судно.

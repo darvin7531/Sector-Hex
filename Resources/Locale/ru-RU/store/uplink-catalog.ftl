@@ -344,3 +344,5 @@ uplink-clothing-thieving-gloves-desc = Discretely steal from pockets and improve
 uplink-revolver-python-desc = A brutally simple, effective, and loud Syndicate revolver. Comes loaded with armor-piercing rounds. Uses .45 magnum.
 uplink-revolver-python-name = Python
 uplink-speedloader-45_magnum-name = Speedloader (.45 magnum AP)
+
+uplink-speedloader-357_magnum-name = Спидлоадер (.357 магнум ББ)

@@ -45,3 +45,7 @@ research-technology-rogue-tier-one-vouchers = Производство ПДВ 1-
 research-technology-rogue-tier-three-vouchers = Производство ПДВ 3-го класса
 
 research-technology-rogue-tier-two-vouchers = Производство ПДВ 2-го класса
+
+research-technology-pdv-ias = Кардиореспираторная бионика ДФ
+
+research-technology-rogue-advanced-melee-weapon = Продвинутое вооружение ближнего боя

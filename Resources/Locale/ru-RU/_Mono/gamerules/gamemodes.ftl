@@ -12,3 +12,15 @@ mono-chimera-title = Biothreat (TSF|PDV)
 mono-chimera-description = Native PDV imperials threaten TSF colonial expansion into the sector. The effects of a far away letoferol outbreak seep in.
 mono-allatonce-title = Apocalypse (ALL)
 mono-allatonce-description = A battleground between PD, and TSF forces alike, with ancient ADS systems and Chimera bioweapons seeping in.
+
+mono-secret-title = Секретно (?)
+
+mono-roguetsf-hyperwar-description = PDV и TSF объявили тотальную войну, все гражданские эвакуированы из сектора.
+
+mono-roguetsf-hyperwar-nuclear-description = ДФ и ТСФ объявили тотальную войну, все гражданские эвакуированы из сектора. Победитель раунда определяется тем, кто взорвёт бомбу.
+
+mono-roguetsf-hyperwar-nuclear-title = Ядерная гипервойна (TSF|PDV)
+
+mono-roguetsf-hyperwar-title = Гипервойна (TSF|PDV)
+
+mono-secret-description = Главная угроза раунда неизвестна. Вам придётся выяснить это позже.

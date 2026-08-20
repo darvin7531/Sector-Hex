@@ -36,3 +36,5 @@ guide-entry-shipyard-nfr = Руководство по эксплуатации 
 guide-entry-mechs = Мехи
 
 guide-entry-s4mechs = Мехи серии 4
+
+guide-entry-xenoborgs = Ксеноборги

@@ -73,3 +73,6 @@ command-description-dynamicrule-dryrun = Returns a list of rules that could be a
 command-description-dynamicrule-executenow = Executes the piped dynamic rule as if it had reached its regular update time.
 command-description-dynamicrule-rules = Gets a list of all the rules spawned by the piped dynamic rule.
 command-description-stationevent-simulate = Simulates N number of rounds in which events will occur and prints the occurrences of every event after.
+
+command-description-jobs-unlimited =
+    Делает количество слотов для указанной должности неограниченным.
