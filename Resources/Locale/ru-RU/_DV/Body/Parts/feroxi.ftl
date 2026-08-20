@@ -1,0 +1,10 @@
+ent-LeftHandFeroxi = левая рука ферокси
+ent-LeftLegFeroxi = левая нога ферокси
+ent-RightArmFeroxi = правая рука ферокси
+ent-RightFootFeroxi = правая стопа ферокси
+ent-RightHandFeroxi = правая рука ферокси
+ent-HeadFeroxi = голова ферокси
+ent-RightLegFeroxi = правая нога ферокси
+ent-LeftArmFeroxi = левая рука ферокси
+ent-TorsoFeroxi = торс ферокси
+ent-LeftFootFeroxi = левая стопа ферокси

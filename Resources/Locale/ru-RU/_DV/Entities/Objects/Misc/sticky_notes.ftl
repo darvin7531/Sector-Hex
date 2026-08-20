@@ -1,0 +1,9 @@
+ent-PaperStickyNoteStackFilledBlue = стопка клейких заметок
+ent-PaperStickyNoteStackFilledGreen = стопка клейких заметок
+ent-PaperStickyNoteStackFilledPink = стопка клейких заметок
+ent-PaperStickyNoteStackGreen = стопка клейких заметок
+ent-PaperStickyNote = стикер
+ent-PaperStickyNoteStackPink = стопка розовых стикеров
+ent-PaperStickyNoteStack = стопка стикеров
+ent-PaperStickyNoteStackBlue = стопка синих стикеров
+ent-PaperStickyNoteStackFilled = стопка стикеров

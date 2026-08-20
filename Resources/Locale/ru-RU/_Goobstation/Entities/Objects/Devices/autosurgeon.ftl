@@ -1,0 +1,5 @@
+ent-AutosurgeonLeftMantisBlade = автохирург Синдиката (левое лезвие богомола)
+ent-AutosurgeonLeftSpeedLeg = автохирург (левая нога S.P.E.E.D)
+ent-AutosurgeonRightMantisBlade = автохирург Синдиката (правое лезвие богомола)
+ent-AutosurgeonRightSpeedLeg = автохирург (правая нога S.P.E.E.D.)
+ent-AutosurgeonSandevistan = автохирург синдиката (сандевистан)

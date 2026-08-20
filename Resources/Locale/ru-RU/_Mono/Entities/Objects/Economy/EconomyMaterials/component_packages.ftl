@@ -1,0 +1,9 @@
+ent-MaterialIndustryFCS = набор компонентов системы управления огнём
+ent-MaterialIndustryMechanical = комплект механических деталей
+ent-MaterialIndustryPlates = комплект деталей брони
+ent-MaterialIndustryRecievers = набор деталей приёмника
+ent-MaterialIndustrySensors = комплект деталей датчиков
+ent-MaterialIndustryShip = набор корабельных деталей
+ent-MaterialIndustryElectronics = набор электронных компонентов
+ent-MaterialIndustrySterile = набор стерильных компонентов
+ent-MaterialIndustryElectronicsAdvanced = набор продвинутых электронных компонентов

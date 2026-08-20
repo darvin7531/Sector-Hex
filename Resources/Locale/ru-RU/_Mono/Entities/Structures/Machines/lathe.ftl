@@ -1,0 +1,13 @@
+ent-IndustrialPressEconomyPlates = промышленный пресс (пластины)
+ent-IndustrialPressEconomyPlatesMMC = промышленный пресс (пластины)
+ent-CentrifugeLathe = промышленная центрифуга для переработки урана
+ent-MMCLathe = многоцелевой сборщик MMC
+ent-CentrifugeLatheMini = миниатюрная промышленная центрифуга для переработки урана
+ent-PrecisionAssemblerEconomy = прецизионный сборщик
+ent-IndustrialFurnaceEconomy = промышленная дуговая печь
+ent-PrecisionAssemblerEconomyCompact = компактный точный сборщик
+ent-IndustrialFurnaceEconomyCompact = компактная дуговая печь
+ent-USSPLathe = полевой сборщик USSP
+ent-IndustrialPressEconomyElectronics = промышленный пресс (электроника)
+ent-ViperLathe = прецизионный станок группы «Вайпер»
+ent-IndustrialPressEconomyElectronicsMMC = промышленный пресс (электроника)

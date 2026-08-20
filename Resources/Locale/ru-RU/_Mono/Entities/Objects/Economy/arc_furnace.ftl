@@ -1,0 +1,17 @@
+ent-ArmorPlateEconomy2Start = тяжёлая бронепластина (незавершённая)
+ent-SiliconBouleEconomy = кремниевая була
+ent-ArmorPlateEconomy2UnfinishedSpawner = тяжёлая бронеплита (незавершённая)
+ent-SiliconBouleScrapEconomy = обломки кремниевой болванки
+ent-ArmorPlateEconomy3 = плита композитной брони
+ent-SiliconWaferEconomy = кремниевая пластина
+ent-ArmorPlateEconomy3Broken = сломанная плита композитной брони
+ent-SiliconWaferEconomySliceSpawner8 = кремниевая пластина (×8)
+ent-ArmorPlateEconomy1 = базовая бронепластина
+ent-ArmorPlateEconomy3Fragment = фрагмент композитной бронепластины
+ent-SiliconWaferScrapEconomy = лом кремниевых пластин
+ent-ArmorPlateEconomy1Broken = сломанная базовая бронепластина
+ent-ArmorPlateEconomy4 = бронепластина EMAG
+ent-ArmorPlateEconomy2 = тяжёлая бронепластина
+ent-ArmorPlateEconomy4Broken = сломанная бронепластина EMAG
+ent-ArmorPlateEconomy2Broken = сломанная тяжёлая бронепластина
+ent-ArmorPlateEconomy4Start = бронепластина EMAG (незавершённая)

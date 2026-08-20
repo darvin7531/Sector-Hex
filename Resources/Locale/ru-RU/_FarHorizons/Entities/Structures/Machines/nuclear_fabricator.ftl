@@ -1,0 +1,1 @@
+ent-NuclearFabricator = ядерный фабрикатор

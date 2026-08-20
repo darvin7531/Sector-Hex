@@ -1,8 +1,8 @@
-ent-ClothingWalletLeatherBrown = leather wallet
-    .desc = Surprisingly thick. Careful not to lose it, and don't sit on it. Comes with a little money vacuum.
+ent-ClothingWalletLeatherBrown = кожаный бумажник
+    .desc = На удивление толстый. Постарайтесь не потерять его и не садиться на него. Внутри есть небольшой вакуумный отсек для денег.
 ent-ClothingWalletLeatherBlack = { ent-ClothingWalletLeatherBrown }
     .desc = { ent-ClothingWalletLeatherBrown.desc }
 ent-ClothingWalletLeatherMail = { ent-ClothingWalletLeatherBrown }
-    .desc = On the inside is an embroidered picture of a cat, a heart, and the word "CLIPPY". Comes with a little money vacuum.
+    .desc = Внутри вышиты кот, сердце и слово «CLIPPY». Есть небольшой вакуумный отсек для денег.
 ent-ClothingWalletLeatherPirate = { ent-ClothingWalletLeatherBrown }
-    .desc = There's an old picture of a cat with a beard inside. Comes with a little money vacuum.
+    .desc = Внутри лежит старая фотография бородатого кота. Есть небольшой вакуумный отсек для денег.

@@ -1,0 +1,1 @@
+ent-NukeTestingProjectile = ядерный лобстер

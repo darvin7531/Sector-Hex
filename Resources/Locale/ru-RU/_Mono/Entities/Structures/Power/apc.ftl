@@ -1,0 +1,1 @@
+ent-LargeAPC = подстанция LAPC

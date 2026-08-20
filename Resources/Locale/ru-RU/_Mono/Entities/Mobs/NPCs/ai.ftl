@@ -1,0 +1,11 @@
+ent-NpcStationAiApproacherDodger = ядро приближения
+ent-SpawnMobDroneAiAssembly = спавнер ядра атакующего дрона
+ent-SpawnMobDroneAiDander = спавнер ядра орбитёра
+ent-SpawnMobDroneAiLance = спавнер ядра атакующего дрона
+ent-NpcDroneAiDander = ядро орбитера
+ent-SpawnMobDroneAiMPulsar = спавнер ядра атакующего дрона
+ent-NpcDroneAiLance = ядро атакующего
+ent-SpawnMobDroneAiQuake = спавнер ядра атакующего
+ent-NpcDroneAiMPulsar = ядро атакующего дрона
+ent-SpawnMobNpcStationAiAttackerBroadside = спавнер ядра атакующего дрона Broadside
+ent-NpcDroneAiQuake = ядро атакующего

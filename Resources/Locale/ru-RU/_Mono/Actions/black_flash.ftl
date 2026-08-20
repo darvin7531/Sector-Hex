@@ -1,0 +1,1 @@
+ent-ActionBlackFlash = Чёрная вспышка
