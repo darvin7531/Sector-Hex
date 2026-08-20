@@ -1,5 +1,5 @@
 - type: entity
-  id: NovaCygniTranslator
+  id: ClassicalEnglishTranslator
   parent: [ TranslatorPoweredBase ]
   name: Classical English translator
   description: Translates speech between Classical English and Andromeda Standard.  
