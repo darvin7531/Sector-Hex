@@ -85,4 +85,26 @@ public sealed class ProceduralReagentGeneratorTest
 
         await pair.CleanReturnAsync();
     }
+
+    [Test]
+    public async Task CompletePropertyCombinationCreatesResultWithPotencyDifference()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var generator = pair.Server.System<ProceduralReagentGeneratorSystem>();
+        generator.ReloadRules();
+        var reagent = new GeneratedReagentData();
+        reagent.Effects["MonoTestMuscleStimulating"] = 2;
+
+        var inserted = generator.InsertProperty(ref reagent, "MonoTestCardiopeutic", 3);
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(inserted, Is.True);
+            Assert.That(reagent.Effects["MonoTestMuscleStimulating"], Is.EqualTo(1));
+            Assert.That(reagent.Effects["MonoTestDefibrillating"], Is.EqualTo(1));
+            Assert.That(reagent.Effects.ContainsKey("MonoTestCardiopeutic"), Is.False);
+        });
+
+        await pair.CleanReturnAsync();
+    }
 }
