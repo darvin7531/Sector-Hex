@@ -68,23 +68,26 @@ public sealed partial class MonoChemicalEffectTest
     {
         await using var pair = await PoolManager.GetServerClient();
         var server = pair.Server;
-        var entMan = server.ResolveDependency<IEntityManager>();
-        var prototypes = server.ResolveDependency<IPrototypeManager>();
-        var damageable = server.System<DamageableSystem>();
-        var target = entMan.SpawnEntity(TestEntity, MapCoordinates.Nullspace);
-        var component = entMan.GetComponent<DamageableComponent>(target);
-        var blunt = prototypes.Index<DamageTypePrototype>("Blunt");
-        var reagent = prototypes.Index<ReagentPrototype>(PlainReagent);
-        var args = ReagentArgs(target, entMan, reagent, 1);
-
-        damageable.TryChangeDamage(target, new DamageSpecifier(blunt, 10), true);
-        new Neogenetic { Potency = 8 }.Effect(args);
-        new Toxic { Potency = 8 }.Effect(args);
-
-        Assert.Multiple(() =>
+        await server.WaitAssertion(() =>
         {
-            Assert.That(component.Damage.DamageDict["Blunt"], Is.EqualTo((FixedPoint2) 8));
-            Assert.That(component.Damage.DamageDict["Poison"], Is.EqualTo((FixedPoint2) 2));
+            var entMan = server.ResolveDependency<IEntityManager>();
+            var prototypes = server.ResolveDependency<IPrototypeManager>();
+            var damageable = server.System<DamageableSystem>();
+            var target = entMan.SpawnEntity(TestEntity, MapCoordinates.Nullspace);
+            var component = entMan.GetComponent<DamageableComponent>(target);
+            var blunt = prototypes.Index<DamageTypePrototype>("Blunt");
+            var reagent = prototypes.Index<ReagentPrototype>(PlainReagent);
+            var args = ReagentArgs(target, entMan, reagent, 1);
+
+            damageable.TryChangeDamage(target, new DamageSpecifier(blunt, 10), true);
+            new Neogenetic { Potency = 8 }.Effect(args);
+            new Toxic { Potency = 8 }.Effect(args);
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(component.Damage.DamageDict["Blunt"], Is.EqualTo((FixedPoint2) 8));
+                Assert.That(component.Damage.DamageDict["Poison"], Is.EqualTo((FixedPoint2) 2));
+            });
         });
 
         await pair.CleanReturnAsync();
@@ -95,15 +98,18 @@ public sealed partial class MonoChemicalEffectTest
     {
         await using var pair = await PoolManager.GetServerClient();
         var server = pair.Server;
-        var entMan = server.ResolveDependency<IEntityManager>();
-        var prototypes = server.ResolveDependency<IPrototypeManager>();
-        var target = entMan.SpawnEntity(TestEntity, MapCoordinates.Nullspace);
-        var component = entMan.GetComponent<DamageableComponent>(target);
-        var reagent = prototypes.Index<ReagentPrototype>(BoostedReagent);
+        await server.WaitAssertion(() =>
+        {
+            var entMan = server.ResolveDependency<IEntityManager>();
+            var prototypes = server.ResolveDependency<IPrototypeManager>();
+            var target = entMan.SpawnEntity(TestEntity, MapCoordinates.Nullspace);
+            var component = entMan.GetComponent<DamageableComponent>(target);
+            var reagent = prototypes.Index<ReagentPrototype>(BoostedReagent);
 
-        new Toxic { Potency = 8 }.Effect(ReagentArgs(target, entMan, reagent, 1));
+            new Toxic { Potency = 8 }.Effect(ReagentArgs(target, entMan, reagent, 1));
 
-        Assert.That(component.Damage.DamageDict["Poison"], Is.EqualTo(FixedPoint2.New(2.5f)));
+            Assert.That(component.Damage.DamageDict["Poison"], Is.EqualTo(FixedPoint2.New(2.5f)));
+        });
         await pair.CleanReturnAsync();
     }
 
@@ -118,18 +124,21 @@ public sealed partial class MonoChemicalEffectTest
     {
         await using var pair = await PoolManager.GetServerClient();
         var server = pair.Server;
-        var entMan = server.ResolveDependency<IEntityManager>();
-        var reagent = server.ResolveDependency<IPrototypeManager>().Index<ReagentPrototype>(PlainReagent);
-        var effect = new ProbeChemicalEffect { Potency = 8 };
-
-        effect.Effect(ReagentArgs(entMan.SpawnEntity(TestEntity, MapCoordinates.Nullspace), entMan, reagent, quantity));
-
-        Assert.Multiple(() =>
+        await server.WaitAssertion(() =>
         {
-            Assert.That(effect.RegularTicks, Is.EqualTo(regularTicks));
-            Assert.That(effect.OverdoseTicks, Is.EqualTo(overdoseTicks));
-            Assert.That(effect.CriticalTicks, Is.EqualTo(criticalTicks));
-            Assert.That(effect.LastPotency, Is.EqualTo((FixedPoint2) 2));
+            var entMan = server.ResolveDependency<IEntityManager>();
+            var reagent = server.ResolveDependency<IPrototypeManager>().Index<ReagentPrototype>(PlainReagent);
+            var effect = new ProbeChemicalEffect { Potency = 8 };
+
+            effect.Effect(ReagentArgs(entMan.SpawnEntity(TestEntity, MapCoordinates.Nullspace), entMan, reagent, quantity));
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(effect.RegularTicks, Is.EqualTo(regularTicks));
+                Assert.That(effect.OverdoseTicks, Is.EqualTo(overdoseTicks));
+                Assert.That(effect.CriticalTicks, Is.EqualTo(criticalTicks));
+                Assert.That(effect.LastPotency, Is.EqualTo((FixedPoint2) 2));
+            });
         });
 
         await pair.CleanReturnAsync();
