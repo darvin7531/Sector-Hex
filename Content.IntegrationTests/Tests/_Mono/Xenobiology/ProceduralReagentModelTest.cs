@@ -9,6 +9,7 @@ using Robust.Shared.Prototypes;
 namespace Content.IntegrationTests.Tests._Mono.Xenobiology;
 
 [TestFixture]
+[NonParallelizable]
 public sealed class ProceduralReagentModelTest
 {
     private static readonly ProtoId<ReagentPrototype> TestReagent = "MonoTestProceduralReagent";
