@@ -118,4 +118,26 @@ public sealed class XenoLifecycleTest
 
         await pair.CleanReturnAsync();
     }
+
+    [Test]
+    public async Task StandardHumanoidAndMonkeyAreValidHosts()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var server = pair.Server;
+        var map = await pair.CreateTestMap();
+
+        await server.WaitAssertion(() =>
+        {
+            var human = server.EntMan.SpawnEntity("MobHuman", map.GridCoords);
+            var monkey = server.EntMan.SpawnEntity("MobMonkey", map.GridCoords);
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(server.EntMan.HasComponent<InfectableHostComponent>(human), Is.True);
+                Assert.That(server.EntMan.HasComponent<InfectableHostComponent>(monkey), Is.True);
+            });
+        });
+
+        await pair.CleanReturnAsync();
+    }
 }
