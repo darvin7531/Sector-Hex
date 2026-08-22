@@ -1,0 +1,31 @@
+- type: entity
+  id: MonoXenoEgg
+  name: laboratory xeno egg
+  description: A contained alien organism. Use it to begin placement, then activate it once fully grown.
+  parent: BaseItem
+  components:
+  - type: Sprite
+    sprite: Objects/Consumable/Food/egg.rsi
+    state: icon
+    color: "#588157"
+  - type: Item
+    size: Normal
+    sprite: Objects/Consumable/Food/egg.rsi
+  - type: XenoEgg
+
+- type: entity
+  id: MonoXenoParasite
+  name: xeno parasite
+  description: A small alien parasite seeking a viable host.
+  parent: MobXenoRunner
+  components:
+  - type: XenoParasite
+  - type: GhostTakeoverAvailable
+
+- type: entity
+  id: MonoXenoLarva
+  name: xeno larva
+  description: An immature xenobiological organism.
+  parent: MobXenoDrone
+  components:
+  - type: GhostTakeoverAvailable
