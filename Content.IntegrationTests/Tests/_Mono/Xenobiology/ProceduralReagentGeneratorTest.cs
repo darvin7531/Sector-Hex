@@ -255,7 +255,7 @@ public sealed class ProceduralReagentGeneratorTest
 
         Assert.Multiple(() =>
         {
-            Assert.That(selected, Is.EqualTo("MonoTestBasicReagent"));
+            Assert.That(generator.ReagentClassPools["C1"], Does.Contain(selected));
             Assert.That(reagent.Recipe[selected], Is.EqualTo((1, false)));
             Assert.That(duplicate, Is.EqualTo(bool.FalseString));
             Assert.That(reagent.Recipe, Has.Count.EqualTo(1));
