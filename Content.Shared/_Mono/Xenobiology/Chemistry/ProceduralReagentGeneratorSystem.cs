@@ -10,14 +10,17 @@ namespace Content.Shared._Mono.Xenobiology.Chemistry;
 public sealed partial class ProceduralReagentGeneratorSystem : EntitySystem
 {
     private static readonly ProtoId<DatasetPrototype> ConflictsDataset = "MonoReagentConflictingProperties";
+    private static readonly ProtoId<DatasetPrototype> CombinationsDataset = "MonoReagentCombiningProperties";
 
     [Dependency] private readonly IPrototypeManager _prototypes = default!;
 
     private readonly List<(string First, string Second)> _conflicts = [];
+    private readonly Dictionary<string, HashSet<string>> _combinations = [];
 
     public void ReloadRules()
     {
         _conflicts.Clear();
+        _combinations.Clear();
 
         if (_prototypes.TryIndex(ConflictsDataset, out var conflicts))
         {
@@ -26,6 +29,16 @@ public sealed partial class ProceduralReagentGeneratorSystem : EntitySystem
                 var pair = value.Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
                 if (pair.Length == 2)
                     _conflicts.Add((pair[0], pair[1]));
+            }
+        }
+
+        if (_prototypes.TryIndex(CombinationsDataset, out var combinations))
+        {
+            foreach (var value in combinations.Values)
+            {
+                var parts = value.Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
+                if (parts.Length >= 3)
+                    _combinations[parts[0]] = parts[1..].ToHashSet();
             }
         }
     }
@@ -41,6 +54,31 @@ public sealed partial class ProceduralReagentGeneratorSystem : EntitySystem
         var propertyToAdd = property;
         var levelToAdd = level;
         var effects = data.Effects;
+
+        foreach (var (result, ingredients) in _combinations)
+        {
+            if (!ingredients.Contains(property))
+                continue;
+
+            var existingIngredients = ingredients
+                .Where(id => id != property && effects.ContainsKey(id))
+                .ToList();
+            if (existingIngredients.Count != ingredients.Count - 1)
+                continue;
+
+            propertyToAdd = result;
+            foreach (var existing in existingIngredients)
+            {
+                levelToAdd = Math.Max(Math.Abs(levelToAdd - effects[existing]), 1);
+                if (!_prototypes.Index<ReagentPropertyPrototype>(existing).Category.HasFlag(ReagentPropertyType.Catalyst))
+                {
+                    effects[existing] -= levelToAdd;
+                    if (effects[existing] <= 0)
+                        effects.Remove(existing);
+                }
+            }
+            break;
+        }
 
         var conflict = _conflicts.FirstOrDefault(pair =>
             pair.First == propertyToAdd && effects.ContainsKey(pair.Second) ||
