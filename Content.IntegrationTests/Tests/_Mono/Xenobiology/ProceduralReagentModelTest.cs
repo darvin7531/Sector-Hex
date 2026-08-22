@@ -1,6 +1,9 @@
+using System.Collections.Generic;
 using Content.Shared._Mono.Xenobiology.Chemistry;
+using Content.Shared.Chemistry.Reaction;
 using Content.Shared.Chemistry.Reagent;
 using Content.Shared.FixedPoint;
+using Robust.Shared.Maths;
 using Robust.Shared.Prototypes;
 
 namespace Content.IntegrationTests.Tests._Mono.Xenobiology;
@@ -90,6 +93,55 @@ public sealed class ProceduralReagentModelTest
             Assert.That(generated.Effects, Is.Empty);
             Assert.That(generated.Recipe, Is.Empty);
             Assert.That(generated.ModifiedChems, Is.Empty);
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task GeneratedReagentRegistersRuntimeReagentAndReaction()
+    {
+        await using var pair = await PoolManager.GetServerClient(new PoolSettings { Dirty = true });
+        var server = pair.Server;
+        var prototypes = server.ResolveDependency<IPrototypeManager>();
+        var registry = server.System<ProceduralReagentRegistrySystem>();
+        const string generatedId = "MonoRuntimeGeneratedReagent";
+
+        var generated = new GeneratedReagentData
+        {
+            ID = generatedId,
+            Name = "runtime generated reagent",
+            Class = ProceduralReagentClass.Uncommon,
+            Color = Color.FromHex("#654321"),
+            Recipe = new Dictionary<string, (int Amount, bool Catalyst)>
+            {
+                ["Water"] = (2, false),
+            },
+            RecipeYield = 1,
+            ScanPointYield = 5,
+            GenTier = 2,
+        };
+
+        await server.WaitPost(() => registry.Register(generated));
+        await server.WaitAssertion(() =>
+        {
+            var reagent = prototypes.Index<ReagentPrototype>(generatedId);
+            Assert.Multiple(() =>
+            {
+                Assert.That(reagent.Generated, Is.True);
+                Assert.That(reagent.Class, Is.EqualTo(ProceduralReagentClass.Uncommon));
+                Assert.That(reagent.Flags.HasFlag(ProceduralReagentFlag.Scannable), Is.True);
+                Assert.That(reagent.Reward, Is.EqualTo(5));
+                Assert.That(reagent.GenTier, Is.EqualTo(2));
+            });
+
+            var reaction = prototypes.Index<ReactionPrototype>(generatedId);
+            Assert.Multiple(() =>
+            {
+                Assert.That(reaction.Reactants["Water"].Amount, Is.EqualTo((FixedPoint2) 2));
+                Assert.That(reaction.Reactants["Water"].Catalyst, Is.False);
+                Assert.That(reaction.Products[generatedId], Is.EqualTo((FixedPoint2) 1));
+            });
         });
 
         await pair.CleanReturnAsync();
