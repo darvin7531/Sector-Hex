@@ -1,0 +1,1 @@
+ent-WeaponEnergyTurretStationControlPanel = панель управления сторожевой турелью

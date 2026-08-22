@@ -21,4 +21,6 @@ output-panel-scroll-down-button-text = Пролистнуть вниз
 
 ## Common Used
 
+window-search-bar-placeholder = Поиск
+window-clear-button = Очистить
 window-erase-button-text = Режим удаления

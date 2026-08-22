@@ -106,3 +106,15 @@ uplink-security-t3-altair-voucher-name = ТСФМК «Альтаир» ЛПК [T
 uplink-security-t1-sentinel-voucher-name = TSFMC Страж LPC [T1]
 
 uplink-security-t1-tarantula-voucher-name = TSFMC Тарантул LPC [T1]
+
+uplink-security-t3-fujian-voucher-name = ТСФМП «Фуцзянь» LPC [T3]
+
+uplink-security-t3-polaris-voucher-desc = Небольшая карта с данными для получения фрегата класса «Поларис» типа 56D из резервов флагмана.
+
+uplink-security-t3-polaris-voucher-name = TSFMC «Полярис» LPC [T3]
+
+uplink-security-t2-spekter-voucher-desc = Небольшая карта с данными для получения из резервов флагмана корвета класса «Спектер».
+
+uplink-security-t2-spekter-voucher-name = TSFMC Spekter LPC [T2]
+
+uplink-security-t3-fujian-voucher-desc = Небольшая карта с данными для получения из резервов флагмана эскортного авианосца класса «Фуцзянь» типа 53C.

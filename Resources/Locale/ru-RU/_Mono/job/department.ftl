@@ -3,3 +3,9 @@ department-PMC = Private Military Contractors
 department-UnionOfSovietSocialistPlanets = Union of Soviet Socialist Planets
 department-UnionOfSovietSocialistPlanets-description = Serve the glorious Union in space against TSFMC and PDV forces.
 department-Medical = Служба Неотложной Медицинской Помощи
+
+department-MieyoManufacturingConcern = Производственный концерн «Миэйо»
+
+department-MieyoManufacturingConcern-description = Работайте в промышленном конгломерате MMC и производите для компании как можно больше.
+
+department-Viper = Группа «Гадюка»

@@ -24,3 +24,5 @@ comms-console-announcement-title-nukie = Синдиката
 comms-console-announcement-title-station-ai = Станционного ИИ
 comms-console-announcement-title-wizard = Мага
 comms-console-announcement-title-rogue = Авангарда Династии Фаэтон
+
+comms-console-announcement-title-mieyo = Производственный концерн «Миеё»

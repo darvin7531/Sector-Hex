@@ -43,3 +43,9 @@ lathe-category-attachments = Насадки для оружия
 lathe-category-guns-antitank = Противотанковое оружие
 
 lathe-category-nfr = Стержни NFR
+
+lathe-category-components = Промышленные компоненты
+
+lathe-category-altrecipes = Альтернативные рецепты
+
+lathe-category-componentmaterials = Упакованные компоненты

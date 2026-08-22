@@ -1,0 +1,14 @@
+ent-PDVOverwatchComputer = консоль наблюдения PDV
+ent-CCHandheldOverwatchConsole = ручная консоль наблюдения CCTC
+ent-TSFHandheldOverwatchConsole = ручная консоль наблюдения TSFMC
+ent-CCTCOverwatchComputer = консоль наблюдения CCTC
+ent-TSFOverwatchComputer = консоль наблюдения TSFMC
+ent-MDHandheldOverwatchConsole = ручная консоль наблюдения MD
+ent-USSPHandheldOverwatchConsole = ручная консоль наблюдения USSP
+ent-MDOverwatchComputer = консоль наблюдения MD
+ent-USSPOverwatchComputer = консоль наблюдения USSP
+ent-MMCHandheldOverwatchConsole = ручная консоль наблюдения MMC
+ent-VGHandheldOverwatchConsole = ручная консоль наблюдения VG
+ent-MMCOverwatchComputer = консоль наблюдения MMC
+ent-VGOverwatchComputer = консоль наблюдения VG
+ent-PDVHandheldOverwatchConsole = ручная консоль наблюдения PDV

@@ -31,3 +31,7 @@ role-subtype-subverted = Дефек Борг
 role-subtype-paradox-clone = Парадокс
 role-subtype-wizard = Маг
 role-subtype-changeling = Метаморф
+
+role-subtype-xenoborg = Ксеноборг
+
+role-subtype-xenoborg-core = Ядро ксеноборга

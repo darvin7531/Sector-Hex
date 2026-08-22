@@ -56,3 +56,5 @@ device-frequency-prototype-name-surveillance-camera-USSP = USSP Cameras
 # prefixes for randomly generated device addresses
 
 device-frequency-prototype-name-surveillance-camera-tsf = TSFMC Cameras
+
+device-frequency-prototype-name-surveillance-camera-xenoborgs = Камера ксеноборгов

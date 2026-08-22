@@ -69,3 +69,33 @@ shuttle-console-undock-all = Отстыковать все
 shuttle-console-dock-state-locked = СТЫК
 shuttle-console-dock-state-unlocked = ОТСТЫК
 shuttle-console-dock-label = Шлюз #{ $idx }
+
+shuttle-console-dock-toggle-short = СТЫКОВКИ
+
+shuttle-console-travel-state-grounded = На земле
+
+shuttle-console-iff-detailed = Подробный IFF
+
+shuttle-console-travel-state-hovering = Зависание
+
+shuttle-console-iff-detailed-short = D.IFF
+
+shuttle-console-travel-state-launching = Запуск ({$countdown})
+
+shuttle-console-iff-toggle-short = IFF
+
+shuttle-console-vertical-velocity = Вертикальная скорость:
+
+shuttle-console-track-label = TRACK.ID
+
+shuttle-console-vertical-velocity-value = {$velocity}
+
+shuttle-console-altitude = Высота:
+
+shuttle-console-track-unknown-label = TRACK.ID НЕИЗВЕСТЕН
+
+shuttle-console-altitude-value = {$altitude}
+
+shuttle-console-travel-state = Статус:
+
+shuttle-console-travel-state-flying = В полёте

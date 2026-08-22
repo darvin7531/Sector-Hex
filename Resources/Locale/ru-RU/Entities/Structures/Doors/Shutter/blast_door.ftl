@@ -1,0 +1,1 @@
+ent-BlastDoorXenoborg = бронешлюз ксеноборга

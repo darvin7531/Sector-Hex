@@ -1,0 +1,1 @@
+ent-ClassicalEnglishTranslator = переводчик классического английского

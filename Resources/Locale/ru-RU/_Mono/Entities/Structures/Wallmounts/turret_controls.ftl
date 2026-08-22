@@ -1,0 +1,12 @@
+ent-WeaponEnergyTurretFreeportControlPanel = панель управления сторожевой турелью Фрипорта
+ent-WeaponEnergyTurretMieyoControlPanel = панель управления турелью-часовым Mieyo
+ent-BallisticTurretHeavyAIFP = тяжёлая дистанционная турель-часовой Фрипорта
+ent-WeaponEnergyTurretPDVControlPanel = панель управления турелью-часовым PDV
+ent-BallisticTurretHeavyAIMieyo = тяжёлая дистанционная турель Mieyo
+ent-WeaponEnergyTurretTSFControlPanel = панель управления турелью TSF
+ent-BallisticTurretHeavyAIPDV = тяжёлая дистанционная сторожевая турель PDV
+ent-WeaponEnergyTurretUSSPControlPanel = панель управления сторожевой турелью USSP
+ent-BallisticTurretHeavyAITSF = тяжёлая дистанционно управляемая турель TSF
+ent-WeaponEnergyTurretViperControlPanel = панель управления турелью VG
+ent-BallisticTurretHeavyAIUSSP = тяжёлая дистанционная турель USSP
+ent-BallisticTurretHeavyAIVG = тяжёлая дистанционная турель-часовой VG

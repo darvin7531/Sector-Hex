@@ -1,0 +1,1 @@
+ent-CEDustEffect = эффект пыли

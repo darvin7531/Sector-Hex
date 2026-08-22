@@ -1,0 +1,1 @@
+ent-MachineShipDrill = корабельный бур

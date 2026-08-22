@@ -1,0 +1,1 @@
+ent-ThrusterRogueStealth = стелс-двигатель

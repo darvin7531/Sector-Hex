@@ -4,3 +4,9 @@ cmd-setalertlevel-invalid-grid = Вы должны находиться на с�
 cmd-setalertlevel-invalid-level = Указанный уровень угрозы не существует на этой сетке.
 cmd-setalertlevel-hint-1 = <level>
 cmd-setalertlevel-hint-2 = [locked]
+
+cmd-setwarlevel-desc = Устанавливает уровень войны: ГОРЯЧИЙ (true) или ХОЛОДНЫЙ (false).
+
+cmd-setwarlevel-help = Использование: setwarlevel [postwar]
+
+cmd-setwarlevel-hint-1 = [postwar]

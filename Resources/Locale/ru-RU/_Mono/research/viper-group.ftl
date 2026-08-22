@@ -5,3 +5,5 @@ research-technology-viper-group-apparel = Экипировка группы 'В�
 research-technology-viper-group-basic = Базовые скафандры группы 'Вайпер'
 
 research-technology-viper-group-juggernaut = Скафандр 'Джаггернаут' группы 'Вайпер'
+
+research-technology-viper-group-shipyard-adv = Закупка КЛК Группы «Гадюка»

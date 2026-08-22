@@ -1,0 +1,9 @@
+ent-ClothingBackpackDuffelPDVFilledGrenadeLauncher = комплект «Чайна-Лейк»
+ent-ClothingBackpackDuffelPDVFilledLMG = комплект L6 SAW
+ent-ClothingBackpackDuffelPDVFilledSMG = комплект C-20r
+ent-ClothingBackpackDuffelPDVFilledShotgun = комплект «Бульдог»
+ent-ClothingBackpackDuffelPDVFilledWSPR = комплект WSPR
+ent-ClothingBackpackDuffelPDVBurner = набор горелки
+ent-ClothingBackpackDuffelPDVMedicalBundleFilled = медицинский набор
+ent-ClothingBackpackDuffelPDVC4tBundle = связка C-4
+ent-ClothingBackpackDuffelPDVFilledAtreides = набор Атрейдесов

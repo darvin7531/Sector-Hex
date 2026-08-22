@@ -1,0 +1,14 @@
+ent-AFInterceptorMTSF = TSF AF-28-M «Halberd»
+ent-MechGygaxTSF = TSF Gygax
+ent-AFInterceptorPDV = PDV AF-28 «Палаш»
+ent-AFInterceptorTSF = TSF AF-28 «Бродсворд»
+ent-AFFlailEPDV = PDV ASF-59-E «Подзорная труба»
+ent-AFMacePDV = PDV ASF-59-B «Булава»
+ent-AFFlailETSF = TSF ASF-59-E «Подзорная труба»
+ent-AFMaceTSF = TSF ASF-59-B «Булава»
+ent-AFFlailPDV = PDV ASF-59 «Цеп»
+ent-MechDurandPDV = PDV «Дюранд»
+ent-AFFlailTSF = TSF ASF-59 «Цеп»
+ent-MechDurandTSF = Дюранд TSF
+ent-AFInterceptorMPDV = PDV AF-28-M «Алебарда»
+ent-MechGygaxPDV = PDV «Гигакс»

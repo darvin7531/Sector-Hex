@@ -28,3 +28,11 @@ nukeops-no-one-ready = Нет готовых игроков! Нельзя зап
 nukeops-role-commander = Командир
 nukeops-role-agent = Агент
 nukeops-role-operator = Оператор
+
+nukeops-tsfmajor = [color=cornflowerblue]ТСФ взорвали бомбу на станции ПДВ![/color]
+
+nukeops-cond-nukeexplodedonpdvstation = Ядерная бомба была взорвана на станции TSF.
+
+nukeops-cond-nukeexplodedontsfstation = Ядерная бомба была взорвана на станции PDV.
+
+nukeops-pdvmajor = [color=goldenrod]ПДВ взорвала бомбу на станции ТСФ![/color]

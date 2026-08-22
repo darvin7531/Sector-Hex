@@ -47,3 +47,5 @@ nuke-slot-component-slot-name-disk = Диск
 
 nuke-examine-armed = Эй, а почему эта [color=red]красная лампочка[/color] мигает?
 nuke-examine-exploding = Ага... Похоже, уже слишком поздно, приятель.
+
+nuke-label-neutral = NFE-{$serial}

@@ -1,13 +1,13 @@
 # MARK: Medical
 
-uplink-pirate-medical-bundle-name = Interdyne Medical Bundle
+uplink-pirate-medical-bundle-name = Medical Bundle
 uplink-pirate-medical-bundle-desc = An assortment of autoinjectors and premium medical equipment to cover for every possible situation. Contains an elite compact defibrillator that can be used as a weapon.
 
-uplink-pirate-interdyne-defibrillator-name = Interdyne Defibrillator
-uplink-pirate-interdyne-defibrillator-desc = An elite compact defibrillator that can be used as a weapon, now sold separately. Surprisingly deadly.
+uplink-pirate-interdyne-defibrillator-name = Advanced Defibrillator
+uplink-pirate-interdyne-defibrillator-desc = An elite compact defibrillator that can be used as a weapon. Surprisingly deadly.
 
 uplink-pirate-chemical-synthesis-kit-name = Chemical Synthesis Kit
-uplink-pirate-chemical-synthesis-kit-desc = A starter kit for the aspiring chemist, includes toxin and vestine for all your criminal needs!
+uplink-pirate-chemical-synthesis-kit-desc = A starter kit for the aspiring chemist, includes toxin and vestine for all your bioweapon needs!
 
 uplink-pirate-anti-poison-pen-name = Poison auto-injector
 uplink-pirate-anti-poison-pen-desc = A rapid dose of anti-poison. Contains ultravasculine and epinephrine.
@@ -102,10 +102,10 @@ uplink-pirate-energy-cutlass-name = Energy Cutlass
 uplink-pirate-energy-cutlass-desc = An exotic energy weapon.
 
 uplink-pirate-energy-sword-name = Energy Sword
-uplink-pirate-energy-sword-desc = Courtesy of the Gorlex Marauders. Make your mark, leave no witnesses.
+uplink-pirate-energy-sword-desc = Make your mark, leave no witnesses. One of few successfully jailbroken TSF energy weapons.
 
 uplink-pirate-python-name = Python
-uplink-pirate-python-desc = A brutally simple, effective, and loud revolver. Comes loaded with .45 magnum rounds.
+uplink-pirate-python-desc = A brutally simple, effective, and loud revolver. Comes loaded with .357 magnum rounds.
 
 uplink-pirate-viper-name = Viper
 uplink-pirate-viper-desc = A small, easily concealable, but somewhat underpowered gun. Retrofitted with a fully automatic receiver. Uses pistol magazines (9x19mm FMJ).
@@ -123,10 +123,10 @@ uplink-pirate-c20-name = C-20r Bundle
 uplink-pirate-c20-desc = A 9x19mm light SMG, packaged with a few mags.
 
 uplink-pirate-atreides-name = Atreides bundle
-uplink-pirate-atreides-desc = A .35 one-handed light SMG, packaged with some magazines.
+uplink-pirate-atreides-desc = A 5.8 one-handed light SMG, packaged with some magazines.
 
 uplink-pirate-bulldog-name = Bulldog Bundle
-uplink-pirate-bulldog-desc = A automatic 12 gauge shotgun, packaged with a few drums.
+uplink-pirate-bulldog-desc = An automatic 12 gauge shotgun, packaged with a few drums.
 
 uplink-pirate-vt7-name = VT7 HF Blade
 uplink-pirate-vt7-desc = A high quality HF blade.
@@ -135,7 +135,7 @@ uplink-pirate-desword-name = Double-Bladed Energy Sword
 uplink-pirate-desword-desc = A two-handed variant of the Energy Sword.
 
 uplink-pirate-anaconda-name = Anaconda
-uplink-pirate-anaconda-desc = The pride of Cybersun engineers. A handheld, compact, self-recharging ballistic firearm.
+uplink-pirate-anaconda-desc = A handheld, compact, self-recharging ballistic firearm.
 
 uplink-pirate-wspr-name = WSPR
 uplink-pirate-wspr-desc = A counter to the TSFMC's Annie. Uses the same 7.62x39mm ammo.
@@ -157,8 +157,8 @@ uplink-pirate-box-magazine-pistol-desc = A box filled with 4 9x19mm pistol magaz
 uplink-pirate-box-magazine-light-rifle-name = Box of 7.62x39mm magazines
 uplink-pirate-box-magazine-light-rifle-desc = A box filled with 4 7.62x39mm magazines.
 
-uplink-pirate-magazine-box-45_magnum-name = Box of .45 magnum speedloaders
-uplink-pirate-magazine-box-45_magnum-desc = A box containing 4 .45 magnum speedloaders.
+uplink-pirate-magazine-box-357_magnum-name = Box of .357 magnum speedloaders
+uplink-pirate-magazine-box-357_magnum-desc = A box containing 4 .357 magnum speedloaders.
 
 uplink-pirate-light-rifle-magazine-box-big-name = Ammunition box (7.62x39mm FMJ)
 uplink-pirate-light-rifle-magazine-box-big-desc = A box containing 200 7.62x39mm catridges.
@@ -216,7 +216,10 @@ uplink-pirate-viper-group-medic-hardsuit-desc = A light hardsuit adorned with si
 uplink-pirate-webvest-name = Webvest
 uplink-pirate-webvest-desc = A webvest smuggled into the sector that hasn't been downgraded like ones utilized by civilian contractors. Great pierce resist, poor heat resist.
 
-uplink-pirate-syndie-mask-name = Syndicate Gas Mask
+uplink-pirate-elite-webvest-name = Elite Webvest
+uplink-pirate-elite-webvest-desc = A modified web vest specialised to counter the TSFMC's energy-based weaponry. Great heat resist, poor pierce resist.
+
+uplink-pirate-syndie-mask-name = Advanced Gas Mask
 uplink-pirate-syndie-mask-desc = A tactical flash resistant gas mask that can be connected to an air supply.
 
 uplink-pirate-modsuit-name = RX-01 PDV Modsuit
@@ -224,11 +227,11 @@ uplink-pirate-modsuit-desc = An experimental modsuit prototype developed by Ullm
 
 # MARK: Explosives
 
-uplink-pirate-flashbanggrenade-box-name = Flashbang Grenade Box
-uplink-pirate-flashbanggrenade-box-desc = A box containing 4 flashbang grenades.
+uplink-pirate-flashbanggrenade-name = Flashbang Grenade
+uplink-pirate-flashbanggrenade-desc = A grenade that creates a blinding flash.
 
-uplink-pirate-smokegrenade-box-name = Smoke Grenade Box
-uplink-pirate-smokegrenade-box-desc = A box containing 4 smoke grenades.
+uplink-pirate-smokegrenade-name = Smoke Grenade
+uplink-pirate-smokegrenade-desc = A grenade that creates a large cloud of smoke, obscuring anything inside it and hiding it from thermal visors.
 
 uplink-pirate-c4-name = C-4
 uplink-pirate-c4-desc = Use it to breach walls, dispose of bodies, break equipment or attach it to that pet you dislike. Comes with modifiable timer with minimum of 10 second setting.
@@ -236,17 +239,17 @@ uplink-pirate-c4-desc = Use it to breach walls, dispose of bodies, break equipme
 uplink-pirate-c4-bundle-name = C-4 Bundle
 uplink-pirate-c4-bundle-desc = Enough C-4 to blow your way into a vault and out through the back.
 
-uplink-pirate-empgrenade-box-name = EMP Grenade Box
-uplink-pirate-empgrenade-box-desc = A box containing 4 EMP grenades.
+uplink-pirate-empgrenade-name = EMP Grenade
+uplink-pirate-empgrenade-desc = A handheld grenade that emits a high energy pulse that disrupts electronics and power systems in a moderately large radius.
 
-uplink-pirate-incendiarygrenade-box-name = Incendiary Grenade Box
-uplink-pirate-incendiarygrenade-box-desc = A box containing 4 incendiary grenades.
+uplink-pirate-incendiarygrenade-name = Incendiary Grenade
+uplink-pirate-incendiarygrenade-desc = A grenade that releases a swarm of incendiary pellets.
 
-uplink-pirate-shrapnelgrenade-box-name = Shrapnel Grenade Box
-uplink-pirate-shrapnelgrenade-box-desc = A box containing 4 shrapnel grenades.
+uplink-pirate-shrapnelgrenade-name = Shrapnel Grenade
+uplink-pirate-shrapnelgrenade-desc = A grenade that releases a large burst of lethal shrapnel.
 
-uplink-pirate-explosivegrenade-box-name = Explosive Grenade Box
-uplink-pirate-explosivegrenade-box-desc = A box containing 4 explosive grenades.
+uplink-pirate-explosivegrenade-name = Explosive Grenade
+uplink-pirate-explosivegrenade-desc = A grenade that causes a large explosion, damaging infrastructure and personnel nearby.
 
 # MARK: $Gambling$
 
@@ -271,6 +274,9 @@ uplink-pdv-t1-garm-voucher-desc = A small card that contains the data for the pr
 uplink-pdv-t1-fenrir-voucher-name = PDV Fenrir LPC [T1]
 uplink-pdv-t1-fenrir-voucher-desc = A small card that contains the data for the procurement of a Fenrir-class railgun destroyer from the flagship's reserves.
 
+uplink-pdv-t1-kalisto-voucher-name = PDV Kalisto LPC [T1]
+uplink-pdv-t1-kalisto-voucher-desc = A small card that contains the data for the procurement of a Kalisto-class artillery corvette from the flagship's reserves.
+
 uplink-pdv-t1-scorpion-voucher-name = PDV Scorpion LPC [T1]
 uplink-pdv-t1-scorpion-voucher-desc = A small card that contains the data for the procurement of a Scorpion-class escort from the flagship's reserves.
 
@@ -280,8 +286,14 @@ uplink-pdv-t1-bastion-voucher-desc = A small card that contains the data for the
 uplink-pdv-t1-neptune-voucher-name = PDV Neptune LPC [T1]
 uplink-pdv-t1-neptune-voucher-desc = A small card that contains the data for the procurement of a Neptune-class frigate from the flagship's reserves.
 
+uplink-pdv-t1-layak-voucher-name = PDV Layak LPC [T1]
+uplink-pdv-t1-layak-voucher-desc = A small card that contains the data for the procurement of a Layak-class corvette from the flagship's reserves.
+
 uplink-pdv-t2-europa-voucher-name = PDV Europa LPC [T2]
 uplink-pdv-t2-europa-voucher-desc = A small card that contains the data for the procurement of a Europa-class cruiser from the flagship's reserves.
+
+uplink-pdv-t2-ganymede-voucher-name = PDV Ganymede LPC [T2]
+uplink-pdv-t2-ganymede-voucher-desc = A small card that contains the data for the procurement of a Ganymede-class "frigate" from the flagship's reserves.
 
 uplink-pdv-t2-vulture-voucher-name = PDV Vulture LPC [T2]
 uplink-pdv-t2-vulture-voucher-desc = A small card that contains the data for the procurement of a Vulture-class mining rig from the flagship's reserves.
@@ -291,6 +303,12 @@ uplink-pdv-t2-motleyanne-voucher-desc = A small card that contains the data for 
 
 uplink-pdv-t3-saintie-voucher-name = PDV Saintie LPC [T3]
 uplink-pdv-t3-saintie-voucher-desc = A small card that contains the data for the procurement of a Saintie-class cruiser from the flagship's reserves.
+
+uplink-pdv-t2-kortik-voucher-name = PDV Kortik-R LPC [T2]
+uplink-pdv-t2-kortik-voucher-desc = A small card that contains the data for the procurement of a Kortik-R-class frigate from the flagship's reserves.
+
+uplink-pdv-t3-kortik-voucher-name = PDV Kortik-EM LPC [T3]
+uplink-pdv-t3-kortik-voucher-desc = A small card that contains the data for the procurement of a Kortik-EM-class frigate from the flagship's reserves.
 
 uplink-pdv-t4-saturn-voucher-name = PDV Saturn LPC [T4]
 uplink-pdv-t4-saturn-voucher-desc = A small card that authorizes the procurement of the Saturn.

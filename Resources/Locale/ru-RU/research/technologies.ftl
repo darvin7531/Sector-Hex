@@ -75,3 +75,5 @@ research-technology-bluespace-cargo-transport = Блюспейс-транспо�
 research-technology-dual-wielding-technology = Технология двойного опрерирования
 research-technology-ai = AI Research
 research-technology-portable-fission = Portable Fission
+
+research-technology-ore-silo = Управление материалами

@@ -13,7 +13,7 @@ namespace Content.Client.UserInterface.Systems.Info;
 public sealed partial class InfoUIController : UIController, IOnStateExited<GameplayState>
 {
     [Dependency] private IClientConsoleHost _consoleHost = default!;
-    [Dependency] private INetManager _netManager = default!;
+    [Dependency] private IClientNetManager _netManager = default!;
     [Dependency] private IPrototypeManager _prototype = default!;
     [Dependency] private ILogManager _logMan = default!;
 
@@ -83,6 +83,16 @@ public sealed partial class InfoUIController : UIController, IOnStateExited<Game
 
     private void OnAcceptPressed()
     {
+        // The rules UI can outlive a disconnected channel for one frame. Do not
+        // call ClientSendMessage in that state: the transport has no channel to use.
+        if (_netManager.ServerChannel is not { IsConnected: true })
+        {
+            _sawmill.Warning("Rules were accepted after the server connection closed; ignoring the acknowledgement.");
+            _rulesPopup?.Orphan();
+            _rulesPopup = null;
+            return;
+        }
+
         _netManager.ClientSendMessage(new RulesAcceptedMessage());
 
         _rulesPopup?.Orphan();

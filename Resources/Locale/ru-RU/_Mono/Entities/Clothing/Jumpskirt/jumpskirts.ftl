@@ -1,0 +1,1 @@
+ent-ClothingUniformJumpskirtCCTCFormalDress = официальное платье руководителя
