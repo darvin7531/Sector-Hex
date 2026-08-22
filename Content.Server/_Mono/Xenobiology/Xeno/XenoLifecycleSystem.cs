@@ -5,7 +5,7 @@ using Robust.Shared.Timing;
 
 namespace Content.Server._Mono.Xenobiology.Xeno;
 
-public sealed class XenoLifecycleSystem : EntitySystem
+public sealed partial class XenoLifecycleSystem : EntitySystem
 {
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
@@ -28,7 +28,7 @@ public sealed class XenoLifecycleSystem : EntitySystem
         args.Handled = true;
     }
 
-    private void OnEggActivate(Entity<XenoEggComponent> egg, ActivateInWorldEvent args)
+    private void OnEggActivate(Entity<XenoEggComponent> egg, ref ActivateInWorldEvent args)
     {
         if (args.Handled || !TryOpen(egg))
             return;
