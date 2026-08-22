@@ -1,5 +1,5 @@
-// This file is licensed under the MIT license.
-// Adapted from SharedReagentGeneratorSystem by MACMAN2003 in RussianCM.
+// Adapted from RussianCM commit 0540a61b873bb3e08a40ba75404a1eb2fb21da27.
+// Licensed under AGPL-3.0 under the RussianCM repository-wide license.
 
 using System.Globalization;
 using System.Linq;
