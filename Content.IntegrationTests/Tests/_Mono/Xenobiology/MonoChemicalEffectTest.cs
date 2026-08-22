@@ -1,3 +1,5 @@
+#nullable enable
+
 using Content.Shared._Mono.Xenobiology.Chemistry.Effects;
 using Content.Shared.Chemistry;
 using Content.Shared.Chemistry.Reagent;
@@ -5,6 +7,7 @@ using Content.Shared.Damage;
 using Content.Shared.Damage.Prototypes;
 using Content.Shared.EntityEffects;
 using Content.Shared.FixedPoint;
+using Robust.Shared.GameObjects;
 using Robust.Shared.Prototypes;
 
 namespace Content.IntegrationTests.Tests._Mono.Xenobiology;
