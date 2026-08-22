@@ -1,0 +1,29 @@
+# Sprite: CC-BY-SA-3.0, cmss13, see reagent_analyzer.rsi/meta.json.
+- type: entity
+  id: MonoXRFScanner
+  parent: BaseMachinePowered
+  name: XRF scanner
+  description: Identifies pure chemical samples and records their research data.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: XRFScanner
+  - type: Sprite
+    sprite: _Mono/Xenobiology/Machines/reagent_analyzer.rsi
+    snapCardinals: true
+    layers:
+    - state: base
+      map: ["enum.XRFScannerVisuals.State"]
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.XRFScannerVisuals.State:
+        enum.XRFScannerVisuals.State:
+          Idle: { state: base }
+          Sample: { state: sample }
+          Processing: { state: processing }
+          Error: { state: error }
+          Failed: { state: failed }
+          Finished: { state: finished }
+  - type: ApcPowerReceiver
+    powerLoad: 250
