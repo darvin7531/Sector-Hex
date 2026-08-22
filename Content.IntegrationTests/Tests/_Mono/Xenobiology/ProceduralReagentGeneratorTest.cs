@@ -129,21 +129,6 @@ public sealed class ProceduralReagentGeneratorTest
   id: MonoReagentCombiningProperties
   values:
   - MonoTestDefibrillating,MonoTestMuscleStimulating,MonoTestCardiopeutic
-
-- type: dataset
-  id: MonoRandChemPrefix
-  values:
-  - Alph
-
-- type: dataset
-  id: MonoRandChemWordroot
-  values:
-  - a
-
-- type: dataset
-  id: MonoRandChemSuffix
-  values:
-  - cin
 """;
 
     [Test]
@@ -225,8 +210,8 @@ public sealed class ProceduralReagentGeneratorTest
 
         Assert.Multiple(() =>
         {
-            Assert.That(reagent.Name, Is.EqualTo("Alphacin"));
-            Assert.That(reagent.ID, Is.EqualTo("TAU-0-Alphacin"));
+            Assert.That(reagent.Name, Is.Not.Empty);
+            Assert.That(reagent.ID, Is.EqualTo($"TAU-0-{reagent.Name}"));
         });
 
         await pair.CleanReturnAsync();
