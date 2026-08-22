@@ -1,4 +1,5 @@
 using Content.Shared._Mono.Xenobiology.Chemistry;
+using Robust.Shared.Random;
 
 namespace Content.IntegrationTests.Tests._Mono.Xenobiology;
 
@@ -54,6 +55,69 @@ public sealed class ProceduralReagentGeneratorTest
   hint: Legendary
   maxLevel: 4
 
+- type: reagentProperty
+  id: MonoTestNeutral
+  name: mono-test-neutral
+  description: mono-test-neutral-desc
+  effectName: MonoTestNeutral
+  category: Reactant
+  rarity: Common
+  hint: Neutral
+
+- type: reagentProperty
+  id: MonoTestRare
+  name: mono-test-rare
+  description: mono-test-rare-desc
+  effectName: MonoTestRare
+  category: Medicine
+  rarity: Rare
+  hint: Rare
+
+- type: reagentProperty
+  id: MonoTestDisabled
+  name: mono-test-disabled
+  description: mono-test-disabled-desc
+  effectName: MonoTestDisabled
+  category: Medicine
+  rarity: Disabled
+  hint: Positive
+
+- type: reagent
+  id: MonoTestBasicReagent
+  name: reagent-name-nothing
+  desc: reagent-desc-nothing
+  physicalDesc: reagent-physical-desc-nothing
+  class: Basic
+
+- type: reagent
+  id: MonoTestBasicReagentTwo
+  name: reagent-name-nothing
+  desc: reagent-desc-nothing
+  physicalDesc: reagent-physical-desc-nothing
+  class: Basic
+
+- type: reagent
+  id: MonoTestBasicReagentThree
+  name: reagent-name-nothing
+  desc: reagent-desc-nothing
+  physicalDesc: reagent-physical-desc-nothing
+  class: Basic
+
+- type: reagent
+  id: MonoTestCommonReagent
+  name: reagent-name-nothing
+  desc: reagent-desc-nothing
+  physicalDesc: reagent-physical-desc-nothing
+  class: Common
+
+- type: reagent
+  id: MonoTestNoGenerationReagent
+  name: reagent-name-nothing
+  desc: reagent-desc-nothing
+  physicalDesc: reagent-physical-desc-nothing
+  class: Rare
+  flags: NoGeneration
+
 - type: dataset
   id: MonoReagentConflictingProperties
   values:
@@ -63,6 +127,21 @@ public sealed class ProceduralReagentGeneratorTest
   id: MonoReagentCombiningProperties
   values:
   - MonoTestDefibrillating,MonoTestMuscleStimulating,MonoTestCardiopeutic
+
+- type: dataset
+  id: MonoRandChemPrefix
+  values:
+  - Alph
+
+- type: dataset
+  id: MonoRandChemWordroot
+  values:
+  - a
+
+- type: dataset
+  id: MonoRandChemSuffix
+  values:
+  - cin
 """;
 
     [Test]
@@ -103,6 +182,120 @@ public sealed class ProceduralReagentGeneratorTest
             Assert.That(reagent.Effects["MonoTestMuscleStimulating"], Is.EqualTo(1));
             Assert.That(reagent.Effects["MonoTestDefibrillating"], Is.EqualTo(1));
             Assert.That(reagent.Effects.ContainsKey("MonoTestCardiopeutic"), Is.False);
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task PreparePoolsSortsPropertiesAndReagentsForGeneration()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var generator = pair.Server.System<ProceduralReagentGeneratorSystem>();
+
+        generator.PreparePools();
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(generator.PropertyPools["negative"], Does.Contain("MonoTestToxic"));
+            Assert.That(generator.PropertyPools["neutral"], Does.Contain("MonoTestNeutral"));
+            Assert.That(generator.PropertyPools["positive"], Does.Contain("MonoTestAntitoxic"));
+            Assert.That(generator.PropertyPools["rare"], Does.Contain("MonoTestRare"));
+            Assert.That(generator.PropertyPools.SelectMany(pool => pool.Value), Does.Not.Contain("MonoTestDisabled"));
+            Assert.That(generator.ReagentClassPools["C1"], Does.Contain("MonoTestBasicReagent"));
+            Assert.That(generator.ReagentClassPools["C2"], Does.Contain("MonoTestCommonReagent"));
+            Assert.That(generator.ReagentClassPools["C"], Does.Contain("MonoTestBasicReagent"));
+            Assert.That(generator.ReagentClassPools.SelectMany(pool => pool.Value), Does.Not.Contain("MonoTestNoGenerationReagent"));
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task GenerateNameUsesDatasetsAndTauPoolCount()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var generator = pair.Server.System<ProceduralReagentGeneratorSystem>();
+        generator.PreparePools();
+        var reagent = new GeneratedReagentData();
+
+        generator.GenerateName(ref reagent);
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(reagent.Name, Is.EqualTo("Alphacin"));
+            Assert.That(reagent.ID, Is.EqualTo("TAU-0-Alphacin"));
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task GenerateStatsIsDeterministicForFixedSeed()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var random = pair.Server.ResolveDependency<IRobustRandom>();
+        var generator = pair.Server.System<ProceduralReagentGeneratorSystem>();
+        var first = new GeneratedReagentData { GenTier = 3 };
+        var second = new GeneratedReagentData { GenTier = 3 };
+
+        random.SetSeed(8675309);
+        generator.GenerateStats(ref first, noProperties: true);
+        random.SetSeed(8675309);
+        generator.GenerateStats(ref second, noProperties: true);
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(first.Overdose, Is.EqualTo(second.Overdose));
+            Assert.That(first.CriticalOverdose, Is.EqualTo(second.CriticalOverdose));
+            Assert.That(first.Color, Is.EqualTo(second.Color));
+            Assert.That(first.CriticalOverdose, Is.GreaterThanOrEqualTo(first.Overdose + 5));
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task AddChemicalUsesExplicitClassAndRejectsDuplicate()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var generator = pair.Server.System<ProceduralReagentGeneratorSystem>();
+        generator.PreparePools();
+        var reagent = new GeneratedReagentData { GenTier = 1 };
+
+        var selected = generator.AddChemical(ref reagent, cClass: "1");
+        var duplicate = generator.AddChemical(ref reagent, chem: selected);
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(selected, Is.EqualTo("MonoTestBasicReagent"));
+            Assert.That(reagent.Recipe[selected], Is.EqualTo((1, false)));
+            Assert.That(duplicate, Is.EqualTo(bool.FalseString));
+            Assert.That(reagent.Recipe, Has.Count.EqualTo(1));
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task GenerateRecipeIncludesRequiredIngredient()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var random = pair.Server.ResolveDependency<IRobustRandom>();
+        var generator = pair.Server.System<ProceduralReagentGeneratorSystem>();
+        generator.PreparePools();
+        var reagent = new GeneratedReagentData { GenTier = 1 };
+        HashSet<string> required = ["MonoTestBasicReagent"];
+        random.SetSeed(12345);
+
+        var generated = generator.GenerateRecipe(ref reagent, required);
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(generated, Is.True);
+            Assert.That(reagent.Recipe, Has.Count.EqualTo(3));
+            Assert.That(reagent.Recipe, Does.ContainKey("MonoTestBasicReagent"));
+            Assert.That(reagent.Recipe.Values.Skip(1).All(value => value.Amount == 1), Is.True);
         });
 
         await pair.CleanReturnAsync();
