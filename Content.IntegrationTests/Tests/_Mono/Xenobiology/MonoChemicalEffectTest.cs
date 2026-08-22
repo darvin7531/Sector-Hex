@@ -2,19 +2,21 @@
 
 using Content.Shared._Mono.Xenobiology.Chemistry.Effects;
 using Content.Shared.Chemistry;
+using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Reagent;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Prototypes;
 using Content.Shared.EntityEffects;
 using Content.Shared.FixedPoint;
 using Robust.Shared.GameObjects;
+using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
 
 namespace Content.IntegrationTests.Tests._Mono.Xenobiology;
 
 [TestFixture]
 [NonParallelizable]
-public sealed class MonoChemicalEffectTest
+public sealed partial class MonoChemicalEffectTest
 {
     private const string TestEntity = "MonoChemicalEffectTestEntity";
     private const string PlainReagent = "MonoChemicalEffectPlainReagent";
@@ -69,7 +71,7 @@ public sealed class MonoChemicalEffectTest
         var entMan = server.ResolveDependency<IEntityManager>();
         var prototypes = server.ResolveDependency<IPrototypeManager>();
         var damageable = server.System<DamageableSystem>();
-        var target = entMan.SpawnEntity(TestEntity);
+        var target = entMan.SpawnEntity(TestEntity, MapCoordinates.Nullspace);
         var component = entMan.GetComponent<DamageableComponent>(target);
         var blunt = prototypes.Index<DamageTypePrototype>("Blunt");
         var reagent = prototypes.Index<ReagentPrototype>(PlainReagent);
@@ -95,7 +97,7 @@ public sealed class MonoChemicalEffectTest
         var server = pair.Server;
         var entMan = server.ResolveDependency<IEntityManager>();
         var prototypes = server.ResolveDependency<IPrototypeManager>();
-        var target = entMan.SpawnEntity(TestEntity);
+        var target = entMan.SpawnEntity(TestEntity, MapCoordinates.Nullspace);
         var component = entMan.GetComponent<DamageableComponent>(target);
         var reagent = prototypes.Index<ReagentPrototype>(BoostedReagent);
 
@@ -120,7 +122,7 @@ public sealed class MonoChemicalEffectTest
         var reagent = server.ResolveDependency<IPrototypeManager>().Index<ReagentPrototype>(PlainReagent);
         var effect = new ProbeChemicalEffect { Potency = 8 };
 
-        effect.Effect(ReagentArgs(entMan.SpawnEntity(TestEntity), entMan, reagent, quantity));
+        effect.Effect(ReagentArgs(entMan.SpawnEntity(TestEntity, MapCoordinates.Nullspace), entMan, reagent, quantity));
 
         Assert.Multiple(() =>
         {
