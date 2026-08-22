@@ -18,6 +18,8 @@ public sealed partial class ProceduralReagentRegistrySystem : EntitySystem
 
     public readonly HashSet<string> GeneratedReagents = [];
     public readonly HashSet<string> GeneratedRecipes = [];
+    public readonly Dictionary<string, GeneratedReagentData> ReagentData = [];
+    public readonly HashSet<string> LockedDownReagents = [];
 
     public void Register(GeneratedReagentData data)
     {
@@ -39,6 +41,46 @@ public sealed partial class ProceduralReagentRegistrySystem : EntitySystem
 
         GeneratedReagents.Add(data.ID);
         GeneratedRecipes.Add(data.ID);
+        Track(data);
+    }
+
+    public void Track(GeneratedReagentData data)
+    {
+        ReagentData[data.ID] = data;
+    }
+
+    public void TrackModified(GeneratedReagentData source, string modifiedId)
+    {
+        var root = string.IsNullOrEmpty(source.OriginalID) ? source.ID : source.OriginalID;
+        if (ReagentData.TryGetValue(root, out var original))
+        {
+            original.ModifiedChems.Add(modifiedId);
+            Track(original);
+            return;
+        }
+
+        source.ModifiedChems.Add(modifiedId);
+        Track(source);
+    }
+
+    public bool IsLockedDown(string id)
+    {
+        return LockedDownReagents.Contains(id);
+    }
+
+    public void LockLineage(GeneratedReagentData data)
+    {
+        var root = string.IsNullOrEmpty(data.OriginalID) ? data.ID : data.OriginalID;
+        LockedDownReagents.Add(root);
+        LockedDownReagents.Add(data.ID);
+        LockedDownReagents.UnionWith(data.ModifiedChems);
+        foreach (var reagent in ReagentData.Values)
+        {
+            if (reagent.ID != root && reagent.OriginalID != root)
+                continue;
+            LockedDownReagents.Add(reagent.ID);
+            LockedDownReagents.UnionWith(reagent.ModifiedChems);
+        }
     }
 
     private static string BuildReagentPrototype(GeneratedReagentData data)

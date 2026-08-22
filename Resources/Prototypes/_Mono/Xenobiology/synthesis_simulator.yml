@@ -1,0 +1,12 @@
+# Sprite is pre-existing, licensed CC-BY-SA-3.0 in the RSI metadata.
+- type: entity
+  id: MonoSynthesisSimulator
+  parent: BaseMachine
+  name: synthesis simulator
+  description: Simulates alterations to generated reagent properties and registers the resulting synthesis.
+  components:
+  - type: Sprite
+    sprite: _Mono/Xenobiology/Machines/chem_simulator.rsi
+    state: modifier
+    offset: "0.5, 0.5"
+  - type: SynthesisSimulator

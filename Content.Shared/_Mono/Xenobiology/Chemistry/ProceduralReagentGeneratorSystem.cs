@@ -476,4 +476,12 @@ public sealed partial class ProceduralReagentGeneratorSystem : EntitySystem
         effects.TryAdd(propertyToAdd, levelToAdd);
         return true;
     }
+
+    public bool HasConflict(GeneratedReagentData data, string property)
+    {
+        ReloadRules();
+        return _conflicts.Any(pair =>
+            pair.First == property && data.Effects.ContainsKey(pair.Second) ||
+            pair.Second == property && data.Effects.ContainsKey(pair.First));
+    }
 }
