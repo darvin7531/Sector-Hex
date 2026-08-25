@@ -25,6 +25,10 @@ public sealed class XenoLifecycleTest
   - type: InfectableHost
     incubationDelay: 0
     larvaPrototype: MonoXenoLarva
+
+- type: entity
+  id: MonoTestXenoLarva
+  parent: MonoXenoLarva
 """;
 
     [Test]
@@ -136,6 +140,26 @@ public sealed class XenoLifecycleTest
                 Assert.That(server.EntMan.HasComponent<InfectableHostComponent>(human), Is.True);
                 Assert.That(server.EntMan.HasComponent<InfectableHostComponent>(monkey), Is.True);
             });
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task LarvaEvolvesIntoAdultXeno()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var server = pair.Server;
+        var map = await pair.CreateTestMap();
+
+        await server.WaitAssertion(() =>
+        {
+            var larva = server.EntMan.SpawnEntity("MonoTestXenoLarva", map.GridCoords);
+            var adult = server.System<XenoLifecycleSystem>().TryEvolveLarva(larva);
+
+            Assert.That(adult, Is.Not.Null);
+            Assert.That(server.EntMan.GetComponent<MetaDataComponent>(adult!.Value).EntityPrototype?.ID,
+                Is.EqualTo("MobXenoDrone"));
         });
 
         await pair.CleanReturnAsync();
