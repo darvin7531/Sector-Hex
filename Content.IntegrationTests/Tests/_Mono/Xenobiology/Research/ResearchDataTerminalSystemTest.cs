@@ -175,6 +175,42 @@ public sealed class ResearchDataTerminalSystemTest
     }
 
     [Test]
+    public async Task ClearanceSixBreakthroughDeliversOneLaboratoryEgg()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var server = pair.Server;
+        var map = await pair.CreateTestMap();
+        var research = server.System<ResearchDataTerminalSystem>();
+        var delivery = server.System<CipheringBreakthroughDeliverySystem>();
+        var breakthroughs = 0;
+
+        await server.WaitAssertion(() =>
+        {
+            server.EntMan.EventBus.RaiseEvent(EventSource.Local, new RoundRestartCleanupEvent());
+            server.EntMan.EventBus.SubscribeEvent<ResearchClearanceSixBreakthroughEvent>(EventSource.Local,
+                _ => breakthroughs++);
+
+            for (var i = 0; i < 13; i++)
+                Assert.That(research.TryCompleteResearch($"cipher-{i}", 3), Is.True);
+            while (research.Clearance < 6)
+                Assert.That(research.TryUpgradeClearance(), Is.True);
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(breakthroughs, Is.EqualTo(1));
+                Assert.That(delivery.TryDeliver(map.GridCoords, out var egg), Is.True);
+                Assert.That(server.EntMan.GetComponent<MetaDataComponent>(egg).EntityPrototype?.ID,
+                    Is.EqualTo("MonoXenoEgg"));
+                Assert.That(delivery.TryDeliver(map.GridCoords, out _), Is.False);
+                Assert.That(server.EntMan.EntityQuery<MetaDataComponent>().Count(meta =>
+                    !meta.Deleted && meta.EntityPrototype?.ID == "MonoXenoEgg"), Is.EqualTo(1));
+            });
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
     public void BuiStateDerivesAvailableActions()
     {
         var ready = new ResearchDataTerminalBuiState([], [], TimeSpan.Zero, 7, 2, 7, false);
