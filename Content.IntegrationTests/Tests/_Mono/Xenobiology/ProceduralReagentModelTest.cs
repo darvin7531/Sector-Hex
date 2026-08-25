@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.Linq;
 using Content.Shared._Mono.Xenobiology.Chemistry;
+using Content.Shared._Mono.Xenobiology.Chemistry.Effects;
 using Content.Shared.Chemistry.Reaction;
 using Content.Shared.Chemistry.Reagent;
 using Content.Shared.FixedPoint;
@@ -44,6 +46,15 @@ public sealed class ProceduralReagentModelTest
   level: 2
   maxLevel: 4
   value: 6
+
+- type: reagentProperty
+  id: MonoRuntimeToxicProperty
+  name: mono-runtime-toxic-property
+  description: mono-runtime-toxic-property-desc
+  effectName: Toxic
+  category: Toxicant
+  rarity: Common
+  hint: Negative
 """;
 
     [Test]
@@ -121,6 +132,10 @@ public sealed class ProceduralReagentModelTest
             RecipeYield = 1,
             ScanPointYield = 5,
             GenTier = 2,
+            Effects = new Dictionary<string, int>
+            {
+                ["MonoRuntimeToxicProperty"] = 4,
+            },
         };
 
         await server.WaitPost(() => registry.Register(generated));
@@ -134,6 +149,8 @@ public sealed class ProceduralReagentModelTest
                 Assert.That(reagent.Flags.HasFlag(ProceduralReagentFlag.Scannable), Is.True);
                 Assert.That(reagent.Reward, Is.EqualTo(5));
                 Assert.That(reagent.GenTier, Is.EqualTo(2));
+                var toxic = reagent.Metabolisms.Values.SelectMany(entry => entry.Effects).OfType<Toxic>().Single();
+                Assert.That(toxic.Potency, Is.EqualTo(4));
             });
 
             var reaction = prototypes.Index<ReactionPrototype>(generatedId);
