@@ -28,12 +28,16 @@ public sealed partial class ProceduralReagentGeneratorSystem : EntitySystem
     public Dictionary<string, HashSet<string>> GeneratedPropertyPools { get; } = [];
     public Dictionary<string, HashSet<string>> ReagentClassPools { get; } = [];
 
-    public void ReloadRules()
+    public void ReloadRules(
+        ProtoId<DatasetPrototype>? conflictsDataset = null,
+        ProtoId<DatasetPrototype>? combinationsDataset = null)
     {
+        conflictsDataset ??= ConflictsDataset;
+        combinationsDataset ??= CombinationsDataset;
         _conflicts.Clear();
         _combinations.Clear();
 
-        if (_prototypes.TryIndex(ConflictsDataset, out var conflicts))
+        if (_prototypes.TryIndex(conflictsDataset.Value, out var conflicts))
         {
             foreach (var value in conflicts.Values)
             {
@@ -43,7 +47,7 @@ public sealed partial class ProceduralReagentGeneratorSystem : EntitySystem
             }
         }
 
-        if (_prototypes.TryIndex(CombinationsDataset, out var combinations))
+        if (_prototypes.TryIndex(combinationsDataset.Value, out var combinations))
         {
             foreach (var value in combinations.Values)
             {

@@ -140,12 +140,12 @@ public sealed class ProceduralReagentGeneratorTest
   flags: NoGeneration
 
 - type: dataset
-  id: MonoReagentConflictingProperties
+  id: MonoTestReagentConflictingProperties
   values:
   - MonoTestToxic,MonoTestAntitoxic
 
 - type: dataset
-  id: MonoReagentCombiningProperties
+  id: MonoTestReagentCombiningProperties
   values:
   - MonoTestDefibrillating,MonoTestMuscleStimulating,MonoTestCardiopeutic
   - MonoTestGenerationDisabledResult,MonoTestNeutral,MonoTestAntitoxic
@@ -156,7 +156,7 @@ public sealed class ProceduralReagentGeneratorTest
     {
         await using var pair = await PoolManager.GetServerClient();
         var generator = pair.Server.System<ProceduralReagentGeneratorSystem>();
-        generator.ReloadRules();
+        generator.ReloadRules("MonoTestReagentConflictingProperties", "MonoTestReagentCombiningProperties");
         var reagent = new GeneratedReagentData();
         reagent.Effects["MonoTestToxic"] = 3;
 
@@ -177,7 +177,7 @@ public sealed class ProceduralReagentGeneratorTest
     {
         await using var pair = await PoolManager.GetServerClient();
         var generator = pair.Server.System<ProceduralReagentGeneratorSystem>();
-        generator.ReloadRules();
+        generator.ReloadRules("MonoTestReagentConflictingProperties", "MonoTestReagentCombiningProperties");
         var reagent = new GeneratedReagentData();
         reagent.Effects["MonoTestMuscleStimulating"] = 2;
 
@@ -199,7 +199,7 @@ public sealed class ProceduralReagentGeneratorTest
     {
         await using var pair = await PoolManager.GetServerClient();
         var generator = pair.Server.System<ProceduralReagentGeneratorSystem>();
-        generator.ReloadRules();
+        generator.ReloadRules("MonoTestReagentConflictingProperties", "MonoTestReagentCombiningProperties");
         var reagent = new GeneratedReagentData();
 
         Assert.That(generator.InsertProperty(ref reagent, "MonoTestGenerationDisabled", 1), Is.False);
