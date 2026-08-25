@@ -160,6 +160,22 @@ public sealed class SynthesisSimulatorTest
         await pair.CleanReturnAsync();
     }
 
+    [Test]
+    public void BuiStateRequiresInputsForSelectedMode()
+    {
+        var reagent = Reagent("MonoSimulatorUiTarget", ("Toxic", 2));
+        var amplify = new SynthesisSimulatorBuiState(
+            [reagent], reagent.ID, null, SynthesisSimulatorMode.Amplify, "Toxic", null, false, null, null);
+        var addMissingReference = new SynthesisSimulatorBuiState(
+            [reagent], reagent.ID, null, SynthesisSimulatorMode.Add, null, null, false, null, null);
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(amplify.CanSimulate, Is.True);
+            Assert.That(addMissingReference.CanSimulate, Is.False);
+        });
+    }
+
     private static GeneratedReagentData Reagent(string id, params (string Property, int Level)[] effects)
     {
         var data = new GeneratedReagentData
