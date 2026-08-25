@@ -48,7 +48,7 @@ public sealed class XRFScannerSystem : EntitySystem
     private void OnInserted(Entity<XRFScannerComponent> ent, ref EntInsertedIntoContainerMessage args)
     {
         if (args.Container.ID == XRFScannerComponent.SampleSlotId)
-            TryStartScan(ent);
+            TryStartScan(ent.Owner, ent.Comp);
     }
 
     private void OnRemoved(Entity<XRFScannerComponent> ent, ref EntRemovedFromContainerMessage args)
@@ -67,15 +67,15 @@ public sealed class XRFScannerSystem : EntitySystem
         }
     }
 
-    public bool TryStartScan(Entity<XRFScannerComponent?> ent)
+    public bool TryStartScan(EntityUid uid, XRFScannerComponent? component = null)
     {
-        if (!Resolve(ent, ref ent.Comp) || ent.Comp.Processing || ent.Comp.SampleSlot.Item == null)
+        if (!Resolve(uid, ref component) || component.Processing || component.SampleSlot.Item == null)
             return false;
 
-        ent.Comp.Processing = true;
-        ent.Comp.NextScan = _timing.CurTime + ent.Comp.ProcessDuration;
-        _slots.SetLock(ent, ent.Comp.SampleSlot, true);
-        SetState((ent, ent.Comp), XRFScannerState.Processing);
+        component.Processing = true;
+        component.NextScan = _timing.CurTime + component.ProcessDuration;
+        _slots.SetLock(uid, component.SampleSlot, true);
+        SetState((uid, component), XRFScannerState.Processing);
         return true;
     }
 
@@ -117,7 +117,7 @@ public sealed class XRFScannerSystem : EntitySystem
         return new XRFScanReport(
             XRFScanStatus.Valid,
             reagent.ID,
-            reagent.Name,
+            reagent.LocalizedName,
             reagent.Class,
             reward,
             rewarded);
