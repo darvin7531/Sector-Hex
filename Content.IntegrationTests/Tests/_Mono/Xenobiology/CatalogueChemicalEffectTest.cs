@@ -2,6 +2,7 @@
 
 using Content.Server._Mono.Xenobiology.Chemistry.Effects;
 using Content.Server.Body.Components;
+using Content.Server.Body.Systems;
 using Content.Server.Temperature.Components;
 using Content.Shared.Chemistry;
 using Content.Shared.Chemistry.Components;
@@ -84,7 +85,7 @@ public sealed class CatalogueChemicalEffectTest
             Assert.That(hungerSystem.GetHunger(hunger), Is.GreaterThan(startingHunger));
 
             var bloodstream = entMan.GetComponent<BloodstreamComponent>(target);
-            bloodstream.BleedAmount = 5;
+            entMan.System<BloodstreamSystem>().TryModifyBleedAmount(target, 5, bloodstream);
             new Hemostatic { Potency = 8 }.Effect(args);
             Assert.That(bloodstream.BleedAmount, Is.LessThan(5));
 
