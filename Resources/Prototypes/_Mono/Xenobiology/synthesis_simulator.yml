@@ -10,3 +10,9 @@
     state: modifier
     offset: "0.5, 0.5"
   - type: SynthesisSimulator
+  - type: ActivatableUI
+    key: enum.SynthesisSimulatorUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.SynthesisSimulatorUiKey.Key:
+        type: SynthesisSimulatorBoundUserInterface

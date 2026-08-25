@@ -35,6 +35,63 @@ public enum SynthesisSimulatorMode
     Add,
 }
 
+[Serializable, NetSerializable]
+public enum SynthesisSimulatorUiKey
+{
+    Key,
+}
+
+[Serializable, NetSerializable]
+public sealed class SynthesisSimulatorBuiState(
+    List<GeneratedReagentData> available,
+    string? targetId,
+    string? referenceId,
+    SynthesisSimulatorMode mode,
+    string? targetProperty,
+    string? referenceProperty,
+    bool overrideConflicts,
+    GeneratedReagentData? result,
+    string? error) : BoundUserInterfaceState
+{
+    public readonly List<GeneratedReagentData> Available = available;
+    public readonly string? TargetId = targetId;
+    public readonly string? ReferenceId = referenceId;
+    public readonly SynthesisSimulatorMode Mode = mode;
+    public readonly string? TargetProperty = targetProperty;
+    public readonly string? ReferenceProperty = referenceProperty;
+    public readonly bool OverrideConflicts = overrideConflicts;
+    public readonly GeneratedReagentData? Result = result;
+    public readonly string? Error = error;
+
+    public bool CanSimulate => !string.IsNullOrWhiteSpace(TargetId) && Mode switch
+    {
+        SynthesisSimulatorMode.Amplify or SynthesisSimulatorMode.Suppress =>
+            !string.IsNullOrWhiteSpace(TargetProperty),
+        SynthesisSimulatorMode.Relate => !string.IsNullOrWhiteSpace(TargetProperty) &&
+            !string.IsNullOrWhiteSpace(ReferenceId) && !string.IsNullOrWhiteSpace(ReferenceProperty),
+        SynthesisSimulatorMode.Add =>
+            !string.IsNullOrWhiteSpace(ReferenceId) && !string.IsNullOrWhiteSpace(ReferenceProperty),
+        _ => false,
+    };
+}
+
+[Serializable, NetSerializable]
+public sealed class SynthesisSimulatorRunMessage(
+    string targetId,
+    string? referenceId,
+    SynthesisSimulatorMode mode,
+    string? targetProperty,
+    string? referenceProperty,
+    bool overrideConflicts) : BoundUserInterfaceMessage
+{
+    public readonly string TargetId = targetId;
+    public readonly string? ReferenceId = referenceId;
+    public readonly SynthesisSimulatorMode Mode = mode;
+    public readonly string? TargetProperty = targetProperty;
+    public readonly string? ReferenceProperty = referenceProperty;
+    public readonly bool OverrideConflicts = overrideConflicts;
+}
+
 public sealed record SynthesisSimulationRequest
 {
     public GeneratedReagentData Target { get; init; }
