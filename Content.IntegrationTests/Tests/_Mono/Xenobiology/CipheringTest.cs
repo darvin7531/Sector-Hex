@@ -1,4 +1,4 @@
-using Content.Server._Mono.Xenobiology.Chemistry;
+using Content.Shared._Mono.Xenobiology.Chemistry.Effects;
 using Content.Shared._Mono.Xenobiology.Xeno;
 using Content.Shared.EntityEffects;
 using Robust.Shared.Map;
