@@ -114,6 +114,17 @@ public sealed class XRFScannerSystem : EntitySystem
 
         var reward = ResearchReward(reagent);
         var rewarded = _research.TryCompleteResearch(reagent.ID, reward);
+        if (rewarded)
+        {
+            _research.AddKnownScan(new ResearchReportData
+            {
+                Name = reagent.LocalizedName,
+                Info = $"{reagent.LocalizedName}: {reagent.Class}, {reward} research credits.",
+                Completed = true,
+                Valid = true,
+                Icon = ResearchReportIcon.Full,
+            });
+        }
         return new XRFScanReport(
             XRFScanStatus.Valid,
             reagent.ID,
