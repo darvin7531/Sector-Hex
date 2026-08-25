@@ -36,3 +36,10 @@ public sealed partial class CipheringEffect : EntityEffect
         args.EntityManager.Dirty(args.TargetEntity, infection);
     }
 }
+
+// Source marker property: intentionally has no metabolic behavior of its own.
+public sealed partial class Encrypted : MonoChemicalEffect
+{
+    protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
+        => null;
+}

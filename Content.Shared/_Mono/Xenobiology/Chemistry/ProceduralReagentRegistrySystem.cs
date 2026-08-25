@@ -83,9 +83,9 @@ public sealed partial class ProceduralReagentRegistrySystem : EntitySystem
         }
     }
 
-    private static string BuildReagentPrototype(GeneratedReagentData data)
+    private string BuildReagentPrototype(GeneratedReagentData data)
     {
-        return $"""
+        var yaml = new StringBuilder($"""
 - type: reagent
   id: {data.ID}
   name: {data.Name}
@@ -102,7 +102,28 @@ public sealed partial class ProceduralReagentRegistrySystem : EntitySystem
   generated: true
   reward: {data.ScanPointYield}
 
-""";
+""");
+
+        if (data.Effects.Count == 0)
+            return yaml.ToString();
+
+        yaml.AppendLine("  metabolisms:");
+        yaml.AppendLine("    Medicine:");
+        yaml.AppendLine($"      metabolismRate: {Format(data.MetabolismRate)}");
+        yaml.AppendLine("      effects:");
+        foreach (var (propertyId, level) in data.Effects)
+        {
+            if (!_prototypes.TryIndex<ReagentPropertyPrototype>(propertyId, out var property) ||
+                string.IsNullOrWhiteSpace(property.EffectName))
+            {
+                throw new ArgumentException($"Unknown or effectless reagent property '{propertyId}'.", nameof(data));
+            }
+
+            yaml.AppendLine($"      - !type:{property.EffectName}");
+            yaml.AppendLine($"        potency: {level}");
+        }
+
+        return yaml.ToString();
     }
 
     private int GetReactionPriority(GeneratedReagentData data)
