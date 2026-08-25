@@ -10,7 +10,6 @@
   category: Toxicant
   hint: Negative
   value: -2
-  generationDisabled: true
   effectName: ''
 - type: reagentProperty
   id: Hypoxemic
@@ -206,7 +205,6 @@
   category: Irritant
   value: -1
   hint: Neutral
-  generationDisabled: true
   effectName: ''
 - type: reagentProperty
   parent: Neutral
@@ -486,7 +484,6 @@
   description: mono-reagent-property-positive-desc
   value: 2
   hint: Positive
-  generationDisabled: true
   effectName: ''
 - type: reagentProperty
   parent: Positive
@@ -750,7 +747,6 @@
   category: Reactant, Combustible
   costPenalty: false
   abstract: true
-  generationDisabled: true
   effectName: ''
 - type: reagentProperty
   parent: PositiveFire
@@ -916,7 +912,6 @@
   description: mono-reagent-property-special-desc
   value: 8
   hint: Legendary
-  generationDisabled: true
   effectName: ''
 - type: reagentProperty
   parent: Special

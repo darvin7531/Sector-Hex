@@ -79,9 +79,9 @@ public sealed class CatalogueChemicalEffectTest
 
             var hunger = entMan.GetComponent<Content.Shared.Nutrition.Components.HungerComponent>(target);
             var hungerSystem = entMan.System<HungerSystem>();
-            var startingHunger = hungerSystem.GetHunger(target, hunger);
+            var startingHunger = hungerSystem.GetHunger(hunger);
             new Nutritious { Potency = 8 }.Effect(args);
-            Assert.That(hungerSystem.GetHunger(target, hunger), Is.GreaterThan(startingHunger));
+            Assert.That(hungerSystem.GetHunger(hunger), Is.GreaterThan(startingHunger));
 
             var bloodstream = entMan.GetComponent<BloodstreamComponent>(target);
             bloodstream.BleedAmount = 5;

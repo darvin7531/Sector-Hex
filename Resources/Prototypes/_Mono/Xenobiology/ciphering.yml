@@ -26,21 +26,25 @@
 
 - type: reagentProperty
   id: Encrypted
+  parent: Special
   name: mono-reagent-property-encrypted
   description: mono-reagent-property-encrypted-desc
-  effectName: Encrypted
+  code: mono-reagent-property-code-encrypted
   category: Anomalous
   rarity: Disabled
   hint: Disabled
 
 - type: reagentProperty
   id: Ciphering
+  parent: Special
   name: mono-reagent-property-ciphering
   description: mono-reagent-property-ciphering-desc
+  code: mono-reagent-property-code-ciphering
   effectName: CipheringEffect
-  category: Toxicant
+  category: Anomalous
   rarity: Legendary
   hint: Legendary
+  value: 16
   maxLevel: 6
 
 - type: reagent

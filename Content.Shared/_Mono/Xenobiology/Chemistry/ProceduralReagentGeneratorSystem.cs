@@ -423,13 +423,17 @@ public sealed partial class ProceduralReagentGeneratorSystem : EntitySystem
         if (level <= 0)
             throw new ArgumentOutOfRangeException(nameof(level), level, "Property level must be positive.");
 
+        if (incoming.GenerationDisabled)
+            return false;
+
         var propertyToAdd = property;
         var levelToAdd = level;
         var effects = data.Effects;
 
         foreach (var (result, ingredients) in _combinations)
         {
-            if (!ingredients.Contains(property))
+            if (!ingredients.Contains(property) ||
+                _prototypes.Index<ReagentPropertyPrototype>(result).GenerationDisabled)
                 continue;
 
             var existingIngredients = ingredients
