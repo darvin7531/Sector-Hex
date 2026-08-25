@@ -28,4 +28,12 @@
   description: An immature xenobiological organism.
   parent: MobXenoDrone
   components:
+  - type: XenoLarva
   - type: GhostTakeoverAvailable
+
+- type: polymorph
+  id: MonoXenoAdultEvolution
+  configuration:
+    entity: MobXenoDrone
+    forced: true
+    transferName: true

@@ -40,6 +40,16 @@ public sealed partial class XenoEggComponent : Component
 [RegisterComponent, NetworkedComponent]
 public sealed partial class XenoParasiteComponent : Component;
 
+[RegisterComponent, NetworkedComponent, AutoGenerateComponentState(true), AutoGenerateComponentPause]
+public sealed partial class XenoLarvaComponent : Component
+{
+    [DataField, AutoNetworkedField]
+    public TimeSpan EvolutionDelay = TimeSpan.FromMinutes(10);
+
+    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoNetworkedField, AutoPausedField]
+    public TimeSpan? EvolveAt;
+}
+
 [RegisterComponent, NetworkedComponent]
 public sealed partial class InfectableHostComponent : Component
 {

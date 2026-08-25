@@ -3,6 +3,9 @@ using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
 using Content.Shared.NPC.Components;
 using Content.Shared.NPC.Systems;
+using Content.Server.Polymorph.Systems;
+using Content.Shared.Polymorph;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
 namespace Content.Server._Mono.Xenobiology.Xeno;
@@ -12,6 +15,9 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly NpcFactionSystem _factions = default!;
+    [Dependency] private readonly PolymorphSystem _polymorph = default!;
+
+    private static readonly ProtoId<PolymorphPrototype> AdultEvolution = "MonoXenoAdultEvolution";
 
     public override void Initialize()
     {
@@ -20,6 +26,13 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
         SubscribeLocalEvent<XenoEggComponent, UseInHandEvent>(OnEggUse);
         SubscribeLocalEvent<XenoEggComponent, ActivateInWorldEvent>(OnEggActivate);
         SubscribeLocalEvent<XenoParasiteComponent, InteractHandEvent>(OnParasiteInteract);
+        SubscribeLocalEvent<XenoLarvaComponent, ComponentStartup>(OnLarvaStartup);
+    }
+
+    private void OnLarvaStartup(Entity<XenoLarvaComponent> larva, ref ComponentStartup args)
+    {
+        larva.Comp.EvolveAt = _timing.CurTime + larva.Comp.EvolutionDelay;
+        Dirty(larva);
     }
 
     private void OnEggUse(Entity<XenoEggComponent> egg, ref UseInHandEvent args)
@@ -82,10 +95,25 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
         return true;
     }
 
+    public EntityUid? TryEvolveLarva(EntityUid larva)
+    {
+        if (!RemComp<XenoLarvaComponent>(larva))
+            return null;
+
+        return _polymorph.PolymorphEntity(larva, AdultEvolution);
+    }
+
     public override void Update(float frameTime)
     {
         base.Update(frameTime);
         var now = _timing.CurTime;
+
+        var larvae = EntityQueryEnumerator<XenoLarvaComponent>();
+        while (larvae.MoveNext(out var larvaUid, out var larva))
+        {
+            if (larva.EvolveAt <= now)
+                TryEvolveLarva(larvaUid);
+        }
 
         var eggs = EntityQueryEnumerator<XenoEggComponent>();
         while (eggs.MoveNext(out var uid, out var egg))
