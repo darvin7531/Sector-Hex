@@ -125,21 +125,21 @@ public sealed class SynthesisSimulatorTest
         await pair.Server.WaitAssertion(() =>
         {
             var simulator = pair.Server.System<SynthesisSimulatorSystem>();
-            var target = Reagent("MonoSimulatorOverrideTarget", ("MonoTestNeutral", 1), ("MonoTestToxic", 3));
-            var reference = Reagent("MonoSimulatorOverrideReference", ("MonoTestAntitoxic", 1));
+            var target = Reagent("MonoSimulatorOverrideTarget", ("MonoTestNeutral", 1), ("Toxic", 3));
+            var reference = Reagent("MonoSimulatorOverrideReference", ("Antitoxic", 1));
             var protectedRequest = new SynthesisSimulationRequest(
                 target,
                 SynthesisSimulatorMode.Relate,
                 reference,
                 "MonoTestNeutral",
-                "MonoTestAntitoxic");
+                "Antitoxic");
 
             Assert.Throws<InvalidOperationException>(() => simulator.Simulate(protectedRequest));
             var result = simulator.Simulate(protectedRequest with { OverrideConflicts = true });
             Assert.Multiple(() =>
             {
-                Assert.That(result.Effects["MonoTestToxic"], Is.EqualTo(2));
-                Assert.That(result.Effects, Does.Not.ContainKey("MonoTestAntitoxic"));
+                Assert.That(result.Effects["Toxic"], Is.EqualTo(2));
+                Assert.That(result.Effects, Does.Not.ContainKey("Antitoxic"));
             });
         });
         await pair.CleanReturnAsync();
