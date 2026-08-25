@@ -6,11 +6,17 @@
   description: Generates chemical research contracts and tracks xenobiology clearance.
   components:
   - type: ResearchDataTerminal
+  - type: ActivatableUI
+    key: enum.ResearchDataTerminalUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.ResearchDataTerminalUiKey.Key:
+        type: ResearchDataTerminalBoundUserInterface
   - type: Sprite
     sprite: _Mono/Xenobiology/Machines/research_terminal.rsi
     layers:
     - map: ["computerLayerBody"]
-      state: research_comp
+      state: research0
     - map: ["computerLayerScreen"]
       state: research
   - type: Computer
