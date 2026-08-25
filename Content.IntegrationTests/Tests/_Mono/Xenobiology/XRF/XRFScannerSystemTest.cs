@@ -1,3 +1,4 @@
+using Content.IntegrationTests.Pair;
 using Content.Server._Mono.Xenobiology.Research;
 using Content.Server._Mono.Xenobiology.XRF;
 using Content.Shared._Mono.Xenobiology.Chemistry;
