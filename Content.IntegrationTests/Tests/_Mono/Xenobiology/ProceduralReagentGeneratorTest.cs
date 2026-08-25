@@ -94,6 +94,15 @@ public sealed class ProceduralReagentGeneratorTest
   hint: Positive
   generationDisabled: true
 
+- type: reagentProperty
+  id: MonoTestGenerationDisabledResult
+  name: mono-test-generation-disabled-result
+  description: mono-test-generation-disabled-result-desc
+  category: Medicine
+  rarity: Rare
+  hint: Rare
+  generationDisabled: true
+
 - type: reagent
   id: MonoTestBasicReagent
   name: reagent-name-nothing
@@ -139,6 +148,7 @@ public sealed class ProceduralReagentGeneratorTest
   id: MonoReagentCombiningProperties
   values:
   - MonoTestDefibrillating,MonoTestMuscleStimulating,MonoTestCardiopeutic
+  - MonoTestGenerationDisabledResult,MonoTestNeutral,MonoTestAntitoxic
 """;
 
     [Test]
@@ -179,6 +189,27 @@ public sealed class ProceduralReagentGeneratorTest
             Assert.That(reagent.Effects["MonoTestMuscleStimulating"], Is.EqualTo(1));
             Assert.That(reagent.Effects["MonoTestDefibrillating"], Is.EqualTo(1));
             Assert.That(reagent.Effects.ContainsKey("MonoTestCardiopeutic"), Is.False);
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task GenerationDisabledPropertiesCannotBeInsertedOrProducedByCombination()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var generator = pair.Server.System<ProceduralReagentGeneratorSystem>();
+        generator.ReloadRules();
+        var reagent = new GeneratedReagentData();
+
+        Assert.That(generator.InsertProperty(ref reagent, "MonoTestGenerationDisabled", 1), Is.False);
+
+        reagent.Effects["MonoTestNeutral"] = 1;
+        Assert.That(generator.InsertProperty(ref reagent, "MonoTestAntitoxic", 1), Is.True);
+        Assert.Multiple(() =>
+        {
+            Assert.That(reagent.Effects, Does.ContainKey("MonoTestAntitoxic"));
+            Assert.That(reagent.Effects, Does.Not.ContainKey("MonoTestGenerationDisabledResult"));
         });
 
         await pair.CleanReturnAsync();

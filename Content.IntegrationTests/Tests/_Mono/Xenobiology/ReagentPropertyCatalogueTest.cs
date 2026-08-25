@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Content.Server.EntityEffects.Effects;
 using Content.Shared._Mono.Xenobiology.Chemistry;
+using Content.Shared.Dataset;
 using Content.Shared.EntityEffects;
 using Robust.Shared.Prototypes;
 
