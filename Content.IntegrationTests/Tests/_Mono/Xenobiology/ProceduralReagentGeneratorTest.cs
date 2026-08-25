@@ -15,7 +15,7 @@ public sealed class ProceduralReagentGeneratorTest
   id: MonoTestToxic
   name: mono-test-toxic
   description: mono-test-toxic-desc
-  effectName: MonoTestToxic
+  effectName: Toxic
   category: Toxicant
   rarity: Common
   hint: Negative
@@ -24,7 +24,7 @@ public sealed class ProceduralReagentGeneratorTest
   id: MonoTestAntitoxic
   name: mono-test-antitoxic
   description: mono-test-antitoxic-desc
-  effectName: MonoTestAntitoxic
+  effectName: Neogenetic
   category: Medicine
   rarity: Common
   hint: Positive
@@ -33,7 +33,7 @@ public sealed class ProceduralReagentGeneratorTest
   id: MonoTestMuscleStimulating
   name: mono-test-muscle-stimulating
   description: mono-test-muscle-stimulating-desc
-  effectName: MonoTestMuscleStimulating
+  effectName: Boosting
   category: Medicine
   rarity: Common
   hint: Positive
@@ -42,7 +42,7 @@ public sealed class ProceduralReagentGeneratorTest
   id: MonoTestCardiopeutic
   name: mono-test-cardiopeutic
   description: mono-test-cardiopeutic-desc
-  effectName: MonoTestCardiopeutic
+  effectName: Neogenetic
   category: Medicine
   rarity: Common
   hint: Positive
@@ -51,7 +51,7 @@ public sealed class ProceduralReagentGeneratorTest
   id: MonoTestDefibrillating
   name: mono-test-defibrillating
   description: mono-test-defibrillating-desc
-  effectName: MonoTestDefibrillating
+  effectName: Neogenetic
   category: Medicine
   rarity: Legendary
   hint: Legendary
@@ -61,7 +61,7 @@ public sealed class ProceduralReagentGeneratorTest
   id: MonoTestNeutral
   name: mono-test-neutral
   description: mono-test-neutral-desc
-  effectName: MonoTestNeutral
+  effectName: Boosting
   category: Reactant
   rarity: Common
   hint: Neutral
@@ -70,7 +70,7 @@ public sealed class ProceduralReagentGeneratorTest
   id: MonoTestRare
   name: mono-test-rare
   description: mono-test-rare-desc
-  effectName: MonoTestRare
+  effectName: Neogenetic
   category: Medicine
   rarity: Rare
   hint: Rare
