@@ -198,6 +198,7 @@
 - type: reagent
   id: Ammonia
   name: reagent-name-ammonia
+  class: Common
   group: Botanical
   desc: reagent-desc-ammonia
   physicalDesc: reagent-physical-desc-pungent
@@ -283,6 +284,7 @@
 - type: reagent
   id: Diethylamine
   name: reagent-name-diethylamine
+  class: Uncommon
   group: Botanical
   desc: reagent-desc-diethylamine
   physicalDesc: reagent-physical-desc-strong-smelling
