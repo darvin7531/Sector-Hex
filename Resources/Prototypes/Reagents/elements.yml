@@ -1,5 +1,6 @@
 - type: reagent
   id: Aluminium # We use real words here.
+  class: Basic
   name: reagent-name-aluminium # -we use real words here.
   group: Elements
   desc: reagent-desc-aluminium # -we use real words here.
@@ -11,6 +12,7 @@
 
 - type: reagent
   id: Carbon
+  class: Basic
   name: reagent-name-carbon
   group: Elements
   desc: reagent-desc-carbon
@@ -22,6 +24,7 @@
 
 - type: reagent
   id: Chlorine
+  class: Basic
   name: reagent-name-chlorine
   group: Elements
   desc: reagent-desc-chlorine
@@ -53,6 +56,7 @@
 
 - type: reagent
   id: Copper
+  class: Basic
   name: reagent-name-copper
   group: Elements
   desc: reagent-desc-copper
@@ -87,6 +91,7 @@
 
 - type: reagent
   id: Fluorine
+  class: Basic
   name: reagent-name-fluorine
   group: Elements
   desc: reagent-desc-fluorine
@@ -131,6 +136,7 @@
 
 - type: reagent
   id: Hydrogen
+  class: Basic
   name: reagent-name-hydrogen
   group: Elements
   desc: reagent-desc-hydrogen
@@ -143,6 +149,7 @@
 
 - type: reagent
   id: Iodine
+  class: Basic
   name: reagent-name-iodine
   group: Elements
   desc: reagent-desc-iodine
@@ -154,6 +161,7 @@
 
 - type: reagent
   id: Iron
+  class: Basic
   name: reagent-name-iron
   group: Elements
   desc: reagent-desc-iron
@@ -188,6 +196,7 @@
 
 - type: reagent
   id: Lithium
+  class: Basic
   name: reagent-name-lithium
   group: Elements
   desc: reagent-desc-lithium
@@ -223,6 +232,7 @@
 
 - type: reagent
   id: Mercury
+  class: Basic
   name: reagent-name-mercury
   group: Elements
   desc: reagent-desc-mercury
@@ -248,6 +258,7 @@
 
 - type: reagent
   id: Potassium
+  class: Basic
   name: reagent-name-potassium
   group: Elements
   desc: reagent-desc-potassium
@@ -259,6 +270,7 @@
 
 - type: reagent
   id: Phosphorus
+  class: Basic
   name: reagent-name-phosphorus
   group: Elements
   desc: reagent-desc-phosphorus
@@ -277,6 +289,7 @@
 
 - type: reagent
   id: Radium
+  class: Basic
   name: reagent-name-radium
   group: Elements
   parent: Uranium
@@ -289,6 +302,7 @@
 
 - type: reagent
   id: Silicon
+  class: Basic
   name: reagent-name-silicon
   group: Elements
   desc: reagent-desc-silicon
@@ -323,6 +337,7 @@
 
 - type: reagent
   id: Sulfur
+  class: Basic
   name: reagent-name-sulfur
   group: Elements
   desc: reagent-desc-sulfur
@@ -341,6 +356,7 @@
 
 - type: reagent
   id: Sodium
+  class: Basic
   name: reagent-name-sodium
   group: Elements
   desc: reagent-desc-sodium
@@ -381,6 +397,7 @@
 
 - type: reagent
   id: Zinc
+  class: Basic
   name: reagent-name-zinc
   group: Elements
   desc: reagent-desc-zinc
