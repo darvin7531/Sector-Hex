@@ -7,7 +7,7 @@ using Robust.Shared.Serialization;
 
 namespace Content.Shared._Mono.Xenobiology.Research;
 
-[RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
+[RegisterComponent, NetworkedComponent]
 public sealed partial class ResearchDataTerminalComponent : Component;
 
 [Serializable, NetSerializable]
