@@ -1,0 +1,17 @@
+# Sprite: CC-BY-SA-3.0, cmss13; see research_terminal.rsi/meta.json.
+- type: entity
+  id: MonoResearchDataTerminal
+  parent: BaseComputer
+  name: research data terminal
+  description: Generates chemical research contracts and tracks xenobiology clearance.
+  components:
+  - type: ResearchDataTerminal
+  - type: Sprite
+    sprite: _Mono/Xenobiology/Machines/research_terminal.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: research_comp
+    - map: ["computerLayerScreen"]
+      state: research
+  - type: Computer
+    board: null
