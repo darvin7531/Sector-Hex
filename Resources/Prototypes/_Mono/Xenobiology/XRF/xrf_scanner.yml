@@ -8,6 +8,12 @@
     mode: SnapgridCenter
   components:
   - type: XRFScanner
+    sampleSlot:
+      ejectOnInteract: true
+      swap: false
+      whitelist:
+        tags:
+        - CentrifugeCompatible
   - type: Sprite
     sprite: _Mono/Xenobiology/Machines/reagent_analyzer.rsi
     snapCardinals: true

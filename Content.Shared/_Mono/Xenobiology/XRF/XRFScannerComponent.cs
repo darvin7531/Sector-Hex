@@ -3,8 +3,6 @@
 
 using Content.Shared._Mono.Xenobiology.Chemistry;
 using Content.Shared.Containers.ItemSlots;
-using Content.Shared.Tag;
-using Content.Shared.Whitelist;
 
 namespace Content.Shared._Mono.Xenobiology.XRF;
 
@@ -14,15 +12,7 @@ public sealed partial class XRFScannerComponent : Component
     public const string SampleSlotId = "xrf-sample";
 
     [DataField]
-    public ItemSlot SampleSlot = new()
-    {
-        EjectOnInteract = true,
-        Swap = false,
-        Whitelist = new EntityWhitelist
-        {
-            Tags = ["CentrifugeCompatible"],
-        },
-    };
+    public ItemSlot SampleSlot = new();
 
     [DataField]
     public TimeSpan ProcessDuration = TimeSpan.FromSeconds(10);
