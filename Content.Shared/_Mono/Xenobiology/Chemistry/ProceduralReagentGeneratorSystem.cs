@@ -23,6 +23,7 @@ public sealed partial class ProceduralReagentGeneratorSystem : EntitySystem
 
     private readonly List<(string First, string Second)> _conflicts = [];
     private readonly Dictionary<string, HashSet<string>> _combinations = [];
+    public IReadOnlyDictionary<string, HashSet<string>> Combinations => _combinations;
     public Dictionary<string, HashSet<string>> PropertyPools { get; } = [];
     public Dictionary<string, HashSet<string>> GeneratedPropertyPools { get; } = [];
     public Dictionary<string, HashSet<string>> ReagentClassPools { get; } = [];

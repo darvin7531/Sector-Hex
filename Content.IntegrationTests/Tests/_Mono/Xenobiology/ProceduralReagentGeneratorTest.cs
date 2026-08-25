@@ -76,25 +76,6 @@ public sealed class ProceduralReagentGeneratorTest
   hint: Rare
 
 - type: reagentProperty
-  id: Encrypted
-  name: mono-test-encrypted
-  description: mono-test-encrypted-desc
-  effectName: Encrypted
-  category: Anomalous
-  rarity: Disabled
-  hint: Disabled
-
-- type: reagentProperty
-  id: Ciphering
-  name: mono-test-ciphering
-  description: mono-test-ciphering-desc
-  effectName: CipheringEffect
-  category: Toxicant
-  rarity: Legendary
-  hint: Legendary
-  maxLevel: 6
-
-- type: reagentProperty
   id: MonoTestDisabled
   name: mono-test-disabled
   description: mono-test-disabled-desc

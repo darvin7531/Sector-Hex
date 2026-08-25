@@ -1,0 +1,12 @@
+mono-reagent-property-encrypted = encrypted
+mono-reagent-property-encrypted-desc = An encrypted property required to derive ciphering compounds.
+mono-reagent-property-ciphering = ciphering
+mono-reagent-property-ciphering-desc = Alters the laboratory lineage of an incubating xenobiological organism.
+mono-cipher-toxin = cipher toxin
+mono-cipher-toxin-desc = A dark, unidentifiable xenobiological compound.
+mono-prime-cipher-toxin = prime cipher toxin
+mono-corrupted-cipher-toxin = corrupted cipher toxin
+mono-alpha-cipher-toxin = alpha cipher toxin
+mono-bravo-cipher-toxin = bravo cipher toxin
+mono-charlie-cipher-toxin = charlie cipher toxin
+mono-delta-cipher-toxin = delta cipher toxin

@@ -88,7 +88,10 @@ public sealed class ResearchDataTerminalSystem : EntitySystem
         if (UpgradeCost is not { } cost || Credits < cost)
             return false;
 
-        _progress.SetProgress(Credits - cost, Clearance + 1);
+        var nextClearance = Clearance + 1;
+        _progress.SetProgress(Credits - cost, nextClearance);
+        if (nextClearance == 6)
+            RaiseLocalEvent(new ResearchClearanceSixBreakthroughEvent());
         UpdateAllUi();
         return true;
     }

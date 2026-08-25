@@ -1,0 +1,128 @@
+# Ciphering effect code is MIT; prototype data is AGPL-3.0 from RussianCM commit 0540a61b873bb3e08a40ba75404a1eb2fb21da27.
+
+- type: npcFaction
+  id: MonoXenoLaboratoryPrime
+  defaultHostile: true
+
+- type: npcFaction
+  id: MonoXenoLaboratoryCorrupted
+  defaultHostile: true
+
+- type: npcFaction
+  id: MonoXenoLaboratoryAlpha
+  defaultHostile: true
+
+- type: npcFaction
+  id: MonoXenoLaboratoryBravo
+  defaultHostile: true
+
+- type: npcFaction
+  id: MonoXenoLaboratoryCharlie
+  defaultHostile: true
+
+- type: npcFaction
+  id: MonoXenoLaboratoryDelta
+  defaultHostile: true
+
+- type: reagentProperty
+  id: Encrypted
+  name: mono-reagent-property-encrypted
+  description: mono-reagent-property-encrypted-desc
+  effectName: Encrypted
+  category: Anomalous
+  rarity: Disabled
+  hint: Disabled
+
+- type: reagentProperty
+  id: Ciphering
+  name: mono-reagent-property-ciphering
+  description: mono-reagent-property-ciphering-desc
+  effectName: CipheringEffect
+  category: Toxicant
+  rarity: Legendary
+  hint: Legendary
+  maxLevel: 6
+
+- type: reagent
+  abstract: true
+  id: MonoCipherToxinBase
+  name: mono-cipher-toxin
+  desc: mono-cipher-toxin-desc
+  physicalDesc: reagent-physical-desc-unidentifiable
+  flavor: horrible
+  color: "#331133"
+  group: Toxins
+  class: Special
+  flags: NoGeneration
+  unknown: true
+  metabolisms:
+    Medicine:
+      metabolismRate: 1
+      effects:
+      - !type:CipheringEffect
+        potency: 1
+
+- type: reagent
+  parent: MonoCipherToxinBase
+  id: MonoPrimeCipherToxin
+  name: mono-prime-cipher-toxin
+
+- type: reagent
+  parent: MonoCipherToxinBase
+  id: MonoCorruptedCipherToxin
+  name: mono-corrupted-cipher-toxin
+  color: "#113311"
+  metabolisms:
+    Medicine:
+      metabolismRate: 1
+      effects:
+      - !type:CipheringEffect
+        potency: 2
+
+- type: reagent
+  parent: MonoCipherToxinBase
+  id: MonoAlphaCipherToxin
+  name: mono-alpha-cipher-toxin
+  color: "#331111"
+  metabolisms:
+    Medicine:
+      metabolismRate: 1
+      effects:
+      - !type:CipheringEffect
+        potency: 3
+
+- type: reagent
+  parent: MonoCipherToxinBase
+  id: MonoBravoCipherToxin
+  name: mono-bravo-cipher-toxin
+  color: "#333311"
+  metabolisms:
+    Medicine:
+      metabolismRate: 1
+      effects:
+      - !type:CipheringEffect
+        potency: 4
+
+- type: reagent
+  parent: MonoCipherToxinBase
+  id: MonoCharlieCipherToxin
+  name: mono-charlie-cipher-toxin
+  color: "#551155"
+  metabolisms:
+    Medicine:
+      metabolismRate: 1
+      effects:
+      - !type:CipheringEffect
+        potency: 5
+
+- type: reagent
+  parent: MonoCipherToxinBase
+  id: MonoDeltaCipherToxin
+  name: mono-delta-cipher-toxin
+  color: "#111133"
+  metabolisms:
+    Medicine:
+      metabolismRate: 1
+      effects:
+      - !type:CipheringEffect
+        potency: 6

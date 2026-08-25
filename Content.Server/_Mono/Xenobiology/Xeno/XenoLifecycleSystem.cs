@@ -1,6 +1,8 @@
 using Content.Shared._Mono.Xenobiology.Xeno;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
+using Content.Shared.NPC.Components;
+using Content.Shared.NPC.Systems;
 using Robust.Shared.Timing;
 
 namespace Content.Server._Mono.Xenobiology.Xeno;
@@ -9,6 +11,7 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
 {
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly NpcFactionSystem _factions = default!;
 
     public override void Initialize()
     {
@@ -120,7 +123,11 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
             if (infection.SpawnedLarva != null || infection.SpawnAt > now)
                 continue;
 
-            infection.SpawnedLarva = Spawn(infection.LarvaPrototype, Transform(uid).Coordinates);
+            var larva = Spawn(infection.LarvaPrototype, Transform(uid).Coordinates);
+            var faction = EnsureComp<NpcFactionMemberComponent>(larva);
+            _factions.ClearFactions((larva, faction));
+            _factions.AddFaction((larva, faction), infection.LarvaFaction);
+            infection.SpawnedLarva = larva;
             Dirty(uid, infection);
         }
     }

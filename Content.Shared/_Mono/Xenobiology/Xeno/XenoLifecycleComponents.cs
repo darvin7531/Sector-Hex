@@ -1,4 +1,5 @@
 using Robust.Shared.GameStates;
+using Content.Shared.NPC.Prototypes;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
@@ -57,6 +58,9 @@ public sealed partial class XenoInfectionComponent : Component
 
     [DataField, AutoNetworkedField]
     public EntProtoId LarvaPrototype = "MonoXenoLarva";
+
+    [DataField, AutoNetworkedField]
+    public ProtoId<NpcFactionPrototype> LarvaFaction = "Xeno";
 
     [DataField, AutoNetworkedField]
     public EntityUid? SpawnedLarva;
