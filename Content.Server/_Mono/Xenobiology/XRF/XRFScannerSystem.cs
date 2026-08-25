@@ -11,6 +11,7 @@ using Content.Shared.Containers.ItemSlots;
 using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
+using Robust.Server.GameObjects;
 
 namespace Content.Server._Mono.Xenobiology.XRF;
 
@@ -24,6 +25,7 @@ public sealed class XRFScannerSystem : EntitySystem
     [Dependency] private readonly SharedSolutionContainerSystem _solutions = default!;
     [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
     [Dependency] private readonly ResearchDataTerminalSystem _research = default!;
+    [Dependency] private readonly UserInterfaceSystem _ui = default!;
 
     public override void Initialize()
     {
@@ -32,6 +34,13 @@ public sealed class XRFScannerSystem : EntitySystem
         SubscribeLocalEvent<XRFScannerComponent, ComponentRemove>(OnRemove);
         SubscribeLocalEvent<XRFScannerComponent, EntInsertedIntoContainerMessage>(OnInserted);
         SubscribeLocalEvent<XRFScannerComponent, EntRemovedFromContainerMessage>(OnRemoved);
+        Subs.BuiEvents<XRFScannerComponent>(XRFScannerUiKey.Key, subs =>
+            subs.Event<BoundUIOpenedEvent>(OnUiOpened));
+    }
+
+    private void OnUiOpened(Entity<XRFScannerComponent> ent, ref BoundUIOpenedEvent args)
+    {
+        UpdateUi(ent);
     }
 
     private void OnInit(Entity<XRFScannerComponent> ent, ref ComponentInit args)
@@ -76,6 +85,7 @@ public sealed class XRFScannerSystem : EntitySystem
         component.NextScan = _timing.CurTime + component.ProcessDuration;
         _slots.SetLock(uid, component.SampleSlot, true);
         SetState((uid, component), XRFScannerState.Processing);
+        UpdateUi((uid, component));
         return true;
     }
 
@@ -94,6 +104,7 @@ public sealed class XRFScannerSystem : EntitySystem
             XRFScanStatus.Invalid => XRFScannerState.Error,
             _ => XRFScannerState.Failed,
         });
+        UpdateUi((ent.Owner, ent.Comp));
         return report;
     }
 
@@ -155,5 +166,11 @@ public sealed class XRFScannerSystem : EntitySystem
     private void SetState(Entity<XRFScannerComponent> ent, XRFScannerState state)
     {
         _appearance.SetData(ent, XRFScannerVisuals.State, state);
+    }
+
+    private void UpdateUi(Entity<XRFScannerComponent> ent)
+    {
+        _ui.SetUiState(ent.Owner, XRFScannerUiKey.Key,
+            new XRFScannerBuiState(ent.Comp.Processing, ent.Comp.LastReport));
     }
 }

@@ -3,6 +3,7 @@
 
 using Content.Shared._Mono.Xenobiology.Chemistry;
 using Content.Shared.Containers.ItemSlots;
+using Robust.Shared.Serialization;
 
 namespace Content.Shared._Mono.Xenobiology.XRF;
 
@@ -27,6 +28,7 @@ public sealed partial class XRFScannerComponent : Component
     public XRFScanReport LastReport = XRFScanReport.Missing;
 }
 
+[Serializable, NetSerializable]
 public readonly record struct XRFScanReport(
     XRFScanStatus Status,
     string? ReagentId,
@@ -42,6 +44,20 @@ public readonly record struct XRFScanReport(
         ProceduralReagentClass.None,
         0,
         false);
+}
+
+[Serializable, NetSerializable]
+public enum XRFScannerUiKey
+{
+    Key,
+}
+
+[Serializable, NetSerializable]
+public sealed class XRFScannerBuiState(bool processing, XRFScanReport report) : BoundUserInterfaceState
+{
+    public readonly bool Processing = processing;
+    public readonly XRFScanReport Report = report;
+    public bool HasReport => Report.Status != XRFScanStatus.Missing;
 }
 
 public enum XRFScanStatus : byte
