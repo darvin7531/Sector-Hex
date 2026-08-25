@@ -11,6 +11,7 @@
 
 - type: reagent
   id: Phenol
+  class: Hydro
   name: reagent-name-phenol
   desc: reagent-desc-phenol
   physicalDesc: reagent-physical-desc-acidic

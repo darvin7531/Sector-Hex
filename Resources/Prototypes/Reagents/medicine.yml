@@ -259,6 +259,7 @@
 
 - type: reagent
   id: Dermaline
+  class: Uncommon
   name: reagent-name-dermaline
   group: Medicine
   desc: reagent-desc-dermaline
@@ -295,6 +296,7 @@
 
 - type: reagent
   id: Dexalin
+  class: Common
   name: reagent-name-dexalin
   group: Medicine
   desc: reagent-desc-dexalin
@@ -324,6 +326,7 @@
 
 - type: reagent
   id: DexalinPlus
+  class: Uncommon
   name: reagent-name-dexalin-plus
   group: Medicine
   desc: reagent-desc-dexalin-plus
@@ -503,6 +506,7 @@
 
 - type: reagent
   id: Inaprovaline
+  class: Common
   name: reagent-name-inaprovaline
   group: Medicine
   desc: reagent-desc-inaprovaline
@@ -526,6 +530,7 @@
 
 - type: reagent
   id: Kelotane
+  class: Common
   name: reagent-name-kelotane
   group: Medicine
   desc: reagent-desc-kelotane
@@ -898,6 +903,7 @@
 
 - type: reagent
   id: Tricordrazine
+  class: Uncommon
   name: reagent-name-tricordrazine
   group: Medicine
   desc: reagent-desc-tricordrazine
@@ -934,6 +940,7 @@
 
 - type: reagent
   id: Lipozine
+  class: Uncommon
   name: reagent-name-lipozine
   group: Medicine
   desc: reagent-desc-lipozine

@@ -310,6 +310,7 @@
 
 - type: reagent
   id: UnstableMutagen
+  class: Uncommon
   name: reagent-name-unstable-mutagen
   group: Toxins
   desc: reagent-desc-unstable-mutagen

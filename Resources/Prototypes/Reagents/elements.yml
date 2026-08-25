@@ -119,6 +119,7 @@
 
 - type: reagent
   id: Gold
+  class: Rare
   name: reagent-name-gold
   group: Elements
   desc: reagent-desc-gold
@@ -310,6 +311,7 @@
 
 - type: reagent
   id: Silver
+  class: Rare
   name: reagent-name-silver
   group: Elements
   desc: reagent-desc-silver
@@ -350,6 +352,7 @@
 
 - type: reagent
   id: Uranium
+  class: Rare
   name: reagent-name-uranium
   group: Elements
   desc: reagent-desc-uranium
