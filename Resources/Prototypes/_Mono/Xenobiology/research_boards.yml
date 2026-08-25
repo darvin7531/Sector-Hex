@@ -1,0 +1,62 @@
+# Adapted research machine construction for Monolith.
+
+- type: entity
+  parent: BaseComputerCircuitboard
+  id: MonoResearchDataTerminalCircuitboard
+  name: research data terminal computer board
+  description: A computer printed circuit board for a xenobiology research data terminal.
+  components:
+  - type: Sprite
+    state: cpu_science
+  - type: ComputerBoard
+    prototype: MonoResearchDataTerminal
+
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: MonoXRFScannerCircuitboard
+  name: XRF scanner machine board
+  description: A machine printed circuit board for an XRF scanner.
+  components:
+  - type: Sprite
+    state: science
+  - type: MachineBoard
+    prototype: MonoXRFScanner
+    requirements:
+      Manipulator: 2
+      ScanningModule: 2
+    stackRequirements:
+      Glass: 2
+      Steel: 2
+
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: MonoSynthesisSimulatorCircuitboard
+  name: synthesis simulator machine board
+  description: A machine printed circuit board for a chemical synthesis simulator.
+  components:
+  - type: Sprite
+    state: science
+  - type: MachineBoard
+    prototype: MonoSynthesisSimulator
+    requirements:
+      Manipulator: 3
+      ScanningModule: 1
+      Capacitor: 1
+    stackRequirements:
+      Glass: 2
+      Steel: 2
+
+- type: latheRecipe
+  parent: BaseCircuitboardRecipe
+  id: MonoResearchDataTerminalCircuitboard
+  result: MonoResearchDataTerminalCircuitboard
+
+- type: latheRecipe
+  parent: BaseCircuitboardRecipe
+  id: MonoXRFScannerCircuitboard
+  result: MonoXRFScannerCircuitboard
+
+- type: latheRecipe
+  parent: BaseCircuitboardRecipe
+  id: MonoSynthesisSimulatorCircuitboard
+  result: MonoSynthesisSimulatorCircuitboard

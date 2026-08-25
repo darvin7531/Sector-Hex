@@ -5,6 +5,8 @@
   name: synthesis simulator
   description: Simulates alterations to generated reagent properties and registers the resulting synthesis.
   components:
+  - type: Machine
+    board: MonoSynthesisSimulatorCircuitboard
   - type: Sprite
     sprite: _Mono/Xenobiology/Machines/chem_simulator.rsi
     state: modifier

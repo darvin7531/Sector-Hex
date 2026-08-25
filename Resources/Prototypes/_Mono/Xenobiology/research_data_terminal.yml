@@ -20,4 +20,4 @@
     - map: ["computerLayerScreen"]
       state: research
   - type: Computer
-    board: null
+    board: MonoResearchDataTerminalCircuitboard
