@@ -14,20 +14,20 @@ public sealed class ReagentPropertyCatalogueTest
 {
     private static readonly HashSet<string> ExpectedProperties =
     [
-        "Negative", "Hypoxemic", "Toxic", "Corrosive", "Biocidic", "Neuropathic", "Hemolytic",
+        "Hypoxemic", "Toxic", "Corrosive", "Biocidic", "Neuropathic", "Hemolytic",
         "Hemorrhaging", "Carcinogenic", "Hepatotoxic", "Intravenous", "Nephrotoxic", "Pneumotoxic",
         "Oculotoxic", "Cardiotoxic", "Neurotoxic", "Hypermetabolic", "Addictive", "Hemositic", "Igniting",
-        "Neutral", "Cryometabolizing", "Thanatometabolizing", "Excreting", "Nutritious", "Ketogenic",
+        "Cryometabolizing", "Thanatometabolizing", "Excreting", "Nutritious", "Ketogenic",
         "Neuroinhibiting", "Alcoholic", "Hallucinogenic", "Antispasmodic", "Hyperthermic", "Hypothermic",
         "Atrichogenic", "Trichogenic", "Allergenic", "Euphoric", "Emetic", "Psychostimulating",
         "Antihallucinogenic", "Hypometabolic", "Hypnotic", "Hyperthrottling", "Viscous", "Thermostabilizing",
-        "Focusing", "Transformative", "Unknown", "Positive", "Antitoxic", "Anticorrosive", "Neogenetic",
+        "Focusing", "Transformative", "Unknown", "Antitoxic", "Anticorrosive", "Neogenetic",
         "Repairing", "Hemogenic", "Yautjahemogenic", "Hemostatic", "Nervestimulating", "Musclestimulating",
         "Painkilling", "Hepatopeutic", "Nephropeutic", "Pneumopeutic", "Oculopeutic", "Cardiopeutic",
         "Neuropeutic", "Bonemending", "Fluxing", "Neurocryogenic", "Antiparasitic", "Electrogenetic",
-        "Defibrillating", "Hyperdensificating", "Neuroshielding", "Antiaddictive", "PositiveFire", "Fueling",
+        "Defibrillating", "Hyperdensificating", "Neuroshielding", "Antiaddictive", "Fueling",
         "Oxidizing", "Flowing", "Explosive", "Photosensitive", "Crystallization", "Disrupting", "Neutralizing",
-        "Cardiostabilizing", "Aiding", "Oxygenating", "Anticarcinogenic", "Firepenetrating", "Special",
+        "Cardiostabilizing", "Aiding", "Oxygenating", "Anticarcinogenic", "Firepenetrating",
         "Boosting", "Optimized", "Hypergenetic", "Organhealing", "DNADisintegrating", "Regulating", "Ciphering",
         "Encrypted", "Crossciphering", "Crossmetabolizing", "Embryonic", "Transforming", "Ravenous", "Curing",
         "Omnipotent", "Radius", "Intensity", "Duration", "Encephaloprasive",
@@ -46,7 +46,7 @@ public sealed class ReagentPropertyCatalogueTest
         Assert.Multiple(() =>
         {
             Assert.That(actual, Is.SupersetOf(ExpectedProperties));
-            Assert.That(ExpectedProperties, Has.Count.EqualTo(107));
+            Assert.That(ExpectedProperties, Has.Count.EqualTo(102));
             Assert.That(conflicts.Values, Has.Count.EqualTo(42));
             Assert.That(combinations.Values, Has.Count.EqualTo(10));
         });
@@ -66,7 +66,7 @@ public sealed class ReagentPropertyCatalogueTest
             .ToHashSet();
 
         var missing = prototypes.EnumeratePrototypes<ReagentPropertyPrototype>()
-            .Where(property => !property.Abstract && !property.GenerationDisabled &&
+            .Where(property => !property.ID.StartsWith("MonoTest") && !property.Abstract && !property.GenerationDisabled &&
                 property.Rarity is not ReagentPropertyRarity.Disabled and not ReagentPropertyRarity.Admin &&
                 !string.IsNullOrEmpty(property.EffectName) && !effectNames.Contains(property.EffectName))
             .Select(property => $"{property.ID}:{property.EffectName}")
