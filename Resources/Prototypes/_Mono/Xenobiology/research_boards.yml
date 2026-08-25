@@ -23,7 +23,8 @@
     prototype: MonoXRFScanner
     requirements:
       Manipulator: 2
-      ScanningModule: 2
+      MatterBin: 1
+      Capacitor: 1
     stackRequirements:
       Glass: 2
       Steel: 2
@@ -40,7 +41,7 @@
     prototype: MonoSynthesisSimulator
     requirements:
       Manipulator: 3
-      ScanningModule: 1
+      MatterBin: 1
       Capacitor: 1
     stackRequirements:
       Glass: 2
