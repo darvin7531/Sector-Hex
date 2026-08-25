@@ -70,7 +70,7 @@ public sealed partial class ProceduralReagentGeneratorSystem : EntitySystem
 
         foreach (var property in _prototypes.EnumeratePrototypes<ReagentPropertyPrototype>())
         {
-            if (property.Rarity == ReagentPropertyRarity.Disabled)
+            if (property.GenerationDisabled || property.Rarity == ReagentPropertyRarity.Disabled)
                 continue;
 
             if (property.Rarity == ReagentPropertyRarity.Rare)
@@ -285,7 +285,7 @@ public sealed partial class ProceduralReagentGeneratorSystem : EntitySystem
         }
 
         var prototype = _prototypes.Index<ReagentPropertyPrototype>(property);
-        if (prototype.Rarity is ReagentPropertyRarity.Disabled or ReagentPropertyRarity.Admin)
+        if (prototype.GenerationDisabled || prototype.Rarity is ReagentPropertyRarity.Disabled or ReagentPropertyRarity.Admin)
             return AddProperty(ref data, valueOffset: valueOffset, typeToAdd: typeToAdd, track: track, depth: depth + 1);
 
         level = Math.Min(level, prototype.MaxLevel);

@@ -1,0 +1,66 @@
+# Adapted from RussianCM commit 0540a61b873bb3e08a40ba75404a1eb2fb21da27.
+# Licensed under AGPL-3.0 under the RussianCM repository-wide license.
+
+#comma separated
+- type: dataset
+  id: MonoReagentConflictingProperties
+  values:
+  - Nutritious,Hemorrhaging
+  - Nutritious,Hemolytic
+  - Toxic,Antitoxic
+  - Corrosive,Anticorrosive
+  - Biocidic,Neogenetic
+  - Hyperthermic,Hypothermic
+  - Nutritious,Ketogenic
+  - Neuropathic,Painkilling
+  - Hallucinogenic,Antihallucinogenic
+  - Hepatotoxic,Hepatopeutic
+  - Nephrotoxic,Nephropeutic
+  - Pneumotoxic,Pneumopeutic
+  - Oculotoxic,Oculopeutic
+  - Cardiotoxic,Cardiopeutic
+  - Neurotoxic,Neuropeutic
+  - Fluxing,Repairing
+  - Antispasmodic,Musclestimulating
+  - Hemogenic,Hemolytic
+  - Hemogenic,Hemorrhaging
+  - Nutritious,Emetic
+  - Hypergenetic,Neogenetic
+  - Hypergenetic,Hepatopeutic
+  - Hypergenetic,Nephropeutic
+  - Hypergenetic,Pneumopeutic
+  - Hypergenetic,Oculopeutic
+  - Hypergenetic,Cardiopeutic
+  - Hypergenetic,Neuropeutic
+  - Addictive,Antiaddictive
+  - Neuroshielding,Neurotoxic
+  - Hypometabolic,Hypermetabolic
+  - Hyperthrottling,Neuroinhibiting
+  - Thermostabilizing,Hyperthermic
+  - Thermostabilizing,Hypothermic
+  - Aiding,Neuroinhibiting
+  - Oxygenating,Hypoxemic
+  - Anticarcinogenic,Carcinogenic
+  - Ciphering,Crossciphering
+  - Transformative,Antitoxic
+  - Intravenous,Hypermetabolic
+  - Intravenous,Hypometabolic
+  - Musclestimulating,Nervestimulating
+  - Hemositic,Nutritious
+
+#comma separated, order is RESULT,PROPERTY,...,PROPERTY
+#e.g. Ciphering,Biocidic,Carcinogenic,Encrypted
+- type: dataset
+  id: MonoReagentCombiningProperties
+  values:
+  - Defibrillating,Musclestimulating,Cardiopeutic
+  - Thanatometabolizing,Hypoxemic,Cryometabolizing,Neurocryogenic
+  - Hyperdensificating,Musclestimulating,Bonemending,Carcinogenic
+  - Hyperthrottling,Psychostimulating,Hallucinogenic
+  - Neuroshielding,Alcoholic,Atrichogenic
+  - Antiaddictive,Psychostimulating,Antihallucinogenic
+  - Addictive,Psychostimulating,Neurotoxic
+  - Crossciphering,Ciphering,Crossmetabolizing
+  - Firepenetrating,Oxygenating,Explosive
+  - Bonemending,Crystallization,Nutritious
+  #ciphering is determined by code
