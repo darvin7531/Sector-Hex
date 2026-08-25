@@ -214,4 +214,3 @@ mono-reagent-property-name-duration = Duration
 mono-reagent-property-desc-duration = Controls the duration of a fire, using unknown means.
 mono-reagent-property-name-encephaloprasive = Encephaloprasive
 mono-reagent-property-desc-encephaloprasive = Drastically increases the amplitude of Gamma and Beta brain waves, allowing the host to broadcast their mind.
-
