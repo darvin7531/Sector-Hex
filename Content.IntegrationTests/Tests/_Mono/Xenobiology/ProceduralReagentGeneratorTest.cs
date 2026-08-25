@@ -84,6 +84,16 @@ public sealed class ProceduralReagentGeneratorTest
   rarity: Disabled
   hint: Positive
 
+- type: reagentProperty
+  id: MonoTestGenerationDisabled
+  name: mono-test-generation-disabled
+  description: mono-test-generation-disabled-desc
+  effectName: MonoTestGenerationDisabled
+  category: Medicine
+  rarity: Common
+  hint: Positive
+  generationDisabled: true
+
 - type: reagent
   id: MonoTestBasicReagent
   name: reagent-name-nothing
@@ -202,6 +212,7 @@ public sealed class ProceduralReagentGeneratorTest
             Assert.That(generator.PropertyPools["positive"], Does.Contain("MonoTestAntitoxic"));
             Assert.That(generator.PropertyPools["rare"], Does.Contain("MonoTestRare"));
             Assert.That(generator.PropertyPools.SelectMany(pool => pool.Value), Does.Not.Contain("MonoTestDisabled"));
+            Assert.That(generator.PropertyPools.SelectMany(pool => pool.Value), Does.Not.Contain("MonoTestGenerationDisabled"));
             Assert.That(generator.ReagentClassPools["C1"], Does.Contain("MonoTestBasicReagent"));
             Assert.That(generator.ReagentClassPools["C2"], Does.Contain("MonoTestCommonReagent"));
             Assert.That(generator.ReagentClassPools["C"], Does.Contain("MonoTestBasicReagent"));
