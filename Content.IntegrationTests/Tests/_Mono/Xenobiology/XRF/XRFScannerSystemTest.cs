@@ -180,6 +180,25 @@ public sealed class XRFScannerSystemTest
         await pair.CleanReturnAsync();
     }
 
+    [Test]
+    public void BuiStateExposesCompletedReport()
+    {
+        var report = new XRFScanReport(
+            XRFScanStatus.Valid,
+            Reagent,
+            "test reagent",
+            ProceduralReagentClass.Uncommon,
+            5,
+            true);
+        var state = new XRFScannerBuiState(false, report);
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(state.HasReport, Is.True);
+            Assert.That(state.Report.ReagentId, Is.EqualTo(Reagent));
+        });
+    }
+
     private static async Task<(EntityUid Scanner, EntityUid Vial)> SpawnScannerAndVial(TestPair pair)
     {
         var map = await pair.CreateTestMap();
