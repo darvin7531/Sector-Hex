@@ -182,13 +182,10 @@ public sealed class ResearchDataTerminalSystemTest
         var map = await pair.CreateTestMap();
         var research = server.System<ResearchDataTerminalSystem>();
         var delivery = server.System<CipheringBreakthroughDeliverySystem>();
-        var breakthroughs = 0;
 
         await server.WaitAssertion(() =>
         {
             server.EntMan.EventBus.RaiseEvent(EventSource.Local, new RoundRestartCleanupEvent());
-            server.EntMan.EventBus.SubscribeEvent<ResearchClearanceSixBreakthroughEvent>(EventSource.Local,
-                _ => breakthroughs++);
 
             for (var i = 0; i < 13; i++)
                 Assert.That(research.TryCompleteResearch($"cipher-{i}", 3), Is.True);
@@ -197,7 +194,7 @@ public sealed class ResearchDataTerminalSystemTest
 
             Assert.Multiple(() =>
             {
-                Assert.That(breakthroughs, Is.EqualTo(1));
+                Assert.That(delivery.BreakthroughCount, Is.EqualTo(1));
                 Assert.That(delivery.TryDeliver(map.GridCoords, out var egg), Is.True);
                 Assert.That(server.EntMan.GetComponent<MetaDataComponent>(egg).EntityPrototype?.ID,
                     Is.EqualTo("MonoXenoEgg"));

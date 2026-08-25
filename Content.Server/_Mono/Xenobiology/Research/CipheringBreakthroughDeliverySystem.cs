@@ -10,12 +10,14 @@ public sealed partial class CipheringBreakthroughDeliverySystem : EntitySystem
 {
     private bool _unclaimed;
     private bool _delivered;
+    public int BreakthroughCount { get; private set; }
 
     public override void Initialize()
     {
         base.Initialize();
         SubscribeLocalEvent<ResearchClearanceSixBreakthroughEvent>(_ =>
         {
+            BreakthroughCount++;
             if (!_delivered)
                 _unclaimed = true;
         });
@@ -23,6 +25,7 @@ public sealed partial class CipheringBreakthroughDeliverySystem : EntitySystem
         {
             _unclaimed = false;
             _delivered = false;
+            BreakthroughCount = 0;
         });
     }
 
