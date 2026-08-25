@@ -34,9 +34,11 @@ public abstract partial class MonoTypedDamageEffect : MonoServerChemicalEffect
 
     protected override void Tick(DamageableSystem damageable, FixedPoint2 potency, EntityEffectReagentArgs args)
     {
+        var damage = new DamageSpecifier();
+        damage.DamageDict[DamageType] = potency * Multiplier;
         damageable.TryChangeDamage(
             args.TargetEntity,
-            new DamageSpecifier(DamageType, potency * Multiplier),
+            damage,
             true,
             interruptsDoAfters: false,
             canSever: false);
