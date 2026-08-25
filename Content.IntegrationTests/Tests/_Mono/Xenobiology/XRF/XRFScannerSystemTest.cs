@@ -141,6 +141,9 @@ public sealed class XRFScannerSystemTest
                 Assert.That(report.Reward, Is.EqualTo(5));
                 Assert.That(report.RewardGranted, Is.True);
                 Assert.That(server.System<ResearchDataTerminalSystem>().Credits, Is.EqualTo(5));
+                Assert.That(server.System<ResearchDataTerminalSystem>().KnownScans, Has.Count.EqualTo(1));
+                Assert.That(server.System<ResearchDataTerminalSystem>().KnownScans[0].Name,
+                    Is.EqualTo("mono-xrf-test-reagent"));
             });
         });
 
@@ -170,6 +173,7 @@ public sealed class XRFScannerSystemTest
                 Assert.That(duplicate.RewardGranted, Is.False);
                 Assert.That(server.System<ResearchDataTerminalSystem>().Credits, Is.EqualTo(5));
                 Assert.That(server.System<ResearchDataTerminalSystem>().CompletedResearchCount, Is.EqualTo(1));
+                Assert.That(server.System<ResearchDataTerminalSystem>().KnownScans, Has.Count.EqualTo(1));
             });
         });
 
