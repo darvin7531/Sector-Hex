@@ -5,20 +5,48 @@
   parent: BaseItem
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/egg.rsi
-    state: icon
-    color: "#588157"
+    sprite: _Mono/Xenobiology/Mobs/xeno_egg.rsi
+    state: egg_item
+    layers:
+    - state: egg_item
+      map: ["enum.XenoEggVisuals.State"]
   - type: Item
     size: Normal
-    sprite: Objects/Consumable/Food/egg.rsi
+    sprite: _Mono/Xenobiology/Mobs/xeno_egg.rsi
   - type: XenoEgg
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.XenoEggVisuals.State:
+        enum.XenoEggVisuals.State:
+          Item: { state: egg_item }
+          Growing: { state: egg_growing }
+          Grown: { state: egg }
+          Opening: { state: egg_opening }
+          Opened: { state: egg_opened }
 
 - type: entity
   id: MonoXenoParasite
-  name: xeno parasite
-  description: A small alien parasite seeking a viable host.
-  parent: MobXenoRunner
+  name: facehugger
+  description: A small alien parasite that latches onto a viable host.
+  parent: BaseMob
   components:
+  - type: Sprite
+    sprite: _Mono/Xenobiology/Mobs/facehugger.rsi
+    state: alive
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.2
+        density: 100
+        mask:
+        - SmallMobMask
+        layer:
+        - SmallMobLayer
+  - type: Item
+    size: Tiny
   - type: XenoParasite
   - type: GhostTakeoverAvailable
 

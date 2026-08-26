@@ -45,14 +45,22 @@ public sealed class XenoLifecycleTest
         {
             egg = entMan.SpawnEntity("MonoTestXenoEgg", map.GridCoords);
             var component = entMan.GetComponent<XenoEggComponent>(egg);
+            var appearance = server.System<SharedAppearanceSystem>();
             Assert.That(component.State, Is.EqualTo(XenoEggState.Item));
+            Assert.That(appearance.TryGetData<XenoEggState>(egg, XenoEggVisuals.State, out var visual), Is.True);
+            Assert.That(visual, Is.EqualTo(XenoEggState.Item));
             Assert.That(entMan.System<XenoLifecycleSystem>().TryPlace((egg, component)), Is.True);
             Assert.That(component.State, Is.EqualTo(XenoEggState.Item));
         });
 
         await server.WaitRunTicks(1);
         await server.WaitAssertion(() =>
-            Assert.That(entMan.GetComponent<XenoEggComponent>(egg).State, Is.EqualTo(XenoEggState.Growing)));
+        {
+            var appearance = server.System<SharedAppearanceSystem>();
+            Assert.That(entMan.GetComponent<XenoEggComponent>(egg).State, Is.EqualTo(XenoEggState.Growing));
+            Assert.That(appearance.TryGetData<XenoEggState>(egg, XenoEggVisuals.State, out var visual), Is.True);
+            Assert.That(visual, Is.EqualTo(XenoEggState.Growing));
+        });
 
         await server.WaitRunTicks(1);
         await server.WaitAssertion(() =>

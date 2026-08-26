@@ -6,6 +6,7 @@ using Content.Shared.NPC.Systems;
 using Content.Server.Polymorph.Systems;
 using Content.Shared.Polymorph;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Physics.Events;
 using Robust.Shared.Timing;
 
 namespace Content.Server._Mono.Xenobiology.Xeno;
@@ -16,6 +17,7 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly NpcFactionSystem _factions = default!;
     [Dependency] private readonly PolymorphSystem _polymorph = default!;
+    [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
 
     private static readonly ProtoId<PolymorphPrototype> AdultEvolution = "MonoXenoAdultEvolution";
 
@@ -23,9 +25,11 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
     {
         base.Initialize();
 
+        SubscribeLocalEvent<XenoEggComponent, ComponentInit>(OnEggInit);
         SubscribeLocalEvent<XenoEggComponent, UseInHandEvent>(OnEggUse);
         SubscribeLocalEvent<XenoEggComponent, ActivateInWorldEvent>(OnEggActivate);
         SubscribeLocalEvent<XenoParasiteComponent, InteractHandEvent>(OnParasiteInteract);
+        SubscribeLocalEvent<XenoParasiteComponent, StartCollideEvent>(OnParasiteCollide);
         SubscribeLocalEvent<XenoLarvaComponent, ComponentStartup>(OnLarvaStartup);
     }
 
@@ -33,6 +37,11 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
     {
         larva.Comp.EvolveAt = _timing.CurTime + larva.Comp.EvolutionDelay;
         Dirty(larva);
+    }
+
+    private void OnEggInit(Entity<XenoEggComponent> egg, ref ComponentInit args)
+    {
+        UpdateEggVisual(egg);
     }
 
     private void OnEggUse(Entity<XenoEggComponent> egg, ref UseInHandEvent args)
@@ -58,6 +67,11 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
             args.Handled = true;
     }
 
+    private void OnParasiteCollide(Entity<XenoParasiteComponent> parasite, ref StartCollideEvent args)
+    {
+        TryInfect(parasite.Owner, args.OtherEntity);
+    }
+
     public bool TryPlace(Entity<XenoEggComponent> egg)
     {
         if (egg.Comp.State != XenoEggState.Item || egg.Comp.PlacementAt != null)
@@ -76,6 +90,7 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
         egg.Comp.State = XenoEggState.Opening;
         egg.Comp.OpenAt = _timing.CurTime + egg.Comp.OpeningDelay;
         Dirty(egg);
+        UpdateEggVisual(egg);
         return true;
     }
 
@@ -92,6 +107,7 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
         infection.SpawnAt = _timing.CurTime + infectable.IncubationDelay;
         infection.LarvaPrototype = infectable.LarvaPrototype;
         Dirty(host, infection);
+        QueueDel(parasite);
         return true;
     }
 
@@ -125,6 +141,7 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
                 egg.GrowAt = now + egg.GrowthDelay;
                 _transform.AnchorEntity(uid, Transform(uid));
                 Dirty(uid, egg);
+                UpdateEggVisual((uid, egg));
                 continue;
             }
 
@@ -133,6 +150,7 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
                 egg.GrowAt = null;
                 egg.State = XenoEggState.Grown;
                 Dirty(uid, egg);
+                UpdateEggVisual((uid, egg));
                 continue;
             }
 
@@ -143,6 +161,7 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
             egg.SpawnedParasite ??= Spawn(egg.ParasitePrototype, Transform(uid).Coordinates);
             egg.State = XenoEggState.Opened;
             Dirty(uid, egg);
+            UpdateEggVisual((uid, egg));
         }
 
         var infections = EntityQueryEnumerator<XenoInfectionComponent>();
@@ -158,5 +177,10 @@ public sealed partial class XenoLifecycleSystem : EntitySystem
             infection.SpawnedLarva = larva;
             Dirty(uid, infection);
         }
+    }
+
+    private void UpdateEggVisual(Entity<XenoEggComponent> egg)
+    {
+        _appearance.SetData(egg.Owner, XenoEggVisuals.State, egg.Comp.State);
     }
 }

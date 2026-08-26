@@ -85,3 +85,9 @@ public enum XenoEggState : byte
     Opening,
     Opened,
 }
+
+[Serializable, NetSerializable]
+public enum XenoEggVisuals : byte
+{
+    State,
+}
