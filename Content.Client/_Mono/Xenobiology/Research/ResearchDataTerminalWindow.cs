@@ -1,6 +1,7 @@
 using Content.Shared._Mono.Xenobiology.Research;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.CustomControls;
+using Robust.Shared.Localization;
 using static Robust.Client.UserInterface.Controls.BoxContainer;
 
 namespace Content.Client._Mono.Xenobiology.Research;
@@ -20,12 +21,12 @@ public sealed class ResearchDataTerminalWindow : DefaultWindow
 
     public ResearchDataTerminalWindow()
     {
-        Title = "Research Data Terminal";
+        Title = Loc.GetString("mono-research-terminal-title");
         MinSize = new System.Numerics.Vector2(620, 480);
 
         _progress = new Label();
-        _upgrade = new Button { Text = "Upgrade clearance" };
-        _reprint = new Button { Text = "Reprint selected contract" };
+        _upgrade = new Button { Text = Loc.GetString("mono-research-terminal-upgrade") };
+        _reprint = new Button { Text = Loc.GetString("mono-research-terminal-reprint") };
         _contracts = new BoxContainer { Orientation = LayoutOrientation.Vertical };
         _reports = new BoxContainer { Orientation = LayoutOrientation.Vertical };
 
@@ -43,9 +44,9 @@ public sealed class ResearchDataTerminalWindow : DefaultWindow
                     Orientation = LayoutOrientation.Horizontal,
                     Children = { _upgrade, _reprint },
                 },
-                new Label { Text = "Available contracts" },
+                new Label { Text = Loc.GetString("mono-research-terminal-contracts") },
                 new ScrollContainer { VerticalExpand = true, Children = { _contracts } },
-                new Label { Text = "Known scans" },
+                new Label { Text = Loc.GetString("mono-research-terminal-scans") },
                 new ScrollContainer { VerticalExpand = true, Children = { _reports } },
             },
         });

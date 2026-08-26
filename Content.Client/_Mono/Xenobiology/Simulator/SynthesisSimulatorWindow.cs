@@ -3,6 +3,7 @@ using Content.Shared._Mono.Xenobiology.Chemistry;
 using Content.Shared._Mono.Xenobiology.Simulator;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.CustomControls;
+using Robust.Shared.Localization;
 using static Robust.Client.UserInterface.Controls.BoxContainer;
 
 namespace Content.Client._Mono.Xenobiology.Simulator;
@@ -16,14 +17,14 @@ public sealed class SynthesisSimulatorWindow : DefaultWindow
     private readonly OptionButton _mode = new();
     private readonly OptionButton _targetProperty = new();
     private readonly OptionButton _referenceProperty = new();
-    private readonly CheckBox _override = new() { Text = "Override conflicts" };
-    private readonly Button _run = new() { Text = "Simulate" };
+    private readonly CheckBox _override = new() { Text = Loc.GetString("mono-synthesis-simulator-override") };
+    private readonly Button _run = new() { Text = Loc.GetString("mono-synthesis-simulator-run") };
     private readonly Label _result = new();
     private List<GeneratedReagentData> _available = [];
 
     public SynthesisSimulatorWindow()
     {
-        Title = "Synthesis Simulator";
+        Title = Loc.GetString("mono-synthesis-simulator-title");
         MinSize = new System.Numerics.Vector2(560, 420);
 
         foreach (var mode in Enum.GetValues<SynthesisSimulatorMode>())
@@ -39,11 +40,11 @@ public sealed class SynthesisSimulatorWindow : DefaultWindow
             Orientation = LayoutOrientation.Vertical,
             Children =
             {
-                new Label { Text = "Target reagent" }, _target,
-                new Label { Text = "Target property" }, _targetProperty,
-                new Label { Text = "Operation" }, _mode,
-                new Label { Text = "Reference reagent" }, _reference,
-                new Label { Text = "Reference property" }, _referenceProperty,
+                new Label { Text = Loc.GetString("mono-synthesis-simulator-target") }, _target,
+                new Label { Text = Loc.GetString("mono-synthesis-simulator-target-property") }, _targetProperty,
+                new Label { Text = Loc.GetString("mono-synthesis-simulator-operation") }, _mode,
+                new Label { Text = Loc.GetString("mono-synthesis-simulator-reference") }, _reference,
+                new Label { Text = Loc.GetString("mono-synthesis-simulator-reference-property") }, _referenceProperty,
                 _override, _run, _result,
             },
         });
@@ -58,13 +59,13 @@ public sealed class SynthesisSimulatorWindow : DefaultWindow
         _override.Pressed = state.OverrideConflicts;
         RefreshProperties(state.TargetProperty, state.ReferenceProperty);
         _run.Disabled = _available.Count == 0;
-        _result.Text = state.Error ?? (state.Result is { } result ? $"Created: {result.Name}" : string.Empty);
+        _result.Text = state.Error ?? (state.Result is { } result ? Loc.GetString("mono-synthesis-simulator-created", ("name", result.Name)) : string.Empty);
     }
 
     private void FillReagents(OptionButton button, string? selected)
     {
         button.Clear();
-        button.AddItem("None", -1);
+        button.AddItem(Loc.GetString("mono-synthesis-simulator-none"), -1);
         for (var index = 0; index < _available.Count; index++)
             button.AddItem(_available[index].Name, index);
         button.SelectId(IndexOf(selected));
@@ -79,7 +80,7 @@ public sealed class SynthesisSimulatorWindow : DefaultWindow
     private static void FillProperties(OptionButton button, GeneratedReagentData? reagent, string? selected)
     {
         button.Clear();
-        button.AddItem("None", -1);
+        button.AddItem(Loc.GetString("mono-synthesis-simulator-none"), -1);
         if (reagent is not { } data)
         {
             button.SelectId(-1);
