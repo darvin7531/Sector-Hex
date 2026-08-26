@@ -2,8 +2,6 @@
 // Licensed under AGPL-3.0 under the RussianCM repository-wide license.
 
 using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
 using Content.Shared._Mono.Xenobiology.Chemistry;
 using Content.Shared.Chemistry.Reagent;
 using Content.Shared.FixedPoint;
@@ -263,10 +261,22 @@ public sealed partial class SynthesisSimulatorSystem : EntitySystem
     {
         var signature = string.Join(' ', result.Effects.OrderBy(effect => effect.Key)
             .Select(effect => $"{effect.Key}{effect.Value}"));
-        var hash = Convert.ToHexStringLower(MD5.HashData(Encoding.UTF8.GetBytes(signature)))[..2];
+        var hash = ShortHash(signature);
         var source = result.OriginalID.Replace(' ', '-');
         result.ID = $"TAU-{_registry.GeneratedReagents.Count}-{source}-{hash}";
         result.Name = $"{result.Name} {hash}";
+    }
+
+    private static string ShortHash(string text)
+    {
+        uint hash = 2166136261;
+        foreach (var character in text)
+        {
+            hash ^= character;
+            hash *= 16777619;
+        }
+
+        return $"{hash & 0xff:x2}";
     }
 
     private static string RequiredProperty(string? property, string role)

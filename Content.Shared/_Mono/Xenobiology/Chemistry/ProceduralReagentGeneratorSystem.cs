@@ -185,9 +185,9 @@ public sealed partial class ProceduralReagentGeneratorSystem : EntitySystem
                 data.CriticalOverdose += 5;
         }
 
-        var red = Convert.ToByte(_random.Next(0, 256));
-        var green = Convert.ToByte(_random.Next(0, 256));
-        var blue = Convert.ToByte(_random.Next(0, 256));
+        var red = (byte) _random.Next(0, 256);
+        var green = (byte) _random.Next(0, 256);
+        var blue = (byte) _random.Next(0, 256);
         data.Color = Color.FromHex($"#{red:x2}{green:x2}{blue:x2}");
         return true;
     }
@@ -256,7 +256,7 @@ public sealed partial class ProceduralReagentGeneratorSystem : EntitySystem
         level = Math.Min(level, data.GenTier + 3);
 
         if (property != null)
-            return Convert.ToInt32(InsertProperty(ref data, property, level));
+            return InsertProperty(ref data, property, level) ? 1 : 0;
 
         var roll = _random.Next(1, 101);
         string pool;
