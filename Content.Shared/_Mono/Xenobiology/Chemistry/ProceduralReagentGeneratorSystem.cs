@@ -277,13 +277,13 @@ public sealed partial class ProceduralReagentGeneratorSystem : EntitySystem
             };
         }
 
-        property = _random.Pick(PropertyPools[pool]);
+        property = PickProperty(pool);
         if (track)
         {
             var checks = 0;
             while (!CheckGeneratedProperty(property) && checks < 4)
             {
-                property = _random.Pick(PropertyPools[pool]);
+                property = PickProperty(pool);
                 checks++;
             }
         }
@@ -300,6 +300,18 @@ public sealed partial class ProceduralReagentGeneratorSystem : EntitySystem
             ReagentPropertyHint.Neutral => (int)Math.Floor(-level / 2f),
             _ => level,
         };
+    }
+
+    private string PickProperty(string requestedPool)
+    {
+        if (PropertyPools.TryGetValue(requestedPool, out var requested) && requested.Count > 0)
+            return _random.Pick(requested);
+
+        var available = PropertyPools.Values.Where(pool => pool.Count > 0).ToArray();
+        if (available.Length == 0)
+            throw new InvalidOperationException("No generatable reagent properties are available.");
+
+        return _random.Pick(_random.Pick(available));
     }
 
     public bool CheckGeneratedProperty(string property)
