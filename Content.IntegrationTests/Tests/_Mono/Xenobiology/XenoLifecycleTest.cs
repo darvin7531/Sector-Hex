@@ -1,5 +1,6 @@
 using Content.Server._Mono.Xenobiology.Xeno;
 using Content.Shared._Mono.Xenobiology.Xeno;
+using Content.Shared.Weapons.Melee;
 using Robust.Shared.GameObjects;
 
 namespace Content.IntegrationTests.Tests._Mono.Xenobiology;
@@ -118,6 +119,27 @@ public sealed class XenoLifecycleTest
             }
 
             Assert.That(larvaCount, Is.EqualTo(1));
+        });
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
+    public async Task ParasiteIsNonCombatAndConsumedOnInfection()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var server = pair.Server;
+        var map = await pair.CreateTestMap();
+
+        await server.WaitAssertion(() =>
+        {
+            var parasite = server.EntMan.SpawnEntity("MonoXenoParasite", map.GridCoords);
+            var host = server.EntMan.SpawnEntity("MonoTestXenoHost", map.GridCoords);
+            var lifecycle = server.EntMan.System<XenoLifecycleSystem>();
+
+            Assert.That(server.EntMan.HasComponent<MeleeWeaponComponent>(parasite), Is.False);
+            Assert.That(lifecycle.TryInfect(parasite, host), Is.True);
+            Assert.That(server.EntMan.Deleted(parasite), Is.True);
         });
 
         await pair.CleanReturnAsync();
