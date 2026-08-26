@@ -60,6 +60,7 @@ public sealed class XRFScannerBuiState(bool processing, XRFScanReport report) : 
     public bool HasReport => Report.Status != XRFScanStatus.Missing;
 }
 
+[Serializable, NetSerializable]
 public enum XRFScanStatus : byte
 {
     Missing,
@@ -69,11 +70,13 @@ public enum XRFScanStatus : byte
     Valid,
 }
 
+[Serializable, NetSerializable]
 public enum XRFScannerVisuals : byte
 {
     State,
 }
 
+[Serializable, NetSerializable]
 public enum XRFScannerState : byte
 {
     Idle,
