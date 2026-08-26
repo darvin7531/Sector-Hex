@@ -10,6 +10,7 @@ using Content.Shared.GameTicking;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Serialization;
 using Robust.Shared.Timing;
 
 namespace Content.IntegrationTests.Tests._Mono.Xenobiology.XRF;
@@ -21,6 +22,17 @@ public sealed class XRFScannerSystemTest
 {
     private const string Reagent = "MonoXRFTestReagent";
     private const string Contaminant = "MonoXRFTestContaminant";
+
+    [Test]
+    public void ScannerNetworkEnumsAreSerializable()
+    {
+        Assert.Multiple(() =>
+        {
+            Assert.That(typeof(XRFScannerVisuals).IsDefined(typeof(NetSerializableAttribute), false), Is.True);
+            Assert.That(typeof(XRFScannerState).IsDefined(typeof(NetSerializableAttribute), false), Is.True);
+            Assert.That(typeof(XRFScanStatus).IsDefined(typeof(NetSerializableAttribute), false), Is.True);
+        });
+    }
 
     [TestPrototypes]
     private const string Prototypes = """
