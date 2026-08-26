@@ -298,6 +298,21 @@ public sealed class ProceduralReagentGeneratorTest
     }
 
     [Test]
+    public async Task GenerateStatsFallsBackWhenRarePoolIsEmpty()
+    {
+        await using var pair = await PoolManager.GetServerClient();
+        var generator = pair.Server.System<ProceduralReagentGeneratorSystem>();
+        generator.PreparePools();
+        generator.PropertyPools["rare"].Clear();
+        var reagent = new GeneratedReagentData { GenTier = 3 };
+
+        Assert.DoesNotThrow(() => generator.GenerateStats(ref reagent));
+        Assert.That(reagent.Effects, Is.Not.Empty);
+
+        await pair.CleanReturnAsync();
+    }
+
+    [Test]
     public async Task AddChemicalUsesExplicitClassAndRejectsDuplicate()
     {
         await using var pair = await PoolManager.GetServerClient();
