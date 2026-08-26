@@ -1,0 +1,67 @@
+# Adapted from RussianCM commit 0540a61b873bb3e08a40ba75404a1eb2fb21da27.
+# Licensed under AGPL-3.0 under the RussianCM repository-wide license.
+# RMC-only fauna are mapped to existing Monolith host archetypes; no external assets are used.
+
+- type: entity
+  parent: MonkeyCube
+  id: MonoYirenCube
+  name: yiren cube
+  description: A compressed primate-like laboratory host. Just add water.
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - MobMonkey
+
+- type: entity
+  parent: MonkeyCube
+  id: MonoFarwaCube
+  name: farwa cube
+  description: A compressed feline laboratory host. Just add water.
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - MobCat
+
+- type: entity
+  parent: MonkeyCube
+  id: MonoStokCube
+  name: stok cube
+  description: A compressed reptilian laboratory host. Just add water.
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - MobLizard
+
+- type: entity
+  parent: MonkeyCube
+  id: MonoNeaeraCube
+  name: neaera cube
+  description: A compressed avian laboratory host. Just add water.
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - MobParrot
+
+- type: entity
+  parent: CrateGenericSteel
+  id: MonoExoticFaunaCrate
+  name: exotic fauna cube crate
+  description: A research crate containing four distinct laboratory fauna cubes.
+  components:
+  - type: StorageFill
+    contents:
+    - id: MonoYirenCube
+    - id: MonoFarwaCube
+    - id: MonoStokCube
+    - id: MonoNeaeraCube
+
+- type: cargoProduct
+  id: MonoResearchExoticFauna
+  abstract: true
+  icon:
+    sprite: Objects/Misc/monkeycube.rsi
+    state: cube
+  product: MonoExoticFaunaCrate
+  cost: 8000
+  category: cargoproduct-category-name-livestock
+  group: market

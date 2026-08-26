@@ -446,6 +446,7 @@
   id: Water
   name: reagent-name-water
   parent: BaseDrink
+  class: Basic
   desc: reagent-desc-water
   evaporationSpeed: 0.3
   absorbent: true

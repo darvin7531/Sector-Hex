@@ -1,0 +1,67 @@
+- type: entity
+  id: MonoXenoEgg
+  name: laboratory xeno egg
+  description: A contained alien organism. Use it to begin placement, then activate it once fully grown.
+  parent: BaseItem
+  components:
+  - type: Sprite
+    sprite: _Mono/Xenobiology/Mobs/xeno_egg.rsi
+    state: egg_item
+    layers:
+    - state: egg_item
+      map: ["enum.XenoEggVisuals.State"]
+  - type: Item
+    size: Normal
+    sprite: _Mono/Xenobiology/Mobs/xeno_egg.rsi
+  - type: XenoEgg
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.XenoEggVisuals.State:
+        enum.XenoEggVisuals.State:
+          Item: { state: egg_item }
+          Growing: { state: egg_growing }
+          Grown: { state: egg }
+          Opening: { state: egg_opening }
+          Opened: { state: egg_opened }
+
+- type: entity
+  id: MonoXenoParasite
+  name: facehugger
+  description: A small alien parasite that latches onto a viable host.
+  parent: BaseMob
+  components:
+  - type: Sprite
+    sprite: _Mono/Xenobiology/Mobs/facehugger.rsi
+    state: alive
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.2
+        density: 100
+        mask:
+        - SmallMobMask
+        layer:
+        - SmallMobLayer
+  - type: Item
+    size: Tiny
+  - type: XenoParasite
+  - type: GhostTakeoverAvailable
+
+- type: entity
+  id: MonoXenoLarva
+  name: xeno larva
+  description: An immature xenobiological organism.
+  parent: MobXenoDrone
+  components:
+  - type: XenoLarva
+  - type: GhostTakeoverAvailable
+
+- type: polymorph
+  id: MonoXenoAdultEvolution
+  configuration:
+    entity: MobXenoDrone
+    forced: true
+    transferName: true

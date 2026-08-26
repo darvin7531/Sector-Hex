@@ -1,0 +1,46 @@
+# SPDX-FileCopyrightText: 2026 Nous Research
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: polymorph
+  id: AbominationInfectionConversion
+  configuration:
+    entity: MobAbomination
+    forced: true
+    inventory: Drop
+    transferName: false
+    transferDamage: false
+    revertOnCrit: false
+    revertOnDeath: false
+
+- type: reagent
+  id: AbominationVenom
+  name: reagent-name-abomination-venom
+  group: Biological
+  desc: reagent-desc-abomination-venom
+  physicalDesc: reagent-physical-desc-viscous
+  flavor: bitter
+  color: "#56213a"
+  metabolisms:
+    Poison:
+      effects:
+      - !type:AbominationInfectionEffect
+
+- type: entity
+  parent: PrefilledSyringe
+  id: AbominationVenomSyringe
+  name: clotted syringe
+  description: A syringe filled with a viscous, dark fluid that smells like rotted flesh.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      injector:
+        maxVol: 15
+        reagents:
+        - ReagentId: AbominationVenom
+          Quantity: 15
+  - type: Injector
+    minTransferAmount: 5
+    maxTransferAmount: 15
+    transferAmount: 5
+    toggleState: Inject

@@ -310,6 +310,7 @@
 
 - type: reagent
   id: UnstableMutagen
+  class: Uncommon
   name: reagent-name-unstable-mutagen
   group: Toxins
   desc: reagent-desc-unstable-mutagen
@@ -458,6 +459,7 @@
 - type: reagent
   id: Amatoxin
   name: reagent-name-amatoxin
+  class: Hydro
   group: Toxins
   desc: reagent-desc-amatoxin
   physicalDesc: reagent-physical-desc-nondescript
