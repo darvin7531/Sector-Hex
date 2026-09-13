@@ -1,118 +1,51 @@
 {
   "prototype_count": 18818,
-  "issue_count": 978,
+  "issue_count": 926,
   "scope": null,
   "issues": [
-    {
-      "id": "*checkerboard",
-      "key": "ent-*checkerboard",
-      "missing": [
-        "name"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Fun/Tabletop/checkers.yml",
-      "line": 23,
-      "name": "checkerboard",
-      "name_source": "*checkerboard",
-      "description": null,
-      "description_source": null,
-      "ru_source": null
-    },
-    {
-      "id": "*crownBlack",
-      "key": "ent-*crownBlack",
-      "missing": [
-        "name"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Fun/Tabletop/checkers.yml",
-      "line": 61,
-      "name": "black checker crown",
-      "name_source": "*crownBlack",
-      "description": null,
-      "description_source": null,
-      "ru_source": null
-    },
-    {
-      "id": "*crownWhite",
-      "key": "ent-*crownWhite",
-      "missing": [
-        "name"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Fun/Tabletop/checkers.yml",
-      "line": 43,
-      "name": "white checker crown",
-      "name_source": "*crownWhite",
-      "description": null,
-      "description_source": null,
-      "ru_source": null
-    },
-    {
-      "id": "*pieceBlack",
-      "key": "ent-*pieceBlack",
-      "missing": [
-        "name"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Fun/Tabletop/checkers.yml",
-      "line": 52,
-      "name": "black checker piece",
-      "name_source": "*pieceBlack",
-      "description": null,
-      "description_source": null,
-      "ru_source": null
-    },
-    {
-      "id": "*pieceWhite",
-      "key": "ent-*pieceWhite",
-      "missing": [
-        "name"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Fun/Tabletop/checkers.yml",
-      "line": 34,
-      "name": "white checker piece",
-      "name_source": "*pieceWhite",
-      "description": null,
-      "description_source": null,
-      "ru_source": null
-    },
     {
       "id": "120mmBulletAPHEDS",
       "key": "ent-120mmBulletAPHEDS",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Cartridge/120mm_ammo.yml",
       "line": 42,
       "name": "120mm APHEDS projectile",
       "name_source": "120mmBulletAPHEDS",
-      "description": null,
-      "description_source": null,
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
       "ru_source": null
     },
     {
       "id": "140mmBulletAPHE",
       "key": "ent-140mmBulletAPHE",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 485,
       "name": "140mm APHE projectile",
       "name_source": "140mmBulletAPHE",
-      "description": null,
-      "description_source": null,
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
       "ru_source": null
     },
     {
       "id": "140mmBulletSACLOS",
       "key": "ent-140mmBulletSACLOS",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 524,
       "name": "140mm SACLOS projectile",
       "name_source": "140mmBulletSACLOS",
-      "description": null,
-      "description_source": null,
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
       "ru_source": null
     },
     {
@@ -131,8 +64,8 @@
       "ru_source": null
     },
     {
-      "id": "20mmBulletAS # Antishield",
-      "key": "ent-20mmBulletAS # Antishield",
+      "id": "20mmBulletAS",
+      "key": "ent-20mmBulletAS",
       "missing": [
         "name",
         "desc"
@@ -140,7 +73,7 @@
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 54,
       "name": "20mm bullet (AS)",
-      "name_source": "20mmBulletAS # Antishield",
+      "name_source": "20mmBulletAS",
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
       "ru_source": null
@@ -149,112 +82,120 @@
       "id": "220mmBulletAPHE",
       "key": "ent-220mmBulletAPHE",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 572,
       "name": "220mm APHE projectile",
       "name_source": "220mmBulletAPHE",
-      "description": null,
-      "description_source": null,
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
       "ru_source": null
     },
     {
       "id": "220mmBulletHE",
       "key": "ent-220mmBulletHE",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 611,
       "name": "220mm HE projectile",
       "name_source": "220mmBulletHE",
-      "description": null,
-      "description_source": null,
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
       "ru_source": null
     },
     {
       "id": "220mmPelletHE",
       "key": "ent-220mmPelletHE",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 649,
       "name": "220mm HE cluster-projectile",
       "name_source": "220mmPelletHE",
-      "description": null,
-      "description_source": null,
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
       "ru_source": null
     },
     {
       "id": "220mmPelletHESpread",
       "key": "ent-220mmPelletHESpread",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 686,
       "name": "220mm HE cluster-projectile",
       "name_source": "220mmPelletHE",
-      "description": null,
-      "description_source": null,
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
       "ru_source": null
     },
     {
       "id": "220mmPelletSmart",
       "key": "ent-220mmPelletSmart",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 696,
       "name": "220mm HMNG cluster-projectile",
       "name_source": "220mmPelletSmart",
-      "description": null,
-      "description_source": null,
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
       "ru_source": null
     },
     {
       "id": "220mmPelletSmartSpread",
       "key": "ent-220mmPelletSmartSpread",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 741,
       "name": "220mm HMNG cluster-projectile",
       "name_source": "220mmPelletSmart",
-      "description": null,
-      "description_source": null,
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
       "ru_source": null
     },
     {
       "id": "255mmBulletAPHE",
       "key": "ent-255mmBulletAPHE",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 753,
       "name": "255mm APHE projectile",
       "name_source": "255mmBulletAPHE",
-      "description": null,
-      "description_source": null,
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
       "ru_source": null
     },
     {
       "id": "255mmBulletEMP",
       "key": "ent-255mmBulletEMP",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 792,
       "name": "255mm EMP projectile",
       "name_source": "255mmBulletEMP",
-      "description": null,
-      "description_source": null,
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
       "ru_source": null
     },
     {
@@ -268,6 +209,21 @@
       "line": 833,
       "name": "255mm mine-laying projectile",
       "name_source": "255mmBulletMinelayer",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": null
+    },
+    {
+      "id": "30mmBulletHE",
+      "key": "ent-30mmBulletHE",
+      "missing": [
+        "name",
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
+      "line": 95,
+      "name": "BaseBullet",
+      "name_source": "BaseBullet",
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
       "ru_source": null
@@ -288,45 +244,93 @@
       "ru_source": null
     },
     {
+      "id": "57mmBulletHE",
+      "key": "ent-57mmBulletHE",
+      "missing": [
+        "name",
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
+      "line": 123,
+      "name": "BaseBullet",
+      "name_source": "BaseBullet",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": null
+    },
+    {
+      "id": "57mmBulletSACLOS",
+      "key": "ent-57mmBulletSACLOS",
+      "missing": [
+        "name",
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
+      "line": 199,
+      "name": "BaseBullet",
+      "name_source": "BaseBullet",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": null
+    },
+    {
+      "id": "57mmBulletSmart",
+      "key": "ent-57mmBulletSmart",
+      "missing": [
+        "name",
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
+      "line": 157,
+      "name": "BaseBullet",
+      "name_source": "BaseBullet",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": null
+    },
+    {
       "id": "90mmBulletAP",
       "key": "ent-90mmBulletAP",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 284,
       "name": "shell",
       "name_source": "90mmBulletBase",
-      "description": null,
-      "description_source": null,
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
       "ru_source": null
     },
     {
       "id": "90mmBulletFlak",
       "key": "ent-90mmBulletFlak",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 302,
       "name": "shell",
       "name_source": "90mmBulletBase",
-      "description": null,
-      "description_source": null,
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
       "ru_source": null
     },
     {
       "id": "90mmBulletHE",
       "key": "ent-90mmBulletHE",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 260,
       "name": "shell",
       "name_source": "90mmBulletBase",
-      "description": null,
-      "description_source": null,
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
       "ru_source": null
     },
     {
@@ -735,20 +739,6 @@
       "description": "Toggles T-ray hud on and off.",
       "description_source": "ActionToggleTray",
       "ru_source": "Resources/Locale/ru-RU/_DV/Actions/clothing.ftl"
-    },
-    {
-      "id": "AdvancedRadarConsoleCircuitboard # Frontier",
-      "key": "ent-AdvancedRadarConsoleCircuitboard # Frontier",
-      "missing": [
-        "name"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Devices/Circuitboards/computer.yml",
-      "line": 382,
-      "name": "advanced radar console computer board",
-      "name_source": "AdvancedRadarConsoleCircuitboard # Frontier",
-      "description": null,
-      "description_source": null,
-      "ru_source": null
     },
     {
       "id": "AiHeldXenoborg",
@@ -1614,33 +1604,31 @@
       "ru_source": null
     },
     {
-      "id": "AnomalyCoreFleshInert # Can be microwaved to turn it into a massive piece of meat",
-      "key": "ent-AnomalyCoreFleshInert # Can be microwaved to turn it into a massive piece of meat",
+      "id": "AirlockViperCommandGlass",
+      "key": "ent-AirlockViperCommandGlass",
       "missing": [
-        "name",
-        "desc"
+        "name"
       ],
-      "source": "Resources/Prototypes/Entities/Structures/Specific/Anomaly/cores.yml",
-      "line": 256,
-      "name": "anomaly core",
-      "name_source": "BaseAnomalyCore",
-      "description": "The inert core of a destroyed flesh anomaly. Pulsates sickeningly, but might be good food in the right hands?",
-      "description_source": "AnomalyCoreFleshInert # Can be microwaved to turn it into a massive piece of meat",
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/glass_airlock.yml",
+      "line": 46,
+      "name": "glass airlock",
+      "name_source": "AirlockGlass",
+      "description": null,
+      "description_source": null,
       "ru_source": null
     },
     {
-      "id": "AnomalyCoreFloraInert #Turns into a seed that grows into artifexium",
-      "key": "ent-AnomalyCoreFloraInert #Turns into a seed that grows into artifexium",
+      "id": "AirlockViperGlass",
+      "key": "ent-AirlockViperGlass",
       "missing": [
-        "name",
-        "desc"
+        "name"
       ],
-      "source": "Resources/Prototypes/Entities/Structures/Specific/Anomaly/cores.yml",
-      "line": 322,
-      "name": "anomaly core",
-      "name_source": "BaseAnomalyCore",
-      "description": "The core of a destroyed incomprehensible object.",
-      "description_source": "BaseAnomalyCore",
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/glass_airlock.yml",
+      "line": 37,
+      "name": "glass airlock",
+      "name_source": "AirlockGlass",
+      "description": null,
+      "description_source": null,
       "ru_source": null
     },
     {
@@ -2373,23 +2361,8 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/computers_shipyard_mothership.ftl"
     },
     {
-      "id": "BaseBulletTrigger # Trigger-on-collide bullets",
-      "key": "ent-BaseBulletTrigger # Trigger-on-collide bullets",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Weapons/Guns/Projectiles/projectiles.yml",
-      "line": 116,
-      "name": "BaseBullet",
-      "name_source": "BaseBullet",
-      "description": "If you can see this you're probably dead!",
-      "description_source": "BaseBullet",
-      "ru_source": null
-    },
-    {
-      "id": "BaseBulletTriggerSpent # like BaseBulletTrigger, but only triggers when the projectile is spent and deleted",
-      "key": "ent-BaseBulletTriggerSpent # like BaseBulletTrigger, but only triggers when the projectile is spent and deleted",
+      "id": "BaseBulletTriggerSpent",
+      "key": "ent-BaseBulletTriggerSpent",
       "missing": [
         "name",
         "desc"
@@ -2445,66 +2418,6 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/security.ftl"
     },
     {
-      "id": "BaseUplinkRadio100TC # Mono",
-      "key": "ent-BaseUplinkRadio100TC # Mono",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Specific/syndicate.yml",
-      "line": 75,
-      "name": "syndicate uplink",
-      "name_source": "BaseUplinkRadio",
-      "description": "Suspiciously looking old radio...",
-      "description_source": "BaseUplinkRadio",
-      "ru_source": null
-    },
-    {
-      "id": "BaseUplinkRadio125TC # Mono",
-      "key": "ent-BaseUplinkRadio125TC # Mono",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Specific/syndicate.yml",
-      "line": 84,
-      "name": "syndicate uplink",
-      "name_source": "BaseUplinkRadio",
-      "description": "Suspiciously looking old radio...",
-      "description_source": "BaseUplinkRadio",
-      "ru_source": null
-    },
-    {
-      "id": "BaseUplinkRadio200TC # Mono",
-      "key": "ent-BaseUplinkRadio200TC # Mono",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Specific/syndicate.yml",
-      "line": 94,
-      "name": "syndicate uplink",
-      "name_source": "BaseUplinkRadio",
-      "description": "Suspiciously looking old radio...",
-      "description_source": "BaseUplinkRadio",
-      "ru_source": null
-    },
-    {
-      "id": "BaseUplinkRadio300TC # Mono",
-      "key": "ent-BaseUplinkRadio300TC # Mono",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Specific/syndicate.yml",
-      "line": 106,
-      "name": "syndicate uplink",
-      "name_source": "BaseUplinkRadio",
-      "description": "Suspiciously looking old radio...",
-      "description_source": "BaseUplinkRadio",
-      "ru_source": null
-    },
-    {
       "id": "Battletable",
       "key": "ent-Battletable",
       "missing": [
@@ -2548,19 +2461,18 @@
       "ru_source": null
     },
     {
-      "id": "BlueLobster # The memes, Jack!",
-      "key": "ent-BlueLobster # The memes, Jack!",
+      "id": "BohrumReactorControlRod",
+      "key": "ent-BohrumReactorControlRod",
       "missing": [
-        "name",
         "desc"
       ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/lobster.yml",
-      "line": 2,
-      "name": "blue lobster plushie",
-      "name_source": "BlueLobster # The memes, Jack!",
-      "description": "It's him.",
-      "description_source": "BlueLobster # The memes, Jack!",
-      "ru_source": null
+      "source": "Resources/Prototypes/_FarHorizons/Entities/Structures/Power/Generation/FissionGenerator/reactor_components.yml",
+      "line": 139,
+      "name": "bohrum control rod",
+      "name_source": "BohrumReactorControlRod",
+      "description": "A control rod assembly for a nuclear reactor.",
+      "description_source": "BaseReactorControlRod",
+      "ru_source": "Resources/Locale/ru-RU/prototypes/reactor_components.ftl"
     },
     {
       "id": "BombCollarSealer",
@@ -2631,21 +2543,6 @@
       "description": "Apply before the final screw of a standard cyborg to install the necessary TSF components.",
       "description_source": "BorgIFFTSF",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Robotics/borg_components.ftl"
-    },
-    {
-      "id": "BorgModuleDiagnosis # todo: reuse when med refractor is finished",
-      "key": "ent-BorgModuleDiagnosis # todo: reuse when med refractor is finished",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Specific/Robotics/borg_modules.yml",
-      "line": 468,
-      "name": "diagnosis cyborg module",
-      "name_source": "BorgModuleDiagnosis # todo: reuse when med refractor is finished",
-      "description": "A piece of tech that gives cyborgs new abilities.",
-      "description_source": "BaseBorgModule",
-      "ru_source": null
     },
     {
       "id": "BorgModuleJetpackADM",
@@ -2955,6 +2852,20 @@
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/357_magnum.ftl"
+    },
+    {
+      "id": "Bullet35mmGrenadeSAPHE",
+      "key": "ent-Bullet35mmGrenadeSAPHE",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/35mm_grenade.yml",
+      "line": 1,
+      "name": "frag grenade",
+      "name_source": "Bullet35mmGrenadeSAPHE",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/prototypes/35mm_grenade.ftl"
     },
     {
       "id": "Bullet68x52mmCaselessHP",
@@ -3321,36 +3232,6 @@
       "description": "Displays a readout of faction squad members.",
       "description_source": "BaseHandheldOverwatchConsole",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
-    },
-    {
-      "id": "CCServiceWorkerIDCard #Mono",
-      "key": "ent-CCServiceWorkerIDCard #Mono",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Nyanotrasen/Entities/Objects/Devices/Misc/identification_cards.yml",
-      "line": 35,
-      "name": "colossus sector service ID card",
-      "name_source": "CCServiceWorkerIDCard #Mono",
-      "description": "An identification card belonging to a service worker in the Colossus Sector.",
-      "description_source": "CCServiceWorkerIDCard #Mono",
-      "ru_source": null
-    },
-    {
-      "id": "CCServiceWorkerNFIDCard #Mono",
-      "key": "ent-CCServiceWorkerNFIDCard #Mono",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Objects/Devices/Misc/identification_cards.yml",
-      "line": 205,
-      "name": "colossus sector service ID card",
-      "name_source": "CCServiceWorkerNFIDCard #Mono",
-      "description": "An identification card belonging to a service worker in the Colossus Sector.",
-      "description_source": "CCServiceWorkerNFIDCard #Mono",
-      "ru_source": null
     },
     {
       "id": "CCTCOverwatchComputer",
@@ -4096,6 +3977,20 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/lathe.ftl"
     },
     {
+      "id": "CerberusSpread",
+      "key": "ent-CerberusSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/projectiles.yml",
+      "line": 74,
+      "name": "cerberus spread",
+      "name_source": "CerberusSpread",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/prototypes/projectiles.ftl"
+    },
+    {
       "id": "CerenkiteReactorFuelRod",
       "key": "ent-CerenkiteReactorFuelRod",
       "missing": [
@@ -4103,7 +3998,7 @@
       ],
       "source": "Resources/Prototypes/_FarHorizons/Entities/Structures/Power/Generation/FissionGenerator/reactor_components.yml",
       "line": 57,
-      "name": "cerenkite fuel rod # These are your basic, semi-harmless fuel rods",
+      "name": "cerenkite fuel rod",
       "name_source": "CerenkiteReactorFuelRod",
       "description": "A fuel rod for a nuclear reactor.",
       "description_source": "BaseReactorFuelRod",
@@ -4194,21 +4089,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/grenades_launcher.ftl"
     },
     {
-      "id": "ClothingBackpackDuffelMercenary # Frontier - Merc to Mercenary",
-      "key": "ent-ClothingBackpackDuffelMercenary # Frontier - Merc to Mercenary",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Clothing/Back/duffel.yml",
-      "line": 1,
-      "name": "mercenary duffel",
-      "name_source": "ClothingBackpackDuffelMercenary # Frontier - Merc to Mercenary",
-      "description": "A duffel that has been in many dangerous places, a reliable combat duffel.",
-      "description_source": "ClothingBackpackDuffelMercenary # Frontier - Merc to Mercenary",
-      "ru_source": null
-    },
-    {
       "id": "ClothingBackpackDuffelPDVBurner",
       "key": "ent-ClothingBackpackDuffelPDVBurner",
       "missing": [
@@ -4246,7 +4126,7 @@
       "line": 64,
       "name": "Atreides bundle",
       "name_source": "ClothingBackpackDuffelPDVFilledAtreides",
-      "description": "\"A compact, one-handed Submachine Gun favored by hullcrashers, bundled with three 5.7x28mm magazines.\" #, and a Suppressor.",
+      "description": "A compact, one-handed Submachine Gun favored by hullcrashers, bundled with three 5.7x28mm magazines.",
       "description_source": "ClothingBackpackDuffelPDVFilledAtreides",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Backpacks/duffelbag.ftl"
     },
@@ -4288,7 +4168,7 @@
       "line": 13,
       "name": "C-20r bundle",
       "name_source": "ClothingBackpackDuffelPDVFilledSMG",
-      "description": "\"Old faithful; The classic C-20r Submachine Gun, bundled with three 9x19mm magazines.\" #, and a Suppressor.",
+      "description": "Old faithful; The classic C-20r Submachine Gun, bundled with three 9x19mm magazines.",
       "description_source": "ClothingBackpackDuffelPDVFilledSMG",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Backpacks/duffelbag.ftl"
     },
@@ -4302,7 +4182,7 @@
       "line": 39,
       "name": "Bulldog bundle",
       "name_source": "ClothingBackpackDuffelPDVFilledShotgun",
-      "description": "\"Lean and mean: Contains a Bulldog Shotgun and four 12g buckshot drums.\" #, and a pair of Thermal Imaging Goggles.",
+      "description": "Lean and mean: Contains a Bulldog Shotgun and four 12g buckshot drums.",
       "description_source": "ClothingBackpackDuffelPDVFilledShotgun",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Backpacks/duffelbag.ftl"
     },
@@ -4349,21 +4229,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/Back/specific.ftl"
     },
     {
-      "id": "ClothingBackpackMercenary # Frontier - Merc to Mercenary",
-      "key": "ent-ClothingBackpackMercenary # Frontier - Merc to Mercenary",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Clothing/Back/backpacks.yml",
-      "line": 208,
-      "name": "mercenary backpack",
-      "name_source": "ClothingBackpackMercenary # Frontier - Merc to Mercenary",
-      "description": "A backpack that has been in many dangerous places, a reliable combat backpack.",
-      "description_source": "ClothingBackpackMercenary # Frontier - Merc to Mercenary",
-      "ru_source": null
-    },
-    {
       "id": "ClothingBackpackPDVTarkhan",
       "key": "ent-ClothingBackpackPDVTarkhan",
       "missing": [
@@ -4376,51 +4241,6 @@
       "description": "A large bag used by Tarkhans.",
       "description_source": "ClothingBackpackPDVTarkhan",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/Back/specific.ftl"
-    },
-    {
-      "id": "ClothingBackpackSatchelMercenary # Frontier - Merc to Mercenary",
-      "key": "ent-ClothingBackpackSatchelMercenary # Frontier - Merc to Mercenary",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Clothing/Back/satchel.yml",
-      "line": 1,
-      "name": "mercenary satchel",
-      "name_source": "ClothingBackpackSatchelMercenary # Frontier - Merc to Mercenary",
-      "description": "A satchel that has been in many dangerous places, a reliable combat satchel.",
-      "description_source": "ClothingBackpackSatchelMercenary # Frontier - Merc to Mercenary",
-      "ru_source": null
-    },
-    {
-      "id": "ClothingBeltBandolierOld # Mono: ClothingBeltBandolierOld<ClothingBeltBandolier",
-      "key": "ent-ClothingBeltBandolierOld # Mono: ClothingBeltBandolierOld<ClothingBeltBandolier",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Clothing/Belt/belts.yml",
-      "line": 548,
-      "name": "bandolier",
-      "name_source": "ClothingBeltBandolierOld # Mono: ClothingBeltBandolierOld<ClothingBeltBandolier",
-      "description": "A bandolier for holding shotgun ammunition.",
-      "description_source": "ClothingBeltBandolierOld # Mono: ClothingBeltBandolierOld<ClothingBeltBandolier",
-      "ru_source": null
-    },
-    {
-      "id": "ClothingBeltMercenaryWebbing # Frontier: Merc to Mercenary",
-      "key": "ent-ClothingBeltMercenaryWebbing # Frontier: Merc to Mercenary",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Clothing/Belt/belts.yml",
-      "line": 657,
-      "name": "mercenary webbing",
-      "name_source": "ClothingBeltMercenaryWebbing # Frontier: Merc to Mercenary",
-      "description": "Ideal for storing everything from ammo to weapons and combat essentials.",
-      "description_source": "ClothingBeltMercenaryWebbing # Frontier: Merc to Mercenary",
-      "ru_source": null
     },
     {
       "id": "ClothingBeltMilitaryWebbingCMOFilled",
@@ -4508,51 +4328,6 @@
       "ru_source": "Resources/Locale/ru-RU/_White/Entities/Clothing/Eyes/goggles.ftl"
     },
     {
-      "id": "ClothingHandsChameleon # doesn't protect from electricity or heat",
-      "key": "ent-ClothingHandsChameleon # doesn't protect from electricity or heat",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Clothing/Hands/specific.yml",
-      "line": 1,
-      "name": "black gloves",
-      "name_source": "ClothingHandsChameleon # doesn't protect from electricity or heat",
-      "description": "Regular black gloves that do not keep you from frying.",
-      "description_source": "ClothingHandsChameleon # doesn't protect from electricity or heat",
-      "ru_source": null
-    },
-    {
-      "id": "ClothingHandsMercenaryGlovesCombat # Frontier - Merc to Mercenary",
-      "key": "ent-ClothingHandsMercenaryGlovesCombat # Frontier - Merc to Mercenary",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Clothing/Hands/gloves.yml",
-      "line": 293,
-      "name": "mercenary combat gloves",
-      "name_source": "ClothingHandsMercenaryGlovesCombat # Frontier - Merc to Mercenary",
-      "description": "High-quality combat gloves to protect hands from mechanical damage during combat.",
-      "description_source": "ClothingHandsMercenaryGlovesCombat # Frontier - Merc to Mercenary",
-      "ru_source": null
-    },
-    {
-      "id": "ClothingHeadBandMercenary # Frontier - Name fix",
-      "key": "ent-ClothingHeadBandMercenary # Frontier - Name fix",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Clothing/Head/bandanas.yml",
-      "line": 72,
-      "name": "mercenary bandana",
-      "name_source": "ClothingHeadBandMercenary # Frontier - Name fix",
-      "description": "To protect the head from the sun, insects and other dangers of the higher path.",
-      "description_source": "ClothingMaskBandMerc",
-      "ru_source": null
-    },
-    {
       "id": "ClothingHeadHatBeretCommon",
       "key": "ent-ClothingHeadHatBeretCommon",
       "missing": [
@@ -4565,21 +4340,6 @@
       "description": "A navy blue beret worn by member of the TSFMC.",
       "description_source": "ClothingHeadHatBeretCommon",
       "ru_source": "Resources/Locale/ru-RU/_NF/Entities/Clothing/Head/hats.ftl"
-    },
-    {
-      "id": "ClothingHeadHatBeretMercenary # Frontier: Merc to Mercenary",
-      "key": "ent-ClothingHeadHatBeretMercenary # Frontier: Merc to Mercenary",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Clothing/Head/hats.yml",
-      "line": 195,
-      "name": "mercenary beret",
-      "name_source": "ClothingHeadHatBeretMercenary # Frontier: Merc to Mercenary",
-      "description": "Olive beret, the badge depicts a jackal on a rock.",
-      "description_source": "ClothingHeadHatBeretMercenary # Frontier: Merc to Mercenary",
-      "ru_source": null
     },
     {
       "id": "ClothingHeadHatCCTC",
@@ -4624,21 +4384,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/Head/Helmets/ussp.ftl"
     },
     {
-      "id": "ClothingHeadHelmetHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738",
-      "key": "ent-ClothingHeadHelmetHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Clothing/Head/hardsuit-helmets.yml",
-      "line": 398,
-      "name": "luxury mining hardsuit helmet",
-      "name_source": "ClothingHeadHelmetHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738",
-      "description": "A refurbished mining hardsuit helmet, fitted with satin cushioning and an extra (non-functioning) antenna, because you're that extra.",
-      "description_source": "ClothingHeadHelmetHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738",
-      "ru_source": null
-    },
-    {
       "id": "ClothingHeadHelmetHardsuitM86Mk4",
       "key": "ent-ClothingHeadHelmetHardsuitM86Mk4",
       "missing": [
@@ -4668,21 +4413,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/Head/Hardsuits/phaethon_dynasty.ftl"
     },
     {
-      "id": "ClothingHeadHelmetMercenary # Frontier - Name fix",
-      "key": "ent-ClothingHeadHelmetMercenary # Frontier - Name fix",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Clothing/Head/helmets.yml",
-      "line": 49,
-      "name": "mercenary helmet",
-      "name_source": "ClothingHeadHelmetMercenary # Frontier - Name fix",
-      "description": "The combat helmet is commonly used by mercenaries, is strong, light and smells like gunpowder and the jungle.",
-      "description_source": "ClothingHeadHelmetMercenary # Frontier - Name fix",
-      "ru_source": null
-    },
-    {
       "id": "ClothingHeadsetMieyo",
       "key": "ent-ClothingHeadsetMieyo",
       "missing": [
@@ -4709,51 +4439,6 @@
       "description": "A standard headset for MMC employees. This headset will accept standard encryption keys and comes prefitted with a key for corporate communications.",
       "description_source": "ClothingHeadsetMieyoCorpsec",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/Ears/headsets.ftl"
-    },
-    {
-      "id": "ClothingHeadsetNfsdBrownCommon # Ask SR or Sheriff for keys",
-      "key": "ent-ClothingHeadsetNfsdBrownCommon # Ask SR or Sheriff for keys",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Clothing/Ears/headsets.yml",
-      "line": 47,
-      "name": "headset",
-      "name_source": "ClothingHeadsetCommon",
-      "description": "An updated, modular intercom that fits over the head. Takes encryption keys.",
-      "description_source": "ClothingHeadsetCommon",
-      "ru_source": null
-    },
-    {
-      "id": "ClothingHeadsetNfsdCreamCommon # Ask SR or Sheriff for keys",
-      "key": "ent-ClothingHeadsetNfsdCreamCommon # Ask SR or Sheriff for keys",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Clothing/Ears/headsets.yml",
-      "line": 57,
-      "name": "headset",
-      "name_source": "ClothingHeadsetCommon",
-      "description": "An updated, modular intercom that fits over the head. Takes encryption keys.",
-      "description_source": "ClothingHeadsetCommon",
-      "ru_source": null
-    },
-    {
-      "id": "ClothingHeadsetNfsdGreenCommon # Ask SR or Sheriff for keys",
-      "key": "ent-ClothingHeadsetNfsdGreenCommon # Ask SR or Sheriff for keys",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Clothing/Ears/headsets.yml",
-      "line": 52,
-      "name": "headset",
-      "name_source": "ClothingHeadsetCommon",
-      "description": "An updated, modular intercom that fits over the head. Takes encryption keys.",
-      "description_source": "ClothingHeadsetCommon",
-      "ru_source": null
     },
     {
       "id": "ClothingHeadsetViper",
@@ -4839,21 +4524,6 @@
       "description": "A basic EVA helmet designed for complex industrial operations in space.",
       "description_source": "ClothingHelmetHardsuitMieyoMining",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/Head/Hardsuits/mmc.ftl"
-    },
-    {
-      "id": "ClothingMaskGasMercenary # Frontier: Merc to Mercenary",
-      "key": "ent-ClothingMaskGasMercenary # Frontier: Merc to Mercenary",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Clothing/Masks/masks.yml",
-      "line": 389,
-      "name": "mercenary gas mask",
-      "name_source": "ClothingMaskGasMercenary # Frontier: Merc to Mercenary",
-      "description": "Slightly outdated, but reliable military-style gas mask.",
-      "description_source": "ClothingMaskGasMercenary # Frontier: Merc to Mercenary",
-      "ru_source": null
     },
     {
       "id": "ClothingModsuitStandartPowerCell",
@@ -4983,51 +4653,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/Neck/cloaks.ftl"
     },
     {
-      "id": "ClothingOuterArmourInvisible # I'll be real, this is just invisible armor so it doesn't ruin how fucking AWESOME navy officers look. Bite me.",
-      "key": "ent-ClothingOuterArmourInvisible # I'll be real, this is just invisible armor so it doesn't ruin how fucking AWESOME navy officers look. Bite me.",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Goobstation/Entities/Clothing/OuterClothing/armour.yml",
-      "line": 3,
-      "name": "covert armor",
-      "name_source": "ClothingOuterArmourInvisible # I'll be real, this is just invisible armor so it doesn't ruin how fucking AWESOME navy officers look. Bite me.",
-      "description": "An armored vest that utilizes bluespace technology, bending light and becoming invisible to the naked eye when worn.",
-      "description_source": "ClothingOuterArmourInvisible # I'll be real, this is just invisible armor so it doesn't ruin how fucking AWESOME navy officers look. Bite me.",
-      "ru_source": null
-    },
-    {
-      "id": "ClothingOuterHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738",
-      "key": "ent-ClothingOuterHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Clothing/OuterClothing/hardsuits.yml",
-      "line": 622,
-      "name": "luxury mining hardsuit",
-      "name_source": "ClothingOuterHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738",
-      "description": "A refurbished mining hardsuit, fashioned after the Quartermaster's colors. Graphene lining provides less protection, but is much easier to move.",
-      "description_source": "ClothingOuterHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738",
-      "ru_source": null
-    },
-    {
-      "id": "ClothingOuterHardsuitMercenary # stats are of luxury mining hardsuit",
-      "key": "ent-ClothingOuterHardsuitMercenary # stats are of luxury mining hardsuit",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Clothing/OuterClothing/hardsuits.yml",
-      "line": 2,
-      "name": "mercenary hardsuit",
-      "name_source": "ClothingOuterHardsuitMercenary # stats are of luxury mining hardsuit",
-      "description": "A special suit that protects from the danger of space, employed by mercenary forces. Certified to be blunderbuss-resistant.",
-      "description_source": "ClothingOuterHardsuitMercenary # stats are of luxury mining hardsuit",
-      "ru_source": null
-    },
-    {
       "id": "ClothingOuterHardsuitMieyoCombat",
       "key": "ent-ClothingOuterHardsuitMieyoCombat",
       "missing": [
@@ -5056,36 +4681,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/OuterClothing/Hardsuits/mmc.ftl"
     },
     {
-      "id": "ClothingOuterHardsuitPrivateSecurity # stats are of merc hardsuit",
-      "key": "ent-ClothingOuterHardsuitPrivateSecurity # stats are of merc hardsuit",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Clothing/OuterClothing/hardsuits.yml",
-      "line": 43,
-      "name": "private security hardsuit",
-      "name_source": "ClothingOuterHardsuitPrivateSecurity # stats are of merc hardsuit",
-      "description": "A special suit that protects from the danger of space, employed by private security forces.",
-      "description_source": "ClothingOuterHardsuitPrivateSecurity # stats are of merc hardsuit",
-      "ru_source": null
-    },
-    {
-      "id": "ClothingOuterHardsuitSyndicate # TODO: rename to ClothingOuterEVASuitSyndicate",
-      "key": "ent-ClothingOuterHardsuitSyndicate # TODO: rename to ClothingOuterEVASuitSyndicate",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Clothing/OuterClothing/softsuits.yml",
-      "line": 22,
-      "name": "syndicate EVA suit",
-      "name_source": "ClothingOuterHardsuitSyndicate # TODO: rename to ClothingOuterEVASuitSyndicate",
-      "description": "Has a tag on the back that reads: 'Totally not property of an enemy corporation, honest!'",
-      "description_source": "ClothingOuterHardsuitSyndicate # TODO: rename to ClothingOuterEVASuitSyndicate",
-      "ru_source": null
-    },
-    {
       "id": "ClothingOuterHardsuitViperGroupInitiate",
       "key": "ent-ClothingOuterHardsuitViperGroupInitiate",
       "missing": [
@@ -5098,36 +4693,6 @@
       "description": "A combat hardsuit adorned with signature markings of the Viper Group. Commonly worn by privateers recently awakened from cryosleep.",
       "description_source": "ClothingOuterHardsuitViperGroupInitiate",
       "ru_source": "Resources/Locale/ru-RU/prototypes/viper_group.ftl"
-    },
-    {
-      "id": "ClothingOuterVestWebMercenary # Frontier: Merc<Mercenary",
-      "key": "ent-ClothingOuterVestWebMercenary # Frontier: Merc<Mercenary",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Clothing/OuterClothing/vests.yml",
-      "line": 25,
-      "name": "mercenary web vest",
-      "name_source": "ClothingOuterVestWebMercenary # Frontier: Merc<Mercenary",
-      "description": "A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.",
-      "description_source": "ClothingOuterVestWebMercenary # Frontier: Merc<Mercenary",
-      "ru_source": null
-    },
-    {
-      "id": "ClothingShoesBootsMercenary # Frontier: Merc to Mercenary",
-      "key": "ent-ClothingShoesBootsMercenary # Frontier: Merc to Mercenary",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Clothing/Shoes/boots.yml",
-      "line": 81,
-      "name": "mercenary boots",
-      "name_source": "ClothingShoesBootsMercenary # Frontier: Merc to Mercenary",
-      "description": "Boots that have gone through many conflicts and that have proven their combat reliability.",
-      "description_source": "ClothingShoesBootsMercenary # Frontier: Merc to Mercenary",
-      "ru_source": null
     },
     {
       "id": "ClothingUniformJumpskirtCCTCFormalDress",
@@ -5296,21 +4861,6 @@
       "description": "A casing of state-of-the-art interfacing systems and miscellaneous parts. Robust, efficient, and expensive.",
       "description_source": "ComponentBrickEconomy3",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/components.ftl"
-    },
-    {
-      "id": "ComputerAdvancedRadar # Frontier",
-      "key": "ent-ComputerAdvancedRadar # Frontier",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Structures/Machines/Computers/computers.yml",
-      "line": 1,
-      "name": "advanced radar computer",
-      "name_source": "ComputerAdvancedRadar # Frontier",
-      "description": "This advanced radar lets you detect far away objects for an increased tactical advantage.",
-      "description_source": "ComputerAdvancedRadar # Frontier",
-      "ru_source": null
     },
     {
       "id": "ComputerShipyardMMC",
@@ -5849,21 +5399,6 @@
       "ru_source": "Resources/Locale/ru-RU/Catalog/Fills/Crates/engineering.ftl"
     },
     {
-      "id": "CyborgEnergySwordDouble # why is this invalid if ID is BorgEnergySwordDouble",
-      "key": "ent-CyborgEnergySwordDouble # why is this invalid if ID is BorgEnergySwordDouble",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Weapons/Melee/e_sword.yml",
-      "line": 430,
-      "name": "double-bladed energy sword",
-      "name_source": "EnergySwordDouble",
-      "description": "A double-bladed e-sword now stuck onto a cyborg, who and why would they do this? Specially designed for cyborgs.",
-      "description_source": "CyborgEnergySwordDouble # why is this invalid if ID is BorgEnergySwordDouble",
-      "ru_source": null
-    },
-    {
       "id": "CyborgWeaponMinigun",
       "key": "ent-CyborgWeaponMinigun",
       "missing": [
@@ -6099,21 +5634,6 @@
       "ru_source": null
     },
     {
-      "id": "DefibrillatorCompact # This should be a research item at some point",
-      "key": "ent-DefibrillatorCompact # This should be a research item at some point",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Specific/Medical/defib.yml",
-      "line": 76,
-      "name": "compact defibrillator",
-      "name_source": "DefibrillatorCompact # This should be a research item at some point",
-      "description": "Now in fun size!",
-      "description_source": "DefibrillatorCompact # This should be a research item at some point",
-      "ru_source": null
-    },
-    {
       "id": "DiamondReactorControlRod",
       "key": "ent-DiamondReactorControlRod",
       "missing": [
@@ -6285,21 +5805,6 @@
       "name_source": "DoubleEmergencyWaterVaporTank",
       "description": "A high-grade dual-tank emergency life support container. It holds a decent amount of water vapor for its small size. It can hold 2.5 L of gas.",
       "description_source": "DoubleEmergencyWaterVaporTank",
-      "ru_source": null
-    },
-    {
-      "id": "DrinkBeerGrowler # Needs to be renamed DrinkBeerBottleFull",
-      "key": "ent-DrinkBeerGrowler # Needs to be renamed DrinkBeerBottleFull",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_bottles.yml",
-      "line": 568,
-      "name": "beer growler  # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e",
-      "name_source": "DrinkBeerGrowler # Needs to be renamed DrinkBeerBottleFull",
-      "description": "An alcoholic beverage made from malted grains, hops, yeast, and water. XL growler bottle.",
-      "description_source": "DrinkBeerGrowler # Needs to be renamed DrinkBeerBottleFull",
       "ru_source": null
     },
     {
@@ -6558,21 +6063,6 @@
       "ru_source": null
     },
     {
-      "id": "FederationMilitaryCredit # Mono - Renamed from FUCs",
-      "key": "ent-FederationMilitaryCredit # Mono - Renamed from FUCs",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Objects/Specific/security.yml",
-      "line": 3,
-      "name": "Federation Military Credit # Mono - Renamed from FUCs",
-      "name_source": "FederationMilitaryCredit # Mono - Renamed from FUCs",
-      "description": "A token awarded to TSF personnel for turning in contraband. It can be exchanged in an TSFMC uplink device for a variety of law enforcement tools.",
-      "description_source": "FederationMilitaryCredit # Mono - Renamed from FUCs",
-      "ru_source": null
-    },
-    {
       "id": "FeroxiCube",
       "key": "ent-FeroxiCube",
       "missing": [
@@ -6669,21 +6159,6 @@
       "description": "A disposable syringe exclusively designed for the injection of subdermal implants.",
       "description_source": "BaseImplantOnlyImplanter",
       "ru_source": "Resources/Locale/ru-RU/prototypes/translator_implanters.ftl"
-    },
-    {
-      "id": "GasFilterBase # Mono",
-      "key": "ent-GasFilterBase # Mono",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Structures/Piping/Atmospherics/trinary.yml",
-      "line": 30,
-      "name": "gas filter",
-      "name_source": "GasFilterBase # Mono",
-      "description": "Very useful for filtering gases.",
-      "description_source": "GasFilterBase # Mono",
-      "ru_source": null
     },
     {
       "id": "GasTurbineMonitor",
@@ -7068,6 +6543,20 @@
       "description": "Supports weapons with threaded barrels that fire intermediate cartridges.",
       "description_source": "GunAttachmentSuppressorMulticalRifle",
       "ru_source": "Resources/Locale/ru-RU/prototypes/suppressors_multical.ftl"
+    },
+    {
+      "id": "GyroscopeDebugStrength",
+      "key": "ent-GyroscopeDebugStrength",
+      "missing": [
+        "name"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Shuttles/thrusters.yml",
+      "line": 10,
+      "name": "gyroscope",
+      "name_source": "Gyroscope",
+      "description": "Increases the shuttle's potential angular rotation.",
+      "description_source": "Gyroscope",
+      "ru_source": "Resources/Locale/ru-RU/prototypes/thrusters.ftl"
     },
     {
       "id": "Handrail",
@@ -7750,20 +7239,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/4_gauge.ftl"
     },
     {
-      "id": "MailNFNecrosol # Not sure about keeping this, but its probably fine",
-      "key": "ent-MailNFNecrosol # Not sure about keeping this, but its probably fine",
-      "missing": [
-        "name"
-      ],
-      "source": "Resources/Prototypes/_NF/Mail/mail.yml",
-      "line": 1718,
-      "name": "mail-item-name-unaddressed",
-      "name_source": "BaseMail",
-      "description": null,
-      "description_source": null,
-      "ru_source": null
-    },
-    {
       "id": "MantisBlade",
       "key": "ent-MantisBlade",
       "missing": [
@@ -8240,19 +7715,18 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Misc/subdermal_implants.ftl"
     },
     {
-      "id": "MobDionaNymphAccent # No talky. For non-brain & wild nymphs",
-      "key": "ent-MobDionaNymphAccent # No talky. For non-brain & wild nymphs",
+      "id": "MissileProjectile50mmHE",
+      "key": "ent-MissileProjectile50mmHE",
       "missing": [
-        "name",
         "desc"
       ],
-      "source": "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml",
-      "line": 3819,
-      "name": "diona nymph",
-      "name_source": "MobDionaNymph",
-      "description": "It's like a cat, only.... branch-ier.",
-      "description_source": "MobDionaNymph",
-      "ru_source": null
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.yml",
+      "line": 67,
+      "name": "ASM-50 50mm Mini Missile",
+      "name_source": "MissileProjectile50mmHE",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.ftl"
     },
     {
       "id": "MobFeroxiDummy",
@@ -8267,65 +7741,6 @@
       "description": "A dummy feroxi meant to be used in character setup.",
       "description_source": "MobFeroxiDummy",
       "ru_source": "Resources/Locale/ru-RU/_DV/Entities/Mobs/Species/feroxi.ftl"
-    },
-    {
-      "id": "MobHumanSyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink",
-      "key": "ent-MobHumanSyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink",
-      "missing": [
-        "name"
-      ],
-      "source": "Resources/Prototypes/Entities/Mobs/Player/human.yml",
-      "line": 63,
-      "name": "syndicate agent",
-      "name_source": "MobHumanSyndicateAgentBase",
-      "description": null,
-      "description_source": null,
-      "ru_source": null
-    },
-    {
-      "id": "MobKoboldSyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink",
-      "key": "ent-MobKoboldSyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml",
-      "line": 1748,
-      "name": "kobold",
-      "name_source": "MobBaseKobold",
-      "description": "Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.",
-      "description_source": "MobBaseKobold",
-      "ru_source": null
-    },
-    {
-      "id": "MobMercenarySoldierNovalite # No mosin: novalite rifle now",
-      "key": "ent-MobMercenarySoldierNovalite # No mosin: novalite rifle now",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Mobs/NPCs/mob_hostile_mercenaries.yml",
-      "line": 156,
-      "name": "mercenary soldier",
-      "name_source": "MobMercenarySoldierNovalite # No mosin: novalite rifle now",
-      "description": "Low-ranking soldiers armed with a variety of surplus weapons.",
-      "description_source": "MobMercenarySoldierNovalite # No mosin: novalite rifle now",
-      "ru_source": null
-    },
-    {
-      "id": "MobMonkeySyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink",
-      "key": "ent-MobMonkeySyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml",
-      "line": 1576,
-      "name": "monkey",
-      "name_source": "MobBaseSyndicateMonkey",
-      "description": "New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.",
-      "description_source": "MobBaseSyndicateMonkey",
-      "ru_source": null
     },
     {
       "id": "MonoVendingMachineCartMieyo",
@@ -8453,66 +7868,6 @@
       "description": "A large storage container for holding trash. It smells like the big city.",
       "description_source": "NFMagnetBoxRubbish",
       "ru_source": "Resources/Locale/ru-RU/_NF/Entities/Structures/Storage/magnetbox.ftl"
-    },
-    {
-      "id": "NFPlushieBotanist #Weh!",
-      "key": "ent-NFPlushieBotanist #Weh!",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Objects/Fun/toys.yml",
-      "line": 25,
-      "name": "botanist plushie",
-      "name_source": "NFPlushieBotanist #Weh!",
-      "description": "You need food and it just wont stop making rainbow weed.",
-      "description_source": "NFPlushieBotanist #Weh!",
-      "ru_source": null
-    },
-    {
-      "id": "NFPlushieCmo #Weh!",
-      "key": "ent-NFPlushieCmo #Weh!",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Objects/Fun/toys.yml",
-      "line": 55,
-      "name": "chief medical officer plushie",
-      "name_source": "NFPlushieCmo #Weh!",
-      "description": "Just a weh away.",
-      "description_source": "NFPlushieCmo #Weh!",
-      "ru_source": null
-    },
-    {
-      "id": "NFPlushieConstruction #Weh!",
-      "key": "ent-NFPlushieConstruction #Weh!",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Objects/Fun/toys.yml",
-      "line": 45,
-      "name": "construction plushie",
-      "name_source": "NFPlushieConstruction #Weh!",
-      "description": "A work in progress. A shame it had to end this way.",
-      "description_source": "NFPlushieConstruction #Weh!",
-      "ru_source": null
-    },
-    {
-      "id": "NFPlushieEngineer #Weh!",
-      "key": "ent-NFPlushieEngineer #Weh!",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Objects/Fun/toys.yml",
-      "line": 35,
-      "name": "engineer plushie",
-      "name_source": "NFPlushieEngineer #Weh!",
-      "description": "The poor thing is just sitting there with nothing to do! Give it a hug!",
-      "description_source": "NFPlushieEngineer #Weh!",
-      "ru_source": null
     },
     {
       "id": "NewKinPidginTranslatorImplanter",
@@ -9383,21 +8738,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Devices/pda.ftl"
     },
     {
-      "id": "PaperCNCSheet # legally gray zone of using \"D&D\" and \"DND\"",
-      "key": "ent-PaperCNCSheet # legally gray zone of using \"D&D\" and \"DND\"",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Misc/paper.yml",
-      "line": 266,
-      "name": "character sheet",
-      "name_source": "PaperCNCSheet # legally gray zone of using \"D&D\" and \"DND\"",
-      "description": "A sheet for your Carps and Crypts characters.",
-      "description_source": "PaperCNCSheet # legally gray zone of using \"D&D\" and \"DND\"",
-      "ru_source": null
-    },
-    {
       "id": "PaperDyedBrown",
       "key": "ent-PaperDyedBrown",
       "missing": [
@@ -9622,36 +8962,6 @@
       "ru_source": null
     },
     {
-      "id": "PaperWrittenDispenserOutageNote # Placeholder vender item until economy updates are merged.",
-      "key": "ent-PaperWrittenDispenserOutageNote # Placeholder vender item until economy updates are merged.",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/dispensers.yml",
-      "line": 34,
-      "name": "cargo trade outage notice",
-      "name_source": "PaperWrittenDispenserOutageNote # Placeholder vender item until economy updates are merged.",
-      "description": "A piece of white paper.",
-      "description_source": "Paper",
-      "ru_source": null
-    },
-    {
-      "id": "Pellet12_gaugeGrapeshot #tally fucking ho",
-      "key": "ent-Pellet12_gaugeGrapeshot #tally fucking ho",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
-      "line": 235,
-      "name": "grapeshot Pellet12_gauge",
-      "name_source": "Pellet12_gaugeGrapeshot #tally fucking ho",
-      "description": "If you can see this you're probably dead!",
-      "description_source": "BaseBullet",
-      "ru_source": null
-    },
-    {
       "id": "PinpointerMothershipPiece",
       "key": "ent-PinpointerMothershipPiece",
       "missing": [
@@ -9837,81 +9147,6 @@
       "ru_source": null
     },
     {
-      "id": "PlushieJester #Weh!",
-      "key": "ent-PlushieJester #Weh!",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Objects/Fun/toys.yml",
-      "line": 3,
-      "name": "jester plushie",
-      "name_source": "PlushieJester #Weh!",
-      "description": "A dubious little creature getting up to mischief.",
-      "description_source": "PlushieJester #Weh!",
-      "ru_source": null
-    },
-    {
-      "id": "PlushieLizard #Weh!",
-      "key": "ent-PlushieLizard #Weh!",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Fun/toys.yml",
-      "line": 303,
-      "name": "lizard plushie",
-      "name_source": "PlushieLizard #Weh!",
-      "description": "An adorable stuffed toy that resembles a lizardperson. Made by CentComm as a token initiative to combat speciesism in work environments. \"Welcome your new colleagues as you do this plush, with open arms!\"",
-      "description_source": "PlushieLizard #Weh!",
-      "ru_source": null
-    },
-    {
-      "id": "PlushieLizardInversed #Hew!",
-      "key": "ent-PlushieLizardInversed #Hew!",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Fun/toys.yml",
-      "line": 456,
-      "name": "drazil plushie",
-      "name_source": "PlushieLizardInversed #Hew!",
-      "description": "An adorable stuffed toy that resembles a lizardperson from an inversed dimension. Hew!",
-      "description_source": "PlushieLizardInversed #Hew!",
-      "ru_source": null
-    },
-    {
-      "id": "PlushieRainbowLizard #Weh but gay",
-      "key": "ent-PlushieRainbowLizard #Weh but gay",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Fun/toys.yml",
-      "line": 363,
-      "name": "rainbow lizard plushie",
-      "name_source": "PlushieRainbowLizard #Weh but gay",
-      "description": "An adorable stuffed toy that resembles a lizardperson of every color. You just might trip while staring at it...",
-      "description_source": "PlushieRainbowLizard #Weh but gay",
-      "ru_source": null
-    },
-    {
-      "id": "PlushieSpaceLizard #ᵂᵉʰ!",
-      "key": "ent-PlushieSpaceLizard #ᵂᵉʰ!",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Fun/toys.yml",
-      "line": 400,
-      "name": "space lizard plushie",
-      "name_source": "PlushieSpaceLizard #ᵂᵉʰ!",
-      "description": "An adorable stuffed toy that resembles a lizardperson in an EVA suit. Made by CentComm as a token initiative to combat speciesism in space environments. \"Welcome your new colleges as you do this plush, with open arms!\"",
-      "description_source": "PlushieSpaceLizard #ᵂᵉʰ!",
-      "ru_source": null
-    },
-    {
       "id": "PlutoniumReactorFuelRod",
       "key": "ent-PlutoniumReactorFuelRod",
       "missing": [
@@ -9924,51 +9159,6 @@
       "description": "A fuel rod for a nuclear reactor.",
       "description_source": "BaseReactorFuelRod",
       "ru_source": "Resources/Locale/ru-RU/prototypes/reactor_components.ftl"
-    },
-    {
-      "id": "PosterContrabandLurkingExomorph #Mono: Not funny nothing happen",
-      "key": "ent-PosterContrabandLurkingExomorph #Mono: Not funny nothing happen",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Structures/Wallmounts/Signs/posters.yml",
-      "line": 84,
-      "name": "\"Lurking Exomorph\" #Mono",
-      "name_source": "PosterContrabandLurkingExomorph #Mono: Not funny nothing happen",
-      "description": "\"A poster depicting a fearsome, prowling alien.\" #Mono",
-      "description_source": "PosterContrabandLurkingExomorph #Mono: Not funny nothing happen",
-      "ru_source": null
-    },
-    {
-      "id": "PottedPlantBioluminscent #PottedPlant9 but i didn't want map conflicts",
-      "key": "ent-PottedPlantBioluminscent #PottedPlant9 but i didn't want map conflicts",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Structures/Furniture/potted_plants.yml",
-      "line": 117,
-      "name": "bioluminescent potted plant",
-      "name_source": "PottedPlantBioluminscent #PottedPlant9 but i didn't want map conflicts",
-      "description": "It produces light!",
-      "description_source": "PottedPlantBioluminscent #PottedPlant9 but i didn't want map conflicts",
-      "ru_source": null
-    },
-    {
-      "id": "PottedPlantRD #PottedPlant25",
-      "key": "ent-PottedPlantRD #PottedPlant25",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Structures/Furniture/potted_plants.yml",
-      "line": 235,
-      "name": "RD's potted plant",
-      "name_source": "PottedPlantRD #PottedPlant25",
-      "description": "A gift from the botanical staff, presented after the RD's reassignment. There's a tag on it that says \\\"Y'all come back now, y'hear?\\\"\\nIt doesn't look very healthy...",
-      "description_source": "PottedPlantRD #PottedPlant25",
-      "ru_source": null
     },
     {
       "id": "PrecisionAssemblerEconomy",
@@ -10025,6 +9215,20 @@
       "description": "Mobs without physical bodies",
       "description_source": "Incorporeal",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Mobs/Player/preview_observer.ftl"
+    },
+    {
+      "id": "R300BulletHE",
+      "key": "ent-R300BulletHE",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Cartridge/430mm_ammo.yml",
+      "line": 43,
+      "name": "430mm HE projectile",
+      "name_source": "R300BulletHE",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Cartridge/430mm_ammo.ftl"
     },
     {
       "id": "RCDMMCEmpty",
@@ -10128,51 +9332,6 @@
       "description": "A high-frequency signal transmitter/reciever, capable of intercepting and communicating in various frequencies. The range of detection also gives it utility in high-end sensor systems, like radar, ELINT, and thermal panels.",
       "description_source": "RadioEconomy2",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/components.ftl"
-    },
-    {
-      "id": "ReinforcementRadioSyndicateAncestorNukeops # Reinforcement radio exclusive to nukeops uplink",
-      "key": "ent-ReinforcementRadioSyndicateAncestorNukeops # Reinforcement radio exclusive to nukeops uplink",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Devices/Syndicate_Gadgets/reinforcement_teleporter.yml",
-      "line": 73,
-      "name": "syndicate genetic ancestor reinforcement radio",
-      "name_source": "ReinforcementRadioSyndicateAncestor",
-      "description": "Calls in a specially trained ancestor of your choosing to assist you.",
-      "description_source": "ReinforcementRadioSyndicateAncestor",
-      "ru_source": null
-    },
-    {
-      "id": "ReinforcementRadioSyndicateCyborgAssault # Reinforcement radio exclusive to nukeops uplink",
-      "key": "ent-ReinforcementRadioSyndicateCyborgAssault # Reinforcement radio exclusive to nukeops uplink",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Devices/Syndicate_Gadgets/reinforcement_teleporter.yml",
-      "line": 103,
-      "name": "syndicate assault cyborg reinforcement radio",
-      "name_source": "ReinforcementRadioSyndicateCyborgAssault # Reinforcement radio exclusive to nukeops uplink",
-      "description": "Call in a well armed assault cyborg, instantly!",
-      "description_source": "ReinforcementRadioSyndicateCyborgAssault # Reinforcement radio exclusive to nukeops uplink",
-      "ru_source": null
-    },
-    {
-      "id": "ReinforcementRadioSyndicateNukeops # Reinforcement radio exclusive to nukeops uplink",
-      "key": "ent-ReinforcementRadioSyndicateNukeops # Reinforcement radio exclusive to nukeops uplink",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Devices/Syndicate_Gadgets/reinforcement_teleporter.yml",
-      "line": 37,
-      "name": "nuclear operative radio",
-      "name_source": "ReinforcementRadioSyndicateNukeops # Reinforcement radio exclusive to nukeops uplink",
-      "description": "Call in a nuclear operative of questionable quality, instantly! Basic nukeop equipment provided.",
-      "description_source": "ReinforcementRadioSyndicateNukeops # Reinforcement radio exclusive to nukeops uplink",
-      "ru_source": null
     },
     {
       "id": "ResearchAndDevelopmentServerMMC",
@@ -10602,6 +9761,232 @@
       "description": "A very expensive, bulky and specialized device that detects and 'excites' foreign DNA molecules caught inside its radius. Due to it being very heavy and quite expensive, it has been relegated to usage only on stationary outposts. In addition to its biological defense, this device has also been retrofitted with a regular shield generator.",
       "description_source": "ShieldGeneratorPOIBio",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/shield_generator.ftl"
+    },
+    {
+      "id": "ShipAntiMatterProjectile",
+      "key": "ent-ShipAntiMatterProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/projectiles.yml",
+      "line": 377,
+      "name": "antimatter projectile",
+      "name_source": "ShipAntiMatterProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/prototypes/projectiles.ftl"
+    },
+    {
+      "id": "ShipCerberusPlasma",
+      "key": "ent-ShipCerberusPlasma",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/projectiles.yml",
+      "line": 40,
+      "name": "plasma projectile",
+      "name_source": "ShipCerberusPlasma",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/prototypes/projectiles.ftl"
+    },
+    {
+      "id": "ShipFragmentProjectile",
+      "key": "ent-ShipFragmentProjectile",
+      "missing": [
+        "name",
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
+      "line": 1195,
+      "name": "BaseBullet",
+      "name_source": "BaseBullet",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": null
+    },
+    {
+      "id": "ShipLeviathanProjectile",
+      "key": "ent-ShipLeviathanProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
+      "line": 1122,
+      "name": "LEVIATHAN 520mm projectile",
+      "name_source": "ShipLeviathanProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.ftl"
+    },
+    {
+      "id": "ShipMissileASM150",
+      "key": "ent-ShipMissileASM150",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.yml",
+      "line": 126,
+      "name": "ASM-150 150mm missile",
+      "name_source": "ShipMissileASM150",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.ftl"
+    },
+    {
+      "id": "ShipMissileASM150Unguided",
+      "key": "ent-ShipMissileASM150Unguided",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.yml",
+      "line": 171,
+      "name": "ASM-150 150mm missile",
+      "name_source": "ShipMissileASM150Unguided",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.ftl"
+    },
+    {
+      "id": "ShipMissileASM220HESACLOS",
+      "key": "ent-ShipMissileASM220HESACLOS",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/Cartridge/trident_ammo.yml",
+      "line": 105,
+      "name": "ASM-220 torpedo (HE-SACLOS)",
+      "name_source": "ShipMissileASM220HESACLOS",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/Cartridge/trident_ammo.ftl"
+    },
+    {
+      "id": "ShipMissileASM250",
+      "key": "ent-ShipMissileASM250",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.yml",
+      "line": 282,
+      "name": "ASM-250 Hybrid EMP Missile",
+      "name_source": "ShipMissileASM250",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.ftl"
+    },
+    {
+      "id": "ShipMissileASM250HEAT",
+      "key": "ent-ShipMissileASM250HEAT",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.yml",
+      "line": 191,
+      "name": "250mm HEAT missile",
+      "name_source": "ShipMissileASM250HEAT",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.ftl"
+    },
+    {
+      "id": "ShipMissileASM250HV",
+      "key": "ent-ShipMissileASM250HV",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.yml",
+      "line": 236,
+      "name": "250mm HV missile",
+      "name_source": "ShipMissileASM250HV",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.ftl"
+    },
+    {
+      "id": "ShipMissileEntropy",
+      "key": "ent-ShipMissileEntropy",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.yml",
+      "line": 394,
+      "name": "electron torpedo",
+      "name_source": "ShipMissileEntropy",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.ftl"
+    },
+    {
+      "id": "ShipPinholeProjectile",
+      "key": "ent-ShipPinholeProjectile",
+      "missing": [
+        "name",
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
+      "line": 1215,
+      "name": "BaseBullet",
+      "name_source": "BaseBullet",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": null
+    },
+    {
+      "id": "ShipPlasmaProjectileScylla",
+      "key": "ent-ShipPlasmaProjectileScylla",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/projectiles.yml",
+      "line": 123,
+      "name": "plasma projectile",
+      "name_source": "ShipPlasmaProjectileScylla",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/prototypes/projectiles.ftl"
+    },
+    {
+      "id": "ShipRailgunProjectileAphe",
+      "key": "ent-ShipRailgunProjectileAphe",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
+      "line": 1014,
+      "name": "M381 CHARON 280mm 26.5kg APHE slug",
+      "name_source": "ShipRailgunProjectileAphe",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.ftl"
+    },
+    {
+      "id": "ShipRailgunProjectileEMP",
+      "key": "ent-ShipRailgunProjectileEMP",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
+      "line": 976,
+      "name": "M381 CHARON 280mm 26.5 kg EMP slug",
+      "name_source": "ShipRailgunProjectileEMP",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.ftl"
+    },
+    {
+      "id": "ShipTarnyxApheProjectile",
+      "key": "ent-ShipTarnyxApheProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Cartridge/tarnyx_150mm_ammo.yml",
+      "line": 141,
+      "name": "TARNYX 150mm APHE projectile",
+      "name_source": "ShipTarnyxApheProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Cartridge/tarnyx_150mm_ammo.ftl"
     },
     {
       "id": "ShipVoucherAkula",
@@ -11122,21 +10507,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/grenades_launcher.ftl"
     },
     {
-      "id": "SoapConjuredBloodCultCluster # I swear, I'll use it some how",
-      "key": "ent-SoapConjuredBloodCultCluster # I swear, I'll use it some how",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_NF/Entities/Objects/Specific/Wizard/conjured_items.yml",
-      "line": 108,
-      "name": "soap",
-      "name_source": "SoapConjuredBloodCultCluster # I swear, I'll use it some how",
-      "description": "A cheap bar of soap. Doesn't smell.",
-      "description_source": "Soap",
-      "ru_source": null
-    },
-    {
       "id": "StationAdminBankATMMMC",
       "key": "ent-StationAdminBankATMMMC",
       "missing": [
@@ -11390,7 +10760,7 @@
       ],
       "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/computers_shipyard_mothership.yml",
       "line": 65,
-      "name": "TSF fujian carrier console # Yes it can -hypothetically- carry the same ships as tumour, but it can't carry 4 of them (QJ-340 is really too long!)",
+      "name": "TSF fujian carrier console",
       "name_source": "TSFCarrierComputerFujian",
       "description": "Used on carriers to purchase and sell ships without returning to a station.",
       "description_source": "BaseCarrierComputer",
@@ -11468,51 +10838,6 @@
       "ru_source": null
     },
     {
-      "id": "Telecrystal25 # Mono",
-      "key": "ent-Telecrystal25 # Mono",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Specific/syndicate.yml",
-      "line": 34,
-      "name": "telecrystal",
-      "name_source": "Telecrystal",
-      "description": "It seems to be pulsing with suspiciously enticing energies.",
-      "description_source": "Telecrystal",
-      "ru_source": null
-    },
-    {
-      "id": "Telecrystal5 # Mono",
-      "key": "ent-Telecrystal5 # Mono",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Specific/syndicate.yml",
-      "line": 26,
-      "name": "telecrystal",
-      "name_source": "Telecrystal",
-      "description": "It seems to be pulsing with suspiciously enticing energies.",
-      "description_source": "Telecrystal",
-      "ru_source": null
-    },
-    {
-      "id": "Telecrystal50 # Mono",
-      "key": "ent-Telecrystal50 # Mono",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Specific/syndicate.yml",
-      "line": 42,
-      "name": "telecrystal",
-      "name_source": "Telecrystal",
-      "description": "It seems to be pulsing with suspiciously enticing energies.",
-      "description_source": "Telecrystal",
-      "ru_source": null
-    },
-    {
       "id": "ThrusterDebugStrength",
       "key": "ent-ThrusterDebugStrength",
       "missing": [
@@ -11522,8 +10847,8 @@
       "line": 1,
       "name": "thruster",
       "name_source": "ThrusterSecurity",
-      "description": null,
-      "description_source": null,
+      "description": "A thruster that allows a shuttle to move.",
+      "description_source": "BaseThruster",
       "ru_source": "Resources/Locale/ru-RU/prototypes/thrusters.ftl"
     },
     {
@@ -11609,7 +10934,7 @@
       "line": 137,
       "name": "tinted window",
       "name_source": "TintedWindow",
-      "description": "Smart tinted window with state switching option. # Goob",
+      "description": "Smart tinted window with state switching option.",
       "description_source": "TintedWindow",
       "ru_source": null
     },
@@ -12077,21 +11402,6 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/translator_implanters.ftl"
     },
     {
-      "id": "VendingMachineBoozeSyndicate # syndie booze-o-mat for nukie outpost",
-      "key": "ent-VendingMachineBoozeSyndicate # syndie booze-o-mat for nukie outpost",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Structures/Machines/vending_machines.yml",
-      "line": 245,
-      "name": "Bruise-O-Mat",
-      "name_source": "VendingMachineBoozeSyndicate # syndie booze-o-mat for nukie outpost",
-      "description": "A refurbished Booze-O-Mat for boosting operative morale. An imprint of a blood-red hardsuit is visible on one side, and the paint seems ashed off on the other side.",
-      "description_source": "VendingMachineBoozeSyndicate # syndie booze-o-mat for nukie outpost",
-      "ru_source": null
-    },
-    {
       "id": "VendingMachineMieyoAutomated",
       "key": "ent-VendingMachineMieyoAutomated",
       "missing": [
@@ -12293,56 +11603,28 @@
       "id": "WallMiningOutpost",
       "key": "ent-WallMiningOutpost",
       "missing": [
-        "name"
+        "name",
+        "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/Structures/walls.yml",
       "line": 330,
       "name": "mining wall",
       "name_source": "WallMining",
-      "description": null,
-      "description_source": null,
-      "ru_source": null
-    },
-    {
-      "id": "WallNanolaminate # Mono",
-      "key": "ent-WallNanolaminate # Mono",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Shitmed/Entities/Structures/Walls/walls.yml",
-      "line": 82,
-      "name": "nanolaminate wall # Mono",
-      "name_source": "WallNanolaminate # Mono",
-      "description": "A dense wall made of a strange material, the texture is smooth yet rough. # Mono",
-      "description_source": "WallNanolaminate # Mono",
-      "ru_source": null
-    },
-    {
-      "id": "WallNanolaminateDiagonal # Mono",
-      "key": "ent-WallNanolaminateDiagonal # Mono",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Shitmed/Entities/Structures/Walls/walls.yml",
-      "line": 2,
-      "name": "nanolaminate wall # Mono",
-      "name_source": "WallNanolaminateDiagonal # Mono",
-      "description": "A dense wall made of a strange material, the texture is smooth yet rough. # Mono",
-      "description_source": "WallNanolaminateDiagonal # Mono",
+      "description": "Keeps the air in and the chimera out.",
+      "description_source": "BaseWallTierOne",
       "ru_source": null
     },
     {
       "id": "WallRockAndesiteArtifactAnomaly",
       "key": "ent-WallRockAndesiteArtifactAnomaly",
       "missing": [
+        "name",
         "desc"
       ],
       "source": "Resources/Prototypes/Entities/Structures/Walls/asteroid.yml",
       "line": 2550,
-      "name": null,
-      "name_source": null,
+      "name": "andesite",
+      "name_source": "WallRockAndesite",
       "description": "A rock wall. What's that sticking out of it?",
       "description_source": "WallRockAndesiteArtifactAnomaly",
       "ru_source": null
@@ -12422,12 +11704,13 @@
       "id": "WallRockChromiteArtifactAnomaly",
       "key": "ent-WallRockChromiteArtifactAnomaly",
       "missing": [
+        "name",
         "desc"
       ],
       "source": "Resources/Prototypes/Entities/Structures/Walls/asteroid.yml",
       "line": 2251,
-      "name": null,
-      "name_source": null,
+      "name": "chromite",
+      "name_source": "WallRockChromite",
       "description": "A rock wall. What's that sticking out of it?",
       "description_source": "WallRockChromiteArtifactAnomaly",
       "ru_source": null
@@ -12492,12 +11775,13 @@
       "id": "WallRockSandArtifactAnomaly",
       "key": "ent-WallRockSandArtifactAnomaly",
       "missing": [
+        "name",
         "desc"
       ],
       "source": "Resources/Prototypes/Entities/Structures/Walls/asteroid.yml",
       "line": 1952,
-      "name": null,
-      "name_source": null,
+      "name": "sandstone",
+      "name_source": "WallRockSand",
       "description": "A rock wall. What's that sticking out of it?",
       "description_source": "WallRockSandArtifactAnomaly",
       "ru_source": null
@@ -12562,12 +11846,13 @@
       "id": "WallRockSnowArtifactAnomaly",
       "key": "ent-WallRockSnowArtifactAnomaly",
       "missing": [
+        "name",
         "desc"
       ],
       "source": "Resources/Prototypes/Entities/Structures/Walls/asteroid.yml",
       "line": 1654,
-      "name": null,
-      "name_source": null,
+      "name": "snowdrift",
+      "name_source": "WallRockSnow",
       "description": "A rock wall. What's that sticking out of it?",
       "description_source": "WallRockSnowArtifactAnomaly",
       "ru_source": null
@@ -12893,7 +12178,7 @@
       "line": 964,
       "name": "xenoborg laser cannon",
       "name_source": "WeaponLaserCannonXenoborg",
-      "description": "A heavy duty, high powered laser weapon. On the handle is a label that says 'for authorized use only.' # Frontier: added label sentence",
+      "description": "A heavy duty, high powered laser weapon. On the handle is a label that says 'for authorized use only.'",
       "description_source": "WeaponLaserCannon",
       "ru_source": "Resources/Locale/ru-RU/Entities/Objects/Weapons/Guns/Battery/battery_guns.ftl"
     },
@@ -12947,7 +12232,7 @@
       ],
       "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Launchers/launchers.yml",
       "line": 194,
-      "name": "TCA QLU-907 Anubis TPGL (35x53mm grenade) # CS2 reference",
+      "name": "TCA QLU-907 Anubis TPGL (35x53mm grenade)",
       "name_source": "WeaponLauncherTSFAnubis",
       "description": "A precision magfed grenade rifle with an inbuilt fire-control system, originally intended for use against fortifications & counterinsurgency. Fires 35mm grenades with high-velocity and precision.",
       "description_source": "WeaponLauncherTSFAnubis",
@@ -12996,36 +12281,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Pistols/pistol.ftl"
     },
     {
-      "id": "WeaponRevolverMatebaAP # For deathsquad",
-      "key": "ent-WeaponRevolverMatebaAP # For deathsquad",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Weapons/Guns/Revolvers/revolvers.yml",
-      "line": 104,
-      "name": "Mateba (.357 magnum)",
-      "name_source": "WeaponRevolverMateba",
-      "description": "A legendary revolver from an era long past. Originally used by corporate kill-teams, its design has become widespread. Uses .357 magnum ammo. Slow firing, but due to enhanced components it punches like a superfreighter. Excellent for putting down problems.",
-      "description_source": "WeaponRevolverMateba",
-      "ru_source": null
-    },
-    {
-      "id": "WeaponRevolverPythonAP # For the uplink.",
-      "key": "ent-WeaponRevolverPythonAP # For the uplink.",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/Entities/Objects/Weapons/Guns/Revolvers/revolvers.yml",
-      "line": 154,
-      "name": "LWC Python (.357 magnum)",
-      "name_source": "WeaponRevolverPython",
-      "description": "A rugged, advanced .357 magnum revolver design that has stood the test of time. It has recieved an upgrade allowing for a double-tap burst firing pattern.",
-      "description_source": "WeaponRevolverPython",
-      "ru_source": null
-    },
-    {
       "id": "WeaponRifleDragonfang",
       "key": "ent-WeaponRifleDragonfang",
       "missing": [
@@ -13066,21 +12321,6 @@
       "description": "An even more accurate and much less cheap rifle produced by MMC, selected out of the highest-performing V/78 rifles and converted to a DMR role. An Erebus railmount is present on the reciever for optics.",
       "description_source": "WeaponRifleIzumo",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Rifles/mmc.ftl"
-    },
-    {
-      "id": "WeaponRifleMR3C # Mono",
-      "key": "ent-WeaponRifleMR3C # Mono",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Snipers/tsfmc.yml",
-      "line": 218,
-      "name": "SKR-WS QBU-430 Bandit (8x65mm SKR) # Mono",
-      "name_source": "WeaponRifleMR3C # Mono",
-      "description": "A precise and reliable bullpup DMR, developed as a cheaper production model from early QBU-243 prototypes. Feeds from 8x65mm STANAG magazines. It has a Erebus railmount for optics. # Mono",
-      "description_source": "WeaponRifleMR3C # Mono",
-      "ru_source": null
     },
     {
       "id": "WeaponRifleMolot",
@@ -13530,8 +12770,8 @@
       "ru_source": null
     },
     {
-      "id": "WeaponTurretHeavyRIPViper # ... Also not sure why we wouldn't just use the basic CC one for spawncamp purposes but hey.",
-      "key": "ent-WeaponTurretHeavyRIPViper # ... Also not sure why we wouldn't just use the basic CC one for spawncamp purposes but hey.",
+      "id": "WeaponTurretHeavyRIPViper",
+      "key": "ent-WeaponTurretHeavyRIPViper",
       "missing": [
         "name",
         "desc"
@@ -13789,21 +13029,6 @@
       "name_source": "WindowTimedSeal",
       "description": "A powerful energy field, sealing off a location for a short period of time.",
       "description_source": "WindowTimedSeal",
-      "ru_source": null
-    },
-    {
-      "id": "WoodenHandleBat # shitcode. It would need another placeholder item for the mid crafting step if i removed it",
-      "key": "ent-WoodenHandleBat # shitcode. It would need another placeholder item for the mid crafting step if i removed it",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Goobstation/Entities/Objects/Misc/Crafting/ghetto_stuff.yml",
-      "line": 17,
-      "name": "wooden handle",
-      "name_source": "WoodenHandle",
-      "description": "A normal wooden handle, that can be used in crafting.",
-      "description_source": "WoodenHandle",
       "ru_source": null
     },
     {
