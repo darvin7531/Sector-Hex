@@ -27,9 +27,10 @@ LOCALE_ROOT = ROOT / "Resources" / "Locale" / "ru-RU"
 
 ENTRY_RE = re.compile(r"^- type:\s*([^#\s]+)")
 FIELD_RE = re.compile(r"^  ([A-Za-z][A-Za-z0-9_-]*):(?:\s*(.*?))?\s*$")
-LIST_ITEM_RE = re.compile(r"^  -\s+([^#]+?)\s*$")
+LIST_ITEM_RE = re.compile(r"^  -\s+(.+?)\s*$")
 FTL_MESSAGE_RE = re.compile(r"^(ent-[A-Za-z0-9_-]+)\s*=\s*(.*)$")
 FTL_ATTR_RE = re.compile(r"^\s+\.([A-Za-z0-9_-]+)\s*=")
+ANCHOR_RE = re.compile(r"&([A-Za-z0-9_-]+)\s+([^\s#,\]\}]+)")
 
 
 @dataclass(frozen=True)
@@ -50,15 +51,67 @@ class FluentMessage:
     source: str
 
 
+def strip_yaml_comment(value: str) -> str:
+    """Remove a YAML inline comment while preserving # inside quoted scalars."""
+    quote: str | None = None
+    escaped = False
+
+    for index, char in enumerate(value):
+        if escaped:
+            escaped = False
+            continue
+        if char == "\\" and quote == '"':
+            escaped = True
+            continue
+        if quote is not None:
+            if char == quote:
+                quote = None
+            continue
+        if char in {'"', "'"}:
+            quote = char
+            continue
+        if char == "#" and (index == 0 or value[index - 1].isspace()):
+            return value[:index].rstrip()
+
+    return value.rstrip()
+
+
 def unquote(value: str | None) -> str | None:
     if value is None:
         return None
-    value = value.strip()
+    value = strip_yaml_comment(value.strip())
     if not value or value in {"null", "~"}:
         return None
     if len(value) >= 2 and value[0] == value[-1] and value[0] in {'"', "'"}:
         return value[1:-1]
     return value
+
+
+def collect_scalar_anchors(text: str) -> dict[str, str]:
+    """Collect the simple scalar anchors used by entity prototype IDs.
+
+    SS14 prototype YAML occasionally assigns an entity ID to an alias whose anchor
+    is declared inside a component field, e.g. ``boardPrototype: &board Foo`` and
+    later ``id: *board``. A regex-only prototype reader must resolve those aliases
+    or it reports impossible localization IDs such as ``ent-*board``.
+    """
+    anchors: dict[str, str] = {}
+    for line in text.splitlines():
+        for match in ANCHOR_RE.finditer(strip_yaml_comment(line)):
+            name, value = match.groups()
+            parsed = unquote(value)
+            if parsed:
+                anchors[name] = parsed
+    return anchors
+
+
+def resolve_alias(value: str | None, anchors: dict[str, str]) -> str | None:
+    parsed = unquote(value)
+    if parsed is None:
+        return None
+    if parsed.startswith("*"):
+        return anchors.get(parsed[1:], parsed)
+    return parsed
 
 
 def iter_top_level_entries(text: str) -> Iterable[tuple[int, list[str]]]:
@@ -69,7 +122,12 @@ def iter_top_level_entries(text: str) -> Iterable[tuple[int, list[str]]]:
         yield start + 1, lines[start:end]
 
 
-def parse_entity_block(lines: list[str], source: str, line_number: int) -> EntityPrototype | None:
+def parse_entity_block(
+    lines: list[str],
+    source: str,
+    line_number: int,
+    anchors: dict[str, str],
+) -> EntityPrototype | None:
     first = ENTRY_RE.match(lines[0])
     if first is None or first.group(1) != "entity":
         return None
@@ -82,18 +140,18 @@ def parse_entity_block(lines: list[str], source: str, line_number: int) -> Entit
         field = FIELD_RE.match(line)
         if field:
             key, raw_value = field.groups()
-            value = raw_value.strip() if raw_value is not None else ""
+            value = strip_yaml_comment(raw_value.strip()) if raw_value is not None else ""
             fields[key] = value
             reading_parent_list = key == "parent" and not value
             if key == "parent" and value:
-                parsed = unquote(value)
+                parsed = resolve_alias(value, anchors)
                 if parsed:
                     # Inline YAML lists are uncommon here, but supporting them is cheap.
                     if parsed.startswith("[") and parsed.endswith("]"):
                         parents.extend(
-                            part.strip().strip("'\"")
+                            resolved
                             for part in parsed[1:-1].split(",")
-                            if part.strip()
+                            if (resolved := resolve_alias(part.strip(), anchors))
                         )
                     else:
                         parents.append(parsed)
@@ -102,21 +160,23 @@ def parse_entity_block(lines: list[str], source: str, line_number: int) -> Entit
         if reading_parent_list:
             item = LIST_ITEM_RE.match(line)
             if item:
-                parents.append(item.group(1).strip().strip("'\""))
+                parsed = resolve_alias(item.group(1), anchors)
+                if parsed:
+                    parents.append(parsed)
                 continue
             if line and not line.startswith("    "):
                 reading_parent_list = False
 
-    prototype_id = unquote(fields.get("id"))
+    prototype_id = resolve_alias(fields.get("id"), anchors)
     if not prototype_id:
         return None
 
-    abstract = (unquote(fields.get("abstract")) or "").lower() == "true"
+    abstract = (resolve_alias(fields.get("abstract"), anchors) or "").lower() == "true"
     return EntityPrototype(
         prototype_id=prototype_id,
         parents=tuple(parents),
-        name=unquote(fields.get("name")),
-        description=unquote(fields.get("description")),
+        name=resolve_alias(fields.get("name"), anchors),
+        description=resolve_alias(fields.get("description"), anchors),
         abstract=abstract,
         source=source,
         line=line_number,
@@ -128,8 +188,9 @@ def load_entities() -> dict[str, EntityPrototype]:
     for file in PROTOTYPE_ROOT.rglob("*.yml"):
         source = file.relative_to(ROOT).as_posix()
         text = file.read_text(encoding="utf-8", errors="replace")
+        anchors = collect_scalar_anchors(text)
         for line_number, block in iter_top_level_entries(text):
-            entity = parse_entity_block(block, source, line_number)
+            entity = parse_entity_block(block, source, line_number, anchors)
             if entity is not None:
                 entities[entity.prototype_id] = entity
     return entities
