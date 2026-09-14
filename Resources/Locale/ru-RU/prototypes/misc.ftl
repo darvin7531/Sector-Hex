@@ -20,10 +20,14 @@ ent-ClothingShoesClothwrapBlack = Черные тряпичные обмотки
 
 ent-WeaponCaseHeavyAmmo150AP =
 { ent-WeaponCaseHeavyAmmo }
+{ ent-WeaponCaseHeavyAmmo }
+{ ent-WeaponCaseHeavyAmmo }
     .suffix = Тяжёлый, Корабельный, 150 мм ББ
     .desc = { ent-WeaponCaseHeavyAmmo.desc }
 
 ent-WeaponCaseHeavyAmmo150EMP =
+{ ent-WeaponCaseHeavyAmmo }
+{ ent-WeaponCaseHeavyAmmo }
 { ent-WeaponCaseHeavyAmmo }
     .suffix = Тяжёлый, Корабельный, 150 мм ЭМИ
     .desc = { ent-WeaponCaseHeavyAmmo.desc }

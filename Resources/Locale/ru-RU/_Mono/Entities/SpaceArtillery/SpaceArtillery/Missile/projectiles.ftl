@@ -1,7 +1,14 @@
 ent-ShipMissileASM250 = гибридная ЭМИ-ракета ASM-250
+    .desc = { ent-BaseBullet.desc }
 ent-ShipMissileASM250HEAT = 250-мм ракета HEAT
+    .desc = { ent-BaseBullet.desc }
 ent-ShipMissileASM250HV = ракета HV 250 мм
+    .desc = { ent-BaseBullet.desc }
 ent-ShipMissileEntropy = электронная торпеда
+    .desc = { ent-BaseBullet.desc }
 ent-MissileProjectile50mmHE = мини-ракета ASM-50 50 мм
+    .desc = { ent-BaseBullet.desc }
 ent-ShipMissileASM150 = 150-мм ракета ASM-150
+    .desc = { ent-BaseBullet.desc }
 ent-ShipMissileASM150Unguided = ракета ASM-150 150 мм
+    .desc = { ent-BaseBullet.desc }

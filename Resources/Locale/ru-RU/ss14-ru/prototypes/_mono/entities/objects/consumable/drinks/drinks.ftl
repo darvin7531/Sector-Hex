@@ -1,7 +1,14 @@
 ent-DrinkChamomileTea = ромашковый чай
+    .desc = { ent-DrinkGlass.desc }
 ent-DrinkBerryTea = ягодный чай
+    .desc = { ent-DrinkGlass.desc }
 ent-DrinkFruitTea = фруктовый чай
+    .desc = { ent-DrinkGlass.desc }
 ent-DrinkYorkshireTea = йоркширский чай
+    .desc = { ent-DrinkGlass.desc }
 ent-DrinkDecafBlackTea = чёрный чай без кофеина
+    .desc = { ent-DrinkGlass.desc }
 ent-DrinkSyndicateTea = чай Синдиката
+    .desc = { ent-DrinkGlass.desc }
 ent-DrinkDecafCoffee = кофе без кофеина
+    .desc = { ent-DrinkGlass.desc }

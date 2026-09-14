@@ -31,9 +31,7 @@ ent-Magazine45_magnumPistolHighCapacityFMJ = большой пистолетны
 ent-Magazine45_magnumPistolHighCapacityPractice = большой пистолетный магазин (.45 магнум учебные)
     .desc = Большой пистолетный магазин, использующий учебные патроны калибра .45 магнум.
 ent-Magazine45_magnumPistolHighCapacityRubber = большой пистолетный магазин (.45 магнум травматические)
-    .desc = Большой пистолетный магазин, использующий травматические патроны калибра .45 магнум.ent-Magazine45_magnumSubMachineGunFMJ = магазин ПП (.45 магнум FMJ)
-    .desc = Магазин для пистолета-пулемёта, использующий патроны калибра .45 магнум.
-ent-Magazine45_magnumSubMachineGunEmpty = магазин ПП (.45 магнум)
+    .desc = Большой пистолетный магазин, использующий травматические патроны калибра .45 магнум.ent-Magazine45_magnumSubMachineGunEmpty = магазин ПП (.45 магнум)
     .desc = Магазин для пистолета-пулемёта, использующий патроны калибра .45 магнум.
     .suffix= Пустой
 ent-Magazine45_magnumSubMachineGunPractice = магазин ПП (.45 магнум учебные)

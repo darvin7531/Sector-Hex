@@ -1,6 +1,7 @@
 ent-20mmBulletBase = { ent-BaseBullet }
     .desc = { ent-BaseBullet.desc }
 ent-20mmBullet = пуля 20 мм
+    .desc = { ent-BaseBullet.desc }
 ent-30mmBullet = { ent-BaseBullet }
     .desc = { ent-BaseBullet.desc }
 ent-57mmBullet = { ent-BaseBulletTrigger }
@@ -13,6 +14,7 @@ ent-ShipCyrexaProjectile = CYREXA 220mm projectile
 ent-ShipBoforsProjectile = Bofors 255mm projectile
     .desc = { ent-BaseBulletTrigger.desc }
 ent-AdderBullet = снаряд Adder
+    .desc = { ent-BaseBullet.desc }
 ent-AdderSpread = { ent-AdderBullet }
     .desc = { ent-AdderBullet.desc }
 ent-ShipShardProjectile = { ent-BaseBulletTrigger }

@@ -1,6 +1,8 @@
 ent-BulletEnergyGun45_magnum = заряд .45 магнум
 ent-HeavyPulse = Heavy Pulse Bolt
+    .desc = { ent-BaseBullet.desc }
 ent-HeavyPulseExp = Explosive Pulse Bolt
+    .desc = { ent-BaseBullet.desc }
 ent-BulletMonolithicGestalt = gestalt bolt
     .desc = Ззз...ть?
 ent-BulletMonolithicGolomRanged = golum spike

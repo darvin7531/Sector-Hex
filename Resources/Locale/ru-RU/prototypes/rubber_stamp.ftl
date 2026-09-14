@@ -5,6 +5,7 @@ ent-RubberStampPDVOverwatch = Резиновая печать наблюдате
     .desc = Официальный штамп службы локального наблюдения Авангарда.
 
 ent-RubberStampPDVSpasaka = Резиновая печать спасаки PDV
+    .desc = { ent-RubberStampBase.desc }
 
 ent-RubberStampPDVVizier = Резиновая печать великого визиря PDV
     .desc = Резиновый штамп для того, кто не даёт вам перестрелять друг-друга.

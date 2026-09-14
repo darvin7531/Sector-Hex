@@ -1,8 +1,11 @@
 ent-Bullet68x52mmCaselessHP = пуля (6.8x52mm безгильзовая HP)
+    .desc = { ent-BaseBullet.desc }
 
 ent-Bullet68x52mmCaselessPlasteelAP = пуля (6.8x52mm безгильзовая AP)
+    .desc = { ent-BaseBullet.desc }
 
 ent-Bullet68x52mmCaselessRIP = пуля (6.8x52mm безгильзовая RIP)
+    .desc = { ent-BaseBullet.desc }
 
 ent-Cartridge68x52mmCaselessHP = патрон (6.8x52mm STANAG безгильзовый HP)
     .desc = { ent-BaseCartridge68x52mmCaseless.desc }

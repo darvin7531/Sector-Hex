@@ -1,11 +1,16 @@
 ent-BaseCarrierComputer = консоль авианосца
     .desc = Используется на авианосцах для покупки и продажи кораблей без возврата на станцию.
 ent-SellOnlyCarrierComputer = консоль верфи только для продажи
+    .desc = { ent-BaseCarrierComputer.desc }
 ent-MiningCarrierComputer = консоль добывающего авианосца
+    .desc = { ent-BaseCarrierComputer.desc }
 ent-HiveCarrierComputer = консоль авианосца «Зефир»
+    .desc = { ent-BaseCarrierComputer.desc }
 ent-TSFCarrierComputer = консоль авианосца TSF
+    .desc = { ent-BaseCarrierComputer.desc }
 ent-LedokolAttatchmentComputer = консоль модулей «Ледокол»
 ent-WindreignCarrierComputer = консоль верфи «Виндрейн»
+    .desc = { ent-BaseCarrierComputer.desc }
 ent-JupiterCarrierComputer = консоль верфи «Юпитер»
     .desc = Облегчённая верфь, использующая внутренние ангары «Юпитера»; не имеет доступа ко всему списку кораблей династии Фаэтон.
 ent-RavagerCarrierComputer = консоль верфи «Рэйваджер»
