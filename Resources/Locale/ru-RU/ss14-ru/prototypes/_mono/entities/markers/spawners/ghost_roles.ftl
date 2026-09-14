@@ -1,8 +1,12 @@
-ent-SpawnRedactedBorg = ADS tender spawner
-    .desc = { ent-MarkerBase.desc }
-ent-SpawnRedactedBorgPlaytime = ADS playtime-locked tender spawner
-    .desc = { ent-MarkerBase.desc }
-ent-SpawnChimeraGhostrole = chimera ghostrole spawner
-    .desc = { ent-MarkerBase.desc }
-ent-SpawnAsakimWarrior = asakim warrior spawner
-    .desc = { ent-MarkerBase.desc }
+ent-SpawnRedactedBorg = спаунер обслуживающего борга
+    .desc = {ent-MarkerBase}
+    .suffix = ADS ONLY, Контроль ИИ
+ent-SpawnRedactedBorgPlaytime = спаунер боевого борга
+    .desc = {ent-MarkerBase}
+    .suffix = ADS ONLY, Гост-роль
+ent-SpawnChimeraGhostrole = спаунер химеры
+    .desc = {ent-MarkerBase}
+    .suffix = Гост-роль
+ent-SpawnAsakimWarrior = спаунер воина асаким
+    .desc = {ent-MarkerBase}
+

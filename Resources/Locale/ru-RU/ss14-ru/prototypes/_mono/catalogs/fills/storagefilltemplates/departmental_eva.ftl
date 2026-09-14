@@ -1,2 +1,2 @@
-ent-StorageFillEVASuitDME = { "" }
-    .desc = Contains a standard issue DME Contractor EVA kit.
+ent-StorageFillEVASuitDME = стандартный набор EVA авантюриста DME
+    .desc = Содержит стандартный набор EVA авантюриста DME.

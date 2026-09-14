@@ -1,2 +1,2 @@
-ent-ClothingOuterHardsuitMercenaryWarlord = PMC WL-01
-    .desc = Nicknamed "Warlord",a former state-of-the-art technology in military equipment, now widespread among the mercenaries and black markets due to its schematics being revealed to the public, the warlord combat suit has been modified to withstand space depressurized atmosphere, rating it space capable.
+ent-ClothingOuterHardsuitMercenaryWarlord = скафандр WL-01
+    .desc = Прозванный «Warlord» - некогда передовая военная технология; после утечки чертежей распространился среди наёмников и чёрного рынка. Боевой костюм доработан для работы в разряжённой атмосфере космоса.

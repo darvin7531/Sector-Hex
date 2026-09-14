@@ -1,6 +1,4 @@
-ent-SimpleLaserExplosion = { "" }
-    .desc = { "" }
-ent-ExplosiveLaser = { ent-BasicHitscan }
-    .desc = { ent-BasicHitscan.desc }
+ent-SimpleLaserExplosion = SimpleLaserExplosion
+ent-ExplosiveLaser = ExplosiveLaser
 ent-explosivelasergun = explosive laser gun
-    .desc = Favoured by Nanotrasen Security for being cheap and easy to use.
+    .desc = Любим службой безопасности Nanotrasen за дешевизну и простоту.

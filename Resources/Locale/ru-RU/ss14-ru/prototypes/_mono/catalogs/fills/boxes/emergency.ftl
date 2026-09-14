@@ -1,9 +1,11 @@
-ent-BoxBaseSurvivalMono = Emergency Survival Box
-    .desc = A dedicated, standard issue survival box for the Colossus sector. Holds utility tools to keep you alive in an emergency.
-    .suffix = Oxygen
-ent-BoxSurvivalMonoOxygenExtended = { ent-BoxBaseSurvivalMono }
-    .suffix = Oxygen
+ent-BoxBaseSurvivalMono = аварийная коробка выживания
+    .suffix = Кислород
+    .desc = Стандартная аварийная коробка выживания для сектора Колосс. Содержит инструменты для выживания в чрезвычайной ситуации.
+
+ent-BoxSurvivalMonoOxygenExtended = аварийная коробка выживания
+    .suffix = Кислород
     .desc = { ent-BoxBaseSurvivalMono.desc }
-ent-BoxSurvivalMonoNitrogenExtended = { ent-BoxBaseSurvivalMono }
-    .suffix = Nitrogen
+
+ent-BoxSurvivalMonoNitrogenExtended = аварийная коробка выживания
+    .suffix = Азот
     .desc = { ent-BoxBaseSurvivalMono.desc }

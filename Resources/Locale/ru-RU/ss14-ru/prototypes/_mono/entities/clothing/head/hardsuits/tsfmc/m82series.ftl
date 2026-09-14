@@ -1,2 +1,2 @@
-ent-ClothingHeadHelmetHardsuitM82 = M82 helmet
-    .desc = The interchangeable helmet system for the majority of M82 hardsuits. Outfitted with a basic NVG system.
+ent-ClothingHeadHelmetHardsuitM82 = шлем M82
+    .desc = Взаимозаменяемая система шлемов для большинства скафандров M82. Оснащена базовой системой ночного видения.

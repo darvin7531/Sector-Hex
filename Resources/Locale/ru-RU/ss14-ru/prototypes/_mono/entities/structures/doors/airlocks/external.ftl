@@ -1,6 +1,6 @@
 ent-AirlockExternalGlassUSSPLocked = { ent-AirlockExternalGlass }
-    .suffix = External, Glass, USSP, Locked
     .desc = { ent-AirlockExternalGlass.desc }
+    .suffix = Внешний, Стеклянный, USSP, Закрыт
 ent-AirlockExternalUSSPLocked = { ent-AirlockExternal }
-    .suffix = External, USSP, Locked
     .desc = { ent-AirlockExternal.desc }
+    .suffix = Внешний, USSP, Закрыт

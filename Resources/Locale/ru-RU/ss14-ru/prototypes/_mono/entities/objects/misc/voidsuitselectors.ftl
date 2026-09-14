@@ -1,4 +1,4 @@
-ent-UndeterminedVoidsuitRD = RD voidsuit selector
-    .desc = A small remote utilizing bluespace technology to drop in a voidsuit or hardsuit of your choosing.
-ent-UndeterminedVoidsuitCap = Captain voidsuit selector
-    .desc = A small remote utilizing bluespace technology to drop in a voidsuit or hardsuit of your choosing.
+ent-UndeterminedVoidsuitRD = селектор пустотного скафандра научного руководителя
+    .desc = Маленький пульт, использующий блюспейс-технологию для доставки скафандра на ваш выбор.
+ent-UndeterminedVoidsuitCap = селектор капитанского пустотного скафандра
+    .desc = Маленький пульт, использующий блюспейс-технологию для доставки выбранного скафандра.

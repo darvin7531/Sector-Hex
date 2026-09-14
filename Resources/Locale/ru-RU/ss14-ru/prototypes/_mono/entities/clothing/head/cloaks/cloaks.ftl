@@ -1,2 +1,2 @@
-ent-ClothingHeadHatCOG = Old robe
-    .desc = An ancient crimson draping from a now-defunct cult.
+ent-ClothingHeadHatCOG = старая мантия
+    .desc = Древняя багровая мантия ныне несуществующего культа.

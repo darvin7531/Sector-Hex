@@ -1,16 +1,20 @@
-ent-CrateAmmoBoxCharon = 280mm CHARON 26.5kg slug cartridge box
-    .desc = Contains 3 slugs.
-ent-CrateAmmoBox20mm = L85 20mm solid drum box
-    .desc = Contains one box of 20mm solid ammunition. Provides an artillery piece with infinite solid rounds. Buy in case you lost the ammo it came with.
-ent-CrateAmmoBox30mm = Draupnir 30mm solid drum box
-    .desc = Contains one box of 30mm solid ammunition. Provides an artillery piece with infinite solid rounds. Buy in case you lost the ammo it came with.
-ent-CrateAmmoBox57mm = Dravon 57mm HE drum box
-    .desc = Contains one box of 57mm high-explosive ammunition. Provides an artillery piece with infinite high-explosive rounds. Buy in case you lost the ammo it came with.
-ent-CrateAmmoBox90mm = AK-570 90mm HE box
-    .desc = Contains one box of 90mm high-explosive ammunition. Provides an artillery piece with infinite high-explosive rounds. Buy in case you lost the ammo it came with.
-ent-CrateAmmoBoxVanyk = ASM-302 Vanyk HEAT missile box
-    .desc = Contains 24 missiles. 2 full loads.
-ent-CrateAmmoBoxVespera = ASM-417 Vespera HE missile box
-    .desc = Contains 2 bursts of 13 missiles. One full load.
-ent-CrateAmmoBoxTovek = ASM-557 Tovek EMPHE missile box
-    .desc = Contains 4 missiles, 2 loads worth.
+ent-CrateAmmoBoxCharon = ящик кинетических 280мм зарядов
+    .suffix = Защищённый
+    .desc = Содержит 3 кинетических снаряда калибра 280 мм.
+ent-CrateAmmoBox20mm = ящик автозарядников L85 20мм цельных
+    .desc = Содержит один автозарядник цельных 20-мм снарядов. Заменяет тип боеприпасов орудия.
+ent-CrateAmmoBox30mm = ящик автозарядников 30мм цельных
+    .desc = Содержит один автозарядник цельных 30-мм снарядов. Заменяет тип боеприпасов орудия.
+ent-CrateAmmoBox57mm = ящик осколочно-фугасных 57мм автозарядников
+    .desc = Содержит один автозарядник фугасных 57-мм снарядов. Заменяет тип боеприпасов орудия.
+ent-CrateAmmoBox90mm = ящик осколочно-фугасных 90мм автозарядников
+    .desc = Содержит один автозарядник фугасных 90-мм снарядов. Заменяет тип боеприпасов орудия.
+ent-CrateAmmoBoxVanyk = ящик осколочно-фугасных 150мм ракет
+    .desc = Содержит 24 кумулятивные ракеты. 2 полные загрузки.
+ent-CrateAmmoBoxVespera = ящик осколочно-фугасных 50мм ракет
+    .desc = Содержит 78 фугасных ракет. Одна полная загрузка.
+ent-CrateAmmoBoxTovek = ящик осколочно-фугасных (ЭМИ) 250мм ракет
+    .desc = Содержит 4 ЭМИ-фугасные ракеты. 2 полные загрузки.
+
+# Charon
+

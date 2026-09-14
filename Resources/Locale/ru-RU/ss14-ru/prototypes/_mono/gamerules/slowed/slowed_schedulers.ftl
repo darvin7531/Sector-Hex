@@ -1,8 +1,12 @@
-ent-MonoAISTCShuttleSpawnerSchedulerSlow = { ent-BaseGameRule }
+ent-MonoAISTCShuttleSpawnerSchedulerSlow = планировщик шаттлов повреждённого ИИ
+    .suffix = Замедленный
     .desc = { ent-BaseGameRule.desc }
-ent-MonoAISTCShuttleSpawnerSchedulerTier2Slow = { ent-BaseGameRule }
+ent-MonoAISTCShuttleSpawnerSchedulerTier2Slow = планировщик шаттлов повреждённого ИИ
+    .suffix = Tier 2, Замедленный
     .desc = { ent-BaseGameRule.desc }
-ent-MonoAsakimSTCShuttleSpawnerSchedulerSlow = { ent-BaseGameRule }
+ent-MonoAsakimSTCShuttleSpawnerSchedulerSlow = планировщик шаттлов Асаким
+    .suffix = Замедленный
     .desc = { ent-BaseGameRule.desc }
-ent-MonoChimeraSTCShuttleSpawnerSchedulerSlow = { ent-BaseGameRule }
+ent-MonoChimeraSTCShuttleSpawnerSchedulerSlow = планировщик шаттлов Химеры
+    .suffix = Замедленный
     .desc = { ent-BaseGameRule.desc }

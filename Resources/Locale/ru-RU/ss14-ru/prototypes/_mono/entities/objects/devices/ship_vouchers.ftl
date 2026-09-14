@@ -1,5 +1,5 @@
-ent-BaseShipLPC = ship LPC
-    .desc = Contains the necessary data for a shipyard console to produce a certain design.
+ent-BaseShipLPC = ваучер
+    .desc = Содержит необходимые данные для консоли верфи для производства определённого проекта.
 ent-ShipVoucherFrontierIronMan = Baeg Voucher
     .desc = Allows for one free Baeg purchase from the Shipyard. Destroyed on sale.
 ent-ShipVoucherUSSPBasic = USSP basic shuttle LPC
@@ -16,13 +16,15 @@ ent-ShipVoucherUSSPLedokolAttatchment = USSP ledokol attatchment LPC
     .desc = A small card that authorizes the acquisition of a Ledokol attatchment.
 ent-ShipVoucherTsfmcColonel = TSFMC colonel ship voucher
     .desc = Allows for two TSFMC ship purchases of any size, and allows for the procurement of a Polaris. Destroyed on sale.
-ent-ShipVoucherFlyssa = TSF flyssa LPC
-    .desc = A small card that contains the data for the procurement of a Flyssa-class destroyer from the flagship's reserves.
+ent-ShipVoucherFlyssa = ваучер ТСФ на «Флисса»
+    .desc = Небольшая карта, содержащая данные для получения эсминца класса «Флисса» из резервов флагманского корабля ТСФ.
 ent-ShipVoucherPolaris = TSF polaris LPC
     .desc = A small card that contains the data for the procurement of a Polaris-class frigate from the flagship's reserves.
-ent-ShipVoucherSaintie = PDV saintie LPC
-    .desc = A small card that authorizes the procurement of a Saintie.
-ent-ShipVoucherSaturn = PDV saturn LPC
-    .desc = A small card that authorizes the procurement of the Saturn.
-ent-ShipVoucherRavager = ravager LPC
-    .desc = A small card that contains the data for the procurement of a Ravager-class mothership from the flagship's reserves.
+ent-ShipVoucherSaintie = ваучер Авангарда на «Сенти»
+    .desc = Небольшая карта, содержащая данные для получения крейсера класса «Сенти» из резервов флагманского корабля Авангарда.
+ent-ShipVoucherSaturn = ваучер Авангарда на «Сатурн»
+    .desc = Небольшая карта, содержая данные для получения эсминца класса «Сатурн» из резервов флагманского корабля Авангарда.
+ent-ShipVoucherRavager = ваучер на «Рэйваджер»
+    .desc = Небольшая карта, содержащая данные для получения корабля-носителя класса «Ravager» из резервов флагманского корабля.
+
+# ТСФ

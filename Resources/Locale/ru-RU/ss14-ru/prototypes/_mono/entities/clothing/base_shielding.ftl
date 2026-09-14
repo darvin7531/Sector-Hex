@@ -1,2 +1,1 @@
-ent-EnergyShieldClothing = { "" }
-    .desc = { "" }
+ent-EnergyShieldClothing = EnergyShieldClothing

@@ -1,2 +1,2 @@
-ent-BucketPaper = paper bucket
-    .desc = A disposable paper liner for buckets of fried food.
+ent-BucketPaper = бумажное ведёрко
+    .desc = Одноразовая бумажная вкладка для вёдер с приготовленной едой.

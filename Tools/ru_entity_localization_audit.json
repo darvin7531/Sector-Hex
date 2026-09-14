@@ -1,6 +1,6 @@
 {
   "prototype_count": 18818,
-  "issue_count": 926,
+  "issue_count": 1188,
   "scope": null,
   "issues": [
     {
@@ -62,6 +62,20 @@
       "description": "A chemically-propelled APHE shell for 150mm cannons. It'll work.",
       "description_source": "150mmApheShell",
       "ru_source": null
+    },
+    {
+      "id": "20mmBullet",
+      "key": "ent-20mmBullet",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
+      "line": 37,
+      "name": "20mm bullet",
+      "name_source": "20mmBullet",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/kinetic/projectiles.ftl"
     },
     {
       "id": "20mmBulletAS",
@@ -739,6 +753,48 @@
       "description": "Toggles T-ray hud on and off.",
       "description_source": "ActionToggleTray",
       "ru_source": "Resources/Locale/ru-RU/_DV/Actions/clothing.ftl"
+    },
+    {
+      "id": "AdderBullet",
+      "key": "ent-AdderBullet",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
+      "line": 1093,
+      "name": "AdderBullet",
+      "name_source": "AdderBullet",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/kinetic/projectiles.ftl"
+    },
+    {
+      "id": "AiHeldPDV",
+      "key": "ent-AiHeldPDV",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/Player/silicon.yml",
+      "line": 674,
+      "name": null,
+      "name_source": null,
+      "description": "Components added / removed from an entity that gets inserted into an AI core.",
+      "description_source": "AiHeldMono",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/player/silicon.ftl"
+    },
+    {
+      "id": "AiHeldSec",
+      "key": "ent-AiHeldSec",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/Player/silicon.yml",
+      "line": 750,
+      "name": null,
+      "name_source": null,
+      "description": "Components added / removed from an entity that gets inserted into an AI core.",
+      "description_source": "AiHeldMono",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/player/silicon.ftl"
     },
     {
       "id": "AiHeldXenoborg",
@@ -2868,6 +2924,118 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/35mm_grenade.ftl"
     },
     {
+      "id": "Bullet45_ACPEmp",
+      "key": "ent-Bullet45_ACPEmp",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_ACP.yml",
+      "line": 64,
+      "name": "bullet (.45 ACP emp)",
+      "name_source": "Bullet45_ACPEmp",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/45_ACP.ftl"
+    },
+    {
+      "id": "Bullet45_ACPHP",
+      "key": "ent-Bullet45_ACPHP",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_ACP.yml",
+      "line": 78,
+      "name": "bullet (.45 hollow-point)",
+      "name_source": "Bullet45_ACPHP",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/45_ACP.ftl"
+    },
+    {
+      "id": "Bullet45_ACPIncendiary",
+      "key": "ent-Bullet45_ACPIncendiary",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_ACP.yml",
+      "line": 36,
+      "name": "bullet (.45 ACP incendiary)",
+      "name_source": "Bullet45_ACPIncendiary",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/45_ACP.ftl"
+    },
+    {
+      "id": "Bullet45_ACPPlasteelAP",
+      "key": "ent-Bullet45_ACPPlasteelAP",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_ACP.yml",
+      "line": 106,
+      "name": "bullet (.45 AP)",
+      "name_source": "Bullet45_ACPPlasteelAP",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/45_ACP.ftl"
+    },
+    {
+      "id": "Bullet45_ACPPractice",
+      "key": "ent-Bullet45_ACPPractice",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_ACP.yml",
+      "line": 14,
+      "name": "bullet (.45 ACP practice)",
+      "name_source": "Bullet45_ACPPractice",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/45_ACP.ftl"
+    },
+    {
+      "id": "Bullet45_ACPRIP",
+      "key": "ent-Bullet45_ACPRIP",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_ACP.yml",
+      "line": 91,
+      "name": "bullet (.45 RIP)",
+      "name_source": "Bullet45_ACPRIP",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/45_ACP.ftl"
+    },
+    {
+      "id": "Bullet45_ACPRubber",
+      "key": "ent-Bullet45_ACPRubber",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_ACP.yml",
+      "line": 25,
+      "name": "bullet (.45 ACP rubber)",
+      "name_source": "Bullet45_ACPRubber",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/45_ACP.ftl"
+    },
+    {
+      "id": "Bullet45_ACPUranium",
+      "key": "ent-Bullet45_ACPUranium",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_ACP.yml",
+      "line": 49,
+      "name": "bullet (.45 ACP uranium)",
+      "name_source": "Bullet45_ACPUranium",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/45_ACP.ftl"
+    },
+    {
       "id": "Bullet68x52mmCaselessHP",
       "key": "ent-Bullet68x52mmCaselessHP",
       "missing": [
@@ -2896,6 +3064,20 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/68x52mm.ftl"
     },
     {
+      "id": "Bullet68x52mmCaselessPractice",
+      "key": "ent-Bullet68x52mmCaselessPractice",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/68x52mm.yml",
+      "line": 13,
+      "name": "bullet (6.8x52mm Caseless practice)",
+      "name_source": "Bullet68x52mmCaselessPractice",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/68x52mm.ftl"
+    },
+    {
       "id": "Bullet68x52mmCaselessRIP",
       "key": "ent-Bullet68x52mmCaselessRIP",
       "missing": [
@@ -2908,6 +3090,20 @@
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
       "ru_source": "Resources/Locale/ru-RU/prototypes/68x52mm.ftl"
+    },
+    {
+      "id": "Bullet68x52mmCaselessRubber",
+      "key": "ent-Bullet68x52mmCaselessRubber",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/68x52mm.yml",
+      "line": 24,
+      "name": "bullet (6.8x52mm Caseless rubber)",
+      "name_source": "Bullet68x52mmCaselessRubber",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/68x52mm.ftl"
     },
     {
       "id": "Bullet762x51mmAntiMaterial",
@@ -3036,6 +3232,132 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/7.62x51mm.ftl"
     },
     {
+      "id": "Bullet8x65mmSKR",
+      "key": "ent-Bullet8x65mmSKR",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/8x65mm.yml",
+      "line": 1,
+      "name": "bullet (8x65mm SKR)",
+      "name_source": "Bullet8x65mmSKR",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/8x65mm.ftl"
+    },
+    {
+      "id": "Bullet9x19mmEmp",
+      "key": "ent-Bullet9x19mmEmp",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/9x19mm.yml",
+      "line": 62,
+      "name": "bullet (9x19mm emp)",
+      "name_source": "Bullet9x19mmEmp",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/9x19mm.ftl"
+    },
+    {
+      "id": "Bullet9x19mmHP",
+      "key": "ent-Bullet9x19mmHP",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/9x19mm.yml",
+      "line": 75,
+      "name": "bullet (9x19mm hollow-point)",
+      "name_source": "Bullet9x19mmHP",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/9x19mm.ftl"
+    },
+    {
+      "id": "Bullet9x19mmIncendiary",
+      "key": "ent-Bullet9x19mmIncendiary",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/9x19mm.yml",
+      "line": 35,
+      "name": "bullet (9x19mm incendiary)",
+      "name_source": "Bullet9x19mmIncendiary",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/9x19mm.ftl"
+    },
+    {
+      "id": "Bullet9x19mmPlasteelAP",
+      "key": "ent-Bullet9x19mmPlasteelAP",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/9x19mm.yml",
+      "line": 103,
+      "name": "bullet (9x19mm AP)",
+      "name_source": "Bullet9x19mmPlasteelAP",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/9x19mm.ftl"
+    },
+    {
+      "id": "Bullet9x19mmPractice",
+      "key": "ent-Bullet9x19mmPractice",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/9x19mm.yml",
+      "line": 13,
+      "name": "bullet (9x19mm practice)",
+      "name_source": "Bullet9x19mmPractice",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/9x19mm.ftl"
+    },
+    {
+      "id": "Bullet9x19mmRIP",
+      "key": "ent-Bullet9x19mmRIP",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/9x19mm.yml",
+      "line": 88,
+      "name": "bullet (9x19mm RIP)",
+      "name_source": "Bullet9x19mmRIP",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/9x19mm.ftl"
+    },
+    {
+      "id": "Bullet9x19mmRubber",
+      "key": "ent-Bullet9x19mmRubber",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/9x19mm.yml",
+      "line": 24,
+      "name": "bullet (9x19mm rubber)",
+      "name_source": "Bullet9x19mmRubber",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/9x19mm.ftl"
+    },
+    {
+      "id": "Bullet9x19mmUranium",
+      "key": "ent-Bullet9x19mmUranium",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/9x19mm.yml",
+      "line": 48,
+      "name": "bullet (9x19mm uranium)",
+      "name_source": "Bullet9x19mmUranium",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/9x19mm.ftl"
+    },
+    {
       "id": "BulletBigshot",
       "key": "ent-BulletBigshot",
       "missing": [
@@ -3062,6 +3384,20 @@
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
       "ru_source": "Resources/Locale/ru-RU/prototypes/lawbringer.ftl"
+    },
+    {
+      "id": "BulletDragoon",
+      "key": "ent-BulletDragoon",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Pistols/recharging.yml",
+      "line": 102,
+      "name": "bullet (.500 magnum caseless)",
+      "name_source": "BulletDragoon",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/pistols/recharging.ftl"
     },
     {
       "id": "BulletEnergyGun357_magnum",
@@ -3104,6 +3440,20 @@
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
       "ru_source": "Resources/Locale/ru-RU/prototypes/lawbringer.ftl"
+    },
+    {
+      "id": "BulletHawk",
+      "key": "ent-BulletHawk",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Pistols/recharging.yml",
+      "line": 43,
+      "name": "bullet (7x30mm caseless)",
+      "name_source": "BulletHawk",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/pistols/recharging.ftl"
     },
     {
       "id": "BulletHotshot",
@@ -5469,6 +5819,1028 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/datafarms.ftl"
     },
     {
+      "id": "DeepGasDeposit",
+      "key": "ent-DeepGasDeposit",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 30,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositAir",
+      "key": "ent-DeepGasDepositAir",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 121,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositAirLarge",
+      "key": "ent-DeepGasDepositAirLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 370,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositAirSmall",
+      "key": "ent-DeepGasDepositAirSmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 291,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositAirVeryLarge",
+      "key": "ent-DeepGasDepositAirVeryLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 449,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositAirVerySmall",
+      "key": "ent-DeepGasDepositAirVerySmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 212,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositAmmonia",
+      "key": "ent-DeepGasDepositAmmonia",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 91,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositAmmoniaLarge",
+      "key": "ent-DeepGasDepositAmmoniaLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 349,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositAmmoniaSmall",
+      "key": "ent-DeepGasDepositAmmoniaSmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 270,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositAmmoniaVeryLarge",
+      "key": "ent-DeepGasDepositAmmoniaVeryLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 428,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositAmmoniaVerySmall",
+      "key": "ent-DeepGasDepositAmmoniaVerySmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 191,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositCarbonDioxide",
+      "key": "ent-DeepGasDepositCarbonDioxide",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 71,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositCarbonDioxideLarge",
+      "key": "ent-DeepGasDepositCarbonDioxideLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 335,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositCarbonDioxideSmall",
+      "key": "ent-DeepGasDepositCarbonDioxideSmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 256,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositCarbonDioxideVeryLarge",
+      "key": "ent-DeepGasDepositCarbonDioxideVeryLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 414,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositCarbonDioxideVerySmall",
+      "key": "ent-DeepGasDepositCarbonDioxideVerySmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 177,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositFrezon",
+      "key": "ent-DeepGasDepositFrezon",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 149,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositFrezonLarge",
+      "key": "ent-DeepGasDepositFrezonLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 391,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositFrezonSmall",
+      "key": "ent-DeepGasDepositFrezonSmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 312,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositFrezonVeryLarge",
+      "key": "ent-DeepGasDepositFrezonVeryLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 470,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositFrezonVerySmall",
+      "key": "ent-DeepGasDepositFrezonVerySmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 233,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositLarge",
+      "key": "ent-DeepGasDepositLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 36,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositMuddleEven",
+      "key": "ent-DeepGasDepositMuddleEven",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 129,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositMuddleEvenLarge",
+      "key": "ent-DeepGasDepositMuddleEvenLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 377,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositMuddleEvenSmall",
+      "key": "ent-DeepGasDepositMuddleEvenSmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 298,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositMuddleEvenVeryLarge",
+      "key": "ent-DeepGasDepositMuddleEvenVeryLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 456,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositMuddleEvenVerySmall",
+      "key": "ent-DeepGasDepositMuddleEvenVerySmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 219,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositMuddlePlasma",
+      "key": "ent-DeepGasDepositMuddlePlasma",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 139,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositMuddlePlasmaLarge",
+      "key": "ent-DeepGasDepositMuddlePlasmaLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 384,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositMuddlePlasmaSmall",
+      "key": "ent-DeepGasDepositMuddlePlasmaSmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 305,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositMuddlePlasmaVeryLarge",
+      "key": "ent-DeepGasDepositMuddlePlasmaVeryLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 463,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositMuddlePlasmaVerySmall",
+      "key": "ent-DeepGasDepositMuddlePlasmaVerySmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 226,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositNitrogen",
+      "key": "ent-DeepGasDepositNitrogen",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 61,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositNitrogenLarge",
+      "key": "ent-DeepGasDepositNitrogenLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 328,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositNitrogenSmall",
+      "key": "ent-DeepGasDepositNitrogenSmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 249,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositNitrogenVeryLarge",
+      "key": "ent-DeepGasDepositNitrogenVeryLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 407,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositNitrogenVerySmall",
+      "key": "ent-DeepGasDepositNitrogenVerySmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 170,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositNitrousOxide",
+      "key": "ent-DeepGasDepositNitrousOxide",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 111,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositNitrousOxideLarge",
+      "key": "ent-DeepGasDepositNitrousOxideLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 363,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositNitrousOxideSmall",
+      "key": "ent-DeepGasDepositNitrousOxideSmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 284,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositNitrousOxideVeryLarge",
+      "key": "ent-DeepGasDepositNitrousOxideVeryLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 442,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositNitrousOxideVerySmall",
+      "key": "ent-DeepGasDepositNitrousOxideVerySmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 205,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositOxygen",
+      "key": "ent-DeepGasDepositOxygen",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 51,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositOxygenLarge",
+      "key": "ent-DeepGasDepositOxygenLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 321,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositOxygenSmall",
+      "key": "ent-DeepGasDepositOxygenSmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 242,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositOxygenVeryLarge",
+      "key": "ent-DeepGasDepositOxygenVeryLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 400,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositOxygenVerySmall",
+      "key": "ent-DeepGasDepositOxygenVerySmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 163,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositPlasma",
+      "key": "ent-DeepGasDepositPlasma",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 81,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositPlasmaLarge",
+      "key": "ent-DeepGasDepositPlasmaLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 342,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositPlasmaSmall",
+      "key": "ent-DeepGasDepositPlasmaSmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 263,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositPlasmaVeryLarge",
+      "key": "ent-DeepGasDepositPlasmaVeryLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 421,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositPlasmaVerySmall",
+      "key": "ent-DeepGasDepositPlasmaVerySmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 184,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositSmall",
+      "key": "ent-DeepGasDepositSmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 23,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositVeryLarge",
+      "key": "ent-DeepGasDepositVeryLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 43,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositVerySmall",
+      "key": "ent-DeepGasDepositVerySmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 16,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositWaterVapor",
+      "key": "ent-DeepGasDepositWaterVapor",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 101,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositWaterVaporLarge",
+      "key": "ent-DeepGasDepositWaterVaporLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 356,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositWaterVaporSmall",
+      "key": "ent-DeepGasDepositWaterVaporSmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 277,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositWaterVaporVeryLarge",
+      "key": "ent-DeepGasDepositWaterVaporVeryLarge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 435,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DeepGasDepositWaterVaporVerySmall",
+      "key": "ent-DeepGasDepositWaterVaporVerySmall",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Atmospherics/deposits.yml",
+      "line": 198,
+      "name": "deep gas deposit",
+      "name_source": "BaseDeepGasDeposit",
+      "description": "Deep solidified reserves of an element, normally a gas at room temperature, can be drilled, heated and piped out. Should provide an unlimited supply once the easily reachable gas is depleted.",
+      "description_source": "BaseDeepGasDeposit",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/specific/atmospherics/deposits.ftl"
+    },
+    {
+      "id": "DefaultStationBeaconExpedLounge",
+      "key": "ent-DefaultStationBeaconExpedLounge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/station_beacon.yml",
+      "line": 101,
+      "name": "station beacon",
+      "name_source": "DefaultStationBeacon",
+      "description": "A small device that transmits information to station maps. Can be configured.",
+      "description_source": "DefaultStationBeacon",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/station_beacon.ftl"
+    },
+    {
+      "id": "DefaultStationBeaconMailRoom",
+      "key": "ent-DefaultStationBeaconMailRoom",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/station_beacon.yml",
+      "line": 110,
+      "name": "station beacon",
+      "name_source": "DefaultStationBeacon",
+      "description": "A small device that transmits information to station maps. Can be configured.",
+      "description_source": "DefaultStationBeacon",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/station_beacon.ftl"
+    },
+    {
+      "id": "DefaultStationBeaconUSSPArmory",
+      "key": "ent-DefaultStationBeaconUSSPArmory",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/station_beacon.yml",
+      "line": 64,
+      "name": "station beacon",
+      "name_source": "DefaultStationBeacon",
+      "description": "A small device that transmits information to station maps. Can be configured.",
+      "description_source": "DefaultStationBeacon",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/station_beacon.ftl"
+    },
+    {
+      "id": "DefaultStationBeaconUSSPBrig",
+      "key": "ent-DefaultStationBeaconUSSPBrig",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/station_beacon.yml",
+      "line": 82,
+      "name": "station beacon",
+      "name_source": "DefaultStationBeacon",
+      "description": "A small device that transmits information to station maps. Can be configured.",
+      "description_source": "DefaultStationBeacon",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/station_beacon.ftl"
+    },
+    {
+      "id": "DefaultStationBeaconUSSPCargo",
+      "key": "ent-DefaultStationBeaconUSSPCargo",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/station_beacon.yml",
+      "line": 73,
+      "name": "station beacon",
+      "name_source": "DefaultStationBeacon",
+      "description": "A small device that transmits information to station maps. Can be configured.",
+      "description_source": "DefaultStationBeacon",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/station_beacon.ftl"
+    },
+    {
+      "id": "DefaultStationBeaconUSSPCommissar",
+      "key": "ent-DefaultStationBeaconUSSPCommissar",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/station_beacon.yml",
+      "line": 55,
+      "name": "station beacon",
+      "name_source": "DefaultStationBeacon",
+      "description": "A small device that transmits information to station maps. Can be configured.",
+      "description_source": "DefaultStationBeacon",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/station_beacon.ftl"
+    },
+    {
+      "id": "DefaultStationBeaconUSSPControl",
+      "key": "ent-DefaultStationBeaconUSSPControl",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/station_beacon.yml",
+      "line": 28,
+      "name": "station beacon",
+      "name_source": "DefaultStationBeacon",
+      "description": "A small device that transmits information to station maps. Can be configured.",
+      "description_source": "DefaultStationBeacon",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/station_beacon.ftl"
+    },
+    {
+      "id": "DefaultStationBeaconUSSPDockAlpha",
+      "key": "ent-DefaultStationBeaconUSSPDockAlpha",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/station_beacon.yml",
+      "line": 10,
+      "name": "station beacon",
+      "name_source": "DefaultStationBeacon",
+      "description": "A small device that transmits information to station maps. Can be configured.",
+      "description_source": "DefaultStationBeacon",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/station_beacon.ftl"
+    },
+    {
+      "id": "DefaultStationBeaconUSSPDockBeta",
+      "key": "ent-DefaultStationBeaconUSSPDockBeta",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/station_beacon.yml",
+      "line": 19,
+      "name": "station beacon",
+      "name_source": "DefaultStationBeacon",
+      "description": "A small device that transmits information to station maps. Can be configured.",
+      "description_source": "DefaultStationBeacon",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/station_beacon.ftl"
+    },
+    {
+      "id": "DefaultStationBeaconUSSPDorms",
+      "key": "ent-DefaultStationBeaconUSSPDorms",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/station_beacon.yml",
+      "line": 46,
+      "name": "station beacon",
+      "name_source": "DefaultStationBeacon",
+      "description": "A small device that transmits information to station maps. Can be configured.",
+      "description_source": "DefaultStationBeacon",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/station_beacon.ftl"
+    },
+    {
+      "id": "DefaultStationBeaconUSSPReception",
+      "key": "ent-DefaultStationBeaconUSSPReception",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/station_beacon.yml",
+      "line": 37,
+      "name": "station beacon",
+      "name_source": "DefaultStationBeacon",
+      "description": "A small device that transmits information to station maps. Can be configured.",
+      "description_source": "DefaultStationBeacon",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/station_beacon.ftl"
+    },
+    {
+      "id": "DefaultStationBeaconUSSPServers",
+      "key": "ent-DefaultStationBeaconUSSPServers",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/station_beacon.yml",
+      "line": 91,
+      "name": "station beacon",
+      "name_source": "DefaultStationBeacon",
+      "description": "A small device that transmits information to station maps. Can be configured.",
+      "description_source": "DefaultStationBeacon",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/station_beacon.ftl"
+    },
+    {
+      "id": "DefaultStationBeaconUSSPShipyard",
+      "key": "ent-DefaultStationBeaconUSSPShipyard",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/station_beacon.yml",
+      "line": 1,
+      "name": "station beacon",
+      "name_source": "DefaultStationBeacon",
+      "description": "A small device that transmits information to station maps. Can be configured.",
+      "description_source": "DefaultStationBeacon",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/station_beacon.ftl"
+    },
+    {
       "id": "DefaultStationBeaconViperArmory",
       "key": "ent-DefaultStationBeaconViperArmory",
       "missing": [
@@ -5704,6 +7076,20 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Throwable/grenades.ftl"
     },
     {
+      "id": "DoorElectronicsGrandVizier",
+      "key": "ent-DoorElectronicsGrandVizier",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/door_access.yml",
+      "line": 33,
+      "name": "door electronics",
+      "name_source": "DoorElectronics",
+      "description": "An electronics board used in doors and airlocks.",
+      "description_source": "DoorElectronics",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/door_access.ftl"
+    },
+    {
       "id": "DoorElectronicsMieyo",
       "key": "ent-DoorElectronicsMieyo",
       "missing": [
@@ -5747,6 +7133,34 @@
       "description": "An electronics board used in doors and airlocks.",
       "description_source": "DoorElectronics",
       "ru_source": null
+    },
+    {
+      "id": "DoorElectronicsPdvCommand",
+      "key": "ent-DoorElectronicsPdvCommand",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/door_access.yml",
+      "line": 41,
+      "name": "door electronics",
+      "name_source": "DoorElectronics",
+      "description": "An electronics board used in doors and airlocks.",
+      "description_source": "DoorElectronics",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/door_access.ftl"
+    },
+    {
+      "id": "DoorElectronicsTsfEngineer",
+      "key": "ent-DoorElectronicsTsfEngineer",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/door_access.yml",
+      "line": 25,
+      "name": "door electronics",
+      "name_source": "DoorElectronics",
+      "description": "An electronics board used in doors and airlocks.",
+      "description_source": "DoorElectronics",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/devices/door_access.ftl"
     },
     {
       "id": "DoorElectronicsViper",
@@ -5806,6 +7220,104 @@
       "description": "A high-grade dual-tank emergency life support container. It holds a decent amount of water vapor for its small size. It can hold 2.5 L of gas.",
       "description_source": "DoubleEmergencyWaterVaporTank",
       "ru_source": null
+    },
+    {
+      "id": "DrinkBerryTea",
+      "key": "ent-DrinkBerryTea",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Consumable/Drinks/drinks.yml",
+      "line": 17,
+      "name": "metamorphic glass",
+      "name_source": "DrinkGlass",
+      "description": "A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.",
+      "description_source": "DrinkGlass",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/consumable/drinks/drinks.ftl"
+    },
+    {
+      "id": "DrinkChamomileTea",
+      "key": "ent-DrinkChamomileTea",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Consumable/Drinks/drinks.yml",
+      "line": 1,
+      "name": "metamorphic glass",
+      "name_source": "DrinkGlass",
+      "description": "A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.",
+      "description_source": "DrinkGlass",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/consumable/drinks/drinks.ftl"
+    },
+    {
+      "id": "DrinkDecafBlackTea",
+      "key": "ent-DrinkDecafBlackTea",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Consumable/Drinks/drinks.yml",
+      "line": 65,
+      "name": "metamorphic glass",
+      "name_source": "DrinkGlass",
+      "description": "A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.",
+      "description_source": "DrinkGlass",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/consumable/drinks/drinks.ftl"
+    },
+    {
+      "id": "DrinkDecafCoffee",
+      "key": "ent-DrinkDecafCoffee",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Consumable/Drinks/drinks.yml",
+      "line": 97,
+      "name": "metamorphic glass",
+      "name_source": "DrinkGlass",
+      "description": "A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.",
+      "description_source": "DrinkGlass",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/consumable/drinks/drinks.ftl"
+    },
+    {
+      "id": "DrinkFruitTea",
+      "key": "ent-DrinkFruitTea",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Consumable/Drinks/drinks.yml",
+      "line": 33,
+      "name": "metamorphic glass",
+      "name_source": "DrinkGlass",
+      "description": "A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.",
+      "description_source": "DrinkGlass",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/consumable/drinks/drinks.ftl"
+    },
+    {
+      "id": "DrinkSyndicateTea",
+      "key": "ent-DrinkSyndicateTea",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Consumable/Drinks/drinks.yml",
+      "line": 81,
+      "name": "metamorphic glass",
+      "name_source": "DrinkGlass",
+      "description": "A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.",
+      "description_source": "DrinkGlass",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/consumable/drinks/drinks.ftl"
+    },
+    {
+      "id": "DrinkYorkshireTea",
+      "key": "ent-DrinkYorkshireTea",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Consumable/Drinks/drinks.yml",
+      "line": 49,
+      "name": "metamorphic glass",
+      "name_source": "DrinkGlass",
+      "description": "A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.",
+      "description_source": "DrinkGlass",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/consumable/drinks/drinks.ftl"
     },
     {
       "id": "EconomyPlanner",
@@ -6063,6 +7575,48 @@
       "ru_source": null
     },
     {
+      "id": "FaxMachinePDVJupiter",
+      "key": "ent-FaxMachinePDVJupiter",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/fax_machine.yml",
+      "line": 18,
+      "name": "long range fax machine",
+      "name_source": "FaxMachineBase",
+      "description": "Bluespace technologies on the application of bureaucracy.",
+      "description_source": "FaxMachineBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/machines/fax_machine.ftl"
+    },
+    {
+      "id": "FaxMachineUSSP",
+      "key": "ent-FaxMachineUSSP",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/fax_machine.yml",
+      "line": 2,
+      "name": "long range fax machine",
+      "name_source": "FaxMachineBase",
+      "description": "Bluespace technologies on the application of bureaucracy.",
+      "description_source": "FaxMachineBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/machines/fax_machine.ftl"
+    },
+    {
+      "id": "FaxMachineUSSPCommisar",
+      "key": "ent-FaxMachineUSSPCommisar",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/fax_machine.yml",
+      "line": 10,
+      "name": "long range fax machine",
+      "name_source": "FaxMachineBase",
+      "description": "Bluespace technologies on the application of bureaucracy.",
+      "description_source": "FaxMachineBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/machines/fax_machine.ftl"
+    },
+    {
       "id": "FeroxiCube",
       "key": "ent-FeroxiCube",
       "missing": [
@@ -6117,6 +7671,174 @@
       "description": "These could work as a pretty decent throwing weapon.",
       "description_source": "FloorTileItemBase",
       "ru_source": "Resources/Locale/ru-RU/prototypes/items.ftl"
+    },
+    {
+      "id": "FloorTileItemDarkSteelCommercial",
+      "key": "ent-FloorTileItemDarkSteelCommercial",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Turf/items.yml",
+      "line": 171,
+      "name": "commercial dark steel tile",
+      "name_source": "FloorTileItemDarkSteelCommercial",
+      "description": "These could work as a pretty decent throwing weapon.",
+      "description_source": "FloorTileItemBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/turf/items.ftl"
+    },
+    {
+      "id": "FloorTileItemGreySteelCommercial",
+      "key": "ent-FloorTileItemGreySteelCommercial",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Turf/items.yml",
+      "line": 243,
+      "name": "commercial grey steel tile",
+      "name_source": "FloorTileItemGreySteelCommercial",
+      "description": "These could work as a pretty decent throwing weapon.",
+      "description_source": "FloorTileItemBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/turf/items.ftl"
+    },
+    {
+      "id": "FloorTileItemGrid",
+      "key": "ent-FloorTileItemGrid",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Turf/items.yml",
+      "line": 75,
+      "name": "maintenance grid tile",
+      "name_source": "FloorTileItemGrid",
+      "description": "These could work as a pretty decent throwing weapon.",
+      "description_source": "FloorTileItemBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/turf/items.ftl"
+    },
+    {
+      "id": "FloorTileItemGridDark",
+      "key": "ent-FloorTileItemGridDark",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Turf/items.yml",
+      "line": 97,
+      "name": "dark maintenance grid tile",
+      "name_source": "FloorTileItemGridDark",
+      "description": "These could work as a pretty decent throwing weapon.",
+      "description_source": "FloorTileItemBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/turf/items.ftl"
+    },
+    {
+      "id": "FloorTileItemMaintMonoSterile",
+      "key": "ent-FloorTileItemMaintMonoSterile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Turf/items.yml",
+      "line": 51,
+      "name": "sterile maint mono tile",
+      "name_source": "FloorTileItemMaintMonoSterile",
+      "description": "These could work as a pretty decent throwing weapon.",
+      "description_source": "FloorTileItemBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/turf/items.ftl"
+    },
+    {
+      "id": "FloorTileItemMaintSterile",
+      "key": "ent-FloorTileItemMaintSterile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Turf/items.yml",
+      "line": 27,
+      "name": "sterile maint tile",
+      "name_source": "FloorTileItemMaintSterile",
+      "description": "These could work as a pretty decent throwing weapon.",
+      "description_source": "FloorTileItemBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/turf/items.ftl"
+    },
+    {
+      "id": "FloorTileItemSteelCommercial",
+      "key": "ent-FloorTileItemSteelCommercial",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Turf/items.yml",
+      "line": 123,
+      "name": "commercial steel tile",
+      "name_source": "FloorTileItemSteelCommercial",
+      "description": "These could work as a pretty decent throwing weapon.",
+      "description_source": "FloorTileItemBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/turf/items.ftl"
+    },
+    {
+      "id": "FloorTileItemSteelDarkMonoCommercial",
+      "key": "ent-FloorTileItemSteelDarkMonoCommercial",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Turf/items.yml",
+      "line": 195,
+      "name": "commercial mono dark steel tile",
+      "name_source": "FloorTileItemSteelDarkMonoCommercial",
+      "description": "These could work as a pretty decent throwing weapon.",
+      "description_source": "FloorTileItemBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/turf/items.ftl"
+    },
+    {
+      "id": "FloorTileItemSteelGreyMonoCommercial",
+      "key": "ent-FloorTileItemSteelGreyMonoCommercial",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Turf/items.yml",
+      "line": 267,
+      "name": "commercial mono grey steel tile",
+      "name_source": "FloorTileItemSteelGreyMonoCommercial",
+      "description": "These could work as a pretty decent throwing weapon.",
+      "description_source": "FloorTileItemBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/turf/items.ftl"
+    },
+    {
+      "id": "FloorTileItemSteelMonoCommercial",
+      "key": "ent-FloorTileItemSteelMonoCommercial",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Turf/items.yml",
+      "line": 147,
+      "name": "commercial mono steel tile",
+      "name_source": "FloorTileItemSteelMonoCommercial",
+      "description": "These could work as a pretty decent throwing weapon.",
+      "description_source": "FloorTileItemBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/turf/items.ftl"
+    },
+    {
+      "id": "FloorTileItemTechMaintAlt",
+      "key": "ent-FloorTileItemTechMaintAlt",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Turf/items.yml",
+      "line": 219,
+      "name": "mechanical maintenance tile",
+      "name_source": "FloorTileItemTechMaintAlt",
+      "description": "These could work as a pretty decent throwing weapon.",
+      "description_source": "FloorTileItemBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/turf/items.ftl"
+    },
+    {
+      "id": "FloorTileItemTechmaintSterile",
+      "key": "ent-FloorTileItemTechmaintSterile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Turf/items.yml",
+      "line": 3,
+      "name": "sterile techmaint tile",
+      "name_source": "FloorTileItemTechmaintSterile",
+      "description": "These could work as a pretty decent throwing weapon.",
+      "description_source": "FloorTileItemBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/turf/items.ftl"
     },
     {
       "id": "FoodMealHotdog",
@@ -6559,6 +8281,20 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/thrusters.ftl"
     },
     {
+      "id": "HandheldAutopulserProjectile",
+      "key": "ent-HandheldAutopulserProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/hand_autopulser.yml",
+      "line": 1,
+      "name": "plasma projectile",
+      "name_source": "HandheldAutopulserProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/HandAutopulser.ftl"
+    },
+    {
       "id": "Handrail",
       "key": "ent-Handrail",
       "missing": [
@@ -6601,6 +8337,34 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Shields/shields.ftl"
     },
     {
+      "id": "HeavyPulse",
+      "key": "ent-HeavyPulse",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Projectiles/projectiles.yml",
+      "line": 39,
+      "name": "Heavy Pulse Bolt",
+      "name_source": "HeavyPulse",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/projectiles/projectiles.ftl"
+    },
+    {
+      "id": "HeavyPulseExp",
+      "key": "ent-HeavyPulseExp",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Projectiles/projectiles.yml",
+      "line": 57,
+      "name": "Explosive Pulse Bolt",
+      "name_source": "HeavyPulseExp",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/projectiles/projectiles.ftl"
+    },
+    {
       "id": "HighSecTSFMCLocked",
       "key": "ent-HighSecTSFMCLocked",
       "missing": [
@@ -6613,6 +8377,48 @@
       "description": "Keeps the bad out and keeps the good in.",
       "description_source": "HighSecDoor",
       "ru_source": "Resources/Locale/ru-RU/prototypes/access.ftl"
+    },
+    {
+      "id": "HighSecUSSPCommandLocked",
+      "key": "ent-HighSecUSSPCommandLocked",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/highsec.yml",
+      "line": 10,
+      "name": "high security door",
+      "name_source": "HighSecDoor",
+      "description": "Keeps the bad out and keeps the good in.",
+      "description_source": "HighSecDoor",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/doors/airlocks/highsec.ftl"
+    },
+    {
+      "id": "HighSecUSSPLocked",
+      "key": "ent-HighSecUSSPLocked",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/highsec.yml",
+      "line": 19,
+      "name": "high security door",
+      "name_source": "HighSecDoor",
+      "description": "Keeps the bad out and keeps the good in.",
+      "description_source": "HighSecDoor",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/doors/airlocks/highsec.ftl"
+    },
+    {
+      "id": "HighSecUSSPSecureLocked",
+      "key": "ent-HighSecUSSPSecureLocked",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/highsec.yml",
+      "line": 1,
+      "name": "high security door",
+      "name_source": "HighSecDoor",
+      "description": "Keeps the bad out and keeps the good in.",
+      "description_source": "HighSecDoor",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/doors/airlocks/highsec.ftl"
     },
     {
       "id": "HighSecViperCommandLocked",
@@ -6643,6 +8449,62 @@
       "description": "Keeps the bad out and keeps the good in.",
       "description_source": "HighSecDoor",
       "ru_source": null
+    },
+    {
+      "id": "HiveCarrierComputer",
+      "key": "ent-HiveCarrierComputer",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/computers_shipyard_mothership.yml",
+      "line": 44,
+      "name": "zephyr carrier console",
+      "name_source": "HiveCarrierComputer",
+      "description": "Used on carriers to purchase and sell ships without returning to a station.",
+      "description_source": "BaseCarrierComputer",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/machines/computers/computers_shipyard_mothership.ftl"
+    },
+    {
+      "id": "HolopadCommissarBaikal",
+      "key": "ent-HolopadCommissarBaikal",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/holopad.yml",
+      "line": 9,
+      "name": "bluespace holopad",
+      "name_source": "NFHolopadShip",
+      "description": "A floor-mounted device for projecting holographic images to enable ship to ship communication.",
+      "description_source": "NFHolopadShip",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/machines/holopad.ftl"
+    },
+    {
+      "id": "HolopadJupiter",
+      "key": "ent-HolopadJupiter",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/holopad.yml",
+      "line": 17,
+      "name": "bluespace holopad",
+      "name_source": "NFHolopadShip",
+      "description": "A floor-mounted device for projecting holographic images to enable ship to ship communication.",
+      "description_source": "NFHolopadShip",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/machines/holopad.ftl"
+    },
+    {
+      "id": "HolopadUSSPBaikal",
+      "key": "ent-HolopadUSSPBaikal",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/holopad.yml",
+      "line": 1,
+      "name": "bluespace holopad",
+      "name_source": "NFHolopadShip",
+      "description": "A floor-mounted device for projecting holographic images to enable ship to ship communication.",
+      "description_source": "NFHolopadShip",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/machines/holopad.ftl"
     },
     {
       "id": "HolopadVG",
@@ -6997,6 +8859,48 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/computers_shipyard_mothership.ftl"
     },
     {
+      "id": "LightFighterOrdinanceGPOProjectile",
+      "key": "ent-LightFighterOrdinanceGPOProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/Cartridge/bomb_bay_ammo.yml",
+      "line": 1,
+      "name": "GPO-L 50kg Unguided Bomb",
+      "name_source": "LightFighterOrdinanceGPOProjectile",
+      "description": "Just passing by.",
+      "description_source": "LightFighterOrdinanceGPOProjectile",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/missile/cartridge/bomb_bay_ammo.ftl"
+    },
+    {
+      "id": "LightFighterOrdinanceQuasarProjectile",
+      "key": "ent-LightFighterOrdinanceQuasarProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/Cartridge/bomb_bay_ammo.yml",
+      "line": 187,
+      "name": "QUASAR hyperpenetrator",
+      "name_source": "LightFighterOrdinanceQuasarProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/missile/cartridge/bomb_bay_ammo.ftl"
+    },
+    {
+      "id": "LightFighterOrdinanceZenithProjectile",
+      "key": "ent-LightFighterOrdinanceZenithProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/Cartridge/bomb_bay_ammo.yml",
+      "line": 89,
+      "name": "ASM(LF) \"Zenith\" Anti-Ship Warhead",
+      "name_source": "LightFighterOrdinanceZenithProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/missile/cartridge/bomb_bay_ammo.ftl"
+    },
+    {
       "id": "LithiumOre1",
       "key": "ent-LithiumOre1",
       "missing": [
@@ -7068,6 +8972,20 @@
       "description": "It's a button for activating something.",
       "description_source": "SignalButton",
       "ru_source": null
+    },
+    {
+      "id": "LockerWallEVAColorDME",
+      "key": "ent-LockerWallEVAColorDME",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Storage/Closets/wall_departments_eva.yml",
+      "line": 2,
+      "name": "DME EVA wall locker",
+      "name_source": "LockerWallEVAColorDME",
+      "description": "A standard-issue storage unit, but on walls.",
+      "description_source": "BaseWallCloset",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/storage/closets/wall_departments_eva.ftl"
     },
     {
       "id": "MDHandheldOverwatchConsole",
@@ -7211,6 +9129,34 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/drills.ftl"
     },
     {
+      "id": "Magazine12_gaugeIncendiary",
+      "key": "ent-Magazine12_gaugeIncendiary",
+      "missing": [
+        "name"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/12_gauge.yml",
+      "line": 87,
+      "name": "ammo drum (12 gauge incendiary)",
+      "name_source": "Magazine12_gaugeIncendiary",
+      "description": null,
+      "description_source": null,
+      "ru_source": null
+    },
+    {
+      "id": "Magazine40mmFrag",
+      "key": "ent-Magazine40mmFrag",
+      "missing": [
+        "name"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/40mm.yml",
+      "line": 49,
+      "name": "frag 40mm grenade cartridge",
+      "name_source": "Magazine40mmFrag",
+      "description": null,
+      "description_source": null,
+      "ru_source": null
+    },
+    {
       "id": "Magazine4_gaugeBuckshot",
       "key": "ent-Magazine4_gaugeBuckshot",
       "missing": [
@@ -7237,6 +9183,62 @@
       "description": "A clunky canister containing 4 gauge, likely meant for the GS-004-B.",
       "description_source": "BaseMagazine4_gauge",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/4_gauge.ftl"
+    },
+    {
+      "id": "Magazine55_SAMPistol",
+      "key": "ent-Magazine55_SAMPistol",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/55_SAM.yml",
+      "line": 1,
+      "name": "pistol magazine (.55 SAM)",
+      "name_source": "Magazine55_SAMPistol",
+      "description": "A standard magazine for the MK5 smart magnum, holding 12 rounds.",
+      "description_source": "Magazine55_SAMPistol",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/magazines/55_SAM.ftl"
+    },
+    {
+      "id": "Magazine55_SAMPistolHighCapacity",
+      "key": "ent-Magazine55_SAMPistolHighCapacity",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/55_SAM.yml",
+      "line": 33,
+      "name": "machine pistol magazine (.55 SAM)",
+      "name_source": "Magazine55_SAMPistolHighCapacity",
+      "description": "An extended magazine for the MK5 smart magnum, holding 18 rounds.",
+      "description_source": "Magazine55_SAMPistolHighCapacity",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/magazines/55_SAM.ftl"
+    },
+    {
+      "id": "Magazine68x52mmCaseless",
+      "key": "ent-Magazine68x52mmCaseless",
+      "missing": [
+        "name"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/68x52mm.yml",
+      "line": 69,
+      "name": "magazine (6.8x52mm STANAG Caseless)",
+      "name_source": "Magazine68x52mmCaseless",
+      "description": null,
+      "description_source": null,
+      "ru_source": null
+    },
+    {
+      "id": "Magazine8x65mmSKRBox",
+      "key": "ent-Magazine8x65mmSKRBox",
+      "missing": [
+        "name"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/8x65mm.yml",
+      "line": 140,
+      "name": "SAW box (8x65mm SKR)",
+      "name_source": "Magazine8x65mmSKRBox",
+      "description": null,
+      "description_source": null,
+      "ru_source": null
     },
     {
       "id": "MantisBlade",
@@ -7715,6 +9717,20 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Misc/subdermal_implants.ftl"
     },
     {
+      "id": "MiningCarrierComputer",
+      "key": "ent-MiningCarrierComputer",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/computers_shipyard_mothership.yml",
+      "line": 34,
+      "name": "mining carrier console",
+      "name_source": "MiningCarrierComputer",
+      "description": "Used on carriers to purchase and sell ships without returning to a station.",
+      "description_source": "BaseCarrierComputer",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/machines/computers/computers_shipyard_mothership.ftl"
+    },
+    {
       "id": "MissileProjectile50mmHE",
       "key": "ent-MissileProjectile50mmHE",
       "missing": [
@@ -7729,6 +9745,34 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.ftl"
     },
     {
+      "id": "MobBananiumCrabDocile",
+      "key": "ent-MobBananiumCrabDocile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/NPCs/elemental.yml",
+      "line": 103,
+      "name": "ore crab",
+      "name_source": "MobOreCrab",
+      "description": "An ore crab made from bananium.",
+      "description_source": "MobBananiumCrabNF",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/npcs/elemental.ftl"
+    },
+    {
+      "id": "MobCoalCrabDocile",
+      "key": "ent-MobCoalCrabDocile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/NPCs/elemental.yml",
+      "line": 121,
+      "name": "ore crab",
+      "name_source": "MobOreCrab",
+      "description": "An ore crab made from coal.",
+      "description_source": "MobCoalCrabNF",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/npcs/elemental.ftl"
+    },
+    {
       "id": "MobFeroxiDummy",
       "key": "ent-MobFeroxiDummy",
       "missing": [
@@ -7741,6 +9785,118 @@
       "description": "A dummy feroxi meant to be used in character setup.",
       "description_source": "MobFeroxiDummy",
       "ru_source": "Resources/Locale/ru-RU/_DV/Entities/Mobs/Species/feroxi.ftl"
+    },
+    {
+      "id": "MobGoldCrabDocile",
+      "key": "ent-MobGoldCrabDocile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/NPCs/elemental.yml",
+      "line": 139,
+      "name": "ore crab",
+      "name_source": "MobOreCrab",
+      "description": "An ore crab made from gold.",
+      "description_source": "MobGoldCrabNF",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/npcs/elemental.ftl"
+    },
+    {
+      "id": "MobIronCrabDocile",
+      "key": "ent-MobIronCrabDocile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/NPCs/elemental.yml",
+      "line": 46,
+      "name": "ore crab",
+      "name_source": "MobOreCrab",
+      "description": "An ore crab made from iron.",
+      "description_source": "MobIronCrabNF",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/npcs/elemental.ftl"
+    },
+    {
+      "id": "MobLetoferolHorror",
+      "key": "ent-MobLetoferolHorror",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/Chimera/chimera.yml",
+      "line": 3,
+      "name": "chimera fleshbeast",
+      "name_source": "MobLetoferolHorror",
+      "description": "A once sentient being covered in putrid flesh and bone. You can see a glimpse of humanity left in its eyes, like whoever it was is still awake.",
+      "description_source": "MonoBaseMobLetoferolHumanoid",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/chimera/chimera.ftl"
+    },
+    {
+      "id": "MobPlasmaCrabDocile",
+      "key": "ent-MobPlasmaCrabDocile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/NPCs/elemental.yml",
+      "line": 157,
+      "name": "ore crab",
+      "name_source": "MobOreCrab",
+      "description": "An ore crab made from plasma.",
+      "description_source": "MobPlasmaCrabNF",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/npcs/elemental.ftl"
+    },
+    {
+      "id": "MobQuartzCrabDocile",
+      "key": "ent-MobQuartzCrabDocile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/NPCs/elemental.yml",
+      "line": 27,
+      "name": "ore crab",
+      "name_source": "MobOreCrab",
+      "description": "An ore crab made from Quartz.",
+      "description_source": "MobQuartzCrabNF",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/npcs/elemental.ftl"
+    },
+    {
+      "id": "MobSaltCrabDocile",
+      "key": "ent-MobSaltCrabDocile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/NPCs/elemental.yml",
+      "line": 175,
+      "name": "ore crab",
+      "name_source": "MobOreCrab",
+      "description": "An ore crab made from salt.",
+      "description_source": "MobSaltCrabNF",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/npcs/elemental.ftl"
+    },
+    {
+      "id": "MobSilverCrabDocile",
+      "key": "ent-MobSilverCrabDocile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/NPCs/elemental.yml",
+      "line": 84,
+      "name": "ore crab",
+      "name_source": "MobOreCrab",
+      "description": "An ore crab made from silver.",
+      "description_source": "MobSilverCrabNF",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/npcs/elemental.ftl"
+    },
+    {
+      "id": "MobUraniumCrabDocile",
+      "key": "ent-MobUraniumCrabDocile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/NPCs/elemental.yml",
+      "line": 65,
+      "name": "ore crab",
+      "name_source": "MobOreCrab",
+      "description": "An ore crab made from uranium.",
+      "description_source": "MobUraniumCrabNF",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/npcs/elemental.ftl"
     },
     {
       "id": "MonoVendingMachineCartMieyo",
@@ -8962,6 +11118,594 @@
       "ru_source": null
     },
     {
+      "id": "PaperWrittenDispenserInstructions",
+      "key": "ent-PaperWrittenDispenserInstructions",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/dispensers.yml",
+      "line": 24,
+      "name": "cargo dispenser instructions",
+      "name_source": "PaperWrittenDispenserInstructions",
+      "description": "A piece of white paper.",
+      "description_source": "Paper",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/dispensers.ftl"
+    },
+    {
+      "id": "PaperWrittenDispenserOutageNote",
+      "key": "ent-PaperWrittenDispenserOutageNote",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/dispensers.yml",
+      "line": 34,
+      "name": "cargo trade outage notice",
+      "name_source": "PaperWrittenDispenserOutageNote",
+      "description": "A piece of white paper.",
+      "description_source": "Paper",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/dispensers.ftl"
+    },
+    {
+      "id": "Pellet12_gauge",
+      "key": "ent-Pellet12_gauge",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 34,
+      "name": "Pellet12_gauge (12 gauge)",
+      "name_source": "Pellet12_gauge",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeBeanbag",
+      "key": "ent-Pellet12_gaugeBeanbag",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 17,
+      "name": "beanbag (12 gauge)",
+      "name_source": "Pellet12_gaugeBeanbag",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeFlechette",
+      "key": "ent-Pellet12_gaugeFlechette",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 357,
+      "name": "Pellet12_gauge (12 gauge flechette)",
+      "name_source": "Pellet12_gaugeFlechette",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeFlechetteSpread",
+      "key": "ent-Pellet12_gaugeFlechetteSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 376,
+      "name": "Pellet12_gauge (12 gauge flechette)",
+      "name_source": "Pellet12_gaugeFlechette",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeGlass",
+      "key": "ent-Pellet12_gaugeGlass",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 263,
+      "name": "glass shard",
+      "name_source": "Pellet12_gaugeGlass",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeGlassSpread",
+      "key": "ent-Pellet12_gaugeGlassSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 284,
+      "name": "glass shard",
+      "name_source": "Pellet12_gaugeGlass",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeGrapeshot",
+      "key": "ent-Pellet12_gaugeGrapeshot",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 235,
+      "name": "grapeshot Pellet12_gauge",
+      "name_source": "Pellet12_gaugeGrapeshot",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeGrapeshotSpread",
+      "key": "ent-Pellet12_gaugeGrapeshotSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 253,
+      "name": "grapeshot Pellet12_gauge",
+      "name_source": "Pellet12_gaugeGrapeshot",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeImprovised",
+      "key": "ent-Pellet12_gaugeImprovised",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 109,
+      "name": "improvised Pellet12_gauge",
+      "name_source": "Pellet12_gaugeImprovised",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeImprovisedSpread",
+      "key": "ent-Pellet12_gaugeImprovisedSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 125,
+      "name": "improvised Pellet12_gauge",
+      "name_source": "Pellet12_gaugeImprovised",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeIncendiary",
+      "key": "ent-Pellet12_gaugeIncendiary",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 58,
+      "name": "Pellet12_gauge (12 gauge incendiary)",
+      "name_source": "Pellet12_gaugeIncendiary",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeIncendiarySpread",
+      "key": "ent-Pellet12_gaugeIncendiarySpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 75,
+      "name": "Pellet12_gauge (12 gauge incendiary)",
+      "name_source": "Pellet12_gaugeIncendiary",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeOOBuckshot",
+      "key": "ent-Pellet12_gaugeOOBuckshot",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 296,
+      "name": "Pellet12_gauge (12 gauge OO magnum buckshot)",
+      "name_source": "Pellet12_gaugeOOBuckshot",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeOOBuckshotSpread",
+      "key": "ent-Pellet12_gaugeOOBuckshotSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 311,
+      "name": "Pellet12_gauge (12 gauge OO magnum buckshot)",
+      "name_source": "Pellet12_gaugeOOBuckshot",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugePractice",
+      "key": "ent-Pellet12_gaugePractice",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 85,
+      "name": "Pellet12_gauge (12 gauge practice)",
+      "name_source": "Pellet12_gaugePractice",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugePracticeSpread",
+      "key": "ent-Pellet12_gaugePracticeSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 99,
+      "name": "Pellet12_gauge (12 gauge practice)",
+      "name_source": "Pellet12_gaugePractice",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeSlugAP",
+      "key": "ent-Pellet12_gaugeSlugAP",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 338,
+      "name": "Pellet12_gauge (12 gauge armor-piercing slug)",
+      "name_source": "Pellet12_gaugeSlugAP",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeSlugRIP",
+      "key": "ent-Pellet12_gaugeSlugRIP",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 321,
+      "name": "Pellet12_gauge (12 gauge RIP)",
+      "name_source": "Pellet12_gaugeSlugRIP",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeSpread",
+      "key": "ent-Pellet12_gaugeSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 48,
+      "name": "Pellet12_gauge (12 gauge)",
+      "name_source": "Pellet12_gauge",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeTranquilizer",
+      "key": "ent-Pellet12_gaugeTranquilizer",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 135,
+      "name": "Pellet12_gauge (12 gauge tranquilizer)",
+      "name_source": "Pellet12_gaugeTranquilizer",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeUranium",
+      "key": "ent-Pellet12_gaugeUranium",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 209,
+      "name": "Pellet12_gauge (12 gauge uranium)",
+      "name_source": "Pellet12_gaugeUranium",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet12_gaugeUraniumSpread",
+      "key": "ent-Pellet12_gaugeUraniumSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/12_gauge.yml",
+      "line": 225,
+      "name": "Pellet12_gauge (12 gauge uranium)",
+      "name_source": "Pellet12_gaugeUranium",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/12_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmBeanbag",
+      "key": "ent-Pellet23x75mmBeanbag",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 35,
+      "name": "beanbag (4 gauge)",
+      "name_source": "Pellet23x75mmBeanbag",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmBuckshot",
+      "key": "ent-Pellet23x75mmBuckshot",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 52,
+      "name": "pellet (4 gauge)",
+      "name_source": "Pellet23x75mmBuckshot",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmBuckshotSpread",
+      "key": "ent-Pellet23x75mmBuckshotSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 67,
+      "name": "pellet (4 gauge)",
+      "name_source": "Pellet23x75mmBuckshot",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmDozd",
+      "key": "ent-Pellet23x75mmDozd",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 203,
+      "name": "pellet (4 gauge)",
+      "name_source": "Pellet23x75mmDozd",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmDozdSpread",
+      "key": "ent-Pellet23x75mmDozdSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 218,
+      "name": "pellet (4 gauge)",
+      "name_source": "Pellet23x75mmDozd",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmFlashbang",
+      "key": "ent-Pellet23x75mmFlashbang",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 18,
+      "name": "pellet (4 gauge flashbang)",
+      "name_source": "Pellet23x75mmFlashbang",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmFlechette",
+      "key": "ent-Pellet23x75mmFlechette",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 291,
+      "name": "Pellet23x75mm (4 gauge flechette)",
+      "name_source": "Pellet23x75mmFlechette",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmFlechetteSpread",
+      "key": "ent-Pellet23x75mmFlechetteSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 310,
+      "name": "Pellet23x75mm (4 gauge flechette)",
+      "name_source": "Pellet23x75mmFlechette",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmIncendiary",
+      "key": "ent-Pellet23x75mmIncendiary",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 77,
+      "name": "pellet (4 gauge incendiary)",
+      "name_source": "Pellet23x75mmIncendiary",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmIncendiarySpread",
+      "key": "ent-Pellet23x75mmIncendiarySpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 95,
+      "name": "pellet (4 gauge incendiary)",
+      "name_source": "Pellet23x75mmIncendiary",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmOOBuckshot",
+      "key": "ent-Pellet23x75mmOOBuckshot",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 230,
+      "name": "Pellet23x75mm (4 gauge OO magnum buckshot)",
+      "name_source": "Pellet23x75mmOOBuckshot",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmOOBuckshotSpread",
+      "key": "ent-Pellet23x75mmOOBuckshotSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 245,
+      "name": "Pellet23x75mm (4 gauge OO magnum buckshot)",
+      "name_source": "Pellet23x75mmOOBuckshot",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmPractice",
+      "key": "ent-Pellet23x75mmPractice",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 105,
+      "name": "pellet (4 gauge practice)",
+      "name_source": "Pellet23x75mmPractice",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmPracticeSpread",
+      "key": "ent-Pellet23x75mmPracticeSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 119,
+      "name": "pellet (4 gauge practice)",
+      "name_source": "Pellet23x75mmPractice",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmSlugAP",
+      "key": "ent-Pellet23x75mmSlugAP",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 272,
+      "name": "Pellet23x75mm (4 gauge armor-piercing slug)",
+      "name_source": "Pellet23x75mmSlugAP",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmSlugRIP",
+      "key": "ent-Pellet23x75mmSlugRIP",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 255,
+      "name": "Pellet23x75mm (4 gauge RIP)",
+      "name_source": "Pellet23x75mmSlugRIP",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmUranium",
+      "key": "ent-Pellet23x75mmUranium",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 176,
+      "name": "pellet (4 gauge uranium)",
+      "name_source": "Pellet23x75mmUranium",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
+      "id": "Pellet23x75mmUraniumSpread",
+      "key": "ent-Pellet23x75mmUraniumSpread",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/4_gauge.yml",
+      "line": 193,
+      "name": "pellet (4 gauge uranium)",
+      "name_source": "Pellet23x75mmUranium",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/projectiles/4_gauge.ftl"
+    },
+    {
       "id": "PinpointerMothershipPiece",
       "key": "ent-PinpointerMothershipPiece",
       "missing": [
@@ -8988,6 +11732,146 @@
       "description": "A handheld tracking device that leads to the direction of the Mothership core. This one has seen better days.",
       "description_source": "PinpointerMothershipRepaired",
       "ru_source": "Resources/Locale/ru-RU/Entities/Objects/Devices/pinpointer.ftl"
+    },
+    {
+      "id": "PirateClothingUniformJumpskirtBlackElegantDress",
+      "key": "ent-PirateClothingUniformJumpskirtBlackElegantDress",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Clothing/Jumpsuit/piratejumpsuits.yml",
+      "line": 445,
+      "name": "black elegant dress",
+      "name_source": "ClothingUniformJumpskirtBlackElegantDress",
+      "description": "Elegant dress with a beautiful bow.",
+      "description_source": "ClothingUniformJumpskirtBlackElegantDress",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/clothing/jumpsuit/piratejumpsuits.ftl"
+    },
+    {
+      "id": "PirateClothingUniformJumpskirtMercenary",
+      "key": "ent-PirateClothingUniformJumpskirtMercenary",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Clothing/Jumpsuit/piratejumpsuits.yml",
+      "line": 13,
+      "name": "mercenary jumpskirt",
+      "name_source": "ClothingUniformJumpskirtMercenary",
+      "description": "Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.",
+      "description_source": "ClothingUniformJumpskirtMercenary",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/clothing/jumpsuit/piratejumpsuits.ftl"
+    },
+    {
+      "id": "PirateClothingUniformJumpskirtPrivateSec",
+      "key": "ent-PirateClothingUniformJumpskirtPrivateSec",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Clothing/Jumpsuit/piratejumpsuits.yml",
+      "line": 21,
+      "name": "private security jumpskirt",
+      "name_source": "ClothingUniformJumpskirtPrivateSec",
+      "description": "A specialized uniform for a private security guard. For the discerning private contractor in need of a professional look.",
+      "description_source": "ClothingUniformJumpskirtPrivateSec",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/clothing/jumpsuit/piratejumpsuits.ftl"
+    },
+    {
+      "id": "PirateClothingUniformJumpsuitMercenary",
+      "key": "ent-PirateClothingUniformJumpsuitMercenary",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Clothing/Jumpsuit/piratejumpsuits.yml",
+      "line": 9,
+      "name": "mercenary jumpsuit",
+      "name_source": "ClothingUniformJumpsuitMercenary",
+      "description": "Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.",
+      "description_source": "ClothingUniformJumpsuitMercenary",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/clothing/jumpsuit/piratejumpsuits.ftl"
+    },
+    {
+      "id": "PirateClothingUniformJumpsuitMilitaryTurtleneckBlueMercenary",
+      "key": "ent-PirateClothingUniformJumpsuitMilitaryTurtleneckBlueMercenary",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Clothing/Jumpsuit/piratejumpsuits.yml",
+      "line": 37,
+      "name": "mercenary jumpsuit",
+      "name_source": "ClothingUniformJumpsuitMercenary",
+      "description": "Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.",
+      "description_source": "ClothingUniformJumpsuitMercenary",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/clothing/jumpsuit/piratejumpsuits.ftl"
+    },
+    {
+      "id": "PirateClothingUniformJumpsuitMilitaryTurtleneckBlueMercenaryMedic",
+      "key": "ent-PirateClothingUniformJumpsuitMilitaryTurtleneckBlueMercenaryMedic",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Clothing/Jumpsuit/piratejumpsuits.yml",
+      "line": 41,
+      "name": "mercenary medic jumpsuit",
+      "name_source": "ClothingUniformJumpsuitMilitaryTurtleneckBlueMercenaryMedic",
+      "description": "Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.",
+      "description_source": "ClothingUniformJumpsuitMercenary",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/clothing/jumpsuit/piratejumpsuits.ftl"
+    },
+    {
+      "id": "PirateClothingUniformJumpsuitMilitaryTurtleneckMercenary",
+      "key": "ent-PirateClothingUniformJumpsuitMilitaryTurtleneckMercenary",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Clothing/Jumpsuit/piratejumpsuits.yml",
+      "line": 25,
+      "name": "mercenary jumpsuit",
+      "name_source": "ClothingUniformJumpsuitMercenary",
+      "description": "Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.",
+      "description_source": "ClothingUniformJumpsuitMercenary",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/clothing/jumpsuit/piratejumpsuits.ftl"
+    },
+    {
+      "id": "PirateClothingUniformJumpsuitMilitaryTurtleneckMercenaryCaptain",
+      "key": "ent-PirateClothingUniformJumpsuitMilitaryTurtleneckMercenaryCaptain",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Clothing/Jumpsuit/piratejumpsuits.yml",
+      "line": 33,
+      "name": "mercenary captain jumpsuit",
+      "name_source": "ClothingUniformJumpsuitMilitaryTurtleneckMercenaryCaptain",
+      "description": "Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.",
+      "description_source": "ClothingUniformJumpsuitMercenary",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/clothing/jumpsuit/piratejumpsuits.ftl"
+    },
+    {
+      "id": "PirateClothingUniformJumpsuitMilitaryTurtleneckMercenaryMedic",
+      "key": "ent-PirateClothingUniformJumpsuitMilitaryTurtleneckMercenaryMedic",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Clothing/Jumpsuit/piratejumpsuits.yml",
+      "line": 29,
+      "name": "mercenary medic jumpsuit",
+      "name_source": "ClothingUniformJumpsuitMilitaryTurtleneckMercenaryMedic",
+      "description": "Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.",
+      "description_source": "ClothingUniformJumpsuitMercenary",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/clothing/jumpsuit/piratejumpsuits.ftl"
+    },
+    {
+      "id": "PirateClothingUniformJumpsuitPrivateSec",
+      "key": "ent-PirateClothingUniformJumpsuitPrivateSec",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Clothing/Jumpsuit/piratejumpsuits.yml",
+      "line": 17,
+      "name": "private security jumpsuit",
+      "name_source": "ClothingUniformJumpsuitPrivateSec",
+      "description": "A specialized uniform for a private security guard. For the discerning private contractor in need of a professional look.",
+      "description_source": "ClothingUniformJumpsuitPrivateSec",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/clothing/jumpsuit/piratejumpsuits.ftl"
     },
     {
       "id": "PlasmaGlassReactorControlRod",
@@ -9086,6 +11970,48 @@
       "description": "A heat exchanger for a nuclear reactor.",
       "description_source": "BaseReactorHeatExchanger",
       "ru_source": "Resources/Locale/ru-RU/prototypes/reactor_components.ftl"
+    },
+    {
+      "id": "PlayerBorgPDV",
+      "key": "ent-PlayerBorgPDV",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/Player/silicon.yml",
+      "line": 704,
+      "name": "PDV cyborg",
+      "name_source": "BorgChassisSelectablePDV",
+      "description": "A purpose built cyborg used by the PDV.",
+      "description_source": "BorgChassisSelectablePDV",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/player/silicon.ftl"
+    },
+    {
+      "id": "PlayerBorgTSF",
+      "key": "ent-PlayerBorgTSF",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/Player/silicon.yml",
+      "line": 723,
+      "name": "TSF cyborg",
+      "name_source": "BorgChassisSelectableTSF",
+      "description": "A purpose built cyborg used by the TSF.",
+      "description_source": "BorgChassisSelectableTSF",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/player/silicon.ftl"
+    },
+    {
+      "id": "PlayerStationAiSecurity",
+      "key": "ent-PlayerStationAiSecurity",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Mobs/Player/silicon.yml",
+      "line": 742,
+      "name": "AI Core",
+      "name_source": "PlayerStationAiEmpty",
+      "description": "The latest in Artificial Intelligences.",
+      "description_source": "PlayerStationAiEmpty",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/mobs/player/silicon.ftl"
     },
     {
       "id": "PlayerStationXenoborgAiEmpty",
@@ -9390,6 +12316,20 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Devices/flatpack.ftl"
     },
     {
+      "id": "RocketMk248",
+      "key": "ent-RocketMk248",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/mpssm.yml",
+      "line": 54,
+      "name": "MPSSM Mk.248 HEAT rocket",
+      "name_source": "RocketMk248",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/missile/mpssm.ftl"
+    },
+    {
       "id": "RubberStampMMCLiason",
       "key": "ent-RubberStampMMCLiason",
       "missing": [
@@ -9602,6 +12542,20 @@
       "ru_source": null
     },
     {
+      "id": "SellOnlyCarrierComputer",
+      "key": "ent-SellOnlyCarrierComputer",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/computers_shipyard_mothership.yml",
+      "line": 17,
+      "name": "sell only shipyard console",
+      "name_source": "SellOnlyCarrierComputer",
+      "description": "Used on carriers to purchase and sell ships without returning to a station.",
+      "description_source": "BaseCarrierComputer",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/machines/computers/computers_shipyard_mothership.ftl"
+    },
+    {
       "id": "SheetCopper1",
       "key": "ent-SheetCopper1",
       "missing": [
@@ -9777,6 +12731,20 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/projectiles.ftl"
     },
     {
+      "id": "ShipAutopulserPlasmaProjectile",
+      "key": "ent-ShipAutopulserPlasmaProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/projectiles.yml",
+      "line": 86,
+      "name": "plasma projectile",
+      "name_source": "ShipAutopulserPlasmaProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/energy/projectiles.ftl"
+    },
+    {
       "id": "ShipCerberusPlasma",
       "key": "ent-ShipCerberusPlasma",
       "missing": [
@@ -9789,6 +12757,20 @@
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
       "ru_source": "Resources/Locale/ru-RU/prototypes/projectiles.ftl"
+    },
+    {
+      "id": "ShipDymereProjectile",
+      "key": "ent-ShipDymereProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/projectiles.yml",
+      "line": 262,
+      "name": "Ionized Gas Projectile",
+      "name_source": "ShipDymereProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/energy/projectiles.ftl"
     },
     {
       "id": "ShipFragmentProjectile",
@@ -9806,6 +12788,34 @@
       "ru_source": null
     },
     {
+      "id": "ShipGlassingBeamPlasmaProjectile",
+      "key": "ent-ShipGlassingBeamPlasmaProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/projectiles.yml",
+      "line": 158,
+      "name": "plasma projectile",
+      "name_source": "ShipGlassingBeamPlasmaProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/energy/projectiles.ftl"
+    },
+    {
+      "id": "ShipIonProjectile",
+      "key": "ent-ShipIonProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/projectiles.yml",
+      "line": 338,
+      "name": "ion shot",
+      "name_source": "ShipIonProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/energy/projectiles.ftl"
+    },
+    {
       "id": "ShipLeviathanProjectile",
       "key": "ent-ShipLeviathanProjectile",
       "missing": [
@@ -9818,6 +12828,34 @@
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.ftl"
+    },
+    {
+      "id": "ShipM25Projectile",
+      "key": "ent-ShipM25Projectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/projectiles.yml",
+      "line": 196,
+      "name": "M25 projectile",
+      "name_source": "ShipM25Projectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/energy/projectiles.ftl"
+    },
+    {
+      "id": "ShipMediumPlasmaProjectile",
+      "key": "ent-ShipMediumPlasmaProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/projectiles.yml",
+      "line": 3,
+      "name": "plasma projectile",
+      "name_source": "ShipMediumPlasmaProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/energy/projectiles.ftl"
     },
     {
       "id": "ShipMissileASM150",
@@ -9848,6 +12886,48 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.ftl"
     },
     {
+      "id": "ShipMissileASM19",
+      "key": "ent-ShipMissileASM19",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/mpssm.yml",
+      "line": 5,
+      "name": "MPSSM  anti-ship EMPHE missile",
+      "name_source": "ShipMissileASM19",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/missile/mpssm.ftl"
+    },
+    {
+      "id": "ShipMissileASM220ECM",
+      "key": "ent-ShipMissileASM220ECM",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/Cartridge/trident_ammo.yml",
+      "line": 307,
+      "name": "ASM-220 torpedo (ECM)",
+      "name_source": "ShipMissileASM220ECM",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/missile/cartridge/trident_ammo.ftl"
+    },
+    {
+      "id": "ShipMissileASM220HE",
+      "key": "ent-ShipMissileASM220HE",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/Cartridge/trident_ammo.yml",
+      "line": 3,
+      "name": "ASM-220 torpedo (HE)",
+      "name_source": "ShipMissileASM220HE",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/missile/cartridge/trident_ammo.ftl"
+    },
+    {
       "id": "ShipMissileASM220HESACLOS",
       "key": "ent-ShipMissileASM220HESACLOS",
       "missing": [
@@ -9860,6 +12940,20 @@
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/Cartridge/trident_ammo.ftl"
+    },
+    {
+      "id": "ShipMissileASM220LOSAT",
+      "key": "ent-ShipMissileASM220LOSAT",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/Cartridge/trident_ammo.yml",
+      "line": 207,
+      "name": "ASM-220 LOSAT hyper-penetrator",
+      "name_source": "ShipMissileASM220LOSAT",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/missile/cartridge/trident_ammo.ftl"
     },
     {
       "id": "ShipMissileASM250",
@@ -9916,6 +13010,34 @@
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.ftl"
+    },
+    {
+      "id": "ShipMissileSerpent",
+      "key": "ent-ShipMissileSerpent",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/projectiles.yml",
+      "line": 333,
+      "name": "serpent torpedo",
+      "name_source": "ShipMissileSerpent",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/missile/projectiles.ftl"
+    },
+    {
+      "id": "ShipNeutronProjectile",
+      "key": "ent-ShipNeutronProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/projectiles.yml",
+      "line": 301,
+      "name": "neutron projectile",
+      "name_source": "ShipNeutronProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/energy/projectiles.ftl"
     },
     {
       "id": "ShipPinholeProjectile",
@@ -9975,6 +13097,62 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.ftl"
     },
     {
+      "id": "ShipRepairDeviceAdmin",
+      "key": "ent-ShipRepairDeviceAdmin",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Tools/repair.yml",
+      "line": 62,
+      "name": "SRD",
+      "name_source": "ShipRepairDeviceBase",
+      "description": "A Ship Repair Device that can reconstruct destroyed sections of ships.",
+      "description_source": "ShipRepairDeviceBase",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/tools/repair.ftl"
+    },
+    {
+      "id": "ShipRepairDeviceEmpty",
+      "key": "ent-ShipRepairDeviceEmpty",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Tools/repair.yml",
+      "line": 42,
+      "name": "SRD",
+      "name_source": "ShipRepairDeviceBase",
+      "description": "A Ship Repair Device that can reconstruct destroyed sections of ships. Holds 300 charges.",
+      "description_source": "ShipRepairDevice",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/tools/repair.ftl"
+    },
+    {
+      "id": "ShipRubiconProjectile",
+      "key": "ent-ShipRubiconProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/projectiles.yml",
+      "line": 229,
+      "name": "EMP projectile",
+      "name_source": "ShipRubiconProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/energy/projectiles.ftl"
+    },
+    {
+      "id": "ShipTarnyxApProjectile",
+      "key": "ent-ShipTarnyxApProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Cartridge/tarnyx_150mm_ammo.yml",
+      "line": 76,
+      "name": "TARNYX 150mm AP projectile",
+      "name_source": "ShipTarnyxApProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/kinetic/cartridge/tarnyx_150mm_ammo.ftl"
+    },
+    {
       "id": "ShipTarnyxApheProjectile",
       "key": "ent-ShipTarnyxApheProjectile",
       "missing": [
@@ -9987,6 +13165,20 @@
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Cartridge/tarnyx_150mm_ammo.ftl"
+    },
+    {
+      "id": "ShipTarnyxProjectile",
+      "key": "ent-ShipTarnyxProjectile",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Cartridge/tarnyx_150mm_ammo.yml",
+      "line": 1,
+      "name": "TARNYX 150mm EMP projectile",
+      "name_source": "ShipTarnyxProjectile",
+      "description": "If you can see this you're probably dead!",
+      "description_source": "BaseBullet",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/spaceartillery/spaceartillery/kinetic/cartridge/tarnyx_150mm_ammo.ftl"
     },
     {
       "id": "ShipVoucherAkula",
@@ -10507,6 +13699,440 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/grenades_launcher.ftl"
     },
     {
+      "id": "SpaceCash11000",
+      "key": "ent-SpaceCash11000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 187,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash12000",
+      "key": "ent-SpaceCash12000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 195,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash1250",
+      "key": "ent-SpaceCash1250",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 17,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash13000",
+      "key": "ent-SpaceCash13000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 203,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash14000",
+      "key": "ent-SpaceCash14000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 211,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash1500",
+      "key": "ent-SpaceCash1500",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 25,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash16000",
+      "key": "ent-SpaceCash16000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 219,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash1750",
+      "key": "ent-SpaceCash1750",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 33,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash18000",
+      "key": "ent-SpaceCash18000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 227,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash2000",
+      "key": "ent-SpaceCash2000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 41,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash2250",
+      "key": "ent-SpaceCash2250",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 49,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash24000",
+      "key": "ent-SpaceCash24000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 235,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash2750",
+      "key": "ent-SpaceCash2750",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 57,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash3000",
+      "key": "ent-SpaceCash3000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 65,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash3250",
+      "key": "ent-SpaceCash3250",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 73,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash3500",
+      "key": "ent-SpaceCash3500",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 81,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash3750",
+      "key": "ent-SpaceCash3750",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 89,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash4000",
+      "key": "ent-SpaceCash4000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 97,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash4250",
+      "key": "ent-SpaceCash4250",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 105,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash4500",
+      "key": "ent-SpaceCash4500",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 113,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash4750",
+      "key": "ent-SpaceCash4750",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 121,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash50000",
+      "key": "ent-SpaceCash50000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/space_cash.yml",
+      "line": 1,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/space_cash.ftl"
+    },
+    {
+      "id": "SpaceCash5500",
+      "key": "ent-SpaceCash5500",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 131,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash6000",
+      "key": "ent-SpaceCash6000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 139,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash6500",
+      "key": "ent-SpaceCash6500",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 147,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash7000",
+      "key": "ent-SpaceCash7000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 155,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash750",
+      "key": "ent-SpaceCash750",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 9,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash75000",
+      "key": "ent-SpaceCash75000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/space_cash.yml",
+      "line": 12,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/space_cash.ftl"
+    },
+    {
+      "id": "SpaceCash8000",
+      "key": "ent-SpaceCash8000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 163,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash8500",
+      "key": "ent-SpaceCash8500",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 171,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
+      "id": "SpaceCash9000",
+      "key": "ent-SpaceCash9000",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/trade_money.yml",
+      "line": 179,
+      "name": "credits",
+      "name_source": "SpaceCash",
+      "description": "Veridian Standard Credits, the lifeblood of the galaxy! Most commonly referred to as \"Credits\" they are prints sourced from the Veridian Emerald Bank, the largest bank in the galaxy.",
+      "description_source": "SpaceCash",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/misc/trade_money.ftl"
+    },
+    {
       "id": "StationAdminBankATMMMC",
       "key": "ent-StationAdminBankATMMMC",
       "missing": [
@@ -10751,6 +14377,20 @@
       "description": "A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.",
       "description_source": "BaseBorgChassis",
       "ru_source": "Resources/Locale/ru-RU/prototypes/borg_chassis.ftl"
+    },
+    {
+      "id": "TSFCarrierComputer",
+      "key": "ent-TSFCarrierComputer",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/computers_shipyard_mothership.yml",
+      "line": 53,
+      "name": "TSF tumour carrier console",
+      "name_source": "TSFCarrierComputer",
+      "description": "Used on carriers to purchase and sell ships without returning to a station.",
+      "description_source": "BaseCarrierComputer",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/machines/computers/computers_shipyard_mothership.ftl"
     },
     {
       "id": "TSFCarrierComputerFujian",
@@ -12563,6 +16203,21 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/launcher.ftl"
     },
     {
+      "id": "WeaponTurretCharonReload",
+      "key": "ent-WeaponTurretCharonReload",
+      "missing": [
+        "name",
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/charon_launcher.yml",
+      "line": 87,
+      "name": "M381 CHARON mass driver",
+      "name_source": "WeaponTurretCharonReload",
+      "description": "A capital-class railgun that fires a massive slug at extreme velocity, capable of catastrophic damage to enemy ships. Heavy linear accelerator, can be remotely activated or linked up to a GCS.",
+      "description_source": "WeaponTurretCharonReload",
+      "ru_source": null
+    },
+    {
       "id": "WeaponTurretCyrexaHECluster",
       "key": "ent-WeaponTurretCyrexaHECluster",
       "missing": [
@@ -13030,6 +16685,20 @@
       "description": "A powerful energy field, sealing off a location for a short period of time.",
       "description_source": "WindowTimedSeal",
       "ru_source": null
+    },
+    {
+      "id": "WindreignCarrierComputer",
+      "key": "ent-WindreignCarrierComputer",
+      "missing": [
+        "desc"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/computers_shipyard_mothership.yml",
+      "line": 100,
+      "name": "windreign shipyard console",
+      "name_source": "WindreignCarrierComputer",
+      "description": "Used on carriers to purchase and sell ships without returning to a station.",
+      "description_source": "BaseCarrierComputer",
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/machines/computers/computers_shipyard_mothership.ftl"
     },
     {
       "id": "XenoborgAdvancedModuleTool",

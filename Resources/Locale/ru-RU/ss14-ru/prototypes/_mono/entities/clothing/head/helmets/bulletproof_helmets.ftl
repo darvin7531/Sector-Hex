@@ -1,2 +1,2 @@
-ent-ClothingHeadBPHelmetLight = light ballistic helmet
-    .desc = A light ballistic helmet to protect against small arms.
+ent-ClothingHeadBPHelmetLight = лёгкий баллистический шлем
+    .desc = Лёгкий баллистический шлем для защиты от стрелкового оружия.

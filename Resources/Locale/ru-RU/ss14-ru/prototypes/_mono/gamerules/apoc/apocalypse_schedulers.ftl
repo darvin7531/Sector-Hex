@@ -1,6 +1,9 @@
-ent-MonoChimeraSTCShuttleSpawnerSchedulerApocalypse = { ent-BaseGameRule }
+ent-MonoChimeraSTCShuttleSpawnerSchedulerApocalypse = планировщик шаттлов Химеры
+    .suffix = Апокалипсис
     .desc = { ent-BaseGameRule.desc }
-ent-MonoAISTCShuttleSpawnerSchedulerApocalypse = { ent-BaseGameRule }
+ent-MonoAISTCShuttleSpawnerSchedulerApocalypse = планировщик шаттлов повреждённого ИИ
+    .suffix = Апокалипсис
     .desc = { ent-BaseGameRule.desc }
-ent-MonoAsakimSTCShuttleSpawnerSchedulerApocalypse = { ent-BaseGameRule }
+ent-MonoAsakimSTCShuttleSpawnerSchedulerApocalypse = планировщик шаттлов Асаким
+    .suffix = Апокалипсис
     .desc = { ent-BaseGameRule.desc }

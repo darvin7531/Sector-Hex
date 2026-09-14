@@ -1,4 +1,4 @@
-ent-WeaponTetherGunBorg = cyborg tether gun
-    .desc = Manipulates gravity around objects to fling them at high velocities.
-ent-WeaponForceGunBorg = cyborg force gun
-    .desc = Manipulates gravity around objects to fling them at high velocities.
+ent-WeaponTetherGunBorg = гравипушка киборга
+    .desc = Манипулирует гравитацией вокруг объектов, запуская их на высокой скорости.
+ent-WeaponForceGunBorg = силовая пушка киборга
+    .desc = Управляет гравитацией вокруг объектов, выбрасывая их на высокой скорости.

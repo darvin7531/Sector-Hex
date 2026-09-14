@@ -1,9 +1,9 @@
-ent-MonoMaintenanceFluffSpawner = Mono Maint Loot Spawner
-    .suffix = UNUSED,Fluff+Clothes
+ent-MonoMaintenanceFluffSpawner = спавнер добычи техобслуживания
+    .suffix = Мелочёвка, Одежда
     .desc = { ent-MarkerBase.desc }
-ent-MonoMaintenanceToolSpawner = Mono Maint Loot Spawner
-    .suffix = UNUSED,Tools+Cells+Mats
+ent-MonoMaintenanceToolSpawner = спавнер добычи техобслуживания
+    .suffix = Инструменты, Батареи, Материалы
     .desc = { ent-MarkerBase.desc }
-ent-MonoMaintenanceWeaponSpawner = Mono Maint Loot Spawner
-    .suffix = UNUSED,Scrap+Weapons
+ent-MonoMaintenanceWeaponSpawner = спавнер добычи техобслуживания
+    .suffix = Лом, Оружие
     .desc = { ent-MarkerBase.desc }

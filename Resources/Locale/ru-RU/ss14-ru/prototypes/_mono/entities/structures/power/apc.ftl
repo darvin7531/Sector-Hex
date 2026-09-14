@@ -1,3 +1,3 @@
-ent-APCBasicTSF = { ent-BaseAPC }
-    .suffix = Basic, 50kJ, TSFMC Engineering Locked
-    .desc = { ent-BaseAPC.desc }
+ent-APCBasicTSF = ЛКП
+    .desc = Терминал управления локальными электрическими системами.
+    .suffix = Базовый, 50кДж, Заблокирован, Инженерный доступ TSFMC

@@ -1,2 +1,2 @@
-ent-CrateVendingMachineRestockBaristaFilled = BaristaVend Restock Crate
-    .desc = Contains a restock box for the BaristaVend.
+ent-CrateVendingMachineRestockBaristaFilled = ящик пополнения BaristaVend
+    .desc = Ящик с пополнением для автомата BaristaVend.

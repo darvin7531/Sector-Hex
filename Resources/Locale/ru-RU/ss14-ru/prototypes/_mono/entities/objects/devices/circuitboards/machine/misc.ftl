@@ -1,6 +1,9 @@
-ent-CarpCallerMachineCircuitboard = carp caller machine board
-    .desc = { ent-BaseMachineCircuitboard.desc }
-ent-ContainmentFieldGeneratorCircuitboard = containment field generator machine board
-    .desc = { ent-BaseMachineCircuitboard.desc }
-ent-SmartfridgeCircuitboard = smartfridge machine board
-    .desc = A machine printed circuit board for a smartfridge.
+ent-CarpCallerMachineCircuitboard = приманка космических карпов (машинная плата)
+    .desc = Печатная плата машины для сброки приманки космических карпов.
+    .suffix = Машинная плата
+ent-ContainmentFieldGeneratorCircuitboard = генератор сдерживающего поля (машинная плата)
+    .desc = Печатная плата машины для сброки генератора сдерживающего поля.
+    .suffix = Машинная плата
+ent-SmartfridgeCircuitboard = умный холодильника (машинная плата)
+    .desc = Печатная плата машины для сброки умного холодильника.
+    .suffix = Машинная плата

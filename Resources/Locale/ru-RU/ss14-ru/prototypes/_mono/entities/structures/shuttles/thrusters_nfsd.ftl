@@ -1,3 +1,3 @@
-ent-ThrusterLargeNfsd = { ent-ThrusterLarge }
-    .suffix = TSFMC
-    .desc = { ent-ThrusterLarge.desc }
+ent-ThrusterLargeNfsd = большой ракетный двигатель ТСФ
+    .desc = { ent-Thruster }
+    .suffix = ТСФ

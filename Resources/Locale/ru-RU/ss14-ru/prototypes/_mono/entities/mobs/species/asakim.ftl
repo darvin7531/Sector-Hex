@@ -1,10 +1,7 @@
-ent-BaseMobAsakim = Urist McAsakim
-    .desc = { ent-BaseMobSpeciesOrganic.desc }
-ent-MobAsakim = Urist McAsakim
-    .suffix = Urisst' MzAsakim
-    .desc = { ent-BaseMobAsakim.desc }
-ent-MobAsakimRandom = Urist McAsakim
-    .suffix = Random Appearance
-    .desc = { ent-BaseMobAsakim.desc }
-ent-MobAsakimDummy = { ent-BaseSpeciesDummy }
-    .desc = A dummy Asakim meant to be used in character setup.
+ent-BaseMobAsakim = Урист МакАзаким
+ent-MobAsakim = { ent-BaseMobAsakim }
+ent-MobAsakimRandom = { ent-BaseMobAsakim }
+    .desc = " "
+    .suffix = Случайный внешний вид
+ent-MobAsakimDummy = манекен азаким
+    .desc = Манекен азаким, предназначенный для использования в настройке персонажа.

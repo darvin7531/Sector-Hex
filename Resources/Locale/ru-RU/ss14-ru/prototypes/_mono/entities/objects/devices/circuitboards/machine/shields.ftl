@@ -1,6 +1,6 @@
-ent-MachineShieldMS100Circuitboard = MS-100 shield generator board
-    .desc = A machine board for a shield generator.
-ent-MachineShieldMS250Circuitboard = MS-250 shield generator board
-    .desc = A machine board for a shield generator.
-ent-MachineShieldMS500Circuitboard = MS-500 shield generator board
-    .desc = A machine board for a shield generator.
+ent-MachineShieldMS100Circuitboard = плата генератора щита MS-100
+    .desc = Плата для генератора щита.
+ent-MachineShieldMS250Circuitboard = плата генератора щита MS-250
+    .desc = Плата машины для генератора щита.
+ent-MachineShieldMS500Circuitboard = плата генератора щита MS-500
+    .desc = Плата машины для генератора щита.

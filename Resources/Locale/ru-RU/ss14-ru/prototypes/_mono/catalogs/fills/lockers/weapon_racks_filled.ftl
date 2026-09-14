@@ -1,6 +1,6 @@
 ent-StructureGunRackBanditFilled = { ent-StructureGunRack }
-    .suffix = Filled, Bandit DMR
+    .suffix = Заполненный, QBU-430, Бандит
     .desc = { ent-StructureGunRack.desc }
 ent-StructureGunRackMla34Filled = { ent-StructureGunRack }
-    .suffix = Filled, MLA-34 Smartgun
+    .suffix = Заполненный, MLA-34, Зачистка
     .desc = { ent-StructureGunRack.desc }

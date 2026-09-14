@@ -1,2 +1,2 @@
-ent-SevastopolPlushie = Highfleet plushie
-    .desc = Thermal signature detected!
+ent-SevastopolPlushie = плюшевый «Хайфлит»
+    .desc = Обнаружена тепловая сигнатура!

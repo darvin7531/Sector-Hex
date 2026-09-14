@@ -1,4 +1,4 @@
-ent-ClothingOuterHardsuitM82c = M82c hardsuit
-    .desc = A hardsuit issued to marines operating in low-pressure and high-risk environments. Specialized in bullet protection.
-ent-ClothingOuterHardsuitM82b = M82b hardsuit
-    .desc = Corpsman variant of the M82c outfitted with caustic and radiological shielding. Some of the blunt-absorbent gel layer is sacrificed for the NBC protection.
+ent-ClothingOuterHardsuitM82c = скафандр ТСФ M-82С
+    .desc = Скафандр для морпехов в условиях пониженного давления и повышенного риска. Специализация - защита от пуль.
+ent-ClothingOuterHardsuitM82b = скафандр ТСФ M-82B
+    .desc = Медицинский вариант M-82С с защитой от едких и радиационных воздействий. Часть гелевого слоя заменена на NBC-защиту.

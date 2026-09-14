@@ -1,9 +1,3 @@
-ent-HighSecUSSPSecureLocked = { ent-HighSecDoor }
-    .suffix = USSP Secure, Locked
-    .desc = { ent-HighSecDoor.desc }
-ent-HighSecUSSPCommandLocked = { ent-HighSecDoor }
-    .suffix = USSP Command, Locked
-    .desc = { ent-HighSecDoor.desc }
-ent-HighSecUSSPLocked = { ent-HighSecDoor }
-    .suffix = USSP, Locked
-    .desc = { ent-HighSecDoor.desc }
+ent-HighSecUSSPSecureLocked = USSP Secure, Locked
+ent-HighSecUSSPCommandLocked = USSP Command, Locked
+ent-HighSecUSSPLocked = USSP, Locked

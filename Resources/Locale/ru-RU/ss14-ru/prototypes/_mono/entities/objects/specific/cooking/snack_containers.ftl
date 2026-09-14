@@ -1,6 +1,6 @@
-ent-FoodBoxBiscuitSimple = Simple Biscuit Box
-    .desc = A box containing simple biscuits. Perfect for a snack!
-ent-FoodBoxBiscuitSugar = Sugar Biscuit Box
-    .desc = A box containing sugar biscuits. Perfect for a snack!
-ent-FoodBoxBiscuitOatmeal = Oatmeal Biscuit Box
-    .desc = A box containing oatmeal biscuit. Perfect for a snack!
+ent-FoodBoxBiscuitSimple = коробка простых бисквитов
+    .desc = Коробка с простыми бисквитами. Идеально для перекуса!
+ent-FoodBoxBiscuitSugar = коробка сахарных бисквитов
+    .desc = Коробка с сахарными бисквитами. Идеально для перекуса!
+ent-FoodBoxBiscuitOatmeal = коробка овсяных бисквитов
+    .desc = Коробка с овсяным бисквитом. Идеально для перекуса!

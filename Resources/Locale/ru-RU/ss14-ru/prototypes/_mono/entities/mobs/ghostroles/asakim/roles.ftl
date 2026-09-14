@@ -1,3 +1,3 @@
-ent-MobAsakimGhostrole = asakim warrior
-    .suffix = Asakim
-    .desc = { ent-MobAsakim.desc }
+ent-MobAsakimGhostrole = Урист МакАзаким
+    .desc = { ent-BaseItem.desc }
+    .suffix = Гост-роль

@@ -1,22 +1,32 @@
-ent-PartSkeletonChimeraBase = chimera endoskeleton body part
+ent-PartSkeletonChimeraBase = часть эндоскелета химеры
     .desc = { ent-BasePartInorganic.desc }
-ent-TorsoSkeletonChimera = chimera endoskeleton torso
+
+ent-TorsoSkeletonChimera = торс эндоскелета химеры
     .desc = { ent-PartSkeletonChimeraBase.desc }
-ent-HeadSkeletonChimera = chimera endoskeleton skull
-    .desc = Alas poor Yorick...
-ent-LeftArmSkeletonChimera = left chimera endoskeleton arm
+
+ent-HeadSkeletonChimera = череп эндоскелета химеры
+    .desc = Бедный Йорик...
+
+ent-LeftArmSkeletonChimera = левая рука эндоскелета химеры
     .desc = { ent-PartSkeletonChimeraBase.desc }
-ent-RightArmSkeletonChimera = right chimera endoskeleton arm
+
+ent-RightArmSkeletonChimera = правая рука эндоскелета химеры
     .desc = { ent-PartSkeletonChimeraBase.desc }
-ent-LeftHandSkeletonChimera = left chimera endoskeleton hand
+
+ent-LeftHandSkeletonChimera = левая кисть эндоскелета химеры
     .desc = { ent-PartSkeletonChimeraBase.desc }
-ent-RightHandSkeletonChimera = right chimera endoskeleton hand
+
+ent-RightHandSkeletonChimera = правая кисть эндоскелета химеры
     .desc = { ent-PartSkeletonChimeraBase.desc }
-ent-LeftLegSkeletonChimera = left chimera endoskeleton leg
+
+ent-LeftLegSkeletonChimera = левая нога эндоскелета химеры
     .desc = { ent-PartSkeletonChimeraBase.desc }
-ent-RightLegSkeletonChimera = right chimera endoskeleton leg
+
+ent-RightLegSkeletonChimera = правая нога эндоскелета химеры
     .desc = { ent-PartSkeletonChimeraBase.desc }
-ent-LeftFootSkeletonChimera = left chimera endoskeleton foot
+
+ent-LeftFootSkeletonChimera = левая стопа эндоскелета химеры
     .desc = { ent-PartSkeletonChimeraBase.desc }
-ent-RightFootSkeletonChimera = right chimera endoskeleton foot
+
+ent-RightFootSkeletonChimera = правая стопа эндоскелета химеры
     .desc = { ent-PartSkeletonChimeraBase.desc }

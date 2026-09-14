@@ -1,3 +1,2 @@
-ent-CrystalMonolithic = small aether crystal
-    .desc = A mysterious crystalline solid. Seems highly energetic, but fragile.
-    .suffix = small
+ent-CrystalMonolithic = маленький кристалл
+    .desc = Загадочное кристаллическое вещество. Выглядит очень энергонасыщенным, но хрупким.

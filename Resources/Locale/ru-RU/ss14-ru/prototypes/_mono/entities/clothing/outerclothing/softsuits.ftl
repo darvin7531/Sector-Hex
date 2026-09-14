@@ -1,2 +1,2 @@
-ent-ClothingOuterEVASuitDME = DME EVA Suit
-    .desc = An EVA suit with a built-in helmet commonly issued to wealthy traders.
+ent-ClothingOuterEVASuitDME = скафандр EVA DME
+    .desc = EVA-костюм со встроенным шлемом, обычно выдаётся состоятельным торговцам.

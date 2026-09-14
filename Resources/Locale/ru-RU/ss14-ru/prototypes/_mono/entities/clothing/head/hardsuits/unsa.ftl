@@ -1,2 +1,2 @@
-ent-ClothingHeadHelmetHardsuitUNSAArmoredEva = armored EVA helmet
-    .desc = A standard EVA helmet modified by the UNSA as a cheap and cool-looking alternative to voidsuits for use by vanguards. The skull is a necessity.
+ent-ClothingHeadHelmetHardsuitUNSAArmoredEva = бронированный шлем EVA
+    .desc = Стандартный шлем EVA, модифицированный UNSA как дешёвая и стильная альтернатива вакуумным костюмам для использования авангардом. Череп — необходимость.

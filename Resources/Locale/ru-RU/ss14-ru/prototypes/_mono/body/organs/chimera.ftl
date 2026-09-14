@@ -1,12 +1,17 @@
-ent-BaseChimeraOrgan = chimera organ
+ent-BaseChimeraOrgan = орган химеры
     .desc = { ent-BaseItem.desc }
-ent-OrganChimeraStomach = chimera stomach
-    .desc = A strange organ that serves as the center for the metabolism of a Chimera.
-ent-OrganChimeraBrain = chimera brain
-    .desc = The heart of a chimera growth.
-ent-OrganChimeraLiver = chimera spike gland
-    .desc = Takes the location of the liver in the body, and repurposes them to be used as a gland for growing bone spikes instead.
-ent-OrganChimeraHeart = chimera heart
-    .desc = { ent-BaseChimeraOrgan.desc }
-ent-OrganChimeraLungs = chimera pheropod
-    .desc = Distributes pheromones allowing for hivemind communication with other Chimeras. Serves as the lungs for the parasite as well.
+
+ent-OrganChimeraStomach = желудок химеры
+    .desc = Странный орган, служащий центром метаболизма химеры.
+
+ent-OrganChimeraBrain = мозг химеры
+    .desc = Сердце роста химеры.
+
+ent-OrganChimeraLiver = шиповая железа химеры
+    .desc = Занимает место печени в организме и перепрофилирована в железу для выращивания костяных шипов.
+
+ent-OrganChimeraHeart = сердце химеры
+    .desc = { ent-OrganHumanHeart.desc }
+
+ent-OrganChimeraLungs = феропод химеры
+    .desc = Распространяет феромоны, позволяющие общаться с другими химерами через улей. Также служит лёгкими для паразита.

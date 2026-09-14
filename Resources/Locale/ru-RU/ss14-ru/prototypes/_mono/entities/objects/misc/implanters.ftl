@@ -1,3 +1,3 @@
-ent-RadioImplanterUssp = { ent-BaseImplantOnlyImplanter }
-    .suffix = radio Ussp
-    .desc = { ent-BaseImplantOnlyImplanter.desc }
+ent-RadioImplanterUssp = имплантер радиомаяка СССП
+    .suffix = Радио, СССП
+    .desc = Имплантер для установки радиомаяка слежения.

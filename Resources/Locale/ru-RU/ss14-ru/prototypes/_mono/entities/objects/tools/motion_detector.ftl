@@ -1,8 +1,10 @@
-ent-MotionDetector = motion detector
-    .desc = A handheld motion detector. Detects people not in the same company of the user.
-ent-MotionDetectorEmpty = { ent-MotionDetector }
-    .suffix = Empty
+ent-MotionDetector = детектор движения
+    .desc = Ручной детектор движения. Обнаруживает людей не из фракции пользователя.
+
+ent-MotionDetectorEmpty = детектор движения
+    .suffix = Пустой
     .desc = { ent-MotionDetector.desc }
-ent-MotionDetectorBorg = { ent-MotionDetector }
-    .suffix = Borg
+
+ent-MotionDetectorBorg = детектор движения
+    .suffix = Борг
     .desc = { ent-MotionDetector.desc }

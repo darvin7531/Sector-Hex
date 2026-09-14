@@ -1,8 +1,8 @@
 ent-MonoLockerBaseSecure = { ent-LockerBaseSecure }
     .desc = { ent-LockerBaseSecure.desc }
-ent-LockerDrakeIndustriesHauler = hauler's locker
-    .desc = Sure has a fancy color, truth be told it's just steel sprayed with Drake Industries' colors. This ones bears the symbol of a hauler.
-ent-LockerDrakeIndustriesTrucker = trucker's locker
-    .desc = Sure has a fancy color, truth be told it's just steel sprayed with Drake Industries' colors. This ones bears the symbol of a trucker.
-ent-LockerDrakeIndustriesWatchdog = watchdog's locker
-    .desc = Sure has a fancy color, truth be told it's just steel sprayed with Drake Industries' colors. This ones bears the symbol of a watchdog.
+ent-LockerDrakeIndustriesHauler = шкаф грузчика Drake Industries
+    .desc = Выглядит стильно, но по факту это обычная сталь в фирменных цветах Drake Industries. На двери символ грузчика.
+ent-LockerDrakeIndustriesTrucker = шкаф дальнобойщика Drake Industries
+    .desc = Выглядит стильно, но по факту это обычная сталь в фирменных цветах Drake Industries. На двери символ дальнобойщика.
+ent-LockerDrakeIndustriesWatchdog = шкаф охранника Drake Industries
+    .desc = Выглядит стильно, но по факту это обычная сталь в фирменных цветах Drake Industries. На двери символ охранника.

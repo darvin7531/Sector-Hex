@@ -1,5 +1,4 @@
-ent-Bullet45_magnumFMJ = bullet (.45 magnum)
-    .desc = { ent-BaseBullet.desc }
+ent-Bullet45_magnumFMJ = пуля (.45 магнум)
 ent-Bullet45_magnumPractice = bullet (.45 magnum practice)
     .desc = { ent-BaseBulletPractice.desc }
 ent-Bullet45_magnumRubber = bullet (.45 magnum rubber)

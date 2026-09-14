@@ -1,3 +1,3 @@
 ent-LockableButtonUSSP = { ent-LockableButton }
-    .suffix = USSP
+    .suffix = СССП
     .desc = { ent-LockableButton.desc }

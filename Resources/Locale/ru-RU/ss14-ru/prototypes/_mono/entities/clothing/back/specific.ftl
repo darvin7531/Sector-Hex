@@ -1,18 +1,21 @@
-ent-ClothingBackpackUSSP = USSP backpack
-    .desc = This is evidently repurposed from some industrial use.
-ent-ClothingBackpackDuffelUSSP = USSP duffel bag
-    .desc = This is evidently repurposed from some industrial use.
-ent-ClothingBackpackSatchelUSSP = USSP satchel
-    .desc = This is evidently repurposed from some industrial use.
-ent-ClothingBackpackTsfmc = TSFMC backpack
-    .desc = Part of a standard marine load bearing system.
-ent-ClothingBackpackDuffelTsfmc = TSFMC duffel bag
-    .desc = Part of a standard marine load bearing system.
-ent-ClothingBackpackSatchelTsfmc = TSFMC satchel
-    .desc = Part of a standard marine load bearing system.
-ent-ClothingBackpackPDV = vanguard tactical backpack
-    .desc = A tactical backpack developed for the dynast troops of Helios.
-ent-ClothingBackpackDuffelPDV = vanguard tactical duffel
-    .desc = A tactical duffel bag developed for the dynast troops of Helios.
-ent-ClothingBackpackSatchelPDV = vanguard tactical satchel
-    .desc = A tactical satchel developed for the dynast troops of Helios.
+ent-ClothingBackpackUSSP = рюкзак СССП
+    .desc = Судя по всему, переделан из какого-то промышленного снаряжения.
+ent-ClothingBackpackDuffelUSSP = вещевой мешок СССП
+    .desc = Судя по всему, переделан из какого-то промышленного снаряжения.
+ent-ClothingBackpackSatchelUSSP = полевая сумка СССП
+    .desc = Судя по всему, переделан из какого-то промышленного снаряжения.
+
+ent-ClothingBackpackTsfmc = рюкзак ТСФ
+    .desc = Часть стандартной разгрузочной системы морской пехоты.
+ent-ClothingBackpackDuffelTsfmc = вещевой мешок ТСФ
+    .desc = Часть стандартной разгрузочной системы морской пехоты.
+ent-ClothingBackpackSatchelTsfmc = полевая сумка ТСФ
+    .desc = Часть стандартной разгрузочной системы морской пехоты.
+
+ent-ClothingBackpackPDV = тактический рюкзак Авангарда
+    .desc = Тактический рюкзак гвадрии.
+ent-ClothingBackpackDuffelPDV = тактический вещевой мешок Авангарда
+    .desc = Тактический вещевой мешок гвардии.
+ent-ClothingBackpackSatchelPDV = тактическая полевая сумка Авангарда
+    .desc = Тактическая полевая сумка гварлии.
+

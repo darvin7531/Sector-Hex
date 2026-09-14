@@ -1,2 +1,3 @@
-ent-ClothingOuterDrakeIndustriesTruckerPuffyVest = puffy vest
-    .desc = A flashy looking puffy and somewhat elastic vest. It makes an insane amount of noise at the slighest movement, but at least they bothered making some pockets on the inside.
+ent-ClothingOuterDrakeIndustriesTruckerPuffyVest = пуховая жилетка
+    .suffix = Drake
+    .desc = Яркая пуховая слегка эластичная жилетка. При малейшем движении издаёт безумное количество шума, зато внутри есть карманы.

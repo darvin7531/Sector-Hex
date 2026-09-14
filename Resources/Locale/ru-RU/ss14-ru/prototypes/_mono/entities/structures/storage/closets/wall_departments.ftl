@@ -1,3 +1,3 @@
-ent-LockerWallColorDME = DME wall locker
-    .suffix = DME, Company
-    .desc = { ent-LockerWallColorBase.desc }
+ent-LockerWallColorDME = настенный шкаф
+    .suffix = DME, Компания
+    .desc = Стандартное хранилище Nanotrasen, теперь и на стене.

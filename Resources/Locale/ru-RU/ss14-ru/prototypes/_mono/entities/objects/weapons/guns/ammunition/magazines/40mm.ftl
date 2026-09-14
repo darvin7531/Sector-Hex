@@ -1,8 +1,8 @@
-ent-BaseMagazine40mm = 40mm grenade cartridge
-    .desc = { ent-BaseCartridge.desc }
-ent-Magazine40mmEmpty = 40mm grenade cartridge
-    .desc = { ent-BaseMagazine40mm.desc }
-ent-Magazine40mmFrag = frag 40mm grenade cartridge
+ent-BaseMagazine40mm = гранатный магазин (40мм)
+    .desc = Магазин для 40-мм гранат.
+ent-Magazine40mmEmpty = гранатный магазин (40мм)
+    .desc = Магазин для 40-мм гранат.
+    .suffix = Пустойent-Magazine40mmFrag = frag 40mm grenade cartridge
     .desc = { ent-BaseMagazine40mm.desc }
 ent-Magazine40mmEMP = EMP 40mm grenade cartridge
     .desc = { ent-BaseMagazine40mm.desc }

@@ -1,3 +1,2 @@
-ent-WeaponTurretShard = Light mass driver "Shard"
-    .desc = Ultralight mass driver weapon of unknown origin, designated "Shard" during initial reverse engineering attempts. Light damage, but long range and little upkeep to mount on ships.
-    .suffix = DRONE ONLY
+ent-WeaponTurretShard = M-34 «Шард»
+    .desc = Сверхлёгкий масс-драйвер неизвестного происхождения, получивший обозначение «Шард» в ходе первых попыток обратной разработки. Наносит небольшой урон, но отличается большой дальностью и низкими требованиями к обслуживанию.

@@ -1,12 +1,12 @@
 ent-AirlockShuttleNfsdOutpostLocked = { ent-AirlockShuttleNfsdOutpost }
-    .suffix = OUTPOST ONLY, TSFMC, Docking, Locked
+    .suffix = Аванпост, ТСФ, Стыковочный, Закрыт
     .desc = { ent-AirlockShuttleNfsdOutpost.desc }
 ent-AirlockGlassShuttleNfsdOutpostLocked = { ent-AirlockGlassShuttleNfsdOutpost }
-    .suffix = OUTPOST ONLY, TSFMC, Glass, Docking, Locked
+    .suffix = Аванпост, ТСФ, Стеклянный, Стыковочный, Закрыт
     .desc = { ent-AirlockGlassShuttleNfsdOutpost.desc }
 ent-AirlockShuttleNfsdCapitalLocked = { ent-AirlockShuttleNfsdCapital }
-    .suffix = CAPITAL ONLY, TSFMC, Docking, Locked
+    .suffix = Капитал, ТСФ, Стыковочный, Закрыт
     .desc = { ent-AirlockShuttleNfsdCapital.desc }
 ent-AirlockGlassShuttleNfsdCapitalLocked = { ent-AirlockGlassShuttleNfsdCapital }
-    .suffix = CAPITAL ONLY, TSFMC, Glass, Docking, Locked
+    .suffix = Капитал, ТСФ, Стеклянный, Стыковочный, Закрыт
     .desc = { ent-AirlockGlassShuttleNfsdCapital.desc }

@@ -1,6 +1,6 @@
-ent-FoodBakedBiscuitSimple = simple biscuit
-    .desc = A simple dry biscuit, perfect pair for some tea or coffee.
-ent-FoodBakedBiscuitSugar = sugar biscuit
-    .desc = A biscuit with a sugar coating, perfect pair for some tea or coffee.
-ent-FoodBakedBiscuitOatmeal = oatmeal biscuit
-    .desc = A biscuit made with oatmeal, perfect pair for some tea or coffee.
+ent-FoodBakedBiscuitSimple = простой бисквит
+    .desc = Простой сухой бисквит, идеальная пара к чаю или кофе.
+ent-FoodBakedBiscuitSugar = сахарный бисквит
+    .desc = Бисквит с сахарной глазурью, идеальная пара к чаю или кофе.
+ent-FoodBakedBiscuitOatmeal = овсяный бисквит
+    .desc = Бисквит из овсянки, идеальная пара к чаю или кофе.

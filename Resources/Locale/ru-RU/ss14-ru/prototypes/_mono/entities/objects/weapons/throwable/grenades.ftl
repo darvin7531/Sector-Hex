@@ -1,6 +1,9 @@
-ent-NanolaminateFoamGrenade = nanolaminate foam grenade
-    .desc = An advanced version of a metal foam grenade. Instead of aluminium, the foam grows a nano-reinforced alloy in a large area, capable of sustaining much more damage than aluminium.
-ent-NanolaminateFoam = nanolaminate foam
+ent-NanolaminateFoamGrenade = граната с наноламинатной пеной
+    .desc = Продвинутая версия гранаты с металлической пеной. Вместо алюминия пена создаёт наноусиленный сплав на большой площади, способный выдерживать гораздо больше повреждений.
+
+ent-NanolaminateFoam = наноламинатная пена
     .desc = { ent-MetalFoam.desc }
-ent-FoamedNanolaminateMetal = foamed nanolaminate
-    .desc = For sealing hull breaches.
+
+ent-FoamedNanolaminateMetal = вспенённый наноламинат
+    .desc = Для заделки пробоин в корпусе.
+

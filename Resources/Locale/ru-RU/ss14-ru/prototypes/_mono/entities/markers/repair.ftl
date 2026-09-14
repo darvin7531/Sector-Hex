@@ -1,2 +1,1 @@
-ent-RepairGhost = repair ghost
-    .desc = { "" }
+ent-RepairGhost = ремонтная проекция

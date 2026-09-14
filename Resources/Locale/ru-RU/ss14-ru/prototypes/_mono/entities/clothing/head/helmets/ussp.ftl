@@ -1,2 +1,2 @@
-ent-ClothingHeadHelmetHeavyUSSP = USSP heavy helmet
-    .desc = A heavy helmet ballistic helmet, it offers decent protection.
+ent-ClothingHeadHelmetHeavyUSSP = тяжёлый шлем СССП
+    .desc = Тяжёлый баллистический шлем с хорошей защитой.

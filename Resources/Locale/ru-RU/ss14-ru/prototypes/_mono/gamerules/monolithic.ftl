@@ -1,2 +1,2 @@
-ent-MonolithFragmentSmallAppearance = { ent-BaseStationEventShortDelay }
+ent-MonolithFragmentSmallAppearance = малый фрагмент монолита
     .desc = { ent-BaseStationEventShortDelay.desc }

@@ -1,10 +1,5 @@
-ent-ClothingArmorPlate = { "" }
-    .desc = { "" }
-ent-ClothingArmorPlateLight = { ent-ClothingArmorPlate }
-    .desc = { ent-ClothingArmorPlate.desc }
-ent-ClothingArmorPlateMedium = { ent-ClothingArmorPlate }
-    .desc = { ent-ClothingArmorPlate.desc }
-ent-ClothingArmorPlateTactical = { ent-ClothingArmorPlate }
-    .desc = { ent-ClothingArmorPlate.desc }
-ent-ClothingArmorPlatePlastitanium = { ent-ClothingArmorPlate }
-    .desc = { ent-ClothingArmorPlate.desc }
+ent-ClothingArmorPlate = пластина брони
+ent-ClothingArmorPlateLight = лёгкая
+ent-ClothingArmorPlateMedium = средняя
+ent-ClothingArmorPlateTactical = тактическая
+ent-ClothingArmorPlatePlastitanium = пластитаниевая

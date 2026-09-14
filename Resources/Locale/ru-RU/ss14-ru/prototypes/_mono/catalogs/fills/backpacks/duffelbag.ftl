@@ -1,2 +1,2 @@
-ent-ClothingBackpackDuffelAshstormBundle = EM72 Ashstorm bundle
-    .desc = A powerful energy LMG, coming pre-packaged with 3 spare cells. Perfect for laying down surpressive fire down long halls of glass.
+ent-ClothingBackpackDuffelAshstormBundle = набор EM-72 «Буря»
+    .desc = Мощный энергетический ручной пулемет, поставляемый с 3 запасными элементами питания. Идеален для ведения подавляющего огня по длинным коридорам из стекла.

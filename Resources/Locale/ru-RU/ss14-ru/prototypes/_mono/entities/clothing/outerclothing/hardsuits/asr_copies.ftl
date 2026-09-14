@@ -1,6 +1,6 @@
-ent-ClothingOuterHardsuitAshen = PDV CV-32 combat tacsuit
-    .desc = A combat tacsuit designed by the Phaethon Dynasty. A heavier but still general-purpose hardsuit.
-ent-ClothingOuterHardsuitVizier = PDV CV-67 combat tacsuit
-    .desc = An adorned tacsuit designed with an imperfect nanolaminate composition. High maneuverability, sturdy armor.
-ent-ClothingOuterHardsuitAshenElite = PDV CV-53 combat hardsuit
-    .desc = Originally based off of the CV-32, the CV-53 sacrifices conventional armor plating for environmental protection, and a rechargeable hard-shield.
+ent-ClothingOuterHardsuitAshen = скафандр Авангарда CV-32
+    .desc = Боевой тактический костюм, когда-то разработанный инженерами Синдиката, но сейчас используемый солдатами Империи. Более тяжёлый, но всё ещё универсальный скафандр.
+ent-ClothingOuterHardsuitVizier = скафандр Авангарда CV-68
+    .desc = Украшенный тактический костюм, разработанный с несовершенным наноламинатным составом. Высокая манёвренность, прочная броня.
+ent-ClothingOuterHardsuitAshenElite = скафандр Авангарда CV-53
+    .desc = Изначально основан на CV-32, CV-53 жертвует обычными бронепластинами ради защиты окружающей среды и перезаряжаемого твёрдого щита.
