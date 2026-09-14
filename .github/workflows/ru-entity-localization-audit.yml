@@ -31,6 +31,9 @@ jobs:
     - name: Sync translated Monolith ru-RU messages
       run: python Tools/sync_ru_mono_translations.py
 
+    - name: Backfill inherited translated entity fields
+      run: python Tools/backfill_ru_entity_inheritance.py
+
     - name: Generate complete ru-RU entity audit
       run: |
         python Tools/audit_ru_entity_localization.py \
@@ -45,5 +48,5 @@ jobs:
         if git diff --cached --quiet; then
           exit 0
         fi
-        git commit -m "fix(locale): backfill audited ru-RU entity messages"
+        git commit -m "fix(locale): backfill inherited ru-RU entity localization"
         git push origin "HEAD:${{ github.head_ref }}"
