@@ -1,2 +1,1 @@
-ent-ClothingBalaclavaBase = { ent-Clothing }
-    .desc = { ent-Clothing.desc }
+ent-ClothingBalaclavaBase = ClothingBalaclavaBase

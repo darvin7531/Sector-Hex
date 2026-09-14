@@ -1,6 +1,6 @@
-ent-NaniteApplicator = nanite applicator
-    .desc = Advanced tool that uses nanotechnology to repair structures.
-ent-NaniteApplicatorExperimental = experimental nanite applicator
-    .desc = An experimental nanite applicator with a heavily upgraded nanite capacity capable of self-nanite generation.
-ent-NaniteApplicatorSyndicate = advanced nanite applicator
-    .desc = Advanced nanite applicator with a heavily upgraded nanite capacity capable of self-nanite generation.
+ent-NaniteApplicator = аппликатор нанитов
+    .desc = Продвинутый инструмент, использующий технологию нанитов для ремнота киборгов и КПБ.
+ent-NaniteApplicatorExperimental = экспериментальный аппликатор нанитов
+    .desc = Экспериментальный аппликатор нанитов, способный самостоятельно пополнять заряд.
+ent-NaniteApplicatorSyndicate = боевой аппликатор нанитов
+    .desc = Передовой аппликатор нанитов, разработанный для использования в боевых условиях, способный самостоятельно пополнять заряд.

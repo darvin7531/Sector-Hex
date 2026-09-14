@@ -1,4 +1,4 @@
-ent-MilitaryPowerCellMG = EM72 Ashstorm battery cell
-    .desc = A round battery cell designed for a EM72 Ashstorm.
-ent-PulsedPlasmaLaserCanister = NT PPL magnetic storage container
-    .desc = A small, advanced magnetic containment unit for the storage of high-energy plasma. Powered off an internal microreactor with iridite electromagnets, it can contain plasma indefinitely. Recharges via using electricity to synthesize plasma from surrounding air.
+ent-MilitaryPowerCellMG = батарея EM-72 «Буря»
+    .desc = Круглая батарейная ячейка для EM-72 «Буря».
+ent-PulsedPlasmaLaserCanister = магнитный контейнер NT PPL
+    .desc = Небольшой продвинутый магнитный контейнер для хранения высокоэнергетической плазмы. Питается от встроенного микрореактора с иридитовыми электромагнитами, что позволяет удерживать плазму неограниченно долго. Перезаряжается, используя электричество для синтеза плазмы из окружающего воздуха.

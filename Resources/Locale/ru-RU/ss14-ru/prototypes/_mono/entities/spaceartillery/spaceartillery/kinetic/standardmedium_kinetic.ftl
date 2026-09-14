@@ -1,6 +1,5 @@
-ent-WeaponTurretAK570 = AK570 57mm autocannon
-    .desc = A dual-barrel, heavy 57mm autocannon firing general-purpose APHE rounds, effective for sustained fire against medium targets. Can be remotely activated or linked up to a GCS.
-    .suffix = Средний, T2
-ent-WeaponTurretDravon = ADBP-7 DRAVON 90mm Autocannon
-    .desc = A single-barrel autocannon made by Aetherion Dynamics. Medium artillery piece with high fire rate but relatively low impact, firing HEAT shells to damage ship armor and systems. Can be remotely activated or linked up to a GCS.
-    .suffix = Средний, T2
+ent-WeaponTurretAK570 = AK-570 «Узник»
+    .desc = Двуствольная тяжёлая 57-мм автопушка, стреляющая универсальными осколочно-фугасными снарядами. Эффективна для продолжительного огня по целям среднего класса. Может активироваться дистанционно или подключаться к GCS.
+ent-WeaponTurretDravon = ADBP-7 «Дравон»
+    .suffix = Средний, Т2, Фугасный
+    .desc = Одноствольная автопушка производства Aetherion Dynamics. Среднекалиберное орудие с высокой скорострельностью и относительно низкой отдачей, стреляет кумулятивными снарядами по броне и системам корабля. Может активироваться дистанционно или подключаться к GCS.

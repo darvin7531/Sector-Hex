@@ -1,9 +1,6 @@
-ent-ClothingBackpackDroneLootT1 = blackbox data recorder (T1)
-    .desc = Data recorder from a drone. Contains valuable components.
-    .suffix = Drone Loot
-ent-ClothingBackpackDroneLootT21 = blackbox data recorder (T2-1)
-    .desc = Data recorder from a drone. Contains valuable components.
-    .suffix = Drone Loot
-ent-ClothingBackpackDroneLootT22 = blackbox data recorder (T2-2)
-    .desc = Data recorder from a drone. Contains valuable components.
-    .suffix = Drone Loot
+ent-ClothingBackpackDroneLootT1 = регистратор данных черного ящика (T1)
+    .desc = Регистратор данных с дрона. Содержит ценные компоненты.
+ent-ClothingBackpackDroneLootT21 = регистратор данных черного ящика (T2-1)
+    .desc = Регистратор данных с дрона. Содержит ценные компоненты.
+ent-ClothingBackpackDroneLootT22 = регистратор данных черного ящика (T2-2)
+    .desc = Регистратор данных с дрона. Содержит ценные компоненты.

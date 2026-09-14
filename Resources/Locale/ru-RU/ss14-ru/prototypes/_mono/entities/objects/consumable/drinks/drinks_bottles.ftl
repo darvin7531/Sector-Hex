@@ -1,7 +1,6 @@
-ent-DrinkIceCreamJug = ice cream jug
-    .desc = A jug full of sweet, homemade ice cream.
-ent-DrinkRootBearFloatJug = root beer float jug
-    .desc = Root beer, but now with ice cream on top. It truly is the magnum opus of Canadian summertime drinks.
-ent-DrinkBeerCervezaCristalFull = cerveza cristal bottle
-    .desc = A suspiciously cheap lager in a brown bottle. Emits a triumphant 'CERVEZA CRISTAAAL' when opened, as if it just won a prize for existing.
-    .suffix = Admeme
+ent-DrinkIceCreamJug = кувшин мороженого
+    .desc = Кувшин, полный сладкого домашнего мороженого.
+ent-DrinkRootBearFloatJug = кувшин рут-бир флоат
+    .desc = Рут-бир, но теперь с мороженым сверху. Это действительно шедевр канадских летних напитков.
+ent-DrinkBeerCervezaCristalFull = Admeme
+    .desc = Подозрительно дешёвое пиво в коричневой бутылке. При открытии торжественно возвещает «CERVEZA CRISTAAAL», будто только что выиграло приз за существование.

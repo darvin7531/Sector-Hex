@@ -1,2 +1,1 @@
-ent-AlertChemicalsSpriteView = { "" }
-    .desc = { "" }
+ent-AlertChemicalsSpriteView = AlertChemicalsSpriteView

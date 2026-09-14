@@ -1,4 +1,3 @@
-ent-ClothingHelmetAttachmentBase = { ent-Clothing }
-    .desc = { ent-Clothing.desc }
+ent-ClothingHelmetAttachmentBase = ClothingHelmetAttachmentBase
 ent-ClothingHeadHelmetAttachmentBlock = Blocked
-    .desc = Can't fit anything there
+    .desc = Сюда ничего не поместится

@@ -1,4 +1,4 @@
-ent-ClothingOuterHardsuitViperGroupStandard = JACKAL mk.II viper hardsuit
-    .desc = A heavy hardsuit adorned with signature markings of the Viper Group. The armor is remarkably flexible for the protection it offers.
-ent-ClothingOuterHardsuitViperGroupMedic = IMP mk.III viper hardsuit
-    .desc = A combat medical hardsuit adorned with signature markings of the Viper Group. The armor features various reinforced plating in vital areas.
+ent-ClothingOuterHardsuitViperGroupStandard = скафандр JACKAL mk.II Viper
+    .desc = Тяжёлый скафандр с фирменной маркировкой Viper Group. Броня необычно гибкая для такой степени защиты.
+ent-ClothingOuterHardsuitViperGroupMedic = скафандр IMP mk.III Viper
+    .desc = Боевой медицинский скафандр с маркировкой Viper Group. Усиленное бронирование в жизненно важных зонах.

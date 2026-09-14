@@ -1,10 +1,9 @@
-ent-BulletEnergyGun45_magnum = 45_magnum bolt
-    .desc = { ent-BaseBullet.desc }
+ent-BulletEnergyGun45_magnum = заряд .45 магнум
 ent-HeavyPulse = Heavy Pulse Bolt
-    .desc = { ent-BulletEnergyGunLaser.desc }
+    .desc = { ent-BaseBullet.desc }
 ent-HeavyPulseExp = Explosive Pulse Bolt
-    .desc = { ent-BaseBulletTrigger.desc }
+    .desc = { ent-BaseBullet.desc }
 ent-BulletMonolithicGestalt = gestalt bolt
-    .desc = Zzz...t?
+    .desc = Ззз...ть?
 ent-BulletMonolithicGolomRanged = golum spike
-    .desc = A pristine, nano-particulate weave crystal apparently made out of some sort of hard-light energy. It could probably revolutionize over five different industries if studied. Unfortunately, it seems to have been thrown right at you!
+    .desc = Кристалл из наночастиц, похоже на энергию жёсткого света. Изучение могло бы перевернуть не одну отрасль. К сожалению, он летит прямо в тебя!

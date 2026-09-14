@@ -1,4 +1,5 @@
-ent-TechDiskCivTranslationBasic = civilian species translation technology disk
-    .desc = A disk capable of adding species-specific translators to a server's recipes.
-ent-TechDiskTranslationPreFracture = pre-fracture advanced translation technology disk
-    .desc = A disk capable of adding translators and implant translators to a server's recipes.
+ent-TechDiskCivTranslationBasic = гражданский технодиск видовой переводческой технологии
+    .desc = Диск, добавляющий видовоспецифичные переводчики в рецепты сервера.
+ent-TechDiskTranslationPreFracture = технодиск технологий переводчиков
+    .desc = Диск предтечей, добавляющий переводчики и импланты переводчиков в рецепты сервера.
+    .suffix = НЕ МАППИТЬ

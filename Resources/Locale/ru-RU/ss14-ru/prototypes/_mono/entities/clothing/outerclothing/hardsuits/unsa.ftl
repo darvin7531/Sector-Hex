@@ -1,2 +1,2 @@
-ent-ClothingOuterHardsuitUNSAArmoredEva = armored EVA suit
-    .desc = A standard EVA suit modified by the UNSA as a cheap and nimble alternative to voidsuits for use by Vanguards.
+ent-ClothingOuterHardsuitUNSAArmoredEva = бронированный костюм EVA
+    .desc = Стандартный EVA-костюм, доработанный UNSA как дешёвая и манёвренная альтернатива вакуумным скафандрам для «Авангарда».

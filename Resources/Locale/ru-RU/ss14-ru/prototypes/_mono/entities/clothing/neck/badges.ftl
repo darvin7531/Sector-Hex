@@ -1,4 +1,5 @@
-ent-ClothingNeckMonoCompanyBadgeBase = company badge
-    .desc = You belong nowhere, vagrant.
-ent-ClothingNeckDrakeIndustriesBadge = Drake Industries company badge
-    .desc = To show off you're part of Drake Industries! Looks like some cheap plastic with a silver colored spray on top.
+ent-ClothingNeckMonoCompanyBadgeBase = корпоративный значок
+    .desc = Ты никому не принадлежишь, бродяга.
+ent-ClothingNeckDrakeIndustriesBadge = значок Drake Industries
+    .suffix = Drake
+    .desc = Показать, что ты из Drake Industries! Выглядит как дешёвый пластик с серебристой краской сверху.

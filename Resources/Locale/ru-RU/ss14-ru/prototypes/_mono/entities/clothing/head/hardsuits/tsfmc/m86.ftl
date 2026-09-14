@@ -1,2 +1,2 @@
-ent-ClothingHeadHelmetHardsuitM86 = M86 helmet
-    .desc = Modified from M82 series helmets, outfitted with night-vision equipment and refined gel-layers.
+ent-ClothingHeadHelmetHardsuitM86 = шлем M86
+    .desc = Модификация шлемов серии M82, с оборудованием ночного видения и улучшенными гелевыми слоями.

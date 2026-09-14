@@ -1,9 +1,3 @@
-ent-HolopadUSSPBaikal = { ent-NFHolopadPoiBase }
-    .suffix = USSP Baikal, POI
-    .desc = { ent-NFHolopadPoiBase.desc }
-ent-HolopadCommissarBaikal = { ent-NFHolopadPoiBase }
-    .suffix = USSP Commissar
-    .desc = { ent-NFHolopadPoiBase.desc }
-ent-HolopadJupiter = { ent-NFHolopadPoiBase }
-    .suffix = PDV Jupiter
-    .desc = { ent-NFHolopadPoiBase.desc }
+ent-HolopadUSSPBaikal = СССП "Байкал", POI
+ent-HolopadCommissarBaikal = СССП комиссар
+ent-HolopadJupiter = Авангард "Юпитер"

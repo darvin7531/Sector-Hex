@@ -1,8 +1,8 @@
-ent-WeaponTurretCyrexa = CYREXA 220mm cannon
-    .desc = A main battery with dual barrels, delivering rapid, punishing salvos at extreme range. Fires 220mm auto shells with slightly reduced brute strength. Can be remotely activated or linked up to a GCS.
-ent-WeaponTurretBofors = Bofors 255mm cannon
-    .desc = A single-barrel, heavy artillery cannon designed for cruisers, delivering massive impact with each long-range shot. Can be remotely activated or linked up to a GCS.
-ent-WeaponTurretHades = HADES 255mm cannon
-    .desc = One of the largest chemical-based kinetic weapons in the sector. Its power is only rivaled by mass drivers such as the M381. Automatically reloads full-power 255mm shells.
-ent-WeaponTurretLongbow = L65-"Longbow" 90mm autocannon
-    .desc = Fires 90mm shells in a 20 round burst from an internal autoloader.
+ent-WeaponTurretCyrexa = W-84 «Кирёха»
+    .desc = Главная двуствольная батарея, выдающая быстрые и разрушительные залпы на экстремальной дальности. Стреляет 220-мм автоматическими снарядами со слегка сниженной разовой мощностью. Может активироваться дистанционно или подключаться к GCS.
+ent-WeaponTurretBofors = W-125 «Бофорс»
+    .desc = Одноствольная тяжёлая корабельная пушка крейсерского класса, наносящая огромный урон каждым дальнобойным выстрелом. Может активироваться дистанционно или подключаться к GCS.
+ent-WeaponTurretHades = W-194 «Хейдес»
+    .desc = Одно из крупнейших химических кинетических орудий в секторе. По мощности сопоставима только с масс-драйверами уровня M381. Автоматически перезаряжается полномощными 255-мм снарядами.
+ent-WeaponTurretLongbow = L-65 «Лонгбоу»
+    .desc = Ведёт огонь 90-мм снарядами сериями до 20 выстрелов из внутреннего автозарядника.

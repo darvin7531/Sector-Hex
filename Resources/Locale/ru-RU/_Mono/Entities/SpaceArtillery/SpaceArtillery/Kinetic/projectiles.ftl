@@ -1,7 +1,11 @@
 ent-ShipRailgunProjectileAphe = снаряд M381 CHARON 280 мм 26,5 кг APHE
+    .desc = { ent-BaseBullet.desc }
 ent-ShipRailgunProjectileEMP = EMP-снаряд M381 CHARON 280 мм, 26,5 кг
+    .desc = { ent-BaseBullet.desc }
 ent-ShipSunnyFlare = сигнальная ракета ECM
 ent-Shrapnel90mmFlak = шрапнель
+    .desc = { ent-BaseBullet.desc }
 ent-NavalMine255mm = корабельная мина
 ent-NavalMine90mm = корабельная мина
 ent-ShipLeviathanProjectile = снаряд LEVIATHAN 520 мм
+    .desc = { ent-BaseBullet.desc }

@@ -1,8 +1,12 @@
-ent-UnknownShuttleChimeraSakuratsu = { ent-BaseRandomShuttleRule }
+ent-UnknownShuttleChimeraSakuratsu = неизвестный шаттл «Химера»
+    .suffix = Sakuratsu
     .desc = { ent-BaseRandomShuttleRule.desc }
-ent-UnknownShuttleChimeraOlympus = { ent-BaseRandomShuttleRule }
+ent-UnknownShuttleChimeraOlympus = неизвестный шаттл «Химера»
+    .suffix = Olympus
     .desc = { ent-BaseRandomShuttleRule.desc }
-ent-UnknownShuttleChimeraTethys = { ent-BaseRandomShuttleRule }
+ent-UnknownShuttleChimeraTethys = неизвестный шаттл «Химера»
+    .suffix = Tethys
     .desc = { ent-BaseRandomShuttleRule.desc }
-ent-UnknownShuttleChimeraLegionnaire = { ent-BaseRandomShuttleRule }
+ent-UnknownShuttleChimeraLegionnaire = неизвестный шаттл «Химера»
+    .suffix = Legionnaire
     .desc = { ent-BaseRandomShuttleRule.desc }

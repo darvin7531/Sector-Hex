@@ -1,4 +1,4 @@
-ent-ClothingHeadHelmetHardsuitTrauma = armed trauma unit T-23 tacsuit helmet
-    .desc = The standard combat suit of the Armed Trauma Unit, outfitted with a limited-range radar hud as well as a medical hud.
-ent-ClothingHeadHelmetHardsuitTraumaLeader = armed trauma unit T-53 tacsuit helmet
-    .desc = The commander's tacsuit in the Armed Trauma Unit, outfitted with a medical and long-range radar hud as well as thermals and night vision.
+ent-ClothingHeadHelmetHardsuitTrauma = шлем тактического костюма вооружённого отряда травматологии T-23
+    .desc = Стандартный боевой костюм Вооружённого отряда травматологии, оснащённый HUD радара ограниченного радиуса действия, а также медицинским HUD.
+ent-ClothingHeadHelmetHardsuitTraumaLeader = шлем тактического костюма вооружённого отряда травматологии T-53
+    .desc = Тактический костюм командира Вооружённого отряда травматологии с медицинским HUD, радаром дальнего радиуса, тепловизором и ночным видением.

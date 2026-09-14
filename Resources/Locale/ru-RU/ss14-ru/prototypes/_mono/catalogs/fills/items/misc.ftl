@@ -1,3 +1,3 @@
 ent-SyringeCaseAltFilled = { ent-SyringeCaseAlt }
-    .suffix = Filled
+    .suffix = Заполненный
     .desc = { ent-SyringeCaseAlt.desc }

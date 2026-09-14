@@ -1,17 +1,17 @@
-ent-NpcStationAiRammer = rammer core
-    .desc = You feel like the fact you're looking at this means this isn't safe.
-    .suffix = AI
+ent-NpcStationAiRammer = таранное ядро
+    .desc = То, на что вы на это смотрите, наверняка означает, что это небезопасно.
+
 ent-NpcStationAiApproacher = approacher core
     .desc = Stands there, menacingly.
 ent-NpcStationAiRammerSmart = { ent-NpcStationAiRammer }
-    .suffix = AI, Smart
     .desc = { ent-NpcStationAiRammer.desc }
+    .suffix = Ai, Smart
 ent-NpcStationAiRammerSmartDodging = { ent-NpcStationAiRammer }
-    .suffix = AI, Smart, Dodging
     .desc = { ent-NpcStationAiRammer.desc }
+    .suffix = Ai, Smart, Dodging
 ent-NpcStationAiRammerStraight = { ent-NpcStationAiRammer }
-    .suffix = AI, No Evasion
     .desc = { ent-NpcStationAiRammer.desc }
+    .suffix = Ai, No Evasion
 ent-NpcStationAiAttacker = attacker core
     .desc = Shoots at you.
 ent-NpcStationAiShooter = shooter core

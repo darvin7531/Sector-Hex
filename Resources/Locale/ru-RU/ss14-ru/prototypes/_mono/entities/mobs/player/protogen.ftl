@@ -1,2 +1,1 @@
-ent-MobProtogen = Urist McHardDrive
-    .desc = { ent-BaseMobProtogen.desc }
+ent-MobProtogen = Урист МакХарддрайв

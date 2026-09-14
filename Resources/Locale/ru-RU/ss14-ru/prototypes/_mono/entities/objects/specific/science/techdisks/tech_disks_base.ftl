@@ -1,3 +1,2 @@
-ent-TechDiskBase = tech disk
-    .desc = A disk capable of adding a specific research to a server.
-    .suffix = DO NOT MAP
+ent-TechDiskBase = технологический диск
+    .desc = Диск, способный добавить определённое исследование на сервер.

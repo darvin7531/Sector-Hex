@@ -1,2 +1,2 @@
-ent-FoodPilumaStalk = piluma stalk
-    .desc = A stalk harvested from the Piluma plant of the desert planet below. Hallucinogenic when consumed in excess.
+ent-FoodPilumaStalk = стебель пилумы
+    .desc = Стебель, собранный с растения Пилума пустынной планеты внизу. Галлюциногенен при чрезмерном употреблении.

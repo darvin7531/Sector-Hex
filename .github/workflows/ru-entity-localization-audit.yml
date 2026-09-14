@@ -1,0 +1,52 @@
+name: RU entity localization audit
+
+on:
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  build-audit-report:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out localization inputs
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+        fetch-depth: 1
+        sparse-checkout: |
+          .github
+          Resources/Prototypes
+          Resources/Locale/ru-RU
+          Tools
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Sync translated Monolith ru-RU messages
+      run: python Tools/sync_ru_mono_translations.py
+
+    - name: Backfill inherited translated entity fields
+      run: python Tools/backfill_ru_entity_inheritance.py
+
+    - name: Generate complete ru-RU entity audit
+      run: |
+        python Tools/audit_ru_entity_localization.py \
+          --output Tools/ru_entity_localization_audit.json \
+          --no-fail
+
+    - name: Commit translated locale and refreshed report
+      run: |
+        git config user.name "sector-hex-localization-audit[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add Resources/Locale/ru-RU Tools/ru_entity_localization_audit.json
+        if git diff --cached --quiet; then
+          exit 0
+        fi
+        git commit -m "fix(locale): backfill inherited ru-RU entity localization"
+        git push origin "HEAD:${{ github.head_ref }}"

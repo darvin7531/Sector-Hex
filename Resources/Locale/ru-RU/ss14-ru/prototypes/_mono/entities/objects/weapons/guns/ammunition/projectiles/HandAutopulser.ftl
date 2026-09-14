@@ -1,2 +1,2 @@
-ent-HandheldAutopulserProjectile = plasma projectile
+ent-HandheldAutopulserProjectile = плазменный снаряд
     .desc = { ent-BaseBullet.desc }

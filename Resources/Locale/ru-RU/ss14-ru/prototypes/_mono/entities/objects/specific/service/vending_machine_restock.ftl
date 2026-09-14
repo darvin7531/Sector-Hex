@@ -1,2 +1,2 @@
-ent-VendingMachineRestockBarista = BaristaVend Restock
-    .desc = A box filled with tea pouches, cups, and barista supplies. Load it into a Barista Vendor to restock. A label reads "FOR AUTHORIZED BARISTAS ONLY. TAMPERING WILL RUIN THE FLAVOR."
+ent-VendingMachineRestockBarista = ящик пополнения автомата Barista
+    .desc = Ящик с чайными пакетиками, стаканами и расходниками для бариста. Загрузите в автомат Barista для пополнения. На этикетке: «ТОЛЬКО ДЛЯ АВТОРИЗОВАННЫХ БАРИСТА. ВСКРЫТИЕ ИСПОРТИТ ВКУС».

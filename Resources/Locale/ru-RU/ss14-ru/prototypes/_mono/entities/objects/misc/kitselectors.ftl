@@ -1,2 +1,2 @@
-ent-UndeterminedPDVInfiltratorKit = PDV Infiltrator equipment selector
-    .desc = A small remote utilizing bluespace technology to drop in an imperial infiltrator kit of your choosing.
+ent-UndeterminedPDVInfiltratorKit = выбор снаряжения медика Авангарда
+    .desc = Маленький пульт, использующий блюспейс-технологию для доставки набора медика Империи на ваш выбор.

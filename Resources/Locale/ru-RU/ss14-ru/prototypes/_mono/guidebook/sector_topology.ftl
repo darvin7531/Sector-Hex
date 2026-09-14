@@ -1,2 +1,1 @@
-ent-MonoSectorMap = sector map
-    .desc = { ent-PosterBase.desc }
+ent-MonoSectorMap = Карта сектора

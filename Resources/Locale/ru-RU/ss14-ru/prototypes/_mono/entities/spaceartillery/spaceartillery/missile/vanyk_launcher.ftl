@@ -1,2 +1,2 @@
-ent-WeaponTurretVanyk = ASM-302 "Vanyk" 150mm missile pod
-    .desc = An escort missile pod manufactured by Aetherion Dynamics. Launches 150mm guided missiles for basic ship-to-ship combat and area denial. Uses a built-in autoloader instead of a rack, increasing capacity but reducing rate of fire. Can be remotely activated or linked to a GCS.
+ent-WeaponTurretVanyk = ASM-302 «Ванык»
+    .desc = Эскортная ракетная установка производства Aetherion Dynamics. Запускает управляемые 150-мм ракеты для боя корабль-корабль и контроля зоны. Встроенный автозарядник вместо стеллажа даёт большую ёмкость при меньшей скорострельности. Может активироваться дистанционно или подключаться к GCS.

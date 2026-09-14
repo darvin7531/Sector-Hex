@@ -1,2 +1,2 @@
-ent-ClothingUniformJumpskirtTAF = trauma armed forces jumpskirt
-    .desc = Standard fatigues of the Trauma Armed Forces.
+ent-ClothingUniformJumpskirtTAF = санитарная водолазка с юбкой
+    .desc = Удобный комплект санитара Trauma Team, что утеплён и имеет стерильно обработанные материалы с кожаными элементами и вставками. Данный вариант оснащён просторной юбкой, что не сковывает движения сестёр-санитаров. Красный вариант показывает агрессивную медицину и её способность защищать окружающих.

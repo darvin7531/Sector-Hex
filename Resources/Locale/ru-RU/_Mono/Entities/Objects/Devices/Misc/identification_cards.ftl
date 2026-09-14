@@ -1,7 +1,14 @@
 ent-PDVTarkhanIDCard = ID-карта тархана PDV
+    .desc = { ent-IDCardStandard.desc }
 ent-VGCommanderIDCard = идентификационная карта командира VG
+    .desc = { ent-IDCardStandard.desc }
 ent-VGInfanteerIDCard = ID-карта пехотинца VG
+    .desc = { ent-IDCardStandard.desc }
 ent-VGLieutenantIDCard = ID-карта лейтенанта VG
+    .desc = { ent-IDCardStandard.desc }
 ent-MieyoEmployeeIDCard = ID-карта сотрудника MMC
+    .desc = { ent-IDCardStandard.desc }
 ent-MieyoLiasonIDCard = ID-карта представителя MMC
+    .desc = { ent-IDCardStandard.desc }
 ent-MieyoSecurityIDCard = ID-карта службы безопасности MMC
+    .desc = { ent-IDCardStandard.desc }

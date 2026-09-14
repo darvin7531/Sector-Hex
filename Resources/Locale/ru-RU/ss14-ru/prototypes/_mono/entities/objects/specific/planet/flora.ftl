@@ -1,6 +1,6 @@
-ent-BaseFlora = { "" }
-    .desc = Plant of goodies.
-ent-FloraOrakimPlant = orakim plant
-    .desc = A large bush native to the planet below. Thrives in desert environments.
-ent-FloraPilumaPlant = piluma plant
-    .desc = A cluster of tall stalks. Edible for food and water, but hallucinogenic in nature.
+ent-BaseFlora = базовое растение
+    .desc = Растение с полезностями.
+ent-FloraOrakimPlant = растение ораким
+    .desc = Крупный куст, родной для планеты внизу. Растёт в пустынной среде.
+ent-FloraPilumaPlant = растение пилума
+    .desc = Гроздь высоких стеблей. Съедобно для еды и воды, но галлюциногенно по природе.

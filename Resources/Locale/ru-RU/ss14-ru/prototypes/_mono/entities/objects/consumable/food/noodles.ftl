@@ -1,2 +1,2 @@
-ent-FoodMacaroni = macaroni & cheese
-    .desc = Cheesy!
+ent-FoodMacaroni = макароны с сыром
+    .desc = Сырные!

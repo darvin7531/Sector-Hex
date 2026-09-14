@@ -1,4 +1,4 @@
-ent-ClothingOuterHardsuitTrauma = armed trauma unit T-23 tacsuit
-    .desc = The standard combat suit for the Armed Trauma Unit. It has an integrated limited-range mass scanner in the helmet.
-ent-ClothingOuterHardsuitTraumaLeader = armed trauma unit T-53 tacsuit
-    .desc = Developed for extracting mission-critical patients under heavy fire, this is the standard gear of the Armed Trauma Unit's captain, with heavy plating and an integrated long-range mass scanner to match.
+ent-ClothingOuterHardsuitTrauma = боевой медицинский скафандр Т-23
+    .desc = Высокотехнологичный скафандр сотрудников медицинского центра. Спроектирован для извлечения пациентов из опасных угроз и гнёта обстрела. Оснащён термическими накладками и лёгким сплавом материалов. Весьма мобилен и практичен, чем старший экземпляр командира отряда.
+ent-ClothingOuterHardsuitTraumaLeader = боевой медицинский скафандр Т-53
+    .desc = Высокотехнологичный скафандр директора медицинского центра, что разработан для извлечения критически важных пациентов под сильным огнём и крупными угрозами. Оснащён тяжёлыми пластинами и термическими накладками. Весьма громоздок, менее мобилен чем прошлый экземпляр, но лучше защищён.

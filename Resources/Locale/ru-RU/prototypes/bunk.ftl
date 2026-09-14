@@ -3,3 +3,4 @@ ent-BunkBottom = нижняя койка
     .desc = { ent-Bed.desc }
 
 ent-BunkTop = верхняя койка
+    .desc = { ent-Bed.desc }

@@ -1,5 +1,10 @@
 ent-OrganResomiBrain = мозг
+    .desc = { ent-OrganHumanBrain.desc }
 ent-OrganResomiHeart = сердце резоми
+    .desc = { ent-OrganHumanHeart.desc }
 ent-OrganResomiKidneys = почка резоми
+    .desc = { ent-OrganHumanKidneys.desc }
 ent-OrganResomiLiver = печень резоми
+    .desc = { ent-OrganHumanLiver.desc }
 ent-OrganResomiLungs = лёгкие резоми
+    .desc = { ent-OrganHumanLungs.desc }

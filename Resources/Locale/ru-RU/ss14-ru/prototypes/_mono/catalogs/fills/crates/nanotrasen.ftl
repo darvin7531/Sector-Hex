@@ -1,9 +1,6 @@
-ent-CrateNanotrasenLootFilledT1 = NT equipment crate
-    .desc = A white and blue crate with the Nanotrasen Symbol, a relic from the corporation wars, could contain some interesting things.
-    .suffix = Filled, Lootbox, T1
-ent-CrateNanotrasenLootFilledT2 = NT equipment crate
-    .desc = A white and blue crate with the Nanotrasen Symbol, a relic from the corporation wars, could contain some interesting things.
-    .suffix = Filled, Lootbox, T2
-ent-CrateNanotrasenLootFilledT3 = menacing NT equipment crate
-    .desc = A white and blue crate with the Nanotrasen Symbol, a relic from the corporation wars, could contain some interesting things.
-    .suffix = Filled, Lootbox, T3
+ent-CrateNanotrasenLootFilledT1 = ящик оборудования NT
+    .desc = Бело-синий ящик с символом Nanotrasen, реликт корпоративных войн; может содержать кое-что интересное.
+ent-CrateNanotrasenLootFilledT2 = ящик оборудования NT
+    .desc = Бело-синий ящик с символом Nanotrasen, реликт корпоративных войн; может содержать кое-что интересное.
+ent-CrateNanotrasenLootFilledT3 = угрожающий ящик оборудования NT
+    .desc = Бело-синий ящик с символом Nanotrasen, реликт корпоративных войн; может содержать кое-что интересное.

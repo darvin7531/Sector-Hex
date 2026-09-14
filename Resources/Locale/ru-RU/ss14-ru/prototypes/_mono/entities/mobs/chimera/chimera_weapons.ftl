@@ -1,5 +1,5 @@
-ent-LetoferolSpikeGun = letoferol bone spike
-    .desc = Shoots a short salvo of bone spikes.
+ent-LetoferolSpikeGun = костяной шип летоферола
+    .desc = Стреляет короткой очередью костяных шипов.
 ent-LetoferolHorrorSpikeSpread = { ent-LetoferolHorrorSpike }
     .desc = { ent-LetoferolHorrorSpike.desc }
 ent-LetoferolHorrorSpike = letoferol bone spike

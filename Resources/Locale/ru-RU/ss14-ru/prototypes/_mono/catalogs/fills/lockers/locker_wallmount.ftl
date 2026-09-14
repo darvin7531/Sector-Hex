@@ -1,3 +1,3 @@
 ent-LockerWallEVAColorDMEFilled = { ent-LockerWallEVAColorDME }
-    .suffix = Filled
+    .suffix = Заполненный
     .desc = { ent-LockerWallEVAColorDME.desc }

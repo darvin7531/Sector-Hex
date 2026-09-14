@@ -1,2 +1,2 @@
-ent-ClothingOuterCoatUSSP = USSP officer coat
-    .desc = A comfy coat used by the officers of the USSP.
+ent-ClothingOuterCoatUSSP = пальто офицера СССП
+    .desc = Удобное пальто, используемое офицерами СССП.

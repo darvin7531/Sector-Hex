@@ -1,5 +1,4 @@
-ent-SpawnLootTechDisksT1 = T1 random tech disks
-    .desc = { ent-MarkerBasePlaceFree.desc }
+ent-SpawnLootTechDisksT1 = случайные технодиски T1
 ent-SpawnLootTechDisksT2Faction = T2 random faction tech disks
     .desc = { ent-MarkerBasePlaceFree.desc }
 ent-SpawnLootTechDisksT2Mech = T2 random mech tech disks

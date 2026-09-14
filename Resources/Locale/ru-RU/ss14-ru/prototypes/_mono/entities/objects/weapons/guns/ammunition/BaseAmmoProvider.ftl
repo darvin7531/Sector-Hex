@@ -1,5 +1,3 @@
 
-ent-AmmoProvider12_gaugeShotgunShell = { ent-BaseAmmoProvider }
-    .desc = { ent-BaseAmmoProvider.desc }
-ent-AmmoProvider23x75mmShotgunShell = { ent-BaseAmmoProvider }
-    .desc = { ent-BaseAmmoProvider.desc }
+ent-AmmoProvider12_gaugeShotgunShell = AmmoProvider12_gaugeShotgunShell
+ent-AmmoProvider23x75mmShotgunShell = AmmoProvider23x75mmShotgunShell

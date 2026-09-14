@@ -1,4 +1,4 @@
-ent-ShipMissileASM19 = MPSSM  anti-ship EMPHE missile
-    .desc = { ent-BaseBulletTrigger.desc }
-ent-RocketMk248 = MPSSM Mk.248 HEAT rocket
-    .desc = { ent-BaseBulletTrigger.desc }
+ent-ShipMissileASM19 = ракета MPSSM (противокорабельная, ЭМИ-ОФ)
+    .desc = { ent-BaseBullet.desc }
+ent-RocketMk248 = ракета MPSSM Mk.248 (кумулятивная)
+    .desc = { ent-BaseBullet.desc }

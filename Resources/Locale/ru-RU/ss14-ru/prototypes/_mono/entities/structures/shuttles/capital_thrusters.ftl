@@ -1,2 +1,2 @@
-ent-ThrusterLarge = large thruster
-    .desc = { ent-BaseThruster.desc }
+ent-ThrusterLarge = большой ракетный двигатель
+    .desc = { ent-Thruster.desc }

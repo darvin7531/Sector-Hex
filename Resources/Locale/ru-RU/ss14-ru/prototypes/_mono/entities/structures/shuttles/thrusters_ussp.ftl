@@ -1,9 +1,8 @@
-ent-ThrusterUSSP = { ent-ThrusterSecurity }
-    .suffix = USSP
-    .desc = { ent-ThrusterSecurity.desc }
-ent-DebugThrusterUSSP = { ent-DebugThrusterSecurity }
-    .suffix = DEBUG, USSP
-    .desc = { ent-DebugThrusterSecurity.desc }
-ent-ThrusterLargeUSSP = { ent-ThrusterLarge }
-    .suffix = USSP
-    .desc = { ent-ThrusterLarge.desc }
+ent-ThrusterUSSP = ракетный двигатель СССП
+    .desc = { ent-Thruster.desc }
+ent-DebugThrusterUSSP = { ent-ThrusterUSSP }
+    .desc = { ent-Thruster.desc }
+    .suffix = ДЕБАГ
+ent-ThrusterLargeUSSP = большой ракетный двигатель СССП
+    .desc = { ent-Thruster.desc }
+    .suffix = СССП

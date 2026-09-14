@@ -1,2 +1,2 @@
-ent-UsspTrackingImplant = ussp tracking implant
-    .desc = This implant has a tracking device monitor for the GLORIOUS UNION OF SOVIET SOCIALIST PLANETS radio channel.
+ent-UsspTrackingImplant = имплант слежения СССП
+    .desc = Этот имплант содержит устройство слежения для радиоканала СЛАВНОГО СОЮЗА СОВЕТСКИХ СОЦИАЛИСТИЧЕСКИХ ПЛАНЕТ.

@@ -1,2 +1,2 @@
-ent-ChimeraFleshKudzu = chimera hive biomass
-    .desc = A rapidly growing cluster of chimera biomass. WHY ARE YOU STOPPING TO LOOK AT IT?!
+ent-ChimeraFleshKudzu = биомасса плоти химеры
+    .desc = Быстро растущее скопление биомассы химеры. ЗАЧЕМ ВЫ ОСТАНОВИЛИСЬ НА ЭТО СМОТРЕТЬ?!

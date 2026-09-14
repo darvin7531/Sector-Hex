@@ -1,2 +1,2 @@
-ent-ClothingBackpackDrakeIndustries = drake industries backpack
-    .desc = A backpack for any affiliated members of drake industries. Sure is cheap, but at least fashionable.
+ent-ClothingBackpackDrakeIndustries = рюкзак Drake Industries
+    .desc = Рюкзак для членов Drake Industries. Дёшево, зато со вкусом.

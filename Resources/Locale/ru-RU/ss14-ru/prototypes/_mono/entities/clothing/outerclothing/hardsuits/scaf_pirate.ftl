@@ -1,2 +1,2 @@
-ent-ClothingOuterHardsuitPirateScaf = PDV SCAF hardsuit
-    .desc = An old SCAF suit painted in an PDV tan color scheme. The armor feels degraded, but lighter.
+ent-ClothingOuterHardsuitPirateScaf = скафандр Авангарда CV-11
+    .desc = Старый боевой скафандр, основанный на упрощённых технологиях Синдиката и перекрашенный в цвета Авангарда. Хоть броня и уступает современным аналогам, но зато она заметно легче.

@@ -1,12 +1,16 @@
-ent-BorgModuleAdvancedWeapon = advanced weapon cyborg module
+ent-BorgModuleAdvancedWeapon = продвинутый оружейный модуль киборга
     .desc = { ent-BaseBorgModule.desc }
-ent-BorgModuleTSFStandardWeapon = TSFMC weapon cyborg module
+
+ent-BorgModuleTSFStandardWeapon = оружейный модуль киборга ТСФ
     .desc = { ent-BaseBorgModule.desc }
-ent-BorgModuleTSFAdvancedWeapon = TSFMC advanced weapon cyborg module
+ent-BorgModuleTSFAdvancedWeapon = продвинутый оружейный модуль киборга ТСФ
     .desc = { ent-BaseBorgModule.desc }
-ent-BorgModulePDVStandardWeapon = PDV weapon cyborg module
+
+ent-BorgModulePDVStandardWeapon = оружейный модуль киборга Авангарда
     .desc = { ent-BaseBorgModule.desc }
-ent-BorgModulePDVAdvancedWeapon = PDV advanced weapon cyborg module
+ent-BorgModulePDVAdvancedWeapon = продвинутый оружейный модуль киборга Авангарда
     .desc = { ent-BaseBorgModule.desc }
-ent-BorgModuleRedactedRCD = pre-fracture RCD module
+
+ent-BorgModuleRedactedRCD = древний РСУ-модуль киборга
     .desc = { ent-BaseBorgModule.desc }
+

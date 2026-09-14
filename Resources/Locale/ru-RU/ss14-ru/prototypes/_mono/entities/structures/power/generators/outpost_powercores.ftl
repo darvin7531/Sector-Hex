@@ -1,3 +1,2 @@
-ent-MachineOutpostCore = B.R0-200k Bluespace Reactor
-    .desc = A modified FTL drive, safely refitted to release large amounts of power consistently.
-    .suffix = 200kw
+ent-MachineOutpostCore = энергомодуль 200 кВт
+    .desc = Модифицированный FTL-привод, безопасно переоборудованный для стабильной выработки большого количества энергии.

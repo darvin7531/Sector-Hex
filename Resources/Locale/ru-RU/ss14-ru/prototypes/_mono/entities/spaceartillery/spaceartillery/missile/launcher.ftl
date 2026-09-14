@@ -1,2 +1,2 @@
-ent-WeaponTurretSerpentMissile = Serpent torpedo launcher
-    .desc = A light torpedo launcher developed by the Syndicate during the corporate war, uses similar systems to the anaconda for self loading munitons.
+ent-WeaponTurretSerpentMissile = ADMP-50 «Серпент»
+    .desc = Лёгкая торпедная пусковая установка, разработанная Синдикатом во время корпоративной войны. Использует механизм автозарядки, схожий с системами «Анаконды».

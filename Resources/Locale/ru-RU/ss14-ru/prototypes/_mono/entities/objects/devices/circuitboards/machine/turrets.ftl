@@ -1,3 +1,3 @@
-ent-WeaponTurretM25Circuitboard = M25 mining pulsar machine board
-    .desc = A machine printed circuit board for an M25 mining pulsar.
-    .suffix = Machine Board
+ent-WeaponTurretM25Circuitboard = M25 «Шахтёр» (машинная плата)
+    .desc = Печатная плата для шахтёрского пульсара M25.
+    .suffix = Машинная плата

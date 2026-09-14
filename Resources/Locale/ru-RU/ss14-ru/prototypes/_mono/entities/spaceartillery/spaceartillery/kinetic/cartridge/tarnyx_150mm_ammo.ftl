@@ -1,5 +1,4 @@
-ent-ShipTarnyxProjectile = TARNYX 150mm EMP projectile
-    .desc = { ent-BaseBulletTrigger.desc }
-
-ent-ShipTarnyxApProjectile = TARNYX 150mm AP projectile
-    .desc = { ent-BaseBulletTrigger.desc }
+ent-ShipTarnyxProjectile = ЭМИ-снаряд 150 мм
+    .desc = { ent-BaseBullet.desc }
+ent-ShipTarnyxApProjectile = бронебойный снаряд 150 мм
+    .desc = { ent-BaseBullet.desc }

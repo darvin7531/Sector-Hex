@@ -1,3 +1,3 @@
-ent-PoweredlightBlueAirAlarm = { ent-PoweredlightBlue }
-    .suffix = Blue, Off
-    .desc = { ent-PoweredlightBlue.desc }
+ent-PoweredlightBlueAirAlarm = светильник
+    .desc = Осветительный прибор. Потребляет энергию и излучает свет при установленной световой трубке.
+    .suffix = Синий, Выключеный
