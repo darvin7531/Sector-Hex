@@ -1,14 +1,30 @@
 ent-PDVOverwatchComputer = консоль наблюдения PDV
+    .desc = { ent-BaseComputerOverwatch.desc }
 ent-CCHandheldOverwatchConsole = ручная консоль наблюдения CCTC
+    .desc = { ent-BaseHandheldOverwatchConsole.desc }
 ent-TSFHandheldOverwatchConsole = ручная консоль наблюдения TSFMC
+    .desc = { ent-BaseHandheldOverwatchConsole.desc }
 ent-CCTCOverwatchComputer = консоль наблюдения CCTC
+    .desc = { ent-BaseComputerOverwatch.desc }
 ent-TSFOverwatchComputer = консоль наблюдения TSFMC
+    .desc = { ent-BaseComputerOverwatch.desc }
 ent-MDHandheldOverwatchConsole = ручная консоль наблюдения MD
+    .desc = { ent-BaseHandheldOverwatchConsole.desc }
 ent-USSPHandheldOverwatchConsole = ручная консоль наблюдения USSP
+    .desc = { ent-BaseHandheldOverwatchConsole.desc }
 ent-MDOverwatchComputer = консоль наблюдения MD
+    .desc = { ent-BaseComputerOverwatch.desc }
 ent-USSPOverwatchComputer = консоль наблюдения USSP
+    .desc = { ent-BaseComputerOverwatch.desc }
 ent-MMCHandheldOverwatchConsole = ручная консоль наблюдения MMC
+    .desc = { ent-BaseHandheldOverwatchConsole.desc }
 ent-VGHandheldOverwatchConsole = ручная консоль наблюдения VG
+    .desc = { ent-BaseHandheldOverwatchConsole.desc }
 ent-MMCOverwatchComputer = консоль наблюдения MMC
+    .desc = { ent-BaseComputerOverwatch.desc }
 ent-VGOverwatchComputer = консоль наблюдения VG
+    .desc = { ent-BaseComputerOverwatch.desc }
+
+# handled
 ent-PDVHandheldOverwatchConsole = ручная консоль наблюдения PDV
+    .desc = { ent-BaseHandheldOverwatchConsole.desc }

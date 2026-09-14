@@ -1,13 +1,12 @@
 {
   "prototype_count": 18818,
-  "issue_count": 1188,
+  "issue_count": 1002,
   "scope": null,
   "issues": [
     {
       "id": "120mmBulletAPHEDS",
       "key": "ent-120mmBulletAPHEDS",
       "missing": [
-        "name",
         "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Cartridge/120mm_ammo.yml",
@@ -16,7 +15,7 @@
       "name_source": "120mmBulletAPHEDS",
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
-      "ru_source": null
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/_entity_audit_import.ftl"
     },
     {
       "id": "140mmBulletAPHE",
@@ -46,21 +45,6 @@
       "name_source": "140mmBulletSACLOS",
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
-      "ru_source": null
-    },
-    {
-      "id": "150mmApheShell",
-      "key": "ent-150mmApheShell",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Cartridge/tarnyx_150mm_ammo.yml",
-      "line": 173,
-      "name": "150mm APHE shell",
-      "name_source": "150mmApheShell",
-      "description": "A chemically-propelled APHE shell for 150mm cannons. It'll work.",
-      "description_source": "150mmApheShell",
       "ru_source": null
     },
     {
@@ -96,7 +80,6 @@
       "id": "220mmBulletAPHE",
       "key": "ent-220mmBulletAPHE",
       "missing": [
-        "name",
         "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
@@ -105,7 +88,7 @@
       "name_source": "220mmBulletAPHE",
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
-      "ru_source": null
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/_entity_audit_import.ftl"
     },
     {
       "id": "220mmBulletHE",
@@ -186,7 +169,6 @@
       "id": "255mmBulletAPHE",
       "key": "ent-255mmBulletAPHE",
       "missing": [
-        "name",
         "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
@@ -195,7 +177,7 @@
       "name_source": "255mmBulletAPHE",
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
-      "ru_source": null
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/_entity_audit_import.ftl"
     },
     {
       "id": "255mmBulletEMP",
@@ -236,21 +218,6 @@
       ],
       "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml",
       "line": 95,
-      "name": "BaseBullet",
-      "name_source": "BaseBullet",
-      "description": "If you can see this you're probably dead!",
-      "description_source": "BaseBullet",
-      "ru_source": null
-    },
-    {
-      "id": "35mmBullet",
-      "key": "ent-35mmBullet",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/Weapons/Gun/projectiles.yml",
-      "line": 90,
       "name": "BaseBullet",
       "name_source": "BaseBullet",
       "description": "If you can see this you're probably dead!",
@@ -363,146 +330,6 @@
       "ru_source": null
     },
     {
-      "id": "AFFlailEPDV",
-      "key": "ent-AFFlailEPDV",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/mechs.yml",
-      "line": 624,
-      "name": "PDV ASF-59-E \"Spyglass\"",
-      "name_source": "AFFlailEPDV",
-      "description": "An extremely specialized mech based off the Flail Chassis. Uses sophisticated radar systems to provide command and control capabilities, in addition to employing advanced EWAR weaponry.",
-      "description_source": "AFFlailEPDV",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Mechs/mechs.ftl"
-    },
-    {
-      "id": "AFFlailETSF",
-      "key": "ent-AFFlailETSF",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/mechs.yml",
-      "line": 608,
-      "name": "TSF ASF-59-E \"Spyglass\"",
-      "name_source": "AFFlailETSF",
-      "description": "An extremely specialized mech based off the Flail Chassis. Uses sophisticated radar systems to provide command and control capabilities, in addition to employing advanced EWAR weaponry.",
-      "description_source": "AFFlailETSF",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Mechs/mechs.ftl"
-    },
-    {
-      "id": "AFFlailPDV",
-      "key": "ent-AFFlailPDV",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/mechs.yml",
-      "line": 533,
-      "name": "PDV ASF-59 \"Flail\"",
-      "name_source": "AFFlailPDV",
-      "description": "Newest mech on the market, the Armored Strike Frame is built to tackle ship-sized foes with it's oversized weapon mounts. Slow as a pig however, it tacks on generous armor plating to survive it's runs.",
-      "description_source": "AFFlailPDV",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Mechs/mechs.ftl"
-    },
-    {
-      "id": "AFFlailTSF",
-      "key": "ent-AFFlailTSF",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/mechs.yml",
-      "line": 507,
-      "name": "TSF ASF-59 \"Flail\"",
-      "name_source": "AFFlailTSF",
-      "description": "Newest mech on the market, the Armored Strike Frame is built to tackle ship-sized foes with it's oversized weapon mounts. Slow as a pig however, it tacks on generous armor plating to survive it's runs.",
-      "description_source": "AFFlailTSF",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Mechs/mechs.ftl"
-    },
-    {
-      "id": "AFInterceptorMPDV",
-      "key": "ent-AFInterceptorMPDV",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/mechs.yml",
-      "line": 389,
-      "name": "PDV AF-28-M \"Halberd\"",
-      "name_source": "AFInterceptorMPDV",
-      "description": "A modification of the Broadsword, the Halberd sacrifices armor and speed for heavier weapon mounts.",
-      "description_source": "AFInterceptorMPDV",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Mechs/mechs.ftl"
-    },
-    {
-      "id": "AFInterceptorMTSF",
-      "key": "ent-AFInterceptorMTSF",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/mechs.yml",
-      "line": 372,
-      "name": "TSF AF-28-M \"Halberd\"",
-      "name_source": "AFInterceptorMTSF",
-      "description": "A modification of the Broadsword, the Halberd sacrifices armor and speed for heavier weapon mounts.",
-      "description_source": "AFInterceptorMTSF",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Mechs/mechs.ftl"
-    },
-    {
-      "id": "AFInterceptorPDV",
-      "key": "ent-AFInterceptorPDV",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/mechs.yml",
-      "line": 306,
-      "name": "PDV AF-28 \"Broadsword\"",
-      "name_source": "AFInterceptorPDV",
-      "description": "One of the first purpose built Armored Frames, made to engage light targets and other Armored Frames.",
-      "description_source": "AFInterceptorPDV",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Mechs/mechs.ftl"
-    },
-    {
-      "id": "AFInterceptorTSF",
-      "key": "ent-AFInterceptorTSF",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/mechs.yml",
-      "line": 289,
-      "name": "TSF AF-28 \"Broadsword\"",
-      "name_source": "AFInterceptorTSF",
-      "description": "One of the first purpose built Armored Frames, made to engage light targets and other Armored Frames.",
-      "description_source": "AFInterceptorTSF",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Mechs/mechs.ftl"
-    },
-    {
-      "id": "AFMacePDV",
-      "key": "ent-AFMacePDV",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/mechs.yml",
-      "line": 699,
-      "name": "PDV ASF-59-B \"Mace\"",
-      "name_source": "AFMacePDV",
-      "description": "A haphazard refit, armor plating is stripped off to add oversized boosters to the machine. Due to the power constraints, it can only equip a single weapon, limiting versatilty. Fits Heavy Mounts.",
-      "description_source": "AFMacePDV",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Mechs/mechs.ftl"
-    },
-    {
-      "id": "AFMaceTSF",
-      "key": "ent-AFMaceTSF",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/mechs.yml",
-      "line": 683,
-      "name": "TSF ASF-59-B \"Mace\"",
-      "name_source": "AFMaceTSF",
-      "description": "A haphazard refit, armor plating is stripped off to add oversized boosters to the machine. Due to the power constraints, it can only equip a single weapon, limiting versatilty. Fits Heavy Mounts.",
-      "description_source": "AFMaceTSF",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Mechs/mechs.ftl"
-    },
-    {
       "id": "AccessConfiguratorXenoborg",
       "key": "ent-AccessConfiguratorXenoborg",
       "missing": [
@@ -515,20 +342,6 @@
       "description": "A modified access configurator used by the xenoborgs.",
       "description_source": "AccessConfiguratorXenoborg",
       "ru_source": "Resources/Locale/ru-RU/Entities/Objects/Tools/access_configurator.ftl"
-    },
-    {
-      "id": "ActionActivatePersonalShield",
-      "key": "ent-ActionActivatePersonalShield",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Actions/shield.yml",
-      "line": 1,
-      "name": "Activate personal shield",
-      "name_source": "ActionActivatePersonalShield",
-      "description": "Activates suit's personal energy shield that slowly consumes battery charge.",
-      "description_source": "ActionActivatePersonalShield",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Actions/shield.ftl"
     },
     {
       "id": "ActionBackToAi",
@@ -1015,94 +828,6 @@
       "ru_source": null
     },
     {
-      "id": "AirlockHeavy",
-      "key": "ent-AirlockHeavy",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/heavy_airlock.yml",
-      "line": 2,
-      "name": "heavy-duty airlock",
-      "name_source": "AirlockHeavy",
-      "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
-      "description_source": "AirlockHeavy",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Doors/Airlocks/heavy_airlock.ftl"
-    },
-    {
-      "id": "AirlockHeavyAssembly",
-      "key": "ent-AirlockHeavyAssembly",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/heavy_assembly.yml",
-      "line": 1,
-      "name": "heavy-duty airlock assembly",
-      "name_source": "AirlockHeavyAssembly",
-      "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
-      "description_source": "AirlockHeavyAssembly",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Doors/Airlocks/heavy_assembly.ftl"
-    },
-    {
-      "id": "AirlockHeavyAssemblyCommand",
-      "key": "ent-AirlockHeavyAssemblyCommand",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/heavy_assembly.yml",
-      "line": 100,
-      "name": "heavy-duty airlock assembly",
-      "name_source": "AirlockHeavyAssembly",
-      "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
-      "description_source": "AirlockHeavyAssembly",
-      "ru_source": null
-    },
-    {
-      "id": "AirlockHeavyAssemblyEngineering",
-      "key": "ent-AirlockHeavyAssemblyEngineering",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/heavy_assembly.yml",
-      "line": 120,
-      "name": "heavy-duty airlock assembly",
-      "name_source": "AirlockHeavyAssembly",
-      "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
-      "description_source": "AirlockHeavyAssembly",
-      "ru_source": null
-    },
-    {
-      "id": "AirlockHeavyAssemblyGlass",
-      "key": "ent-AirlockHeavyAssemblyGlass",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/heavy_assembly.yml",
-      "line": 50,
-      "name": "heavy-duty airlock assembly",
-      "name_source": "AirlockHeavyAssembly",
-      "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
-      "description_source": "AirlockHeavyAssembly",
-      "ru_source": null
-    },
-    {
-      "id": "AirlockHeavyAssemblyGrey",
-      "key": "ent-AirlockHeavyAssemblyGrey",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/heavy_assembly.yml",
-      "line": 110,
-      "name": "heavy-duty airlock assembly",
-      "name_source": "AirlockHeavyAssembly",
-      "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
-      "description_source": "AirlockHeavyAssembly",
-      "ru_source": null
-    },
-    {
       "id": "AirlockHeavyAssemblyMieyo",
       "key": "ent-AirlockHeavyAssemblyMieyo",
       "missing": [
@@ -1111,66 +836,6 @@
       ],
       "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/heavy_assembly.yml",
       "line": 130,
-      "name": "heavy-duty airlock assembly",
-      "name_source": "AirlockHeavyAssembly",
-      "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
-      "description_source": "AirlockHeavyAssembly",
-      "ru_source": null
-    },
-    {
-      "id": "AirlockHeavyAssemblyPDV",
-      "key": "ent-AirlockHeavyAssemblyPDV",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/heavy_assembly.yml",
-      "line": 70,
-      "name": "heavy-duty airlock assembly",
-      "name_source": "AirlockHeavyAssembly",
-      "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
-      "description_source": "AirlockHeavyAssembly",
-      "ru_source": null
-    },
-    {
-      "id": "AirlockHeavyAssemblySecurity",
-      "key": "ent-AirlockHeavyAssemblySecurity",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/heavy_assembly.yml",
-      "line": 90,
-      "name": "heavy-duty airlock assembly",
-      "name_source": "AirlockHeavyAssembly",
-      "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
-      "description_source": "AirlockHeavyAssembly",
-      "ru_source": null
-    },
-    {
-      "id": "AirlockHeavyAssemblyTSFMC",
-      "key": "ent-AirlockHeavyAssemblyTSFMC",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/heavy_assembly.yml",
-      "line": 60,
-      "name": "heavy-duty airlock assembly",
-      "name_source": "AirlockHeavyAssembly",
-      "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
-      "description_source": "AirlockHeavyAssembly",
-      "ru_source": null
-    },
-    {
-      "id": "AirlockHeavyAssemblyUSSP",
-      "key": "ent-AirlockHeavyAssemblyUSSP",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/heavy_assembly.yml",
-      "line": 80,
       "name": "heavy-duty airlock assembly",
       "name_source": "AirlockHeavyAssembly",
       "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
@@ -1234,35 +899,6 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/access_heavy.ftl"
     },
     {
-      "id": "AirlockHeavyEngineering",
-      "key": "ent-AirlockHeavyEngineering",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/heavy_airlock.yml",
-      "line": 170,
-      "name": "heavy-duty airlock",
-      "name_source": "AirlockHeavy",
-      "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
-      "description_source": "AirlockHeavy",
-      "ru_source": null
-    },
-    {
-      "id": "AirlockHeavyGlass",
-      "key": "ent-AirlockHeavyGlass",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/heavy_airlock.yml",
-      "line": 85,
-      "name": "heavy-duty glass airlock",
-      "name_source": "AirlockHeavyGlass",
-      "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
-      "description_source": "AirlockHeavyGlass",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Doors/Airlocks/heavy_airlock.ftl"
-    },
-    {
       "id": "AirlockHeavyGrandVizierLocked",
       "key": "ent-AirlockHeavyGrandVizierLocked",
       "missing": [
@@ -1275,21 +911,6 @@
       "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
       "description_source": "AirlockHeavy",
       "ru_source": "Resources/Locale/ru-RU/prototypes/access_heavy.ftl"
-    },
-    {
-      "id": "AirlockHeavyGrey",
-      "key": "ent-AirlockHeavyGrey",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Doors/Airlocks/heavy_airlock.yml",
-      "line": 180,
-      "name": "heavy-duty airlock",
-      "name_source": "AirlockHeavy",
-      "description": "It opens, it closes, and maybe crushes you. An uparmored & more advanced model, for use in heavy industrial & military applications. Faster & smoother opening, more strength, and more deadly when crushing you.",
-      "description_source": "AirlockHeavy",
-      "ru_source": null
     },
     {
       "id": "AirlockHeavyMieyoLiasonLocked",
@@ -1688,76 +1309,6 @@
       "ru_source": null
     },
     {
-      "id": "ArmorPlateBlunt_Slash",
-      "key": "ent-ArmorPlateBlunt_Slash",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Clothing/OuterClothing/Armor/armor_plates.yml",
-      "line": 2,
-      "name": "blunt/slash armor plate",
-      "name_source": "ArmorPlateBlunt_Slash",
-      "description": "An armor module consisting of additional protective plasteel plating and shock absorbant plastic. Protects against blunt force and slash attacks. Vulnerable to heat.",
-      "description_source": "ArmorPlateBlunt_Slash",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/OuterClothing/Armor/armor_plates.ftl"
-    },
-    {
-      "id": "ArmorPlateEconomy1",
-      "key": "ent-ArmorPlateEconomy1",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/arc_furnace.yml",
-      "line": 3,
-      "name": "basic armor plate",
-      "name_source": "ArmorPlateEconomy1",
-      "description": "A simple, refined \"armor\" alloy plate useful for things that need structural stability. Can be layered to start creating a heavy armor plate.",
-      "description_source": "ArmorPlateEconomy1",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/arc_furnace.ftl"
-    },
-    {
-      "id": "ArmorPlateEconomy1Broken",
-      "key": "ent-ArmorPlateEconomy1Broken",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/arc_furnace.yml",
-      "line": 50,
-      "name": "broken basic armor plate",
-      "name_source": "ArmorPlateEconomy1Broken",
-      "description": "Wreckage from a simple armor plate. Not very surprising.",
-      "description_source": "ArmorPlateEconomy1Broken",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/arc_furnace.ftl"
-    },
-    {
-      "id": "ArmorPlateEconomy2",
-      "key": "ent-ArmorPlateEconomy2",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/arc_furnace.yml",
-      "line": 167,
-      "name": "heavy armor plate",
-      "name_source": "ArmorPlateEconomy2",
-      "description": "A heavier, layered alloy armor plate. Heavy, but strong. Useful for things that need significant structural stability, or more commonly, the ability to take a hit.",
-      "description_source": "ArmorPlateEconomy2",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/arc_furnace.ftl"
-    },
-    {
-      "id": "ArmorPlateEconomy2Broken",
-      "key": "ent-ArmorPlateEconomy2Broken",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/arc_furnace.yml",
-      "line": 228,
-      "name": "broken heavy armor plate",
-      "name_source": "ArmorPlateEconomy2Broken",
-      "description": "Wreckage from a heavy alloy armor plate.",
-      "description_source": "ArmorPlateEconomy2Broken",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/arc_furnace.ftl"
-    },
-    {
       "id": "ArmorPlateEconomy2Start",
       "key": "ent-ArmorPlateEconomy2Start",
       "missing": [
@@ -1786,76 +1337,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/arc_furnace.ftl"
     },
     {
-      "id": "ArmorPlateEconomy3",
-      "key": "ent-ArmorPlateEconomy3",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/arc_furnace.yml",
-      "line": 376,
-      "name": "composite armor plate",
-      "name_source": "ArmorPlateEconomy3",
-      "description": "A relatively difficult-to-produce ceramic/carbide armor plate. Lightweight for the amount of protection it grants, but it is still exceptionally heavy, making it primarily useful in ship hulls. Can be cut into two fragments.",
-      "description_source": "ArmorPlateEconomy3",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/arc_furnace.ftl"
-    },
-    {
-      "id": "ArmorPlateEconomy3Broken",
-      "key": "ent-ArmorPlateEconomy3Broken",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/arc_furnace.yml",
-      "line": 418,
-      "name": "broken composite armor plate",
-      "name_source": "ArmorPlateEconomy3Broken",
-      "description": "Wreckage from an advanced ceramic/carbide alloy armor plate. Kind of concerning.",
-      "description_source": "ArmorPlateEconomy3Broken",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/arc_furnace.ftl"
-    },
-    {
-      "id": "ArmorPlateEconomy3Fragment",
-      "key": "ent-ArmorPlateEconomy3Fragment",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/arc_furnace.yml",
-      "line": 262,
-      "name": "composite armor plate fragment",
-      "name_source": "ArmorPlateEconomy3Fragment",
-      "description": "A fragment from a ceramic/carbide armor plate. Useful for smaller-scale applications.",
-      "description_source": "ArmorPlateEconomy3Fragment",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/arc_furnace.ftl"
-    },
-    {
-      "id": "ArmorPlateEconomy4",
-      "key": "ent-ArmorPlateEconomy4",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/arc_furnace.yml",
-      "line": 496,
-      "name": "EMAG armor plate",
-      "name_source": "ArmorPlateEconomy4",
-      "description": "A state-of-the-art EMAG electromagnetic armor plate. Exceptional resistance even when unpowered, but still very heavy. Useful for high-power reactor shielding, infantry armor, FTL drives, and most things that undergo significant stress.",
-      "description_source": "ArmorPlateEconomy4",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/arc_furnace.ftl"
-    },
-    {
-      "id": "ArmorPlateEconomy4Broken",
-      "key": "ent-ArmorPlateEconomy4Broken",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/arc_furnace.yml",
-      "line": 527,
-      "name": "broken EMAG armor plate",
-      "name_source": "ArmorPlateEconomy4Broken",
-      "description": "Wreckage from an advanced ceramic/carbide alloy armor plate. Extremely concerning.",
-      "description_source": "ArmorPlateEconomy4Broken",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/arc_furnace.ftl"
-    },
-    {
       "id": "ArmorPlateEconomy4Start",
       "key": "ent-ArmorPlateEconomy4Start",
       "missing": [
@@ -1868,62 +1349,6 @@
       "description": "The ceramic/metallic plate component of an EMAG armor plate, fresh off the forge and awaiting its electronic components. Needs a compound electromagnet to begin construction, then significant screwing and cutting.",
       "description_source": "ArmorPlateEconomy4Start",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/arc_furnace.ftl"
-    },
-    {
-      "id": "ArmorPlateHeat",
-      "key": "ent-ArmorPlateHeat",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Clothing/OuterClothing/Armor/armor_plates.yml",
-      "line": 65,
-      "name": "heat armor plate",
-      "name_source": "ArmorPlateHeat",
-      "description": "An armor module consisting of iridite shielding and heat diffusion systems, capable of diffracting incoming laser assaults. Vulnerable to piercing attacks.",
-      "description_source": "ArmorPlateHeat",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/OuterClothing/Armor/armor_plates.ftl"
-    },
-    {
-      "id": "ArmorPlatePierce",
-      "key": "ent-ArmorPlatePierce",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Clothing/OuterClothing/Armor/armor_plates.yml",
-      "line": 34,
-      "name": "pierce armor plate",
-      "name_source": "ArmorPlatePierce",
-      "description": "An armor module consisting of robust plastitanium plating. Protects against firearms and piercing attacks. Vulnerable to heat.",
-      "description_source": "ArmorPlatePierce",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/OuterClothing/Armor/armor_plates.ftl"
-    },
-    {
-      "id": "ArmorPlateSpeed",
-      "key": "ent-ArmorPlateSpeed",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Clothing/OuterClothing/Armor/armor_plates.yml",
-      "line": 96,
-      "name": "speed armor plate",
-      "name_source": "ArmorPlateSpeed",
-      "description": "An armor module consisting of replacement brass plating for shedding weight. Increases your speed, but makes you vulnerable to most damage.",
-      "description_source": "ArmorPlateSpeed",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/OuterClothing/Armor/armor_plates.ftl"
-    },
-    {
-      "id": "Asm220TorpedoHESACLOS",
-      "key": "ent-Asm220TorpedoHESACLOS",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/Cartridge/trident_ammo.yml",
-      "line": 163,
-      "name": "ASM-220 high-explosive SACLOS torpedo",
-      "name_source": "Asm220TorpedoHESACLOS",
-      "description": "Contains a large explosive payload. High-Explosive is an understatement. This one is equipped with a SACLOS guidance system and requires manual guidance to target, but can move faster.",
-      "description_source": "Asm220TorpedoHESACLOS",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/Cartridge/trident_ammo.ftl"
     },
     {
       "id": "AsteroidRockArtifactAnomaly",
@@ -2531,20 +1956,6 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/reactor_components.ftl"
     },
     {
-      "id": "BombCollarSealer",
-      "key": "ent-BombCollarSealer",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Tools/bomb_collar_sealer.yml",
-      "line": 1,
-      "name": "bomb collar sealer",
-      "name_source": "BombCollarSealer",
-      "description": "Toggles the lock state of a bomb collar.",
-      "description_source": "BombCollarSealer",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/bomb_collar_sealer.ftl"
-    },
-    {
       "id": "BorgChargerXenoborg",
       "key": "ent-BorgChargerXenoborg",
       "missing": [
@@ -2610,48 +2021,6 @@
       "line": 71,
       "name": "pre-fracture jetpack cyborg module",
       "name_source": "BorgModuleJetpackADM",
-      "description": "A piece of tech that gives cyborgs new abilities.",
-      "description_source": "BaseBorgModule",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/borg_modules.ftl"
-    },
-    {
-      "id": "BorgModulePDVStandardAssault",
-      "key": "ent-BorgModulePDVStandardAssault",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Robotics/borg_modules.yml",
-      "line": 97,
-      "name": "PDV basic assault cyborg module",
-      "name_source": "BorgModulePDVStandardAssault",
-      "description": "A piece of tech that gives cyborgs new abilities.",
-      "description_source": "BaseBorgModule",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/borg_modules.ftl"
-    },
-    {
-      "id": "BorgModuleRedactedWeapon",
-      "key": "ent-BorgModuleRedactedWeapon",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Robotics/borg_modules.yml",
-      "line": 155,
-      "name": "pre-fracture weapon cyborg module",
-      "name_source": "BorgModuleRedactedWeapon",
-      "description": "A piece of tech that gives cyborgs new abilities.",
-      "description_source": "BaseBorgModule",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/borg_modules.ftl"
-    },
-    {
-      "id": "BorgModuleTSFStandardAssault",
-      "key": "ent-BorgModuleTSFStandardAssault",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Robotics/borg_modules.yml",
-      "line": 41,
-      "name": "TSFMC basic assault cyborg module",
-      "name_source": "BorgModuleTSFStandardAssault",
       "description": "A piece of tech that gives cyborgs new abilities.",
       "description_source": "BaseBorgModule",
       "ru_source": "Resources/Locale/ru-RU/prototypes/borg_modules.ftl"
@@ -3516,7 +2885,6 @@
       "id": "BulletLaserSpreadMono",
       "key": "ent-BulletLaserSpreadMono",
       "missing": [
-        "name",
         "desc"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Projectiles/projectiles.yml",
@@ -3525,7 +2893,7 @@
       "name_source": "BulletLaserPellet",
       "description": "If you can see this you're probably dead!",
       "description_source": "BaseBullet",
-      "ru_source": null
+      "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/_entity_audit_import.ftl"
     },
     {
       "id": "BulletPulse",
@@ -3568,34 +2936,6 @@
       "description": "This is used to lie in, sleep in or strap on. Resting here provides extremely slow healing.",
       "description_source": "Bed",
       "ru_source": "Resources/Locale/ru-RU/prototypes/bunk.ftl"
-    },
-    {
-      "id": "CCHandheldOverwatchConsole",
-      "key": "ent-CCHandheldOverwatchConsole",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/overwatch.yml",
-      "line": 188,
-      "name": "CCTC handheld overwatch console",
-      "name_source": "CCHandheldOverwatchConsole",
-      "description": "Displays a readout of faction squad members.",
-      "description_source": "BaseHandheldOverwatchConsole",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
-    },
-    {
-      "id": "CCTCOverwatchComputer",
-      "key": "ent-CCTCOverwatchComputer",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/overwatch.yml",
-      "line": 87,
-      "name": "CCTC overwatch console",
-      "name_source": "CCTCOverwatchComputer",
-      "description": "A computer console used to track faction members via wearable cameras.",
-      "description_source": "BaseComputerOverwatch",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
     },
     {
       "id": "CEActionToggleLookUp",
@@ -4117,48 +3457,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/357_magnum.ftl"
     },
     {
-      "id": "Cartridge68x52mmCaselessHP",
-      "key": "ent-Cartridge68x52mmCaselessHP",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/68x52mm.yml",
-      "line": 58,
-      "name": "cartridge (6.8x52mm STANAG Caseless HP)",
-      "name_source": "Cartridge68x52mmCaselessHP",
-      "description": "A new intermediate caseless round developed in recent TSF standardization programs, using experience from old corporate war caseless ammunition to enhance the performance of rifles across the sectors.",
-      "description_source": "BaseCartridge68x52mmCaseless",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/68x52mm.ftl"
-    },
-    {
-      "id": "Cartridge68x52mmCaselessPlasteelAP",
-      "key": "ent-Cartridge68x52mmCaselessPlasteelAP",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/68x52mm.yml",
-      "line": 90,
-      "name": "cartridge (6.8x52mm STANAG Caseless AP)",
-      "name_source": "Cartridge68x52mmCaselessPlasteelAP",
-      "description": "A new intermediate caseless round developed in recent TSF standardization programs, using experience from old corporate war caseless ammunition to enhance the performance of rifles across the sectors.",
-      "description_source": "BaseCartridge68x52mmCaseless",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/68x52mm.ftl"
-    },
-    {
-      "id": "Cartridge68x52mmCaselessRIP",
-      "key": "ent-Cartridge68x52mmCaselessRIP",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/68x52mm.yml",
-      "line": 73,
-      "name": "cartridge (6.8x52mm STANAG Caseless RIP)",
-      "name_source": "Cartridge68x52mmCaselessRIP",
-      "description": "A new intermediate caseless round developed in recent TSF standardization programs, using experience from old corporate war caseless ammunition to enhance the performance of rifles across the sectors.",
-      "description_source": "BaseCartridge68x52mmCaseless",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/68x52mm.ftl"
-    },
-    {
       "id": "Cartridge700Thz",
       "key": "ent-Cartridge700Thz",
       "missing": [
@@ -4171,118 +3469,6 @@
       "description": "A small chemical-laser cell for use in Directed Energy Weapons. Capable of firing an intermediate pulsed laser.",
       "description_source": "BaseCartridge700Thz",
       "ru_source": "Resources/Locale/ru-RU/prototypes/700Thz.ftl"
-    },
-    {
-      "id": "Cartridge762x51mmFMJ",
-      "key": "ent-Cartridge762x51mmFMJ",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/7.62x51mm.yml",
-      "line": 24,
-      "name": "cartridge (7.62x51mm FMJ)",
-      "name_source": "Cartridge762x51mmFMJ",
-      "description": "A decently sized full-power round.",
-      "description_source": "BaseCartridge762x51mm",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/7.62x51mm.ftl"
-    },
-    {
-      "id": "Cartridge762x51mmHP",
-      "key": "ent-Cartridge762x51mmHP",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/7.62x51mm.yml",
-      "line": 94,
-      "name": "cartridge (7.62x51mm hollow-point)",
-      "name_source": "Cartridge762x51mmHP",
-      "description": "A decently sized full-power round.",
-      "description_source": "BaseCartridge762x51mm",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/7.62x51mm.ftl"
-    },
-    {
-      "id": "Cartridge762x51mmIncendiary",
-      "key": "ent-Cartridge762x51mmIncendiary",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/7.62x51mm.yml",
-      "line": 47,
-      "name": "cartridge (7.62x51mm incendiary)",
-      "name_source": "Cartridge762x51mmIncendiary",
-      "description": "A decently sized full-power round.",
-      "description_source": "BaseCartridge762x51mm",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/7.62x51mm.ftl"
-    },
-    {
-      "id": "Cartridge762x51mmPlasteelAP",
-      "key": "ent-Cartridge762x51mmPlasteelAP",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/7.62x51mm.yml",
-      "line": 126,
-      "name": "cartridge (7.62x51mm AP)",
-      "name_source": "Cartridge762x51mmPlasteelAP",
-      "description": "A decently sized full-power round.",
-      "description_source": "BaseCartridge762x51mm",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/7.62x51mm.ftl"
-    },
-    {
-      "id": "Cartridge762x51mmPractice",
-      "key": "ent-Cartridge762x51mmPractice",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/7.62x51mm.yml",
-      "line": 32,
-      "name": "cartridge (7.62x51mm practice)",
-      "name_source": "Cartridge762x51mmPractice",
-      "description": "A decently sized full-power round.",
-      "description_source": "BaseCartridge762x51mm",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/7.62x51mm.ftl"
-    },
-    {
-      "id": "Cartridge762x51mmRIP",
-      "key": "ent-Cartridge762x51mmRIP",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/7.62x51mm.yml",
-      "line": 109,
-      "name": "cartridge (7.62x51mm RIP)",
-      "name_source": "Cartridge762x51mmRIP",
-      "description": "A decently sized full-power round.",
-      "description_source": "BaseCartridge762x51mm",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/7.62x51mm.ftl"
-    },
-    {
-      "id": "Cartridge762x51mmRubber",
-      "key": "ent-Cartridge762x51mmRubber",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/7.62x51mm.yml",
-      "line": 77,
-      "name": "cartridge (7.62x51mm rubber)",
-      "name_source": "Cartridge762x51mmRubber",
-      "description": "A decently sized full-power round.",
-      "description_source": "BaseCartridge762x51mm",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/7.62x51mm.ftl"
-    },
-    {
-      "id": "Cartridge762x51mmUranium",
-      "key": "ent-Cartridge762x51mmUranium",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/7.62x51mm.yml",
-      "line": 62,
-      "name": "cartridge (7.62x51mm uranium)",
-      "name_source": "Cartridge762x51mmUranium",
-      "description": "A decently sized full-power round.",
-      "description_source": "BaseCartridge762x51mm",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/7.62x51mm.ftl"
     },
     {
       "id": "CartridgeShenzhen",
@@ -4313,20 +3499,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/lathe.ftl"
     },
     {
-      "id": "CentrifugeLatheMini",
-      "key": "ent-CentrifugeLatheMini",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/lathe.yml",
-      "line": 297,
-      "name": "miniature economy uranium processing centrifuge",
-      "name_source": "CentrifugeLatheMini",
-      "description": "A medium sized industrial gas centrifuge for \"bulk\" processing isotopes, materials and generally making things go spinny. Not as fast or efficient as its station-bound brother, but useful for smaller operations. Too small to reprocess nuclear fuel.",
-      "description_source": "CentrifugeLatheMini",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/lathe.ftl"
-    },
-    {
       "id": "CerberusSpread",
       "key": "ent-CerberusSpread",
       "missing": [
@@ -4353,48 +3525,6 @@
       "description": "A fuel rod for a nuclear reactor.",
       "description_source": "BaseReactorFuelRod",
       "ru_source": "Resources/Locale/ru-RU/prototypes/reactor_components.ftl"
-    },
-    {
-      "id": "CharonApheSlugAmmo",
-      "key": "ent-CharonApheSlugAmmo",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Cartridge/charon_ammo.yml",
-      "line": 26,
-      "name": "M381 CHARON 280mm 26.5kg APHE slug cartridge",
-      "name_source": "CharonApheSlugAmmo",
-      "description": "An all-in-one package containing plasma gas accelerant and a high-density tungsten slug loaded with a small explosive payload. Cheap, devastating, and long ranged.",
-      "description_source": "CharonApheSlugAmmo",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Cartridge/charon_ammo.ftl"
-    },
-    {
-      "id": "CharonEmpSlugAmmo",
-      "key": "ent-CharonEmpSlugAmmo",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Cartridge/charon_ammo.yml",
-      "line": 51,
-      "name": "M381 CHARON 280mm 26.5kg EMP slug cartridge",
-      "name_source": "CharonEmpSlugAmmo",
-      "description": "An all-in-one package containing plasma gas accelerant and a high-density tungsten slug loaded with a large electromagnetic payload. Creates massive EMP arcs on impact, but has limited penetration power. Amazing for shields!",
-      "description_source": "CharonEmpSlugAmmo",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Cartridge/charon_ammo.ftl"
-    },
-    {
-      "id": "ChemMasterFilledFlatpack",
-      "key": "ent-ChemMasterFilledFlatpack",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/flatpack.yml",
-      "line": 352,
-      "name": "filled chemmaster flatpack",
-      "name_source": "ChemMasterFilledFlatpack",
-      "description": "A flatpack used for constructing a pre-filled ChemMaster 4000.",
-      "description_source": "ChemMasterFilledFlatpack",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/flatpack.ftl"
     },
     {
       "id": "CigaretteBanana2",
@@ -4563,20 +3693,6 @@
       "description": "All you need to get your comrades back in the fight.",
       "description_source": "ClothingBackpackDuffelPDVMedicalBundleFilled",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Backpacks/duffelbag.ftl"
-    },
-    {
-      "id": "ClothingBackpackJack",
-      "key": "ent-ClothingBackpackJack",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Clothing/Back/specific.yml",
-      "line": 99,
-      "name": "GS-004-B Hammer ammo storage",
-      "name_source": "ClothingBackpackJack",
-      "description": "A heavy backpack made for carrying the GS-004-A's loading system.",
-      "description_source": "ClothingBackpackJack",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/Back/specific.ftl"
     },
     {
       "id": "ClothingBackpackPDVTarkhan",
@@ -4891,20 +4007,6 @@
       "ru_source": null
     },
     {
-      "id": "ClothingNeckCaptainCloak",
-      "key": "ent-ClothingNeckCaptainCloak",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Clothing/Neck/cloaks.yml",
-      "line": 67,
-      "name": "captain's cloak",
-      "name_source": "ClothingNeckCaptainCloak",
-      "description": "A fashionable TSFMC cloak for the Captain and XO of the marine detachment.",
-      "description_source": "ClothingNeckCaptainCloak",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/Neck/cloaks.ftl"
-    },
-    {
       "id": "ClothingNeckCloakCCTC",
       "key": "ent-ClothingNeckCloakCCTC",
       "missing": [
@@ -4916,34 +4018,6 @@
       "name_source": "ClothingNeckCloakCCTC",
       "description": "A pompous and elite green cloak with a nice gold trim, tailored specifically for executives of the Creon-Centennial Trade Charter. It's so heavy, the gold trim might be real.",
       "description_source": "ClothingNeckCloakCCTC",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/Neck/cloaks.ftl"
-    },
-    {
-      "id": "ClothingNeckCloakPdvPurple",
-      "key": "ent-ClothingNeckCloakPdvPurple",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Clothing/Neck/cloaks.yml",
-      "line": 40,
-      "name": "grand vizier's ceremonial cloak",
-      "name_source": "ClothingNeckCloakPdvPurple",
-      "description": "A Phaethon Dynasty Grand Vizier's cloak, only given to those who have proven their loyalty and worth to the Sultan.",
-      "description_source": "ClothingNeckCloakPdvPurple",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/Neck/cloaks.ftl"
-    },
-    {
-      "id": "ClothingNeckColonelCloak",
-      "key": "ent-ClothingNeckColonelCloak",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Clothing/Neck/cloaks.yml",
-      "line": 58,
-      "name": "colonel's cloak",
-      "name_source": "ClothingNeckColonelCloak",
-      "description": "An official TSFMC cloak befitting a commanding officer with authority over the sector, complete with rankbars and trim.",
-      "description_source": "ClothingNeckColonelCloak",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/Neck/cloaks.ftl"
     },
     {
@@ -5029,20 +4103,6 @@
       "description": "A basic EVA suit for MMC employees and non-combat use.",
       "description_source": "ClothingOuterHardsuitMieyoMining",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Clothing/OuterClothing/Hardsuits/mmc.ftl"
-    },
-    {
-      "id": "ClothingOuterHardsuitViperGroupInitiate",
-      "key": "ent-ClothingOuterHardsuitViperGroupInitiate",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Clothing/OuterClothing/Hardsuits/viper_group.yml",
-      "line": 142,
-      "name": "BROOD mk.I viper hardsuit",
-      "name_source": "ClothingOuterHardsuitViperGroupInitiate",
-      "description": "A combat hardsuit adorned with signature markings of the Viper Group. Commonly worn by privateers recently awakened from cryosleep.",
-      "description_source": "ClothingOuterHardsuitViperGroupInitiate",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/viper_group.ftl"
     },
     {
       "id": "ClothingUniformJumpskirtCCTCFormalDress",
@@ -5342,343 +4402,6 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/ores.ftl"
     },
     {
-      "id": "CopperOre15",
-      "key": "ent-CopperOre15",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/laser_drill.yml",
-      "line": 172,
-      "name": "malachite",
-      "name_source": "CopperOre",
-      "description": "A piece of unrefined ore.",
-      "description_source": "OreBase",
-      "ru_source": null
-    },
-    {
-      "id": "CrateAmmoBox140mm",
-      "key": "ent-CrateAmmoBox140mm",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 238,
-      "name": "Longbow 140mm HEAT box",
-      "name_source": "CrateAmmoBox140mm",
-      "description": "Contains one box of 140mm HEAT ammunition. Provides an artillery piece with infinite HEAT rounds. Buy in case you lost the ammo it came with.",
-      "description_source": "CrateAmmoBox140mm",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBox140mmSACLOS",
-      "key": "ent-CrateAmmoBox140mmSACLOS",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 249,
-      "name": "Longbow 140mm SACLOS box",
-      "name_source": "CrateAmmoBox140mmSACLOS",
-      "description": "Contains one box of 140mm SACLOS ammunition. Provides an artillery piece with 120 SACLOS rounds.",
-      "description_source": "CrateAmmoBox140mmSACLOS",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBox20mmAS",
-      "key": "ent-CrateAmmoBox20mmAS",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 126,
-      "name": "L85 20mm AS drum box",
-      "name_source": "CrateAmmoBox20mmAS",
-      "description": "Contains one box of 20mm anti-shield ammunition. Provides an artillery piece with 1250 AS rounds. Can take down a MS-250 in about 150 shots.",
-      "description_source": "CrateAmmoBox20mmAS",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBox220mmAPHE",
-      "key": "ent-CrateAmmoBox220mmAPHE",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 47,
-      "name": "220mm CYREXA APHE shell box",
-      "name_source": "CrateAmmoBox220mmAPHE",
-      "description": "Contains 48 APHE shells, packaged in 2 big boxes.",
-      "description_source": "CrateAmmoBox220mmAPHE",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBox220mmHECluster",
-      "key": "ent-CrateAmmoBox220mmHECluster",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 58,
-      "name": "220mm CYREXA HE-CLST shell box",
-      "name_source": "CrateAmmoBox220mmHECluster",
-      "description": "Contains 48 HE-CLST shells, packaged in 2 big boxes.",
-      "description_source": "CrateAmmoBox220mmHECluster",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBox220mmSmartCluster",
-      "key": "ent-CrateAmmoBox220mmSmartCluster",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 69,
-      "name": "220mm CYREXA HMNG-CLST shell box",
-      "name_source": "CrateAmmoBox220mmSmartCluster",
-      "description": "Contains 48 HMNG-CLST shells, packaged in 2 big boxes.",
-      "description_source": "CrateAmmoBox220mmSmartCluster",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBox255mmAPHE",
-      "key": "ent-CrateAmmoBox255mmAPHE",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 80,
-      "name": "255mm Bofors APHE shell box",
-      "name_source": "CrateAmmoBox255mmAPHE",
-      "description": "Contains 32 APHE shells, packaged in 2 big boxes.",
-      "description_source": "CrateAmmoBox255mmAPHE",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBox255mmEMP",
-      "key": "ent-CrateAmmoBox255mmEMP",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 91,
-      "name": "255mm Bofors EMP shell box",
-      "name_source": "CrateAmmoBox255mmEMP",
-      "description": "Contains 32 EMP shells, packaged in 2 big boxes.",
-      "description_source": "CrateAmmoBox255mmEMP",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBox255mmMine",
-      "key": "ent-CrateAmmoBox255mmMine",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 102,
-      "name": "255mm Bofors minelayer shell box",
-      "name_source": "CrateAmmoBox255mmMine",
-      "description": "Contains 32 minelayer shells, packaged in 2 big boxes.",
-      "description_source": "CrateAmmoBox255mmMine",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBox30mmHE",
-      "key": "ent-CrateAmmoBox30mmHE",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 148,
-      "name": "Draupnir 30mm HE drum box",
-      "name_source": "CrateAmmoBox30mmHE",
-      "description": "Contains one box of 30mm HE ammunition, with 2000 rounds.",
-      "description_source": "CrateAmmoBox30mmHE",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBox57mmSACLOS",
-      "key": "ent-CrateAmmoBox57mmSACLOS",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 182,
-      "name": "AK-570 57mm SACLOS drum box",
-      "name_source": "CrateAmmoBox57mmSACLOS",
-      "description": "Contains one box of 57mm SACLOS ammunition. Provides an artillery piece with 600 FCS-guided rounds.",
-      "description_source": "CrateAmmoBox57mmSACLOS",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBox57mmSmart",
-      "key": "ent-CrateAmmoBox57mmSmart",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 170,
-      "name": "AK-570 57mm HMNG drum box",
-      "name_source": "CrateAmmoBox57mmSmart",
-      "description": "Contains one box of 57mm homing ammunition. Provides an artillery piece with 600 homing rounds.",
-      "description_source": "CrateAmmoBox57mmSmart",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBox90mmAP",
-      "key": "ent-CrateAmmoBox90mmAP",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 204,
-      "name": "Dravon 90mm AP box",
-      "name_source": "CrateAmmoBox90mmAP",
-      "description": "Contains one box of 90mm armor-piercing ammunition. Provides an artillery piece with infinite armor-piercing rounds. Buy in case you lost the ammo it came with.",
-      "description_source": "CrateAmmoBox90mmAP",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBox90mmFlak",
-      "key": "ent-CrateAmmoBox90mmFlak",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 215,
-      "name": "Dravon 90mm Flak box",
-      "name_source": "CrateAmmoBox90mmFlak",
-      "description": "Contains one box of 90mm flak ammunition. Provides an artillery piece with infinite flak rounds. Buy in case you lost the ammo it came with.",
-      "description_source": "CrateAmmoBox90mmFlak",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBox90mmMinelayer",
-      "key": "ent-CrateAmmoBox90mmMinelayer",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 226,
-      "name": "Dravon 90mm minelayer box",
-      "name_source": "CrateAmmoBox90mmMinelayer",
-      "description": "Contains one box of 90mm minelayer ammunition. Provides an artillery piece with 400 minelayer rounds.",
-      "description_source": "CrateAmmoBox90mmMinelayer",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBoxCharonAPHE",
-      "key": "ent-CrateAmmoBoxCharonAPHE",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 14,
-      "name": "280mm CHARON 26.5kg APHE slug cartridge box",
-      "name_source": "CrateAmmoBoxCharonAPHE",
-      "description": "Contains 3 slugs.",
-      "description_source": "CrateAmmoBoxCharonAPHE",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBoxCharonEMP",
-      "key": "ent-CrateAmmoBoxCharonEMP",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 25,
-      "name": "280mm CHARON 26.5kg EMP slug cartridge box",
-      "name_source": "CrateAmmoBoxCharonEMP",
-      "description": "Contains 3 slugs.",
-      "description_source": "CrateAmmoBoxCharonEMP",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBoxPaladinEMPHE",
-      "key": "ent-CrateAmmoBoxPaladinEMPHE",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 306,
-      "name": "MLRS-382 Paladin EMP-HE missile box",
-      "name_source": "CrateAmmoBoxPaladinEMPHE",
-      "description": "Contains 2 autoloaders of 24 missiles each.",
-      "description_source": "CrateAmmoBoxPaladinEMPHE",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBoxPaladinHE",
-      "key": "ent-CrateAmmoBoxPaladinHE",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 295,
-      "name": "MLRS-382 Paladin HE missile box",
-      "name_source": "CrateAmmoBoxPaladinHE",
-      "description": "Contains 2 autoloaders of 24 missiles each.",
-      "description_source": "CrateAmmoBoxPaladinHE",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBoxPaladinHV",
-      "key": "ent-CrateAmmoBoxPaladinHV",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 317,
-      "name": "MLRS-382 Paladin HV missile box",
-      "name_source": "CrateAmmoBoxPaladinHV",
-      "description": "Contains 2 autoloaders of 24 missiles each.",
-      "description_source": "CrateAmmoBoxPaladinHV",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBoxR300",
-      "key": "ent-CrateAmmoBoxR300",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 36,
-      "name": "430mm R-300 HE shell box",
-      "name_source": "CrateAmmoBoxR300",
-      "description": "Contains 3 HE shells.",
-      "description_source": "CrateAmmoBoxR300",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBoxTrident",
-      "key": "ent-CrateAmmoBoxTrident",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 328,
-      "name": "ASM-220 Trident HE torpedo box",
-      "name_source": "CrateAmmoBoxTrident",
-      "description": "Contains 4 large missiles, enough to fill a single launcher.",
-      "description_source": "CrateAmmoBoxTrident",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
-      "id": "CrateAmmoBoxTridentSACLOS",
-      "key": "ent-CrateAmmoBoxTridentSACLOS",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Catalogs/Fills/Crates/shipgun_ammo.yml",
-      "line": 339,
-      "name": "ASM-220 Trident HE-SACLOS torpedo box",
-      "name_source": "CrateAmmoBoxTridentSACLOS",
-      "description": "Contains 4 large missiles, enough to fill a single launcher.",
-      "description_source": "CrateAmmoBoxTridentSACLOS",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Catalogs/Fills/Crates/shipgun_ammo.ftl"
-    },
-    {
       "id": "CrateMaterialNukeSupplies",
       "key": "ent-CrateMaterialNukeSupplies",
       "missing": [
@@ -5747,76 +4470,6 @@
       "description": "A crate containing a single rapid piping device.",
       "description_source": "CrateRPD",
       "ru_source": "Resources/Locale/ru-RU/Catalog/Fills/Crates/engineering.ftl"
-    },
-    {
-      "id": "CyborgWeaponMinigun",
-      "key": "ent-CyborgWeaponMinigun",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/LMGs/pdv.yml",
-      "line": 1,
-      "name": "Cyborg minigun",
-      "name_source": "CyborgWeaponMinigun",
-      "description": "Old highly-inaccurate rotary mini-gun chambered in a small caliber.",
-      "description_source": "CyborgWeaponMinigun",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/LMGs/pdv.ftl"
-    },
-    {
-      "id": "DataFarmResearchCircuitboard",
-      "key": "ent-DataFarmResearchCircuitboard",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Electronics/datafarms.yml",
-      "line": 1,
-      "name": "data farm (research) circuitboard",
-      "name_source": "DataFarmResearchCircuitboard",
-      "description": "Looks like you could use a screwdriver to change the board type. Unable to be flatpacked due to complex components.",
-      "description_source": "DataFarmResearchCircuitboard",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/datafarms.ftl"
-    },
-    {
-      "id": "DatafarmCrypto",
-      "key": "ent-DatafarmCrypto",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/datafarms.yml",
-      "line": 127,
-      "name": "data farm (Crypto)",
-      "name_source": "DatafarmCrypto",
-      "description": "A power-hungry server dedicated towards scraping data from... somewhere. This one generates valuable but random cryptocurrency at a rate of one every 10 minutes.",
-      "description_source": "DatafarmCrypto",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/datafarms.ftl"
-    },
-    {
-      "id": "DatafarmResearch",
-      "key": "ent-DatafarmResearch",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/datafarms.yml",
-      "line": 115,
-      "name": "data farm (Research)",
-      "name_source": "DatafarmResearch",
-      "description": "A power-hungry server dedicated towards scraping data from... somewhere. This one generates research points at a rate of 20 per second.",
-      "description_source": "DatafarmResearch",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/datafarms.ftl"
-    },
-    {
-      "id": "DatafarmResearchFaction",
-      "key": "ent-DatafarmResearchFaction",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/datafarms.yml",
-      "line": 102,
-      "name": "bolted data farm (Research)",
-      "name_source": "DatafarmResearchFaction",
-      "description": "A power-hungry server dedicated towards scraping data from... somewhere. This one generates research points at a rate of 200 per second. It seems to be bolted to the floor.",
-      "description_source": "DatafarmResearchFaction",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/datafarms.ftl"
     },
     {
       "id": "DeepGasDeposit",
@@ -7048,34 +5701,6 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/reactor_components.ftl"
     },
     {
-      "id": "DirtyRadGrenade",
-      "key": "ent-DirtyRadGrenade",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Throwable/grenades.yml",
-      "line": 92,
-      "name": "dirty bomb",
-      "name_source": "DirtyRadGrenade",
-      "description": "A unique weapon, effective at area denial. After a few seconds, degrades into a highly radioactive sludge. Probably illegal in the inner sectors, but that won't stop you.",
-      "description_source": "DirtyRadGrenade",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Throwable/grenades.ftl"
-    },
-    {
-      "id": "DirtyRadHeap",
-      "key": "ent-DirtyRadHeap",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Throwable/grenades.yml",
-      "line": 124,
-      "name": "radioactive heap",
-      "name_source": "DirtyRadHeap",
-      "description": "Basically the elephant's foot. Even just looking at this makes you feel cancerous.",
-      "description_source": "DirtyRadHeap",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Throwable/grenades.ftl"
-    },
-    {
       "id": "DoorElectronicsGrandVizier",
       "key": "ent-DoorElectronicsGrandVizier",
       "missing": [
@@ -7557,21 +6182,6 @@
       "name_source": "ExtendedEmergencyWaterVaporTank",
       "description": "An emergency tank with extended capacity. Technically rated for prolonged use. It can hold 1.5 L of gas.",
       "description_source": "ExtendedEmergencyWaterVaporTank",
-      "ru_source": null
-    },
-    {
-      "id": "FactionLatheImmmovable",
-      "key": "ent-FactionLatheImmmovable",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/lathe.yml",
-      "line": 70,
-      "name": "military multi-purpose assembler",
-      "name_source": "FactionLathe",
-      "description": "Capable of producing a wide variety of things. Compatible with all kinds of fabrication template encryptions.",
-      "description_source": "FactionLathe",
       "ru_source": null
     },
     {
@@ -8169,76 +6779,6 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/googlyeyes.ftl"
     },
     {
-      "id": "GreebleAntenna1",
-      "key": "ent-GreebleAntenna1",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Decoration/greeble.yml",
-      "line": 39,
-      "name": "antenna",
-      "name_source": "GreebleAntenna1",
-      "description": "Like antennas to hell. Usually part of a ship or station's UHF communication systems.",
-      "description_source": "GreebleAntenna1",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Decoration/greeble.ftl"
-    },
-    {
-      "id": "GreebleAntenna2",
-      "key": "ent-GreebleAntenna2",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Decoration/greeble.yml",
-      "line": 58,
-      "name": "antenna",
-      "name_source": "GreebleAntenna2",
-      "description": "Like antennas to hell. Usually part of a ship or station's UHF communication systems.",
-      "description_source": "GreebleAntenna2",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Decoration/greeble.ftl"
-    },
-    {
-      "id": "GreebleElint1",
-      "key": "ent-GreebleElint1",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Decoration/greeble.yml",
-      "line": 77,
-      "name": "ELINT system",
-      "name_source": "GreebleElint1",
-      "description": "Used for reading noncommunication electromagnetic radiation and their properties, such as radar signals. Who gives a shit?",
-      "description_source": "GreebleElint1",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Decoration/greeble.ftl"
-    },
-    {
-      "id": "GreebleRadarpanel1",
-      "key": "ent-GreebleRadarpanel1",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Decoration/greeble.yml",
-      "line": 91,
-      "name": "radar panel",
-      "name_source": "GreebleRadarpanel1",
-      "description": "Some kind of protective fiberglass panelling. Seen in various systems, such as weather and altitude mapping to military early-warning systems. If it's powerful enough, you might get cancer a bit faster!",
-      "description_source": "GreebleRadarpanel1",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Decoration/greeble.ftl"
-    },
-    {
-      "id": "GreebleRadarpanel2",
-      "key": "ent-GreebleRadarpanel2",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Decoration/greeble.yml",
-      "line": 105,
-      "name": "radar panel",
-      "name_source": "GreebleRadarpanel2",
-      "description": "Some kind of protective fiberglass panelling. Seen in various systems, such as weather and altitude mapping to military early-warning systems. If it's powerful enough, you might get cancer a bit faster!",
-      "description_source": "GreebleRadarpanel2",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Decoration/greeble.ftl"
-    },
-    {
       "id": "GrenadeFlashBangLaunched",
       "key": "ent-GrenadeFlashBangLaunched",
       "missing": [
@@ -8251,20 +6791,6 @@
       "description": "Eeeeeeeeeeeeeeeeeeeeee.",
       "description_source": "GrenadeFlashBangLaunched",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/grenades_launcher.ftl"
-    },
-    {
-      "id": "GunAttachmentSuppressorMulticalRifle",
-      "key": "ent-GunAttachmentSuppressorMulticalRifle",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Attachments/suppressors_multical.yml",
-      "line": 21,
-      "name": "MULTI-CAL rifle suppressor",
-      "name_source": "GunAttachmentSuppressorMulticalRifle",
-      "description": "Supports weapons with threaded barrels that fire intermediate cartridges.",
-      "description_source": "GunAttachmentSuppressorMulticalRifle",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/suppressors_multical.ftl"
     },
     {
       "id": "GyroscopeDebugStrength",
@@ -8564,20 +7090,6 @@
       "ru_source": "Resources/Locale/ru-RU/_FarHorizons/Entities/Structures/Holographic/projections.ftl"
     },
     {
-      "id": "IndustrialFurnaceEconomy",
-      "key": "ent-IndustrialFurnaceEconomy",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/lathe.yml",
-      "line": 513,
-      "name": "industrial arc furnace",
-      "name_source": "IndustrialFurnaceEconomy",
-      "description": "An advanced arc furnace capable of melting ore and refining material through heat. Essential for creating advanced alloys.",
-      "description_source": "IndustrialFurnaceEconomy",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/lathe.ftl"
-    },
-    {
       "id": "IndustrialFurnaceEconomyCompact",
       "key": "ent-IndustrialFurnaceEconomyCompact",
       "missing": [
@@ -8831,20 +7343,6 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/lithium_veins.ftl"
     },
     {
-      "id": "LargeAPC",
-      "key": "ent-LargeAPC",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Power/apc.yml",
-      "line": 14,
-      "name": "LAPC substation",
-      "name_source": "LargeAPC",
-      "description": "A centralized, reinforced substation terminal for the vessel's electrical systems. Tranforms current from HV to LV in bulk. Useful for shield generators and the like.",
-      "description_source": "LargeAPC",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Power/apc.ftl"
-    },
-    {
       "id": "LedokolAttachmentComputer",
       "key": "ent-LedokolAttachmentComputer",
       "missing": [
@@ -8915,21 +7413,6 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/ores.ftl"
     },
     {
-      "id": "LithiumOre15",
-      "key": "ent-LithiumOre15",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/laser_drill.yml",
-      "line": 164,
-      "name": "lithium ore",
-      "name_source": "LithiumOre",
-      "description": "A piece of unrefined ore.",
-      "description_source": "OreBase",
-      "ru_source": null
-    },
-    {
       "id": "LockableButtonMieyo",
       "key": "ent-LockableButtonMieyo",
       "missing": [
@@ -8988,48 +7471,6 @@
       "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/storage/closets/wall_departments_eva.ftl"
     },
     {
-      "id": "MDHandheldOverwatchConsole",
-      "key": "ent-MDHandheldOverwatchConsole",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/overwatch.yml",
-      "line": 177,
-      "name": "MD handheld overwatch console",
-      "name_source": "MDHandheldOverwatchConsole",
-      "description": "Displays a readout of faction squad members.",
-      "description_source": "BaseHandheldOverwatchConsole",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
-    },
-    {
-      "id": "MDOverwatchComputer",
-      "key": "ent-MDOverwatchComputer",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/overwatch.yml",
-      "line": 76,
-      "name": "MD overwatch console",
-      "name_source": "MDOverwatchComputer",
-      "description": "A computer console used to track faction members via wearable cameras.",
-      "description_source": "BaseComputerOverwatch",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
-    },
-    {
-      "id": "MMCHandheldOverwatchConsole",
-      "key": "ent-MMCHandheldOverwatchConsole",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/overwatch.yml",
-      "line": 166,
-      "name": "MMC handheld overwatch console",
-      "name_source": "MMCHandheldOverwatchConsole",
-      "description": "Displays a readout of faction squad members.",
-      "description_source": "BaseHandheldOverwatchConsole",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
-    },
-    {
       "id": "MMCLathe",
       "key": "ent-MMCLathe",
       "missing": [
@@ -9057,20 +7498,6 @@
       "description": "Capable of manufacturing equipment from MMC design patterns. Sent to anywhere that needs a large-scale industrial startup.",
       "description_source": "MMCLathe",
       "ru_source": null
-    },
-    {
-      "id": "MMCOverwatchComputer",
-      "key": "ent-MMCOverwatchComputer",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/overwatch.yml",
-      "line": 65,
-      "name": "MMC overwatch console",
-      "name_source": "MMCOverwatchComputer",
-      "description": "A computer console used to track faction members via wearable cameras.",
-      "description_source": "BaseComputerOverwatch",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
     },
     {
       "id": "MMCTechfabMachineCircuitboard",
@@ -9129,15 +7556,29 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/drills.ftl"
     },
     {
-      "id": "Magazine12_gaugeIncendiary",
-      "key": "ent-Magazine12_gaugeIncendiary",
+      "id": "Magazine12_gaugeUranium",
+      "key": "ent-Magazine12_gaugeUranium",
       "missing": [
         "name"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/12_gauge.yml",
-      "line": 87,
-      "name": "ammo drum (12 gauge incendiary)",
-      "name_source": "Magazine12_gaugeIncendiary",
+      "line": 101,
+      "name": "ammo drum (12 gauge uranium)",
+      "name_source": "Magazine12_gaugeUranium",
+      "description": null,
+      "description_source": null,
+      "ru_source": null
+    },
+    {
+      "id": "Magazine40mmEMP",
+      "key": "ent-Magazine40mmEMP",
+      "missing": [
+        "name"
+      ],
+      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/40mm.yml",
+      "line": 57,
+      "name": "EMP 40mm grenade cartridge",
+      "name_source": "Magazine40mmEMP",
       "description": null,
       "description_source": null,
       "ru_source": null
@@ -9155,34 +7596,6 @@
       "description": null,
       "description_source": null,
       "ru_source": null
-    },
-    {
-      "id": "Magazine4_gaugeBuckshot",
-      "key": "ent-Magazine4_gaugeBuckshot",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/4_gauge.yml",
-      "line": 47,
-      "name": "ammo canister (4 gauge buckshot)",
-      "name_source": "Magazine4_gaugeBuckshot",
-      "description": "A clunky canister containing 4 gauge, likely meant for the GS-004-B.",
-      "description_source": "BaseMagazine4_gauge",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/4_gauge.ftl"
-    },
-    {
-      "id": "Magazine4_gaugeEmpty",
-      "key": "ent-Magazine4_gaugeEmpty",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/4_gauge.yml",
-      "line": 38,
-      "name": "ammo canister (4 gauge shells any)",
-      "name_source": "Magazine4_gaugeEmpty",
-      "description": "A clunky canister containing 4 gauge, likely meant for the GS-004-B.",
-      "description_source": "BaseMagazine4_gauge",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/4_gauge.ftl"
     },
     {
       "id": "Magazine55_SAMPistol",
@@ -9213,29 +7626,15 @@
       "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/objects/weapons/guns/ammunition/magazines/55_SAM.ftl"
     },
     {
-      "id": "Magazine68x52mmCaseless",
-      "key": "ent-Magazine68x52mmCaseless",
+      "id": "Magazine68x52mmCaselessPractice",
+      "key": "ent-Magazine68x52mmCaselessPractice",
       "missing": [
         "name"
       ],
       "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/68x52mm.yml",
-      "line": 69,
-      "name": "magazine (6.8x52mm STANAG Caseless)",
-      "name_source": "Magazine68x52mmCaseless",
-      "description": null,
-      "description_source": null,
-      "ru_source": null
-    },
-    {
-      "id": "Magazine8x65mmSKRBox",
-      "key": "ent-Magazine8x65mmSKRBox",
-      "missing": [
-        "name"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Magazines/8x65mm.yml",
-      "line": 140,
-      "name": "SAW box (8x65mm SKR)",
-      "name_source": "Magazine8x65mmSKRBox",
+      "line": 83,
+      "name": "magazine (6.8x52mm STANAG Caseless practice)",
+      "name_source": "Magazine68x52mmCaselessPractice",
       "description": null,
       "description_source": null,
       "ru_source": null
@@ -9395,20 +7794,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/EconomyMaterials/iridite_proccessing.ftl"
     },
     {
-      "id": "MaterialLithium",
-      "key": "ent-MaterialLithium",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/EconomyMaterials/lithium.yml",
-      "line": 1,
-      "name": "lithium",
-      "name_source": "MaterialLithium",
-      "description": "Lithium is a soft, brittle metal widely used in a range of electronic applications, most notably alkali-batteries. Its also dangerously reactive!",
-      "description_source": "MaterialLithium",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/lithium.ftl"
-    },
-    {
       "id": "MatterBinEconomy1",
       "key": "ent-MatterBinEconomy1",
       "missing": [
@@ -9477,62 +7862,6 @@
       "description": "A fuel rod fo- wait, is it alive?",
       "description_source": "MeatReactorFuelRod",
       "ru_source": "Resources/Locale/ru-RU/prototypes/reactor_components.ftl"
-    },
-    {
-      "id": "MechDurandPDV",
-      "key": "ent-MechDurandPDV",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/mechs.yml",
-      "line": 143,
-      "name": "PDV Durand",
-      "name_source": "MechDurandPDV",
-      "description": "A slow but beefy combat exosuit that is extra scary in confined spaces due to its punches. Xenos hate it!",
-      "description_source": "MechDurandPDV",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Mechs/mechs.ftl"
-    },
-    {
-      "id": "MechDurandTSF",
-      "key": "ent-MechDurandTSF",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/mechs.yml",
-      "line": 116,
-      "name": "TSF Durand",
-      "name_source": "MechDurandTSF",
-      "description": "A slow but beefy combat exosuit that is extra scary in confined spaces due to its punches. Xenos hate it!",
-      "description_source": "MechDurandTSF",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Mechs/mechs.ftl"
-    },
-    {
-      "id": "MechGygaxPDV",
-      "key": "ent-MechGygaxPDV",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/mechs.yml",
-      "line": 89,
-      "name": "PDV Gygax",
-      "name_source": "MechGygaxPDV",
-      "description": "While lightly armored, the Gygax has incredible mobility thanks to its ability to punch through walls at high speeds.",
-      "description_source": "MechGygaxPDV",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Mechs/mechs.ftl"
-    },
-    {
-      "id": "MechGygaxTSF",
-      "key": "ent-MechGygaxTSF",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Specific/Mechs/mechs.yml",
-      "line": 62,
-      "name": "TSF Gygax",
-      "name_source": "MechGygaxTSF",
-      "description": "While lightly armored, the Gygax has incredible mobility thanks to its ability to punch through walls at high speeds.",
-      "description_source": "MechGygaxTSF",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Specific/Mechs/mechs.ftl"
     },
     {
       "id": "MetalFoamGrenadeLaunched",
@@ -10782,62 +9111,6 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/vox.ftl"
     },
     {
-      "id": "PDVBorgChassisAssault",
-      "key": "ent-PDVBorgChassisAssault",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Mobs/Cyborgs/borg_chassis.yml",
-      "line": 41,
-      "name": "PDV assault cyborg",
-      "name_source": "PDVBorgChassisAssault",
-      "description": "A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.",
-      "description_source": "BaseBorgChassis",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/borg_chassis.ftl"
-    },
-    {
-      "id": "PDVBorgChassisEngineer",
-      "key": "ent-PDVBorgChassisEngineer",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Mobs/Cyborgs/borg_chassis.yml",
-      "line": 54,
-      "name": "PDV engineer cyborg",
-      "name_source": "PDVBorgChassisEngineer",
-      "description": "A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.",
-      "description_source": "BaseBorgChassis",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/borg_chassis.ftl"
-    },
-    {
-      "id": "PDVBorgChassisMedical",
-      "key": "ent-PDVBorgChassisMedical",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Mobs/Cyborgs/borg_chassis.yml",
-      "line": 64,
-      "name": "PDV medical cyborg",
-      "name_source": "PDVBorgChassisMedical",
-      "description": "A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.",
-      "description_source": "BaseBorgChassis",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/borg_chassis.ftl"
-    },
-    {
-      "id": "PDVHandheldOverwatchConsole",
-      "key": "ent-PDVHandheldOverwatchConsole",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/overwatch.yml",
-      "line": 155,
-      "name": "PDV handheld overwatch console",
-      "name_source": "PDVHandheldOverwatchConsole",
-      "description": "Displays a readout of faction squad members.",
-      "description_source": "BaseHandheldOverwatchConsole",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
-    },
-    {
       "id": "PDVMotleyAnneCarrierComputer",
       "key": "ent-PDVMotleyAnneCarrierComputer",
       "missing": [
@@ -10850,20 +9123,6 @@
       "description": "Used on carriers to purchase and sell ships without returning to a station.",
       "description_source": "BaseCarrierComputer",
       "ru_source": "Resources/Locale/ru-RU/prototypes/computers_shipyard_mothership.ftl"
-    },
-    {
-      "id": "PDVOverwatchComputer",
-      "key": "ent-PDVOverwatchComputer",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/overwatch.yml",
-      "line": 54,
-      "name": "PDV overwatch console",
-      "name_source": "PDVOverwatchComputer",
-      "description": "A computer console used to track faction members via wearable cameras.",
-      "description_source": "BaseComputerOverwatch",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
     },
     {
       "id": "PDVTarkhanIDCard",
@@ -12344,34 +10603,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Misc/rubber_stamp.ftl"
     },
     {
-      "id": "RubberStampPDVAsvaran",
-      "key": "ent-RubberStampPDVAsvaran",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/rubber_stamp.yml",
-      "line": 110,
-      "name": "PDV asvaran's rubber stamp",
-      "name_source": "RubberStampPDVAsvaran",
-      "description": "A rubber stamp for stamping important documents.",
-      "description_source": "RubberStampBase",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/rubber_stamp.ftl"
-    },
-    {
-      "id": "RubberStampPDVOverwatch",
-      "key": "ent-RubberStampPDVOverwatch",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/rubber_stamp.yml",
-      "line": 75,
-      "name": "PDV overwatch's rubber stamp",
-      "name_source": "RubberStampPDVOverwatch",
-      "description": "A rubber stamp for stamping important documents.",
-      "description_source": "RubberStampBase",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/rubber_stamp.ftl"
-    },
-    {
       "id": "RubberStampPDVSpasaka",
       "key": "ent-RubberStampPDVSpasaka",
       "missing": [
@@ -12381,104 +10612,6 @@
       "line": 127,
       "name": "PDV spasaka's rubber stamp",
       "name_source": "RubberStampPDVSpasaka",
-      "description": "A rubber stamp for stamping important documents.",
-      "description_source": "RubberStampBase",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/rubber_stamp.ftl"
-    },
-    {
-      "id": "RubberStampPDVVizier",
-      "key": "ent-RubberStampPDVVizier",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/rubber_stamp.yml",
-      "line": 93,
-      "name": "PDV grand vizier's rubber stamp",
-      "name_source": "RubberStampPDVVizier",
-      "description": "A rubber stamp for stamping important documents.",
-      "description_source": "RubberStampBase",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/rubber_stamp.ftl"
-    },
-    {
-      "id": "RubberStampTSFCaptain",
-      "key": "ent-RubberStampTSFCaptain",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/rubber_stamp.yml",
-      "line": 55,
-      "name": "TSF captain's rubber stamp",
-      "name_source": "RubberStampTSFCaptain",
-      "description": "A rubber stamp for stamping important documents.",
-      "description_source": "RubberStampBase",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/rubber_stamp.ftl"
-    },
-    {
-      "id": "RubberStampTSFColonel",
-      "key": "ent-RubberStampTSFColonel",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/rubber_stamp.yml",
-      "line": 37,
-      "name": "TSF colonel's rubber stamp",
-      "name_source": "RubberStampTSFColonel",
-      "description": "A rubber stamp for stamping important documents.",
-      "description_source": "RubberStampBase",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/rubber_stamp.ftl"
-    },
-    {
-      "id": "RubberStampUSSP",
-      "key": "ent-RubberStampUSSP",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/rubber_stamp.yml",
-      "line": 146,
-      "name": "USSP rubber stamp",
-      "name_source": "RubberStampUSSP",
-      "description": "A rubber stamp for stamping important documents.",
-      "description_source": "RubberStampBase",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/rubber_stamp.ftl"
-    },
-    {
-      "id": "RubberStampUSSPStratcomm",
-      "key": "ent-RubberStampUSSPStratcomm",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/rubber_stamp.yml",
-      "line": 182,
-      "name": "USSP STRATCOMM rubber stamp",
-      "name_source": "RubberStampUSSPStratcomm",
-      "description": "A rubber stamp for stamping important documents.",
-      "description_source": "RubberStampBase",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/rubber_stamp.ftl"
-    },
-    {
-      "id": "RubberStampUSSPTaccomm",
-      "key": "ent-RubberStampUSSPTaccomm",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/rubber_stamp.yml",
-      "line": 166,
-      "name": "USSP TACCOMM rubber stamp",
-      "name_source": "RubberStampUSSPTaccomm",
-      "description": "A rubber stamp for stamping important documents.",
-      "description_source": "RubberStampBase",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/rubber_stamp.ftl"
-    },
-    {
-      "id": "RubberStampWinterSolstice",
-      "key": "ent-RubberStampWinterSolstice",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Misc/rubber_stamp.yml",
-      "line": 19,
-      "name": "TSF local operations command rubber stamp",
-      "name_source": "RubberStampWinterSolstice",
       "description": "A rubber stamp for stamping important documents.",
       "description_source": "RubberStampBase",
       "ru_source": "Resources/Locale/ru-RU/prototypes/rubber_stamp.ftl"
@@ -12556,94 +10689,6 @@
       "ru_source": "Resources/Locale/ru-RU/ss14-ru/prototypes/_mono/entities/structures/machines/computers/computers_shipyard_mothership.ftl"
     },
     {
-      "id": "SheetCopper1",
-      "key": "ent-SheetCopper1",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/EconomyMaterials/copper.yml",
-      "line": 42,
-      "name": "copper",
-      "name_source": "MaterialCopper",
-      "description": "Copper is used in a lot of electronics. Maybe even all of them. It might even be an understatement to say that.",
-      "description_source": "MaterialCopper",
-      "ru_source": null
-    },
-    {
-      "id": "SheetCopper10",
-      "key": "ent-SheetCopper10",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/EconomyMaterials/copper.yml",
-      "line": 50,
-      "name": "copper",
-      "name_source": "MaterialCopper",
-      "description": "Copper is used in a lot of electronics. Maybe even all of them. It might even be an understatement to say that.",
-      "description_source": "MaterialCopper",
-      "ru_source": null
-    },
-    {
-      "id": "SheetCopper50",
-      "key": "ent-SheetCopper50",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/EconomyMaterials/copper.yml",
-      "line": 58,
-      "name": "copper",
-      "name_source": "MaterialCopper",
-      "description": "Copper is used in a lot of electronics. Maybe even all of them. It might even be an understatement to say that.",
-      "description_source": "MaterialCopper",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/EconomyMaterials/copper.ftl"
-    },
-    {
-      "id": "SheetLithium1",
-      "key": "ent-SheetLithium1",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/EconomyMaterials/lithium.yml",
-      "line": 42,
-      "name": "lithium",
-      "name_source": "MaterialLithium",
-      "description": "Lithium is a soft, brittle metal widely used in a range of electronic applications, most notably alkali-batteries. Its also dangerously reactive!",
-      "description_source": "MaterialLithium",
-      "ru_source": null
-    },
-    {
-      "id": "SheetLithium10",
-      "key": "ent-SheetLithium10",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/EconomyMaterials/lithium.yml",
-      "line": 50,
-      "name": "lithium",
-      "name_source": "MaterialLithium",
-      "description": "Lithium is a soft, brittle metal widely used in a range of electronic applications, most notably alkali-batteries. Its also dangerously reactive!",
-      "description_source": "MaterialLithium",
-      "ru_source": null
-    },
-    {
-      "id": "SheetLithium50",
-      "key": "ent-SheetLithium50",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Economy/EconomyMaterials/lithium.yml",
-      "line": 58,
-      "name": "lithium",
-      "name_source": "MaterialLithium",
-      "description": "Lithium is a soft, brittle metal widely used in a range of electronic applications, most notably alkali-batteries. Its also dangerously reactive!",
-      "description_source": "MaterialLithium",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Economy/EconomyMaterials/lithium.ftl"
-    },
-    {
       "id": "SheetUranium10",
       "key": "ent-SheetUranium10",
       "missing": [
@@ -12672,35 +10717,6 @@
       "description": "A sheet of material, used often on the station in various applications.",
       "description_source": "SheetOtherBase",
       "ru_source": null
-    },
-    {
-      "id": "SheetUraniumDepleted1",
-      "key": "ent-SheetUraniumDepleted1",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Materials/materials.yml",
-      "line": 357,
-      "name": "depleted uranium",
-      "name_source": "SheetUraniumDepleted",
-      "description": "Ingots of durable, dense and ridiculously heavy depleted uranium, no longer fissile - but nonetheless useful for things unrelated to warcrimes.",
-      "description_source": "SheetUraniumDepleted",
-      "ru_source": null
-    },
-    {
-      "id": "SheetUraniumFissile1",
-      "key": "ent-SheetUraniumFissile1",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Materials/materials.yml",
-      "line": 286,
-      "name": "fissile uranium",
-      "name_source": "SheetUraniumFissile",
-      "description": "Ingots of pure, unadulterated weapons-grade uranium isotopes. Expect some trouble with this. DEFINITELY don't keep them close together.",
-      "description_source": "SheetUraniumFissile",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Materials/materials.ftl"
     },
     {
       "id": "ShieldGeneratorPOIBio",
@@ -13195,20 +11211,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Devices/ship_vouchers.ftl"
     },
     {
-      "id": "ShipVoucherBastion",
-      "key": "ent-ShipVoucherBastion",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Devices/ship_vouchers.yml",
-      "line": 589,
-      "name": "PDV Bastion LPC [T1]",
-      "name_source": "ShipVoucherBastion",
-      "description": "A small card that contains the data for the procurement of a Bastion-class brawler from the flagship's reserves.",
-      "description_source": "ShipVoucherBastion",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/ship_vouchers.ftl"
-    },
-    {
       "id": "ShipVoucherBuran",
       "key": "ent-ShipVoucherBuran",
       "missing": [
@@ -13669,20 +11671,6 @@
       "description": "An always powered light.",
       "description_source": "SmallLight",
       "ru_source": "Resources/Locale/ru-RU/prototypes/base_lighting.ftl"
-    },
-    {
-      "id": "SmartArmoryStorage",
-      "key": "ent-SmartArmoryStorage",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/smart_storage.yml",
-      "line": 109,
-      "name": "SmartArmory",
-      "name_source": "SmartArmoryStorage",
-      "description": "Stores a lot of combat-related items & tools.",
-      "description_source": "SmartArmoryStorage",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/smart_storage.ftl"
     },
     {
       "id": "SmokeGrenadeLaunched",
@@ -14205,20 +12193,6 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/reactor_components.ftl"
     },
     {
-      "id": "StickyGrenade",
-      "key": "ent-StickyGrenade",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Throwable/grenades.yml",
-      "line": 55,
-      "name": "sticky bomb",
-      "name_source": "StickyGrenade",
-      "description": "An anti-tank sticky bomb based on old designs, still effective even in space. Packs a punch, but has a long delay.",
-      "description_source": "StickyGrenade",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Throwable/grenades.ftl"
-    },
-    {
       "id": "StickyGrenadeLaunched",
       "key": "ent-StickyGrenadeLaunched",
       "missing": [
@@ -14323,62 +12297,6 @@
       "ru_source": null
     },
     {
-      "id": "SunnyCartridge",
-      "key": "ent-SunnyCartridge",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Magazine/flare_ammo.yml",
-      "line": 35,
-      "name": "Packaged flare",
-      "name_source": "SunnyCartridge",
-      "description": "An individual electronically activated flare for the GS-002 countermeasure system.",
-      "description_source": "SunnyCartridge",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/Magazine/flare_ammo.ftl"
-    },
-    {
-      "id": "TSFBorgChassisAssault",
-      "key": "ent-TSFBorgChassisAssault",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Mobs/Cyborgs/borg_chassis.yml",
-      "line": 114,
-      "name": "TSF assault cyborg",
-      "name_source": "TSFBorgChassisAssault",
-      "description": "A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.",
-      "description_source": "BaseBorgChassis",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/borg_chassis.ftl"
-    },
-    {
-      "id": "TSFBorgChassisEngineer",
-      "key": "ent-TSFBorgChassisEngineer",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Mobs/Cyborgs/borg_chassis.yml",
-      "line": 127,
-      "name": "TSF engineer cyborg",
-      "name_source": "TSFBorgChassisEngineer",
-      "description": "A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.",
-      "description_source": "BaseBorgChassis",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/borg_chassis.ftl"
-    },
-    {
-      "id": "TSFBorgChassisMedical",
-      "key": "ent-TSFBorgChassisMedical",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Mobs/Cyborgs/borg_chassis.yml",
-      "line": 137,
-      "name": "TSF medical cyborg",
-      "name_source": "TSFBorgChassisMedical",
-      "description": "A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.",
-      "description_source": "BaseBorgChassis",
-      "ru_source": "Resources/Locale/ru-RU/prototypes/borg_chassis.ftl"
-    },
-    {
       "id": "TSFCarrierComputer",
       "key": "ent-TSFCarrierComputer",
       "missing": [
@@ -14407,20 +12325,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/computers_shipyard_mothership.ftl"
     },
     {
-      "id": "TSFHandheldOverwatchConsole",
-      "key": "ent-TSFHandheldOverwatchConsole",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/overwatch.yml",
-      "line": 144,
-      "name": "TSFMC handheld overwatch console",
-      "name_source": "TSFHandheldOverwatchConsole",
-      "description": "Displays a readout of faction squad members.",
-      "description_source": "BaseHandheldOverwatchConsole",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
-    },
-    {
       "id": "TSFNChengduComputer",
       "key": "ent-TSFNChengduComputer",
       "missing": [
@@ -14433,20 +12337,6 @@
       "description": "Lighter shipyard using the Chengdu's internal hangars, doesn't have access to the full roster of TSFMC ships.",
       "description_source": "TSFNChengduComputer",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/computers_shipyard_mothership.ftl"
-    },
-    {
-      "id": "TSFOverwatchComputer",
-      "key": "ent-TSFOverwatchComputer",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/overwatch.yml",
-      "line": 43,
-      "name": "TSFMC overwatch console",
-      "name_source": "TSFOverwatchComputer",
-      "description": "A computer console used to track faction members via wearable cameras.",
-      "description_source": "BaseComputerOverwatch",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
     },
     {
       "id": "TapeRecorderTranscript",
@@ -14490,21 +12380,6 @@
       "description": "A thruster that allows a shuttle to move.",
       "description_source": "BaseThruster",
       "ru_source": "Resources/Locale/ru-RU/prototypes/thrusters.ftl"
-    },
-    {
-      "id": "ThrusterLargePartsT2",
-      "key": "ent-ThrusterLargePartsT2",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Shuttles/capital_thrusters.yml",
-      "line": 92,
-      "name": "large thruster",
-      "name_source": "ThrusterLarge",
-      "description": "A thruster that allows a shuttle to move.",
-      "description_source": "BaseThruster",
-      "ru_source": null
     },
     {
       "id": "ThrusterNfsdStealh",
@@ -14747,20 +12622,6 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/turbines.ftl"
     },
     {
-      "id": "USSPHandheldOverwatchConsole",
-      "key": "ent-USSPHandheldOverwatchConsole",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/overwatch.yml",
-      "line": 199,
-      "name": "USSP handheld overwatch console",
-      "name_source": "USSPHandheldOverwatchConsole",
-      "description": "Displays a readout of faction squad members.",
-      "description_source": "BaseHandheldOverwatchConsole",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
-    },
-    {
       "id": "USSPLathe",
       "key": "ent-USSPLathe",
       "missing": [
@@ -14802,20 +12663,6 @@
       "description": "Capable of manufacturing equipment to USSP design specifications. Often issued throughout the Armed Forces to support the inherent industrial tendencies of its service members.",
       "description_source": "USSPLathe",
       "ru_source": null
-    },
-    {
-      "id": "USSPOverwatchComputer",
-      "key": "ent-USSPOverwatchComputer",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/overwatch.yml",
-      "line": 98,
-      "name": "USSP overwatch console",
-      "name_source": "USSPOverwatchComputer",
-      "description": "A computer console used to track faction members via wearable cameras.",
-      "description_source": "BaseComputerOverwatch",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
     },
     {
       "id": "USSPTechfabMachineCircuitboard",
@@ -14916,20 +12763,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Devices/pda.ftl"
     },
     {
-      "id": "VGHandheldOverwatchConsole",
-      "key": "ent-VGHandheldOverwatchConsole",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/overwatch.yml",
-      "line": 210,
-      "name": "VG handheld overwatch console",
-      "name_source": "VGHandheldOverwatchConsole",
-      "description": "Displays a readout of faction squad members.",
-      "description_source": "BaseHandheldOverwatchConsole",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
-    },
-    {
       "id": "VGInfanteerIDCard",
       "key": "ent-VGInfanteerIDCard",
       "missing": [
@@ -14984,20 +12817,6 @@
       "description": "A basic personal computer for access restriction and organization, retrofitted with old Gorlex PDA parts.",
       "description_source": "BaseVGPDA",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Devices/pda.ftl"
-    },
-    {
-      "id": "VGOverwatchComputer",
-      "key": "ent-VGOverwatchComputer",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/Machines/Computers/overwatch.yml",
-      "line": 109,
-      "name": "VG overwatch console",
-      "name_source": "VGOverwatchComputer",
-      "description": "A computer console used to track faction members via wearable cameras.",
-      "description_source": "BaseComputerOverwatch",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Structures/Machines/Computers/overwatch.ftl"
     },
     {
       "id": "VGTechfabMachineCircuitboard",
@@ -15626,21 +13445,6 @@
       "ru_source": "Resources/Locale/ru-RU/prototypes/weapon_cases_expedition.ftl"
     },
     {
-      "id": "WeaponCaseLongIrohSecurity",
-      "key": "ent-WeaponCaseLongIrohSecurity",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Rifles/rifles.yml",
-      "line": 370,
-      "name": "weapon case",
-      "name_source": "WeaponCaseLong",
-      "description": "A reinforced casing for storing long weapons and accessories.",
-      "description_source": "WeaponCaseLong",
-      "ru_source": null
-    },
-    {
       "id": "WeaponCaseMalandroRegistered",
       "key": "ent-WeaponCaseMalandroRegistered",
       "missing": [
@@ -15667,48 +13471,6 @@
       "description": "A reinforced casing for storing explosives.",
       "description_source": "WeaponCaseShortExplosives",
       "ru_source": "Resources/Locale/ru-RU/prototypes/weapon_cases_expedition.ftl"
-    },
-    {
-      "id": "WeaponDEWBasilisk",
-      "key": "ent-WeaponDEWBasilisk",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Battery/pdv.yml",
-      "line": 2,
-      "name": "'Basilisk' DEW-15-XXR radiation rifle",
-      "name_source": "WeaponDEWBasilisk",
-      "description": "A dubious rifle reverse engineered by the Dynasty for use against Federation personnel. Probably not the safest to use, but its beams are not on the visible light spectrum and it is immune to EMP due to using chemical-based cartridges.",
-      "description_source": "WeaponDEWBasilisk",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Battery/pdv.ftl"
-    },
-    {
-      "id": "WeaponDEWCalico",
-      "key": "ent-WeaponDEWCalico",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Battery/tsf.yml",
-      "line": 2,
-      "name": "QBH-20-C Calico energy rifle",
-      "name_source": "WeaponDEWCalico",
-      "description": "A cartridge-fed directed energy weapon used by Trans-Solarian Federation soldiers. Due to it using chemical-laser cartridges, it is unaffected by EMP, making it a favorite among the marines able to requisition one.",
-      "description_source": "WeaponDEWCalico",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Battery/tsf.ftl"
-    },
-    {
-      "id": "WeaponDEWSmilodon",
-      "key": "ent-WeaponDEWSmilodon",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Battery/tsf.yml",
-      "line": 78,
-      "name": "QJH-50-C Smilodon automatic energy weapon",
-      "name_source": "WeaponDEWSmilodon",
-      "description": "Modified from the original Calico DEW, the Smilodon carries the philosophy of its predecessor into the world of LMGs - Capable of using battery boxes *and* chemical magazines while also having secondary storage for on-the-go marines, the Smilodon's only failures are the downsides of laser-based weapons and its bulky frame. Continued firing calibrates spread.",
-      "description_source": "WeaponDEWSmilodon",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Battery/tsf.ftl"
     },
     {
       "id": "WeaponEnergyTurretFreeportControlPanel",
@@ -15837,76 +13599,6 @@
       "ru_source": "Resources/Locale/ru-RU/Entities/Objects/Weapons/Guns/Battery/battery_guns.ftl"
     },
     {
-      "id": "WeaponLaserTurretPrometheus",
-      "key": "ent-WeaponLaserTurretPrometheus",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/launcher.yml",
-      "line": 523,
-      "name": "TPC Prometheus Laser Cannon",
-      "name_source": "WeaponLaserTurretPrometheus",
-      "description": "A heavier laser cannon mount, after the relative failure of the Apollo and its subsequent conversion into a mining laser, the Prometheus comes to the field as the new heavy laser cannon, perfect for melting through hostile hulls.",
-      "description_source": "WeaponLaserTurretPrometheus",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/launcher.ftl"
-    },
-    {
-      "id": "WeaponLauncherPanzero",
-      "key": "ent-WeaponLauncherPanzero",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Launchers/launchers.yml",
-      "line": 81,
-      "name": "MANPAT \"Panzero\" disposable anti-tank",
-      "name_source": "WeaponLauncherPanzero",
-      "description": "Based on old designs, the \"Panzero\" is a (relatively) easy-to-carry disposable anti-tank rocket launcher. Devastating against mechs and walls, not very good at much else.",
-      "description_source": "WeaponLauncherPanzero",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Launchers/launchers.ftl"
-    },
-    {
-      "id": "WeaponLauncherTSFAnubis",
-      "key": "ent-WeaponLauncherTSFAnubis",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Launchers/launchers.yml",
-      "line": 194,
-      "name": "TCA QLU-907 Anubis TPGL (35x53mm grenade)",
-      "name_source": "WeaponLauncherTSFAnubis",
-      "description": "A precision magfed grenade rifle with an inbuilt fire-control system, originally intended for use against fortifications & counterinsurgency. Fires 35mm grenades with high-velocity and precision.",
-      "description_source": "WeaponLauncherTSFAnubis",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Launchers/launchers.ftl"
-    },
-    {
-      "id": "WeaponLauncherTSFOsiris",
-      "key": "ent-WeaponLauncherTSFOsiris",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Launchers/launchers.yml",
-      "line": 146,
-      "name": "QLU-909 Osiris MGL",
-      "name_source": "WeaponLauncherTSFOsiris",
-      "description": "The TSF's powerful solution to things that don't have enough boom. Capable of firing most standard grenades.",
-      "description_source": "WeaponLauncherTSFOsiris",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Launchers/launchers.ftl"
-    },
-    {
-      "id": "WeaponPistolCCTCGalactica",
-      "key": "ent-WeaponPistolCCTCGalactica",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Pistols/CCTC.yml",
-      "line": 1,
-      "name": "CAW-32 \"Galactica\" (9x19mm)",
-      "name_source": "WeaponPistolCCTCGalactica",
-      "description": "Suspiciously similar to the Mk.32, this Centennial Arms original functions as a compact yet potent weapon. Threading for silencers and a pistol underbarrel mount allows for exceptional customizability on the field, while an upgraded reciever allows for powerful burst-fire capability.",
-      "description_source": "WeaponPistolCCTCGalactica",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Pistols/CCTC.ftl"
-    },
-    {
       "id": "WeaponPistolKuosame",
       "key": "ent-WeaponPistolKuosame",
       "missing": [
@@ -15919,34 +13611,6 @@
       "description": "A basic and simple handgun for MMC employees. Only issued in high-risk zones.",
       "description_source": "WeaponPistolKuosame",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Pistols/pistol.ftl"
-    },
-    {
-      "id": "WeaponRifleDragonfang",
-      "key": "ent-WeaponRifleDragonfang",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Rifles/tsfmc.yml",
-      "line": 556,
-      "name": "TCA QBB-81-1 Dragonfang (7.62x51mm)",
-      "name_source": "WeaponRifleDragonfang",
-      "description": "A heavy battle rifle used by FORECON in the early stage of Colossus expedition, this rifle packs an outstanding firepower in an otherwise compact frame. Chambered in 7.62x51mm it decimates anything brave enough to stand in our military conquest. The barrel is threaded for suppressors, and an Erebus railmount is on the carryhandle and on the bottom for optics and grips.",
-      "description_source": "WeaponRifleDragonfang",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Rifles/tsfmc.ftl"
-    },
-    {
-      "id": "WeaponRifleIroh",
-      "key": "ent-WeaponRifleIroh",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Rifles/rifles.yml",
-      "line": 206,
-      "name": "HWL FG.J \"Iroh\" (5.56x45mm)",
-      "name_source": "WeaponRifleIroh",
-      "description": "A premium, finely-tuned rifle. Accurate, fast firing, and expensive as shit. Outfitted with Erebus rails on the handguard and carryhandle, and a threaded barrel for attachments.",
-      "description_source": "WeaponRifleIroh",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Rifles/rifles.ftl"
     },
     {
       "id": "WeaponRifleIzumo",
@@ -15963,20 +13627,6 @@
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Rifles/mmc.ftl"
     },
     {
-      "id": "WeaponRifleMolot",
-      "key": "ent-WeaponRifleMolot",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Rifles/pdv.yml",
-      "line": 1,
-      "name": "PD-VI LA/53 Molot (7.62x51mm)",
-      "name_source": "WeaponRifleMolot",
-      "description": "Hard-hitting rifle firing 7.62x51mm for PDV Tarkhans. Good firerate, and exceptional muzzle velocity.",
-      "description_source": "WeaponRifleMolot",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Rifles/pdv.ftl"
-    },
-    {
       "id": "WeaponRifleOsaka",
       "key": "ent-WeaponRifleOsaka",
       "missing": [
@@ -15989,34 +13639,6 @@
       "description": "An accurate and cheap rifle produced by MMC. Fires 5.56x45mm.",
       "description_source": "WeaponRifleOsaka",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Rifles/mmc.ftl"
-    },
-    {
-      "id": "WeaponRifleRiversong",
-      "key": "ent-WeaponRifleRiversong",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Rifles/tsfmc.yml",
-      "line": 395,
-      "name": "TCA QBZ-91 Riversong (6.8x52mm Caseless)",
-      "name_source": "WeaponRifleRiversong",
-      "description": "A bullpup rifle designed for usage in tanks, landing craft and other low space vehicles of the TSFMC Ground Infantry, this weapon also became popular for boarding crew due to the small frame and the ability to be fired one handed. Accurate, easy to use, and firing the 6.8x52mm STANAG round. Also accepts 5.56x45mm magazines to assist with standardization. The barrel is threaded for suppressors, and an Erebus railmount is present on the carryhandle and on the bottom for optics and grips.",
-      "description_source": "WeaponRifleRiversong",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Rifles/tsfmc.ftl"
-    },
-    {
-      "id": "WeaponRifleVympel",
-      "key": "ent-WeaponRifleVympel",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Rifles/pdv.yml",
-      "line": 168,
-      "name": "PD-VI M-32 Vympel (5.56x45mm)",
-      "name_source": "WeaponRifleVympel",
-      "description": "A compact bullpup design. Uses 5.56x45mm rifle ammo. The barrel is threaded for suppressors, and an Erebus railmount is present on the handguard for grips.",
-      "description_source": "WeaponRifleVympel",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Rifles/pdv.ftl"
     },
     {
       "id": "WeaponRifleWSPRTarkhan",
@@ -16045,48 +13667,6 @@
       "description": "A fully-automatic 12 gauge shotgun feeding from a giant built-in drum. 32 round capacity.",
       "description_source": "WeaponShotgunFlagbearer",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Shotguns/pdv.ftl"
-    },
-    {
-      "id": "WeaponShotgunJack",
-      "key": "ent-WeaponShotgunJack",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Shotguns/shotguns.yml",
-      "line": 167,
-      "name": "GS-004-A Jack (4 gauge)",
-      "name_source": "WeaponShotgunJack",
-      "description": "An incredibly heavy automated fire 23x75mm shotgun that loads from a belt and a specialized backpack.",
-      "description_source": "WeaponShotgunJack",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Shotguns/shotguns.ftl"
-    },
-    {
-      "id": "WeaponShotgunSultanPulsar",
-      "key": "ent-WeaponShotgunSultanPulsar",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Shotguns/pdv.yml",
-      "line": 1,
-      "name": "PD-VI \"Sultan's Pulsar\" shotgun (4 gauge)",
-      "name_source": "WeaponShotgunSultanPulsar",
-      "description": "A beast of a bolt-action shotgun, capable of firing the Sultan's finest 4-gauge with exceptional accuracy. Overkill for most space fauna, but using this means its certain you're hunting the most dangerous game.",
-      "description_source": "WeaponShotgunSultanPulsar",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Shotguns/pdv.ftl"
-    },
-    {
-      "id": "WeaponSubMachineGunMalandro",
-      "key": "ent-WeaponSubMachineGunMalandro",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/SMGs/smgs.yml",
-      "line": 388,
-      "name": "RS-2 Malandro (9x19mm)",
-      "name_source": "WeaponSubMachineGunMalandro",
-      "description": "A rugged, run down SMG chambered in 9x19mm designed for short range shootouts, featuring a 10 round burst at the cost of accuracy.",
-      "description_source": "WeaponSubMachineGunMalandro",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/SMGs/smgs.ftl"
     },
     {
       "id": "WeaponSubMachineGunMalandroPMC",
@@ -16160,20 +13740,6 @@
       "ru_source": null
     },
     {
-      "id": "WeaponTurretAk820",
-      "key": "ent-WeaponTurretAk820",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/standardlarge_kinetic.yml",
-      "line": 122,
-      "name": "AK820 120mm autocannon",
-      "name_source": "WeaponTurretAk820",
-      "description": "Large hard hitting naval gun for steady damage. Fires APHEDS rounds, allowing for enhanced penetration, but not as much explosive power as full-sized APHE rounds. Feeds from an 96 round internal magazine.",
-      "description_source": "WeaponTurretAk820",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/standardlarge_kinetic.ftl"
-    },
-    {
       "id": "WeaponTurretCC",
       "key": "ent-WeaponTurretCC",
       "missing": [
@@ -16186,35 +13752,6 @@
       "name_source": "BaseWeaponBallisticTurret",
       "description": "A ballistic machine gun auto-turret.",
       "description_source": "BaseWeaponBallisticTurret",
-      "ru_source": null
-    },
-    {
-      "id": "WeaponTurretCerberus",
-      "key": "ent-WeaponTurretCerberus",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/launcher.yml",
-      "line": 63,
-      "name": "TPC Cerberus Plasma scattercannon",
-      "name_source": "WeaponTurretCerberus",
-      "description": "Borrowing from the design of the Marauder, the Cerberus fires very similar shots, but in a tight spread of 3 blasts",
-      "description_source": "WeaponTurretCerberus",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/launcher.ftl"
-    },
-    {
-      "id": "WeaponTurretCharonReload",
-      "key": "ent-WeaponTurretCharonReload",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/charon_launcher.yml",
-      "line": 87,
-      "name": "M381 CHARON mass driver",
-      "name_source": "WeaponTurretCharonReload",
-      "description": "A capital-class railgun that fires a massive slug at extreme velocity, capable of catastrophic damage to enemy ships. Heavy linear accelerator, can be remotely activated or linked up to a GCS.",
-      "description_source": "WeaponTurretCharonReload",
       "ru_source": null
     },
     {
@@ -16244,21 +13781,6 @@
       "description": "A main battery with dual barrels, delivering rapid, punishing salvos at extreme range. Fires 220mm auto shells with slightly reduced brute strength. Can be remotely activated or linked up to a GCS.",
       "description_source": "WeaponTurretCyrexa",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/standardlarge_kinetic.ftl"
-    },
-    {
-      "id": "WeaponTurretDravonFlak",
-      "key": "ent-WeaponTurretDravonFlak",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/standardmedium_kinetic.yml",
-      "line": 142,
-      "name": "ADBP-7 DRAVON 90mm Autocannon",
-      "name_source": "WeaponTurretDravon",
-      "description": "A single-barrel autocannon made by Aetherion Dynamics. Medium artillery piece with high impact but relatively low fire rate, firing HEAT shells to damage ship armor and systems. Can be remotely activated or linked up to a GCS.",
-      "description_source": "WeaponTurretDravon",
-      "ru_source": null
     },
     {
       "id": "WeaponTurretHeavyCC",
@@ -16455,34 +13977,6 @@
       "ru_source": null
     },
     {
-      "id": "WeaponTurretLeviathan",
-      "key": "ent-WeaponTurretLeviathan",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/syndicate_kinetic.yml",
-      "line": 248,
-      "name": "LEVIATHAN 520mm howitzer",
-      "name_source": "WeaponTurretLeviathan",
-      "description": "A heavy artillery gun of syndicate origin, the leviathan is tyrannic testiment of Syndicate ingenuity, designed to send a message. Able to crack NanoTrasen battleships, and small fighters in a single shell. Loads with a similar mechanism as the anaconda handgun.",
-      "description_source": "WeaponTurretLeviathan",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/syndicate_kinetic.ftl"
-    },
-    {
-      "id": "WeaponTurretPaladin",
-      "key": "ent-WeaponTurretPaladin",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/paladin_launcher.yml",
-      "line": 1,
-      "name": "MLRS-382 \"Paladin\" Missile Pod",
-      "name_source": "WeaponTurretPaladin",
-      "description": "Heavy missile pod firing 250mm guided rockets in bursts of 4.",
-      "description_source": "WeaponTurretPaladin",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/paladin_launcher.ftl"
-    },
-    {
       "id": "WeaponTurretPaladinInfinite",
       "key": "ent-WeaponTurretPaladinInfinite",
       "missing": [
@@ -16498,20 +13992,6 @@
       "ru_source": null
     },
     {
-      "id": "WeaponTurretR300",
-      "key": "ent-WeaponTurretR300",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/standardlarge_kinetic.yml",
-      "line": 364,
-      "name": "R-300 430mm howitzer",
-      "name_source": "WeaponTurretR300",
-      "description": "A giant, stupid howitzer. A stupid low velocity, a stupid long reload, and a stupidly powerful explosion if you can get it to hit. No AP whatsover.",
-      "description_source": "WeaponTurretR300",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/standardlarge_kinetic.ftl"
-    },
-    {
       "id": "WeaponTurretRepairableBroken",
       "key": "ent-WeaponTurretRepairableBroken",
       "missing": [
@@ -16524,77 +14004,6 @@
       "description": "Chimera prefer it like this. It looks like it can be brought back online with a bit of welding or nanites.",
       "description_source": "WeaponTurretRepairableBroken",
       "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/Objects/Weapons/Guns/Turrets/ballistics.ftl"
-    },
-    {
-      "id": "WeaponTurretScylla",
-      "key": "ent-WeaponTurretScylla",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/launcher.yml",
-      "line": 314,
-      "name": "TPC Scylla plasma impulse driver",
-      "name_source": "WeaponTurretScylla",
-      "description": "A more specialized energy weapon, the Scylla fires a massive burst of plasma projectiles down range, in a huge spew to erase large and small targets alike.",
-      "description_source": "WeaponTurretScylla",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/launcher.ftl"
-    },
-    {
-      "id": "WeaponTurretTartarus",
-      "key": "ent-WeaponTurretTartarus",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/launcher.yml",
-      "line": 912,
-      "name": "Curio-1810 antimatter particle cannon \"Tartarus\"",
-      "name_source": "WeaponTurretTartarus",
-      "description": "A rarer, powerful cannon mounted on larger ADS units. Firing a singular particle of antimatter wrapped in energy. Annihalating sections of shuttles at a time.",
-      "description_source": "WeaponTurretTartarus",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Energy/launcher.ftl"
-    },
-    {
-      "id": "WeaponTurretTorpedoEntropy",
-      "key": "ent-WeaponTurretTorpedoEntropy",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/launcher.yml",
-      "line": 58,
-      "name": "Curio-1602 electron torpedo launcher \"Entropy\"",
-      "name_source": "WeaponTurretTorpedoEntropy",
-      "description": "An odd weapon of the pre-fracture era, it projects a mass of electrons that seek out the positive charge of nearby targets, overloading systems and shattering sections of hull.",
-      "description_source": "WeaponTurretTorpedoEntropy",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/launcher.ftl"
-    },
-    {
-      "id": "WeaponTurretVanquisher",
-      "key": "ent-WeaponTurretVanquisher",
-      "missing": [
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/vanquisher_launcher.yml",
-      "line": 1,
-      "name": "SRM-573 \"Vanquisher\" Missile Pod",
-      "name_source": "WeaponTurretVanquisher",
-      "description": "A short-ranged missile pod firing 150mm unguided rockets with devastating fire rate.",
-      "description_source": "WeaponTurretVanquisher",
-      "ru_source": "Resources/Locale/ru-RU/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/vanquisher_launcher.ftl"
-    },
-    {
-      "id": "WeaponTurretVanquisherInfinite",
-      "key": "ent-WeaponTurretVanquisherInfinite",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Missile/vanquisher_launcher.yml",
-      "line": 79,
-      "name": "SRM-573 \"Vanquisher\" Missile Pod",
-      "name_source": "WeaponTurretVanquisher",
-      "description": "A short-ranged missile pod firing 150mm unguided rockets with devastating fire rate.",
-      "description_source": "WeaponTurretVanquisher",
-      "ru_source": null
     },
     {
       "id": "WeaponTurretViper",
@@ -16639,51 +14048,6 @@
       "name_source": "WindoorSecure",
       "description": "It's a sturdy window and a sliding door. Wow!",
       "description_source": "WindoorSecure",
-      "ru_source": null
-    },
-    {
-      "id": "WindowTimedSeal120Minutes",
-      "key": "ent-WindowTimedSeal120Minutes",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/windows.yml",
-      "line": 160,
-      "name": "timed seal",
-      "name_source": "WindowTimedSeal",
-      "description": "A powerful energy field, sealing off a location for a short period of time.",
-      "description_source": "WindowTimedSeal",
-      "ru_source": null
-    },
-    {
-      "id": "WindowTimedSeal180Minutes",
-      "key": "ent-WindowTimedSeal180Minutes",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/windows.yml",
-      "line": 168,
-      "name": "timed seal",
-      "name_source": "WindowTimedSeal",
-      "description": "A powerful energy field, sealing off a location for a short period of time.",
-      "description_source": "WindowTimedSeal",
-      "ru_source": null
-    },
-    {
-      "id": "WindowTimedSeal60Minutes",
-      "key": "ent-WindowTimedSeal60Minutes",
-      "missing": [
-        "name",
-        "desc"
-      ],
-      "source": "Resources/Prototypes/_Mono/Entities/Structures/windows.yml",
-      "line": 152,
-      "name": "timed seal",
-      "name_source": "WindowTimedSeal",
-      "description": "A powerful energy field, sealing off a location for a short period of time.",
-      "description_source": "WindowTimedSeal",
       "ru_source": null
     },
     {

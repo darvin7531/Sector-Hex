@@ -1,4 +1,5 @@
 ent-ClothingOuterHardsuitViperGroupInitiate = Бронескафандр Вайпер BROOD mk.I
+    .desc = Боевой скафандр, фирменной маркировкой Viper Group.
 
 ent-ClothingOuterHardsuitViperGroupJuggernaut = Бронескафандр Вайпер IMP mk.IV
     .desc = Тяжелый боевой скафандр с опознавательными знаками группы Вайпер. Броня имеет усиленное покрытие и амортизацию, подходящие для ближнего боя.

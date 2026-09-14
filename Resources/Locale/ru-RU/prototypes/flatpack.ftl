@@ -1,4 +1,5 @@
 ent-ChemMasterFilledFlatpack = заполненный флэтпак химмастера
+    .desc = Набор для сборки ХимМастера 4000.
 
 ent-WeaponTurretPinholeFlatpack = Флэтпак «Пинхол»
     .desc = Флэтпак для сборки масс-драйвера «Пинхол».

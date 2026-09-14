@@ -3,9 +3,7 @@ ent-BaseMagazine68x52mmCaseless = магазин (6,8x52мм STANAG безгил
 ent-BaseMagazine68x52mmCaselessShort = caseless rifle short magazine (6.8x52mm STANAG Caseless)
     .desc = { ent-BaseMagazine68x52mmCaseless.desc }
 ent-Magazine68x52mmCaselessBig = короб (6,8x52мм STANAG безгильзовые)
-    .desc = Коробчатый магазин, использующий патроны калибра 6,8x52мм STANAG.ent-Magazine68x52mmCaseless = { ent-BaseMagazine68x52mmCaseless }
-    .desc = { ent-BaseMagazine68x52mmCaseless.desc }
-ent-Magazine68x52mmCaselessPractice = магазин (6,8x52мм STANAG учебные)
+    .desc = Коробчатый магазин, использующий патроны калибра 6,8x52мм STANAG.ent-Magazine68x52mmCaselessPractice = магазин (6,8x52мм STANAG учебные)
     .desc = Магазин, использующий учебные патроны калибра 6,8x52мм STANAG.
 ent-Magazine68x52mmCaselessEmpty = магазин (6,8x52мм STANAG)
     .desc = Магазин, использующий патроны калибра 6,8x52мм STANAG.
