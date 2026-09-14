@@ -12,11 +12,16 @@ jobs:
     if: github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
-    - name: Check out PR branch
+    - name: Check out localization inputs
       uses: actions/checkout@v4
       with:
         ref: ${{ github.head_ref }}
-        fetch-depth: 0
+        fetch-depth: 1
+        sparse-checkout: |
+          .github
+          Resources/Prototypes
+          Resources/Locale/ru-RU
+          Tools
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -36,9 +41,9 @@ jobs:
       run: |
         git config user.name "sector-hex-localization-audit[bot]"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add Resources/Locale/ru-RU/ss14-ru/prototypes/_mono Tools/ru_entity_localization_audit.json
+        git add Resources/Locale/ru-RU Tools/ru_entity_localization_audit.json
         if git diff --cached --quiet; then
           exit 0
         fi
-        git commit -m "fix(locale): sync Monolith ru-RU translations"
+        git commit -m "fix(locale): backfill audited ru-RU entity messages"
         git push origin "HEAD:${{ github.head_ref }}"
