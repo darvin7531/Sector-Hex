@@ -1,0 +1,85 @@
+name: Publish SectorHex build for sPanel
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sectorhex-manual-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+      - name: Test release generator
+        run: |
+          python3 -m pip install pytest
+          python3 -m pytest -q tests/test_spanel_release.py
+      - name: Package Linux server and matching client
+        run: |
+          dotnet restore
+          dotnet build Content.Packaging --configuration Release --no-restore /m
+          dotnet run --project Content.Packaging --configuration Release --no-build -- server --platform linux-x64
+          dotnet run --project Content.Packaging --configuration Release --no-build -- client --no-wipe-release
+      - name: Read previous manifest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if gh api "repos/$GITHUB_REPOSITORY/contents/manifest.json?ref=deploy-manifest" --jq '.content' > /tmp/previous.b64 2>/tmp/previous.err; then
+            base64 -d /tmp/previous.b64 >/tmp/previous.json
+          elif grep -q 'HTTP 404' /tmp/previous.err; then
+            echo "No previously published versions"
+          else
+            cat /tmp/previous.err >&2
+            exit 1
+          fi
+      - name: Generate manifest with cryptographic hashes
+        run: |
+          set -euo pipefail
+          git -C RobustToolbox fetch --tags --quiet
+          engine="$(git -C RobustToolbox describe --tags --abbrev=0 | sed 's/^v//')"
+          set -- --repository "$GITHUB_REPOSITORY" --commit "$GITHUB_SHA" --engine-version "$engine" --release-dir release --output /tmp/manifest.json
+          if [[ -f /tmp/previous.json ]]; then set -- "$@" --previous /tmp/previous.json; fi
+          python3 Tools/spanel_release.py "$@"
+      - name: Publish immutable Release archives
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag="sectorhex-$(printf '%s' "$GITHUB_SHA" | cut -c 1-12)"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release exists: refusing to replace a published build" >&2
+            exit 1
+          fi
+          gh release create "$tag" release/SS14.Server_linux-x64.zip release/SS14.Client.zip \
+            --target "$GITHUB_SHA" --title "SectorHex $tag" \
+            --notes "Matching server and client from commit $GITHUB_SHA. Installation is manual in sPanel."
+      - name: Publish manifest branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if ! gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/deploy-manifest" >/dev/null 2>&1; then
+            gh api -X POST "repos/$GITHUB_REPOSITORY/git/refs" -f ref=refs/heads/deploy-manifest -f sha="$GITHUB_SHA" >/dev/null
+          fi
+          sha="$(gh api "repos/$GITHUB_REPOSITORY/contents/manifest.json?ref=deploy-manifest" --jq '.sha' 2>/dev/null || true)"
+          content="$(base64 -w0 /tmp/manifest.json)"
+          if [[ -n "$sha" ]]; then
+            jq -n --arg b deploy-manifest --arg c "$content" --arg s "$sha" --arg m "build: $GITHUB_SHA" \
+              '{branch:$b,content:$c,sha:$s,message:$m}' >/tmp/upload.json
+          else
+            jq -n --arg b deploy-manifest --arg c "$content" --arg m "build: $GITHUB_SHA" \
+              '{branch:$b,content:$c,message:$m}' >/tmp/upload.json
+          fi
+          gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/manifest.json" --input /tmp/upload.json >/dev/null
+          echo "https://raw.githubusercontent.com/$GITHUB_REPOSITORY/deploy-manifest/manifest.json"
