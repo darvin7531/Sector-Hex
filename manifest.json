@@ -1,0 +1,20 @@
+{
+  "builds": {
+    "cb7ac88c0a2de96bd9fe8bbcab20e33567489850": {
+      "time": "2026-11-03T10:58:06Z",
+      "engine_version": "277.0.0",
+      "engine_revision": "08a3d120b7029d03e60b44b23fed2b2659ed3224",
+      "content_revision": "cb7ac88c0a2de96bd9fe8bbcab20e33567489850",
+      "client": {
+        "url": "https://github.com/darvin7531/Sector-Hex/releases/download/sectorhex-cb7ac88c0a2d/SS14.Client.zip",
+        "sha256": "5f97501435219ebf0096da03994ff40414a8cbb5641f89e44e17c2b5239072c0"
+      },
+      "server": {
+        "linux-x64": {
+          "url": "https://github.com/darvin7531/Sector-Hex/releases/download/sectorhex-cb7ac88c0a2d/SS14.Server_linux-x64.zip",
+          "sha256": "5f2bd39bde0cec791b448bd5722a6b78b16edcb5215c5fc8b7636fa72c86dad6"
+        }
+      }
+    }
+  }
+}
