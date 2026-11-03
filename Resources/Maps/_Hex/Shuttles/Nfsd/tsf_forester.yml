@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 04/21/2026 22:23:50
-  entityCount: 2306
+  entityCount: 2305
 maps: []
 grids:
 - 1
@@ -1898,17 +1898,6 @@ entities:
     - type: ContainedSolution
       containerName: battery
       container: 64
-- proto: ActionToggleBlock
-  entities:
-  - uid: 73
-    mapInit: true
-    paused: true
-    components:
-    - type: Transform
-      parent: 72
-    - type: InstantAction
-      originalIconColor: '#FFFFFFFF'
-      container: 72
 - proto: ActionToggleMagboots
   entities:
   - uid: 58
@@ -6944,8 +6933,6 @@ entities:
           endTime: 47.1536547
           startTime: 0
           length: 0
-    - type: Blocking
-      blockingToggleActionEntity: 73
     - type: ToggleableClothing
       clothingUids:
         77: head
@@ -6970,7 +6957,6 @@ entities:
           occludes: True
           ents:
           - 74
-          - 73
     - type: EmitSoundOnCollide
       nextSound: -4184.2272059
     - type: Physics
