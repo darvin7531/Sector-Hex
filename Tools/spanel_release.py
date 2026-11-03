@@ -52,6 +52,18 @@ def merge(commit, entry, previous=None):
     for key,val in data.items():
         if not COMMIT.fullmatch(key) or not isinstance(val,dict) or not isinstance(val.get("time"),str):
             raise ValueError("Unsafe previous manifest")
+        try:
+            timestamp = datetime.fromisoformat(val["time"].replace("Z", "+00:00"))
+            if timestamp.utcoffset() is None:
+                raise ValueError("Manifest timestamps must include timezone")
+            for asset, filename in ((val["client"], CLIENT), (val["server"]["linux-x64"], SERVER)):
+                if not re.fullmatch(r"[0-9a-f]{64}", asset["sha256"]):
+                    raise ValueError("Invalid asset SHA-256")
+                pattern = rf"https://github\.com/[a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+/releases/download/sectorhex-{key[:12]}/{re.escape(filename)}"
+                if not re.fullmatch(pattern, asset["url"]):
+                    raise ValueError("Asset URL is not an immutable GitHub release")
+        except (KeyError, TypeError, AttributeError) as exc:
+            raise ValueError("Invalid manifest asset metadata") from exc
     ordered = sorted(data.items(),key=lambda v:(v[1]["time"],v[0]),reverse=True)
     return {"builds":dict(ordered[:12])}
 

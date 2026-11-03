@@ -3,7 +3,7 @@ name: Publish
 on:
   workflow_dispatch:
 
-# Both entry points must serialize manifest history updates.
+# Serialize manifest history updates, including manual reruns.
 concurrency:
   group: sectorhex-manual-release
   cancel-in-progress: false

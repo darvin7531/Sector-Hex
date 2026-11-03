@@ -10,6 +10,11 @@ spec.loader.exec_module(m)
 SHA="a"*40
 ENGINE="b"*40
 
+def entry(sha, time):
+    base=f"https://github.com/darvin7531/Sector-Hex/releases/download/sectorhex-{sha[:12]}/"
+    return {"time":time,"client":{"url":base+m.CLIENT,"sha256":"d"*64},
+            "server":{"linux-x64":{"url":base+m.SERVER,"sha256":"e"*64}}}
+
 def archives(tmp):
     for name in (m.CLIENT,m.SERVER):
         with ZipFile(tmp/name,"w") as z: z.writestr("test.txt","test")
@@ -35,15 +40,15 @@ def test_commit_must_be_immutable(tmp_path):
     with pytest.raises(ValueError):m.prepare("darvin7531/Sector-Hex","main","277.0.0",tmp_path,ENGINE)
 
 def test_history_and_invalid_input():
-    old={"builds":{f"{i:040x}":{"time":f"2026-10-{i:02d}T00:00:00Z"} for i in range(1,14)}}
-    result=m.merge(SHA,{"time":"2026-11-03T00:00:00Z"},old)
+    old={"builds":{f"{i:040x}":entry(f"{i:040x}",f"2026-10-{i:02d}T00:00:00Z") for i in range(1,14)}}
+    result=m.merge(SHA,entry(SHA,"2026-11-03T00:00:00Z"),old)
     assert len(result["builds"])==12 and SHA in result["builds"]
     with pytest.raises(ValueError):m.merge(SHA,{"time":"ok"},{"builds":{"unknown":{}}})
 
 def test_previous_manifest_roundtrip_and_duplicate_rejected(tmp_path):
     archives(tmp_path)
     old_sha="c"*40
-    old_entry={"time":"2026-01-01T00:00:00Z","client":{"url":"old","sha256":"d"*64}}
+    old_entry=entry(old_sha,"2026-01-01T00:00:00Z")
     previous=json.loads(json.dumps({"builds":{old_sha:old_entry}}))
     result=m.merge(SHA,m.prepare("darvin7531/Sector-Hex",SHA,"277.0.0",tmp_path,ENGINE),previous)
     assert result["builds"][old_sha]==old_entry
@@ -55,3 +60,10 @@ def test_engine_must_be_pinned(tmp_path):
     archives(tmp_path)
     with pytest.raises(ValueError):m.prepare("darvin7531/Sector-Hex",SHA,"277.0.0",tmp_path,"master")
     with pytest.raises(ValueError):m.prepare("darvin7531/Sector-Hex",SHA,"v277.0.0",tmp_path,ENGINE)
+
+@pytest.mark.parametrize("field,value", [("sha256","bad"),("url","https://cdn.invalid/client.zip")])
+def test_corrupt_previous_asset_rejected(field,value):
+    old_sha="c"*40
+    old_entry=entry(old_sha,"2026-01-01T00:00:00Z")
+    old_entry["client"][field]=value
+    with pytest.raises(ValueError):m.merge(SHA,entry(SHA,"2026-11-03T00:00:00Z"),{"builds":{old_sha:old_entry}})
