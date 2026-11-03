@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   publish:
-    if: github.repository == 'darvin7531/Sector-Hex' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/feat/spanel-manual-releases')
+    if: github.repository == 'darvin7531/Sector-Hex' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/feat/spanel-manual-releases' || github.ref == 'refs/heads/release/monolith-20261103')
     runs-on: ubuntu-latest
     timeout-minutes: 90
     permissions:

@@ -19,7 +19,7 @@
   id: Hairflower
   storage:
     back:
-    - ClothingHeadHatHairflower
+    - ClothingHeadHatHairflowerWhite # Moffstation - Color changing hairflower
 
 # Headphones
 - type: loadout
@@ -49,6 +49,12 @@
     - CandleRed
     - CandleBlue
     - CandleGreenSmall
+
+- type: loadout
+  id: BikeHorn
+  storage:
+    back:
+    - BikeHorn
 
 # Smokeables
 - type: loadout

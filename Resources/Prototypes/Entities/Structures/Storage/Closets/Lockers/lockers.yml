@@ -300,8 +300,8 @@
 # HoS
 - type: entity
   id: LockerHeadOfSecurity
-  parent: [BaseStructureIndestructible, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag, BaseStructureDisableToolUse, LockerBaseSecure] # Frontier: add BaseStructureIndestructible, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag, BaseStructureDisableToolUse
-  name: head of security's locker
+  parent: [LockerBaseSecure]
+  name: overseer's locker # Mono
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -309,7 +309,7 @@
     stateDoorOpen: hos_open
     stateDoorClosed: hos_door
   - type: AccessReader
-    access: [["HeadOfSecurity"]]
+    access: [["Security"]]
 
 # Warden
 - type: entity
