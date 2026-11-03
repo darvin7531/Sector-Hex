@@ -19,8 +19,8 @@ def digest(path):
             h.update(block)
     return h.hexdigest()
 
-def prepare(repo, commit, engine, directory):
-    if not REPO.fullmatch(repo) or not COMMIT.fullmatch(commit) or not engine or len(engine)>100:
+def prepare(repo, commit, engine, directory, engine_commit):
+    if not REPO.fullmatch(repo) or not COMMIT.fullmatch(commit) or not COMMIT.fullmatch(engine_commit) or not re.fullmatch(r"[0-9]+\.[0-9]+\.[0-9]+", engine):
         raise ValueError("Invalid repository, commit or engine")
     root = Path(directory)
     c, s = root / CLIENT, root / SERVER
@@ -37,6 +37,7 @@ def prepare(repo, commit, engine, directory):
         }, separators=(",",":")))
     return {
         "time": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00","Z"),
+        "engine_version": engine, "engine_revision": engine_commit, "content_revision": commit,
         "client":{"url":base+CLIENT,"sha256":chash},
         "server":{"linux-x64":{"url":base+SERVER,"sha256":digest(s)}}
     }
@@ -45,6 +46,8 @@ def merge(commit, entry, previous=None):
     past = {"builds":{}} if previous is None else previous
     if not isinstance(past,dict) or not isinstance(past.get("builds"),dict):
         raise ValueError("Corrupt previous manifest")
+    if commit in past["builds"]:
+        raise ValueError("Build already published")
     data = dict(past["builds"]);data[commit]=entry
     for key,val in data.items():
         if not COMMIT.fullmatch(key) or not isinstance(val,dict) or not isinstance(val.get("time"),str):
@@ -54,13 +57,13 @@ def merge(commit, entry, previous=None):
 
 def main():
     ap=argparse.ArgumentParser()
-    for arg in ("repository","commit","engine-version","output"):
+    for arg in ("repository","commit","engine-version","engine-commit","output"):
         ap.add_argument("--"+arg,required=True)
     ap.add_argument("--release-dir",default="release")
     ap.add_argument("--previous")
     a=ap.parse_args()
     prev=json.loads(Path(a.previous).read_text("utf8")) if a.previous else None
-    output=merge(a.commit,prepare(a.repository,a.commit,a.engine_version,a.release_dir),prev)
+    output=merge(a.commit,prepare(a.repository,a.commit,a.engine_version,a.release_dir,a.engine_commit),prev)
     Path(a.output).write_text(json.dumps(output,indent=2)+"\n",encoding="utf8")
     print(f"Prepared {len(output['builds'])} version(s) for Watchdog")
 

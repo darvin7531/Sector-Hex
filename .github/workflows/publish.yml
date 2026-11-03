@@ -2,60 +2,133 @@ name: Publish
 
 on:
   workflow_dispatch:
-  # Frontier: re-enabled autopublish bawk
 
+# Both entry points must serialize manifest history updates.
 concurrency:
-  group: publish
-  cancel-in-progress: true
+  group: sectorhex-manual-release
+  cancel-in-progress: false
+permissions:
+  contents: read
 
 jobs:
-  build:
+  publish:
+    if: github.repository == 'darvin7531/Sector-Hex' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/feat/spanel-manual-releases')
     runs-on: ubuntu-latest
-
+    timeout-minutes: 90
+    permissions:
+      contents: write
+    env:
+      GH_REPO: ${{ github.repository }}
+      GH_TOKEN: ${{ github.token }}
     steps:
-    - name: Install dependencies
-      run: sudo apt-get install -y python3-paramiko python3-lxml
-
-    - uses: actions/checkout@v4.2.2
-      with:
-        submodules: 'recursive'
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v4.1.0
-      with:
-        dotnet-version: 10.0.x
-
-    - name: Get Engine Tag
-      run: |
-        cd RobustToolbox
-        git fetch --depth=1
-
-    - name: Install dependencies
-      run: dotnet restore
-
-    - name: Build Packaging
-      run: dotnet build Content.Packaging --configuration Release --no-restore /m
-
-    - name: Package server
-      run: dotnet run --project Content.Packaging server --platform win-x64 --platform linux-x64 --platform osx-x64 --platform linux-arm64
-
-    - name: Package client
-      run: dotnet run --project Content.Packaging client --no-wipe-release
-
-    - name: Publish version
-      run: Tools/publish_multi_request.py
-      env:
-        PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-        GITHUB_REPOSITORY: ${{ vars.GITHUB_REPOSITORY }}
-
-    - name: Publish changelog (Discord)
-      continue-on-error: true
-      run: Tools/actions_changelogs_since_last_run.py
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        DISCORD_WEBHOOK_URL: ${{ secrets.CHANGELOG_DISCORD_WEBHOOK }}
-
-    #- name: Publish changelog (RSS)
-    #  continue-on-error: true
-    #  run: Tools/actions_changelog_rss.py
-    #  env:
-    #    CHANGELOG_RSS_KEY: ${{ secrets.CHANGELOG_RSS_KEY }}
+      - uses: actions/checkout@v4.2.2
+        with:
+          ref: ${{ github.sha }}
+          submodules: recursive
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Check immutable release and previous manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="sectorhex-${GITHUB_SHA:0:12}"
+          echo "RELEASE_TAG=$tag" >> "$GITHUB_ENV"
+          gh api "repos/$GITHUB_REPOSITORY/releases?per_page=1" >/dev/null
+          if gh api "repos/$GITHUB_REPOSITORY/releases/tags/$tag" > /tmp/release.json 2>/tmp/release.err; then
+            echo "Release already exists; refusing to overwrite $tag" >&2
+            exit 1
+          elif ! grep -q 'HTTP 404' /tmp/release.err; then
+            cat /tmp/release.err >&2; exit 1
+          fi
+          if gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/deploy-manifest" > /tmp/manifest-ref.json 2>/tmp/manifest.err; then
+            gh api "repos/$GITHUB_REPOSITORY/contents/manifest.json?ref=deploy-manifest" > /tmp/previous-response.json
+            jq -r .content /tmp/previous-response.json | base64 -d > /tmp/previous.json
+          elif grep -q 'HTTP 404' /tmp/manifest.err; then
+            echo 'No previous manifest branch'
+          else
+            cat /tmp/manifest.err >&2; exit 1
+          fi
+      - name: Verify pinned content and engine release
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          expected="$(git ls-tree HEAD RobustToolbox | awk '{print $3}')"
+          test "$(git -C RobustToolbox rev-parse HEAD)" = "$expected"
+          test -z "$(git submodule status --recursive | grep -E '^[+U-]' || true)"
+          git -C RobustToolbox fetch --tags --quiet
+          engine_tag="$(git -C RobustToolbox describe --tags --exact-match --match 'v[0-9]*')"
+          engine="${engine_tag#v}"
+          python3 - "$engine" <<'PY'
+          import sys, xml.etree.ElementTree as ET
+          assert ET.parse('RobustToolbox/MSBuild/Robust.Engine.Version.props').findtext('.//Version') == sys.argv[1]
+          PY
+          echo "ENGINE_VERSION=$engine" >> "$GITHUB_ENV"
+          echo "ENGINE_COMMIT=$expected" >> "$GITHUB_ENV"
+          printf 'Content: %s\nRobustToolbox: %s (%s)\n' "$GITHUB_SHA" "$expected" "$engine_tag"
+      - uses: actions/setup-dotnet@v4.1.0
+        with:
+          dotnet-version: 10.0.x
+      - name: Test release generator
+        run: |
+          python3 -m pip install pytest
+          python3 -m pytest -q tests/test_spanel_release.py
+      - name: Package Linux server and matching client
+        run: |
+          dotnet restore
+          dotnet build Content.Packaging --configuration Release --no-restore /m
+          dotnet run --project Content.Packaging --configuration Release --no-build -- server --platform linux-x64
+          dotnet run --project Content.Packaging --configuration Release --no-build -- client --no-wipe-release
+      - name: Generate manifest and embedded build metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          set -- --repository "$GITHUB_REPOSITORY" --commit "$GITHUB_SHA" --engine-version "$ENGINE_VERSION" --engine-commit "$ENGINE_COMMIT" --release-dir release --output /tmp/manifest.json
+          if [[ -f /tmp/previous.json ]]; then set -- "$@" --previous /tmp/previous.json; fi
+          python3 Tools/spanel_release.py "$@"
+          cp /tmp/manifest.json release/manifest.json
+          (cd release && sha256sum SS14.Server_linux-x64.zip SS14.Client.zip manifest.json > SHA256SUMS)
+      - name: Publish new GitHub Release (never replace assets)
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release create "$RELEASE_TAG" release/SS14.Server_linux-x64.zip release/SS14.Client.zip release/manifest.json release/SHA256SUMS \
+            --target "$GITHUB_SHA" --draft --title "SectorHex $RELEASE_TAG" \
+            --notes "Content: $GITHUB_SHA. RobustToolbox: $ENGINE_COMMIT (v$ENGINE_VERSION). Matching client/server; manual installation only."
+          gh release download "$RELEASE_TAG" --dir /tmp/release-verify
+          (cd /tmp/release-verify && sha256sum --check SHA256SUMS)
+          gh release edit "$RELEASE_TAG" --draft=false --latest
+      - name: Verify public release downloads before advertising build
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir /tmp/public-release
+          for file in SS14.Server_linux-x64.zip SS14.Client.zip manifest.json SHA256SUMS; do
+            curl --fail --location --retry 5 --retry-all-errors "https://github.com/$GITHUB_REPOSITORY/releases/download/$RELEASE_TAG/$file" -o "/tmp/public-release/$file"
+          done
+          (cd /tmp/public-release && sha256sum --check SHA256SUMS)
+          cmp /tmp/manifest.json /tmp/public-release/manifest.json
+      - name: Publish manifest branch with compare-and-swap
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ ! -f /tmp/previous-response.json ]]; then
+            gh api -X POST "repos/$GITHUB_REPOSITORY/git/refs" -f ref=refs/heads/deploy-manifest -f sha="$GITHUB_SHA" >/dev/null
+          fi
+          previous_sha=""
+          if [[ -f /tmp/previous-response.json ]]; then previous_sha="$(jq -r .sha /tmp/previous-response.json)"; fi
+          jq -n --arg content "$(base64 -w0 /tmp/manifest.json)" --arg sha "$previous_sha" --arg message "build: $GITHUB_SHA" \
+            '{branch:"deploy-manifest",content:$content,message:$message} + (if $sha == "" then {} else {sha:$sha} end)' >/tmp/upload.json
+          gh api -X PUT "repos/$GITHUB_REPOSITORY/contents/manifest.json" --input /tmp/upload.json >/tmp/upload-response.json
+          manifest_commit="$(jq -r .commit.sha /tmp/upload-response.json)"
+          gh api "repos/$GITHUB_REPOSITORY/contents/manifest.json?ref=$manifest_commit" --jq .content | base64 -d > /tmp/published.json
+          cmp /tmp/manifest.json /tmp/published.json
+          {
+            echo "Release: https://github.com/$GITHUB_REPOSITORY/releases/tag/$RELEASE_TAG"
+            echo "Manifest: https://raw.githubusercontent.com/$GITHUB_REPOSITORY/deploy-manifest/manifest.json"
+            echo "Pinned manifest: https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$manifest_commit/manifest.json"
+            echo "Content: $GITHUB_SHA; RobustToolbox: $ENGINE_COMMIT; engine: $ENGINE_VERSION"
+            echo '```'
+            cat release/SHA256SUMS
+            echo '```'
+          } | tee -a "$GITHUB_STEP_SUMMARY"
