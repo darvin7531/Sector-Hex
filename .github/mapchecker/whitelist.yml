@@ -4,6 +4,11 @@ Nfsd: true
 LPBravo: true
 Cove: true
 
+# Colossus keeps its existing station entertainment-camera network.
+# Keep this exception specific; all other prototype checks still apply.
+Colossus:
+- SurveillanceCameraWirelessRouterEntertainment
+
 # TECHNICAL DEBT BELOW. These ones were added to this list to ensure other PR's would not break upon merging. It is
 # the intention for this list to become empty in separate PR's.
 Tinnia:

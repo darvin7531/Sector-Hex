@@ -121,9 +121,11 @@
   - type: HitscanBasicDamage
     damage:
       types:
-        Piercing: 120
+        Piercing: 100
         Structural: 500
     armorPenetration: 0.8
+  - type: HitscanStaminaDamage
+    staminaDamage: 40
   - type: HitscanBasicVisuals
     muzzleFlash:
       sprite: _Mono/Objects/Weapons/Guns/Projectiles/lasers.rsi
@@ -151,12 +153,15 @@
   id: Hitscan145x114mm
   categories: [ HideSpawnMenu ]
   components:
+  - type: PersonalShieldBreaker
   - type: HitscanBasicDamage
     damage:
       types:
-        Piercing: 200
+        Piercing: 105
         Structural: 650
-    armorPenetration: 0
+    armorPenetration: 0.9
+  - type: HitscanStaminaDamage
+    staminaDamage: 250
   - type: HitscanMultiRaycast
     maxPierce: 10 # This is going to be so fucking funny
     maxDistance: 200
@@ -164,3 +169,37 @@
     - Impassable
     - Opaque
     - HighImpassable
+
+- type: entity
+  parent: PiercingBallisticHitscan
+  id: Hitscan145x114mmEMP
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: PersonalShieldBreaker
+  - type: HitscanBasicDamage
+    damage:
+      types:
+        Blunt: 15
+        Structural: 350
+    armorPenetration: 0
+  - type: HitscanStaminaDamage
+    staminaDamage: 250
+  - type: HitscanSpawnEntity
+    spawnedEntity: 145x114mmEMPExplosion
+
+- type: entity
+  id: 145x114mmEMPExplosion
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: TriggerOnSpawn
+  - type: EmpOnTrigger
+    range: 5
+    disableDuration: 15
+    energyConsumption: 1400000 # 1/2 EMP grenade
+  - type: ExplodeOnTrigger
+  - type: Explosive # 1/8 of an explosive grenade
+    explosionType: Default
+    maxIntensity: 2
+    intensitySlope: 3
+    totalIntensity: 20
+    canCreateVacuum: false

@@ -12,8 +12,8 @@
     highPressureMultiplier: 0.60
     lowPressureMultiplier: 1000
   - type: NightVision
-    flashDurationMultiplier: 2
-    isEquipment: true
+    relayOverlay: true
+    action: ActionToggleNightVision
   - type: ExplosionResistance
     damageCoefficient: 0.9
   - type: Armor

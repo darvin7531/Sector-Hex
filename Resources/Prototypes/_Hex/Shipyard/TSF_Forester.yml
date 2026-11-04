@@ -7,7 +7,7 @@
   parent: BaseVessel
   name: TSF Forester
   description: A sleek research and expedition vessel used by the Trans-Solar Federation Military Police. Armed with multiple ship weaponry and designed for tactical research and salvaging. Crewed size is recommended to be not more than 2 or 4.
-  price: 290000
+  price: 4817126
   category: Medium
   group: Expedition
   access: "Bailiff"

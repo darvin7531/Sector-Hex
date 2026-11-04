@@ -1,12 +1,12 @@
 dead-drop-hint-note =
-    Hi. I'm a private researcher working for.. doesn't matter. My employers are interested in the Monolith.
-    We have Monolithic research drop pods inbound soon. We need your help to retrieve it.
+    The Phaethon Dynasty Vanguard needs help. 
+    Aid them in their fight against the tyrannical and heretical Federation.
 
-    I hid some hints here:
-
+    Known Phaethon drops:
     {$drops}
 
-    You will be rewarded.. heh.. handsomely.
+    Check these to lend a hand, and we will pay you handsomely.
+    Piety to the Sultan.
 
 dead-drop-time-known = next drop around {$time}
 dead-drop-time-unknown = next drop placed when we can
