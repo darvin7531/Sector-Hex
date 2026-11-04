@@ -625,7 +625,7 @@ namespace Content.Shared.Preferences
 
             if (configManager.GetCVar(CCVars.RestrictedNames) && Species != "IPC")
             {
-                name = Regex.Replace(name, @"[^А-Яа-яёЁ0-9' -]", string.Empty);
+                name = Regex.Replace(name, @"[^A-Za-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u017FА-Яа-яёЁ0-9' -]", string.Empty);
                 /*
                  * 0041-005A  Basic Latin: Uppercase Latin Alphabet
                  * 0061-007A  Basic Latin: Lowercase Latin Alphabet
